@@ -1,22 +1,21 @@
-// Assistant-facing portable export utility.
-const fs=require('fs'),path=require('path'),os=require('os'),{execFileSync}=require('child_process');
-const [id,configFile,outputFile]=process.argv.slice(2);
-if(!id||!configFile||!outputFile)throw Error('Usage: node render-template.cjs JJ-019 content.json output.mp4');
-const deps=process.env.TEMPLATE_RUNTIME;
-const dep=name=>require(deps?path.join(deps,name):name);
-(async()=>{
- const {specs,validate}=await import('file://'+path.join(__dirname,'templates.mjs'));
- const s=specs[id];if(!s)throw Error('Unknown template');const options=validate(id,JSON.parse(fs.readFileSync(configFile,'utf8')));
- const temp=fs.mkdtempSync(path.join(os.tmpdir(),'motion-template-'));
- const entry=path.join(temp,'entry.jsx');
- fs.writeFileSync(entry,`import React from 'react';import {Composition,registerRoot,useCurrentFrame} from 'remotion';import {renderSVG} from ${JSON.stringify(path.join(__dirname,'templates.mjs'))};const C=({options,gold})=><div dangerouslySetInnerHTML={{__html:renderSVG(${JSON.stringify(id)},useCurrentFrame(),options,{gold})}}/>;registerRoot(()=><Composition id="Template" component={C} width={1280} height={720} fps={30} durationInFrames={${s.frames}}/>);`);
+// Assistant-facing export utility. User only supplies ID, copy and recording.
+const fs=require('fs'),path=require('path'),{execFileSync}=require('child_process');
+const root=__dirname;
+const dependencyRoot=process.env.REMOTION_NODE_MODULES;
+function dep(name){return require(dependencyRoot?path.join(dependencyRoot,name):name)}
+async function main(){
+ const [id,configPath,destination]=process.argv.slice(2);if(!id||!configPath||!destination)throw Error('Usage: node render-template.cjs JJ-002 config.json output.mp4');
+ const {specs,validate}=await import('file://'+root+'/recipes.mjs');const config=JSON.parse(fs.readFileSync(configPath,'utf8'));const options=validate(id,config.options||config);
  const {bundle}=dep('@remotion/bundler'),{renderMedia,selectComposition}=dep('@remotion/renderer');
- const serveUrl=await bundle({entryPoint:entry,webpackOverride:c=>({...c,resolve:{...c.resolve,modules:[...(deps?[deps]:[]),path.join(__dirname,'node_modules'),'node_modules']}})});
- const inputProps={options,gold:'data:image/jpeg;base64,'+fs.readFileSync(path.join(__dirname,'gold-plate.jpg')).toString('base64')};
- const browserExecutable=process.env.TEMPLATE_BROWSER||undefined;
- const composition=await selectComposition({serveUrl,id:'Template',inputProps,browserExecutable});
- const silent=path.join(temp,'silent.mp4');
- await renderMedia({serveUrl,composition,inputProps,browserExecutable,codec:'h264',crf:18,concurrency:2,outputLocation:silent});
- execFileSync('ffmpeg',['-v','error','-i',silent,'-i',path.join(__dirname,id+'-template.m4a'),'-map','0:v','-map','1:a','-c','copy','-movflags','+faststart','-y',path.resolve(outputFile)]);
- console.log(path.resolve(outputFile));
-})();
+ const media=JSON.parse(fs.readFileSync(root+'/media.json','utf8'));const mediaLibrary={...Object.fromEntries(Object.entries(media).map(([k,m])=>[k,{src:m.file,frames:m.frames}])),...config.mediaLibrary};
+ const serveUrl=await bundle({entryPoint:root+'/entry.jsx',publicDir:root,webpackOverride:c=>({...c,resolve:{...c.resolve,modules:dependencyRoot?[dependencyRoot,'node_modules']:['node_modules']}})});
+ const inputProps={id,options,mediaLibrary,assets:{gold:'data:image/jpeg;base64,'+fs.readFileSync(root+'/gold-plate.jpg').toString('base64')}};
+ const browserExecutable=process.env.REMOTION_BROWSER_EXECUTABLE||undefined;
+ const composition=await selectComposition({serveUrl,id,inputProps,browserExecutable});
+ const tmp=fs.mkdtempSync(path.join(require('os').tmpdir(),'motion-export-')),silent=tmp+'/silent.mp4';
+ await renderMedia({serveUrl,composition,inputProps,browserExecutable,codec:'h264',crf:20,concurrency:2,outputLocation:silent});
+ const audio=config.audio||root+'/'+id+'-template.m4a';
+ execFileSync('ffmpeg',['-v','error','-i',silent,'-i',audio,'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-af','apad','-t',String(specs[id].frames/30),'-movflags','+faststart','-y',path.resolve(destination)],{stdio:'inherit'});
+ console.log(path.resolve(destination));
+}
+main().catch(e=>{console.error(e.message);process.exitCode=1});

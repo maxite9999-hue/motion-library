@@ -1,30 +1,385 @@
 {
-  "version": 1,
+  "version": "2026-09-30-full25",
+  "status": "parameterized-drafts",
+  "fidelity": "Not frame-exact. See template-guide.md",
+  "registry": "recipes.mjs",
+  "component": "Composition.jsx",
   "guide": "template-guide.md",
-  "sourcePackage": "templates-source.zip",
+  "audio": "Original mixed music and SFX; not separated",
   "templates": [
     {
+      "id": "JJ-002",
+      "startFrame": 0,
+      "frames": 1155,
+      "fps": 30,
+      "title": "圆点递增与空间重排",
+      "kind": "图形叙事",
+      "defaults": {
+        "unit": "= $1,000,000",
+        "labels": [
+          "$10 MILLION",
+          "$100 MILLION",
+          "$1 BILLION"
+        ],
+        "name": "JEFF BEZOS",
+        "multiple": "117.3",
+        "media": {
+          "portrait": "interview"
+        }
+      },
+      "demo": {
+        "unit": "= 1 个想法",
+        "labels": [
+          "10 个想法",
+          "100 次尝试",
+          "1,000 次积累"
+        ],
+        "name": "持续创造",
+        "multiple": "100",
+        "media": {
+          "portrait": "person-a"
+        }
+      },
+      "description": "单点、点阵增殖、下落、缩小移位、人物倍率、末尾黑场。",
+      "previews": {
+        "originalWording": "JJ-002-rebuild.mp4",
+        "adapted": "JJ-002-demo.mp4"
+      },
+      "audio": "JJ-002-template.m4a",
+      "reference": "reference-library.html#JJ-002"
+    },
+    {
+      "id": "JJ-003",
+      "startFrame": 2040,
+      "frames": 90,
+      "fps": 30,
+      "title": "两级提问标题",
+      "kind": "文字动效",
+      "defaults": {
+        "eyebrow": "HOW DID THEY",
+        "headline": "DO IT?"
+      },
+      "demo": {
+        "eyebrow": "他们究竟",
+        "headline": "如何做到？"
+      },
+      "description": "黑场进入，两级文字先后显现，大字强调。",
+      "previews": {
+        "originalWording": "JJ-003-rebuild.mp4",
+        "adapted": "JJ-003-demo.mp4"
+      },
+      "audio": "JJ-003-template.m4a",
+      "reference": "reference-library.html#JJ-003"
+    },
+    {
+      "id": "JJ-004",
+      "startFrame": 4020,
+      "frames": 300,
+      "fps": 30,
+      "title": "色差故障镜头衔接",
+      "kind": "转场",
+      "defaults": {
+        "media": {
+          "a": "road",
+          "b": "person-b",
+          "c": "person-c",
+          "d": "person-a"
+        }
+      },
+      "demo": {
+        "media": {
+          "a": "city",
+          "b": "action-a",
+          "c": "action-b",
+          "d": "action-c"
+        }
+      },
+      "description": "主镜头进入多次色差错位切换，再回到主镜头。此模板替换画面，不添加文字。",
+      "previews": {
+        "originalWording": "JJ-004-rebuild.mp4",
+        "adapted": "JJ-004-demo.mp4"
+      },
+      "audio": "JJ-004-template.m4a",
+      "reference": "reference-library.html#JJ-004"
+    },
+    {
+      "id": "JJ-005",
+      "startFrame": 4311,
+      "frames": 213,
+      "fps": 30,
+      "title": "订阅按钮点击与收起",
+      "kind": "界面动效",
+      "defaults": {
+        "button": "SUBSCRIBE",
+        "done": "SUBSCRIBED",
+        "media": {
+          "background": "road"
+        }
+      },
+      "demo": {
+        "button": "订阅频道",
+        "done": "已订阅",
+        "media": {
+          "background": "city"
+        }
+      },
+      "description": "按钮出现、指针点击、订阅确认、铃铛反馈、收缩离场。",
+      "previews": {
+        "originalWording": "JJ-005-rebuild.mp4",
+        "adapted": "JJ-005-demo.mp4"
+      },
+      "audio": "JJ-005-template.m4a",
+      "reference": "reference-library.html#JJ-005"
+    },
+    {
+      "id": "JJ-006",
+      "startFrame": 4740,
+      "frames": 330,
+      "fps": 30,
+      "title": "公路提问转城市片头",
+      "kind": "片头",
+      "defaults": {
+        "question": "ARE YOU WITH ME?",
+        "title": "THE UNTOLD TRUTH ABOUT MONEY",
+        "media": {
+          "a": "road",
+          "b": "city"
+        }
+      },
+      "demo": {
+        "question": "准备好了吗？",
+        "title": "让每一个想法变成作品",
+        "media": {
+          "a": "city",
+          "b": "road"
+        }
+      },
+      "description": "运动镜头上提问，切换大场景呈现主标题，再向下移位离场。",
+      "previews": {
+        "originalWording": "JJ-006-rebuild.mp4",
+        "adapted": "JJ-006-demo.mp4"
+      },
+      "audio": "JJ-006-template.m4a",
+      "reference": "reference-library.html#JJ-006"
+    },
+    {
+      "id": "JJ-007",
+      "startFrame": 5070,
+      "frames": 450,
+      "fps": 30,
+      "title": "说明文字与背景叠化",
+      "kind": "文字动效",
+      "defaults": {
+        "title": "DISCLAIMER",
+        "lines": [
+          "This video was heavily inspired by the works of MJ DeMarco.",
+          "As well as my own opinions and observations on how society functions.",
+          "It is difficult to cover this vast topic in just one YouTube video.",
+          "Take this as condensed information.",
+          "Enjoy :)"
+        ],
+        "media": {
+          "background": "cash"
+        }
+      },
+      "demo": {
+        "title": "观看说明",
+        "lines": [
+          "这是一份关于创作方法的分享。",
+          "从真实问题出发，再寻找合适的表达。",
+          "画面、文字和声音，服务于同一个意思。",
+          "保留判断，持续实践。",
+          "开始吧。"
+        ],
+        "media": {
+          "background": "printing"
+        }
+      },
+      "description": "标题、分隔线、小字层级依次叠入，结束时淡出。",
+      "previews": {
+        "originalWording": "JJ-007-rebuild.mp4",
+        "adapted": "JJ-007-demo.mp4"
+      },
+      "audio": "JJ-007-template.m4a",
+      "reference": "reference-library.html#JJ-007"
+    },
+    {
+      "id": "JJ-008",
+      "startFrame": 5940,
+      "frames": 270,
+      "fps": 30,
+      "title": "金色烟雾章节标题",
+      "kind": "章节",
+      "defaults": {
+        "chapter": "PART 1",
+        "subtitle": "The Lies You've Been Fed"
+      },
+      "demo": {
+        "chapter": "第一章",
+        "subtitle": "重新认识你的创作"
+      },
+      "description": "保留开头黑场，金色背景渐入，章节号先出现，副标题后出现。",
+      "previews": {
+        "originalWording": "JJ-008-rebuild.mp4",
+        "adapted": "JJ-008-demo.mp4"
+      },
+      "audio": "JJ-008-template.m4a",
+      "reference": "reference-library.html#JJ-008"
+    },
+    {
+      "id": "JJ-009",
+      "startFrame": 7950,
+      "frames": 384,
+      "fps": 30,
+      "title": "网页推进与摘录卡片",
+      "kind": "信息展示",
+      "defaults": {
+        "site": "NEWS / REPORT",
+        "headline": "Nearly 68% of the world’s richest people are self-made",
+        "quote": "The vast majority of people who have a lot of money made it themselves.",
+        "author": "Reference excerpt",
+        "media": {
+          "photo": "interview"
+        }
+      },
+      "demo": {
+        "site": "创作观察",
+        "headline": "好的表达，来自对真实问题的理解",
+        "quote": "先看见问题，再找到方法，最后让观众看懂。",
+        "author": "示例摘录",
+        "media": {
+          "photo": "person-a"
+        }
+      },
+      "description": "网页卡片从闪白进入、向上推进、右侧摘录卡浮出，末尾闪白。",
+      "previews": {
+        "originalWording": "JJ-009-rebuild.mp4",
+        "adapted": "JJ-009-demo.mp4"
+      },
+      "audio": "JJ-009-template.m4a",
+      "reference": "reference-library.html#JJ-009"
+    },
+    {
+      "id": "JJ-010",
+      "startFrame": 8334,
+      "frames": 396,
+      "fps": 30,
+      "title": "人物卡连切与拼贴",
+      "kind": "人物卡",
+      "defaults": {
+        "names": [
+          "WARREN BUFFETT",
+          "HOWARD SCHULTZ",
+          "OPRAH WINFREY",
+          "JEFF BEZOS",
+          "ELON MUSK",
+          "SARA BLAKELY"
+        ],
+        "roles": [
+          "Investor",
+          "Entrepreneur",
+          "Media Executive",
+          "Founder",
+          "Entrepreneur",
+          "Founder"
+        ],
+        "values": [
+          "$72.9 BILLION",
+          "$3.5 BILLION",
+          "$2.6 BILLION",
+          "$117.3 BILLION",
+          "$30 BILLION",
+          "$1 BILLION"
+        ],
+        "stamp": "SELF-MADE",
+        "media": {
+          "a": "interview",
+          "b": "person-a",
+          "c": "person-c"
+        }
+      },
+      "demo": {
+        "names": [
+          "观察者",
+          "探索者",
+          "实践者",
+          "创造者",
+          "分享者",
+          "行动者"
+        ],
+        "roles": [
+          "发现问题",
+          "提出假设",
+          "动手验证",
+          "完成作品",
+          "收集反馈",
+          "持续迭代"
+        ],
+        "values": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06"
+        ],
+        "stamp": "持续创造",
+        "media": {
+          "a": "person-b",
+          "b": "action-a",
+          "c": "action-c"
+        }
+      },
+      "description": "人物卡信息、笔刷边框、斜向盖章、模糊切换、最后合成多列。素材槽使用示意视频，未伪装为对应人物肖像。",
+      "previews": {
+        "originalWording": "JJ-010-rebuild.mp4",
+        "adapted": "JJ-010-demo.mp4"
+      },
+      "audio": "JJ-010-template.m4a",
+      "reference": "reference-library.html#JJ-010"
+    },
+    {
+      "id": "JJ-011",
+      "startFrame": 8730,
+      "frames": 750,
+      "fps": 30,
+      "title": "公式建立与否定",
+      "kind": "文字叙事",
+      "defaults": {
+        "title": "YOUR EQUATION",
+        "sub": "IS ALL WRONG",
+        "formula": "MONEY = SALARY FROM A JOB",
+        "stamp": "WRONG",
+        "media": {
+          "a": "auditorium",
+          "b": "cashbox"
+        }
+      },
+      "demo": {
+        "title": "重新检查假设",
+        "sub": "别急着相信直觉",
+        "formula": "努力 ≠ 有效进步",
+        "stamp": "重新思考",
+        "media": {
+          "a": "office",
+          "b": "cleaner"
+        }
+      },
+      "description": "建立命题与公式，中间插入两组论证画面，再回公式，斜向大字否定。",
+      "previews": {
+        "originalWording": "JJ-011-rebuild.mp4",
+        "adapted": "JJ-011-demo.mp4"
+      },
+      "audio": "JJ-011-template.m4a",
+      "reference": "reference-library.html#JJ-011"
+    },
+    {
       "id": "JJ-012",
-      "title": "数字变化与时间成本",
-      "type": "parametric-motion",
-      "status": "usable-draft",
-      "fidelity": "visual-rebuild-not-frame-exact",
-      "source": "9月20日.mov",
-      "sourceStartFrame": 9891,
-      "sourceEndFrameExclusive": 10425,
       "frames": 534,
       "fps": 30,
-      "width": 1280,
-      "height": 720,
-      "duration": 17.8,
-      "implementation": "templates.mjs",
-      "exporter": "render-template.cjs",
-      "background": "gold-plate.jpg",
-      "audio": "JJ-012-template.m4a",
-      "audioType": "original-mixed-music-and-sfx",
-      "demo": "JJ-012-demo.mp4",
-      "rebuild": "JJ-012-rebuild.mp4",
-      "inputs": {
+      "startFrame": 9891,
+      "title": "数字变化与时间成本",
+      "defaults": {
         "income": 20,
         "currency": "$",
         "rateUnit": "/hr",
@@ -36,7 +391,7 @@
         "yearsLabel": "YEARS",
         "target": "$1,000,000"
       },
-      "demoInputs": {
+      "demo": {
         "income": 50,
         "currency": "¥",
         "rateUnit": "/时",
@@ -48,97 +403,504 @@
         "yearsLabel": "年",
         "target": "¥1,000,000"
       },
-      "timingContract": "fixed-source-core-timing; input text and numbers editable",
-      "limits": [
-        "Not pixel/frame-exact",
-        "Original mixed audio, not separate stems",
-        "Context live-action footage excluded",
-        "Text fit must be reviewed"
-      ]
+      "kind": "数据动效",
+      "description": "时薪、工时、时钟、目标金额的连续变化。",
+      "previews": {
+        "originalWording": "JJ-012-rebuild.mp4",
+        "adapted": "JJ-012-demo.mp4"
+      },
+      "audio": "JJ-012-template.m4a",
+      "reference": "reference-library.html#JJ-012"
+    },
+    {
+      "id": "JJ-013",
+      "startFrame": 10980,
+      "frames": 150,
+      "fps": 30,
+      "title": "电视扫描线人物连切",
+      "kind": "质感转场",
+      "defaults": {
+        "media": {
+          "a": "interview",
+          "b": "person-a",
+          "c": "person-c"
+        }
+      },
+      "demo": {
+        "media": {
+          "a": "action-a",
+          "b": "action-b",
+          "c": "action-c"
+        }
+      },
+      "description": "电视边缘、横向断裂、扫描线和快速镜头切换。替换视频即可复用，不额外加字。",
+      "previews": {
+        "originalWording": "JJ-013-rebuild.mp4",
+        "adapted": "JJ-013-demo.mp4"
+      },
+      "audio": "JJ-013-template.m4a",
+      "reference": "reference-library.html#JJ-013"
+    },
+    {
+      "id": "JJ-014",
+      "startFrame": 11775,
+      "frames": 345,
+      "fps": 30,
+      "title": "逐词强调与价值命题",
+      "kind": "文字动效",
+      "defaults": {
+        "words": [
+          "STOP",
+          "CHASING",
+          "MONEY"
+        ],
+        "line": "YOU ARE PAID IN PROPORTION TO YOUR",
+        "headline": "PERCEIVED VALUE",
+        "media": {
+          "background": "person-a"
+        }
+      },
+      "demo": {
+        "words": [
+          "停止",
+          "盲目",
+          "堆砌"
+        ],
+        "line": "让每一次视觉变化都服务于",
+        "headline": "清晰的表达",
+        "media": {
+          "background": "person-c"
+        }
+      },
+      "description": "实拍上逐词强调，随后金色背景建立完整命题并出现问号。",
+      "previews": {
+        "originalWording": "JJ-014-rebuild.mp4",
+        "adapted": "JJ-014-demo.mp4"
+      },
+      "audio": "JJ-014-template.m4a",
+      "reference": "reference-library.html#JJ-014"
+    },
+    {
+      "id": "JJ-015",
+      "startFrame": 12975,
+      "frames": 660,
+      "fps": 30,
+      "title": "职业左右分屏对比",
+      "kind": "分屏",
+      "defaults": {
+        "intro": "IT’S NOT ABOUT HOW HARD YOU WORK",
+        "question": "WHY?",
+        "label": [
+          "LOWER",
+          "PERCEIVED",
+          "VALUE"
+        ],
+        "media": {
+          "left": "office",
+          "right": "cleaner",
+          "replacement": "kitchen"
+        }
+      },
+      "demo": {
+        "intro": "忙碌不一定等于有效",
+        "question": "差别在哪里？",
+        "label": [
+          "找到",
+          "真正的",
+          "价值"
+        ],
+        "media": {
+          "left": "action-c",
+          "right": "action-a",
+          "replacement": "action-b"
+        }
+      },
+      "description": "先展示两组镜头，再左右并列，一侧灰化标注，最后替换该侧素材。",
+      "previews": {
+        "originalWording": "JJ-015-rebuild.mp4",
+        "adapted": "JJ-015-demo.mp4"
+      },
+      "audio": "JJ-015-template.m4a",
+      "reference": "reference-library.html#JJ-015"
+    },
+    {
+      "id": "JJ-016",
+      "startFrame": 14280,
+      "frames": 510,
+      "fps": 30,
+      "title": "问题解决图文组合",
+      "kind": "图文动效",
+      "defaults": {
+        "intro": "IF YOU WANT",
+        "verb": "SOLVE",
+        "object": "PROBLEMS",
+        "media": {
+          "background": "cash"
+        }
+      },
+      "demo": {
+        "intro": "如果你想创造价值",
+        "verb": "解决",
+        "object": "真实问题",
+        "media": {
+          "background": "printing"
+        }
+      },
+      "description": "短语、工具、钞票图标组合成意群，缩放移位后叠入背景画面。",
+      "previews": {
+        "originalWording": "JJ-016-rebuild.mp4",
+        "adapted": "JJ-016-demo.mp4"
+      },
+      "audio": "JJ-016-template.m4a",
+      "reference": "reference-library.html#JJ-016"
+    },
+    {
+      "id": "JJ-017",
+      "startFrame": 14910,
+      "frames": 390,
+      "fps": 30,
+      "title": "品牌标志转商业版图",
+      "kind": "信息展示",
+      "defaults": {
+        "brand": "amazon",
+        "mapTitle": "THE BEZOS EMPIRE",
+        "nodes": [
+          "RETAIL",
+          "CLOUD",
+          "MEDIA",
+          "LOGISTICS",
+          "DEVICES",
+          "SERVICES"
+        ],
+        "media": {
+          "a": "person-a",
+          "b": "cashbox"
+        }
+      },
+      "demo": {
+        "brand": "创作工作室",
+        "mapTitle": "从一个想法到完整作品",
+        "nodes": [
+          "选题",
+          "脚本",
+          "配音",
+          "画面",
+          "剪辑",
+          "发布"
+        ],
+        "media": {
+          "a": "action-a",
+          "b": "office"
+        }
+      },
+      "description": "品牌文字与弧线、两组例证镜头、业务版图卡片。文字和节点均可替换。",
+      "previews": {
+        "originalWording": "JJ-017-rebuild.mp4",
+        "adapted": "JJ-017-demo.mp4"
+      },
+      "audio": "JJ-017-template.m4a",
+      "reference": "reference-library.html#JJ-017"
+    },
+    {
+      "id": "JJ-018",
+      "startFrame": 15480,
+      "frames": 180,
+      "fps": 30,
+      "title": "灰化画面与否定大字",
+      "kind": "强调",
+      "defaults": {
+        "word": "WRONG",
+        "media": {
+          "background": "running"
+        }
+      },
+      "demo": {
+        "word": "方向不对",
+        "media": {
+          "background": "action-a"
+        }
+      },
+      "description": "原色实拍运动，随后灰化，大间距否定文字覆盖。",
+      "previews": {
+        "originalWording": "JJ-018-rebuild.mp4",
+        "adapted": "JJ-018-demo.mp4"
+      },
+      "audio": "JJ-018-template.m4a",
+      "reference": "reference-library.html#JJ-018"
     },
     {
       "id": "JJ-019",
-      "title": "倾斜词组逐行拼接",
-      "type": "parametric-motion",
-      "status": "usable-draft",
-      "fidelity": "visual-rebuild-not-frame-exact",
-      "source": "9月20日.mov",
-      "sourceStartFrame": 15732,
-      "sourceEndFrameExclusive": 15900,
       "frames": 168,
       "fps": 30,
-      "width": 1280,
-      "height": 720,
-      "duration": 5.6,
-      "implementation": "templates.mjs",
-      "exporter": "render-template.cjs",
-      "background": "gold-plate.jpg",
-      "audio": "JJ-019-template.m4a",
-      "audioType": "original-mixed-music-and-sfx",
-      "demo": "JJ-019-demo.mp4",
-      "rebuild": "JJ-019-rebuild.mp4",
-      "inputs": {
+      "startFrame": 15732,
+      "title": "倾斜词组逐行拼接",
+      "defaults": {
         "headline": "LOOK FOR",
         "line2": "PROBLEMS",
         "connector": "&",
         "line3": "SOLUTIONS"
       },
-      "demoInputs": {
+      "demo": {
         "headline": "寻找",
         "line2": "真正的问题",
         "connector": "和",
         "line3": "可行的解法"
       },
-      "timingContract": "fixed-source-core-timing; input text and numbers editable",
-      "limits": [
-        "Not pixel/frame-exact",
-        "Original mixed audio, not separate stems",
-        "Context live-action footage excluded",
-        "Text fit must be reviewed"
-      ]
+      "kind": "文字动效",
+      "description": "倾斜词组依次拼接，整组回正与位移。",
+      "previews": {
+        "originalWording": "JJ-019-rebuild.mp4",
+        "adapted": "JJ-019-demo.mp4"
+      },
+      "audio": "JJ-019-template.m4a",
+      "reference": "reference-library.html#JJ-019"
+    },
+    {
+      "id": "JJ-020",
+      "startFrame": 17700,
+      "frames": 300,
+      "fps": 30,
+      "title": "红绿判断对照",
+      "kind": "强调",
+      "defaults": {
+        "negative": "NO SCALE",
+        "positive": "SCALABLE",
+        "media": {
+          "a": "crowd",
+          "b": "kitchen",
+          "c": "office"
+        }
+      },
+      "demo": {
+        "negative": "难以复制",
+        "positive": "可以复用",
+        "media": {
+          "a": "road",
+          "b": "cleaner",
+          "c": "action-c"
+        }
+      },
+      "description": "三组镜头、红色否定、灰化连接、绿色肯定，保留结尾黑场。",
+      "previews": {
+        "originalWording": "JJ-020-rebuild.mp4",
+        "adapted": "JJ-020-demo.mp4"
+      },
+      "audio": "JJ-020-template.m4a",
+      "reference": "reference-library.html#JJ-020"
+    },
+    {
+      "id": "JJ-021",
+      "startFrame": 18510,
+      "frames": 690,
+      "fps": 30,
+      "title": "画面缩入屏幕与无限复制",
+      "kind": "空间转场",
+      "defaults": {
+        "rate": "$100/hr",
+        "negative": "LIMITED",
+        "positive": "UNLIMITED",
+        "noun": "SCALABILITY",
+        "media": {
+          "content": "yoga"
+        }
+      },
+      "demo": {
+        "rate": "一次创作",
+        "negative": "只能一次",
+        "positive": "反复使用",
+        "noun": "让价值延续",
+        "media": {
+          "content": "action-c"
+        }
+      },
+      "description": "画面加价格，灰化标注有限；镜头缩入电脑屏幕，随后转为无限。电脑环境为矢量重建。",
+      "previews": {
+        "originalWording": "JJ-021-rebuild.mp4",
+        "adapted": "JJ-021-demo.mp4"
+      },
+      "audio": "JJ-021-template.m4a",
+      "reference": "reference-library.html#JJ-021"
+    },
+    {
+      "id": "JJ-022",
+      "startFrame": 21150,
+      "frames": 480,
+      "fps": 30,
+      "title": "定义到交易关系",
+      "kind": "关系动效",
+      "defaults": {
+        "term": "ACQUISITION",
+        "definition": "an asset or object bought or obtained.",
+        "brands": [
+          "Instagram",
+          "Facebook",
+          "PayPal",
+          "eBay"
+        ],
+        "amounts": [
+          "$1 BILLION",
+          "$1.5 BILLION"
+        ],
+        "gain": "$165 MILLION",
+        "media": {
+          "background": "person-a",
+          "portrait": "interview"
+        }
+      },
+      "demo": {
+        "term": "协作",
+        "definition": "把不同能力组合成完整的解决方案。",
+        "brands": [
+          "创意",
+          "执行",
+          "内容",
+          "渠道"
+        ],
+        "amounts": [
+          "共同创造",
+          "互相成就"
+        ],
+        "gain": "长期价值",
+        "media": {
+          "background": "action-a",
+          "portrait": "person-c"
+        }
+      },
+      "description": "定义小字、两组品牌关系、握手与金额、收益人物角标，末尾放大离场。",
+      "previews": {
+        "originalWording": "JJ-022-rebuild.mp4",
+        "adapted": "JJ-022-demo.mp4"
+      },
+      "audio": "JJ-022-template.m4a",
+      "reference": "reference-library.html#JJ-022"
+    },
+    {
+      "id": "JJ-023",
+      "startFrame": 22020,
+      "frames": 480,
+      "fps": 30,
+      "title": "三段动作汇成竖向拼屏",
+      "kind": "分屏",
+      "defaults": {
+        "media": {
+          "a": "action-a",
+          "b": "action-b",
+          "c": "action-c"
+        }
+      },
+      "demo": {
+        "media": {
+          "a": "road",
+          "b": "office",
+          "c": "cleaner"
+        }
+      },
+      "description": "三组独立动作镜头依次展示，最后汇聚为三列。无固定文字，中文示例通过替换素材证明可套用。",
+      "previews": {
+        "originalWording": "JJ-023-rebuild.mp4",
+        "adapted": "JJ-023-demo.mp4"
+      },
+      "audio": "JJ-023-template.m4a",
+      "reference": "reference-library.html#JJ-023"
+    },
+    {
+      "id": "JJ-024",
+      "startFrame": 22710,
+      "frames": 540,
+      "fps": 30,
+      "title": "暗色烟雾章节标题",
+      "kind": "章节",
+      "defaults": {
+        "chapter": "PART 5",
+        "subtitle": "Your Money or Your Life"
+      },
+      "demo": {
+        "chapter": "第五章",
+        "subtitle": "让创作成为长期积累"
+      },
+      "description": "长黑场呼吸，暗色烟雾显现，章节号与副标题分次淡入。",
+      "previews": {
+        "originalWording": "JJ-024-rebuild.mp4",
+        "adapted": "JJ-024-demo.mp4"
+      },
+      "audio": "JJ-024-template.m4a",
+      "reference": "reference-library.html#JJ-024"
+    },
+    {
+      "id": "JJ-025",
+      "startFrame": 24240,
+      "frames": 405,
+      "fps": 30,
+      "title": "画面留白处连续提问",
+      "kind": "文字叙事",
+      "defaults": {
+        "questions": [
+          "CAN I AFFORD THIS?",
+          "HAVE I USED UP ALL MY HOLIDAYS?",
+          "HOW AM I GOING TO PAY THE RENT?",
+          "CAN I LIVE OFF MY PENSION?",
+          "WHAT DREAMS WILL I HAVE TO SACRIFICE?"
+        ],
+        "media": {
+          "a": "person-a",
+          "b": "person-b",
+          "c": "person-c",
+          "d": "office",
+          "e": "cashbox"
+        }
+      },
+      "demo": {
+        "questions": [
+          "这真的是问题吗？",
+          "观众最关心什么？",
+          "哪句话值得留下？",
+          "画面能说明什么？",
+          "我们希望带来什么改变？"
+        ],
+        "media": {
+          "a": "interview",
+          "b": "action-a",
+          "c": "action-b",
+          "d": "cleaner",
+          "e": "road"
+        }
+      },
+      "description": "保留开头黑场；切换不同画面，在各自留白处提出问题。",
+      "previews": {
+        "originalWording": "JJ-025-rebuild.mp4",
+        "adapted": "JJ-025-demo.mp4"
+      },
+      "audio": "JJ-025-template.m4a",
+      "reference": "reference-library.html#JJ-025"
     },
     {
       "id": "JJ-026",
-      "title": "黑底结论逐行出现",
-      "type": "parametric-motion",
-      "status": "usable-draft",
-      "fidelity": "visual-rebuild-not-frame-exact",
-      "source": "9月20日.mov",
-      "sourceStartFrame": 26076,
-      "sourceEndFrameExclusive": 26320,
       "frames": 244,
       "fps": 30,
-      "width": 1280,
-      "height": 720,
-      "duration": 8.133333333333333,
-      "implementation": "templates.mjs",
-      "exporter": "render-template.cjs",
-      "background": null,
-      "audio": "JJ-026-template.m4a",
-      "audioType": "original-mixed-music-and-sfx",
-      "demo": "JJ-026-demo.mp4",
-      "rebuild": "JJ-026-rebuild.mp4",
-      "inputs": {
+      "startFrame": 26076,
+      "title": "黑底结论逐行出现",
+      "defaults": {
         "lines": [
           "STOP CHASING MONEY",
           "CHASE PROBLEMS",
           "FIND SOLUTIONS TO THOSE PROBLEMS"
         ]
       },
-      "demoInputs": {
+      "demo": {
         "lines": [
           "别再堆砌特效",
           "让画面服务表达",
           "让每一次变化都有意义"
         ]
       },
-      "timingContract": "fixed-source-core-timing; input text and numbers editable",
-      "limits": [
-        "Not pixel/frame-exact",
-        "Original mixed audio, not separate stems",
-        "Context live-action footage excluded",
-        "Text fit must be reviewed"
-      ]
+      "kind": "结尾",
+      "description": "黑场后三句总结依次淡入。",
+      "previews": {
+        "originalWording": "JJ-026-rebuild.mp4",
+        "adapted": "JJ-026-demo.mp4"
+      },
+      "audio": "JJ-026-template.m4a",
+      "reference": "reference-library.html#JJ-026"
     }
   ]
 }

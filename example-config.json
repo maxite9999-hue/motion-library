@@ -1,0 +1,9 @@
+{
+  "options": {
+    "button": "订阅频道",
+    "done": "已订阅",
+    "media": {
+      "background": "city"
+    }
+  }
+}

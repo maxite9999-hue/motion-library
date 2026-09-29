@@ -1,0 +1,135 @@
+{
+  "road": {
+    "file": "asset-road.mp4",
+    "poster": "asset-road.jpg",
+    "frames": 75,
+    "sourceStart": 134,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "city": {
+    "file": "asset-city.mp4",
+    "poster": "asset-city.jpg",
+    "frames": 39,
+    "sourceStart": 721.5,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "cash": {
+    "file": "asset-cash.mp4",
+    "poster": "asset-cash.jpg",
+    "frames": 24,
+    "sourceStart": 493,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "office": {
+    "file": "asset-office.mp4",
+    "poster": "asset-office.jpg",
+    "frames": 27,
+    "sourceStart": 440,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "cleaner": {
+    "file": "asset-cleaner.mp4",
+    "poster": "asset-cleaner.jpg",
+    "frames": 75,
+    "sourceStart": 436,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "yoga": {
+    "file": "asset-yoga.mp4",
+    "poster": "asset-yoga.jpg",
+    "frames": 51,
+    "sourceStart": 617,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "action-a": {
+    "file": "asset-action-a.mp4",
+    "poster": "asset-action-a.jpg",
+    "frames": 66,
+    "sourceStart": 734.3,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "action-b": {
+    "file": "asset-action-b.mp4",
+    "poster": "asset-action-b.jpg",
+    "frames": 66,
+    "sourceStart": 737.2,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "action-c": {
+    "file": "asset-action-c.mp4",
+    "poster": "asset-action-c.jpg",
+    "frames": 66,
+    "sourceStart": 743,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "running": {
+    "file": "asset-running.mp4",
+    "poster": "asset-running.jpg",
+    "frames": 39,
+    "sourceStart": 516,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "interview": {
+    "file": "asset-interview.mp4",
+    "poster": "asset-interview.jpg",
+    "frames": 81,
+    "sourceStart": 511.2,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "person-a": {
+    "file": "asset-person-a.mp4",
+    "poster": "asset-person-a.jpg",
+    "frames": 39,
+    "sourceStart": 328,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "person-b": {
+    "file": "asset-person-b.mp4",
+    "poster": "asset-person-b.jpg",
+    "frames": 21,
+    "sourceStart": 137,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "person-c": {
+    "file": "asset-person-c.mp4",
+    "poster": "asset-person-c.jpg",
+    "frames": 36,
+    "sourceStart": 140,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "printing": {
+    "file": "asset-printing.mp4",
+    "poster": "asset-printing.jpg",
+    "frames": 18,
+    "sourceStart": 67,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "auditorium": {
+    "file": "asset-auditorium.mp4",
+    "poster": "asset-auditorium.jpg",
+    "frames": 90,
+    "sourceStart": 302.5,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "cashbox": {
+    "file": "asset-cashbox.mp4",
+    "poster": "asset-cashbox.jpg",
+    "frames": 75,
+    "sourceStart": 309.1,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "crowd": {
+    "file": "asset-crowd.mp4",
+    "poster": "asset-crowd.jpg",
+    "frames": 45,
+    "sourceStart": 590,
+    "description": "replaceable sample footage from user supplied source"
+  },
+  "kitchen": {
+    "file": "asset-kitchen.mp4",
+    "poster": "asset-kitchen.jpg",
+    "frames": 21,
+    "sourceStart": 592,
+    "description": "replaceable sample footage from user supplied source"
+  }
+}

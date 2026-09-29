@@ -1,11 +1,17 @@
-# JJ-001 / clean-v3
+# Full 25-template library
 
-状态：NOT_ALIGNED。用户要求逐秒一致，当前重建尚未达标，不得以风格相似当作完成。
+Contract: preserve the user's approved dual-preview workflow, finish 22 additional reusable drafts, keep the first three, original mixed music/SFX, short stable IDs, and original references.
 
-原片范围 4–18 秒，30fps，共420帧。重建恢复黑屏帧区间 [204,218)、[320,332)，对应本地时间6.8–7.266667秒与10.666667–11.066667秒。原片 reference.mp4 和重建 preview-v3.mp4 均保留，不能混淆二者。
+Fidelity: parameterized visual/style reconstruction for review, NOT source pixel/frame exactness. Implementation and substitution are tested separately from visual fidelity. Full frame equality is not claimed. The existing first-three known differences remain disclosed.
 
-已修复：短编号仅复制 JJ-001；黑屏帧数14帧与12帧；阶段切换移至黑屏结束；完整原时间段的音乐和音效混合音轨按原速合入。未分离独立音效。
+Architecture: pure SVG motion/text/geometric components plus replaceable muted video layers driven by the production Remotion timeline. Original music/SFX is one mixed track per template. Assets extracted from clean portions of the supplied movie are examples, not whole-template replay. Never use the entire source reference as the foreground of an editable template.
 
-未完成：字体、背景纹理、圆点布局、文字逐字出现、每个动作和音效的逐帧对齐。原片回放不是可修改模板的重建成果。要求准确复刻时，需要进一步逐帧重建验收或取得原始工程及素材；不得保证仅凭成片可以恢复原始可编辑工程。
+Footage-driven recipes accept image/video slots. Graphic templates accept structured content (words, numbers, titles, quote, nodes, people); the assistant fills these from the user's script. Original wording preview retains original text where inspected; unsupported tiny article body details are visibly demo placeholders, not fabricated citations.
 
-短编号解析：本库 catalog.json 的 id=JJ-001。网站 https://maxite9999-hue.github.io/motion-library/ 。只有已接入该库的技能才可解析此短编号；其他技能不会自动识别。
+Scope: JJ-002 through JJ-026. Legacy JJ-001 remains separate. A source-core range is stored per ID; context handles remain in the original-reference library. Audio is extracted from the same core interval, without added timing changes. Source is 30fps; output 1280×720/30fps.
+
+Verification: two content configurations per template; every animation frame evaluated for finite geometry and valid media; 50 MP4s fully decoded, frame counts matched, and audio packet hashes matched each corresponding original mixed track. Half-second contact sheets were generated for both variants. Four time-matched source/rebuild/demo samples per template were visually reviewed. These are sampling checks, not full frame-equality approval. A separate export through the portable entry point also produced a decodable 213-frame video with audio.
+
+Status: 25 reusable draft templates and 50 previews completed locally. See template-qc.json for output hashes. Website publishing is verified separately.
+
+Known visual differences: sample footage may differ from the source, short footage slots loop, portraits are placeholders, fonts and easing differ, the gold texture is based on a still plate, the dark smoke is a vector approximation, article body rows are placeholders, and the computer desk/business map/brand relation graphics are simplified redraws. Template durations and original audio extraction are exact to the recorded frame intervals; visual event synchronization is approximate. No pixel-exact or second-by-second fidelity claim is made.
