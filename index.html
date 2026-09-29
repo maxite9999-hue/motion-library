@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>我的动效库 · 干净版试样</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#101113;color:#eee;font-family:-apple-system,BlinkMacSystemFont,sans-serif}main{max-width:1040px;margin:auto;padding:36px 24px 60px}header{display:flex;justify-content:space-between;color:#aaa;font-size:14px}h1{font-size:32px;font-weight:550;margin:48px 0 12px}p{color:#a8aaae;line-height:1.8}video{display:block;width:100%;background:#000;border-radius:12px;margin:24px 0}button,.download{display:inline-block;border:0;border-radius:8px;padding:14px 20px;font:inherit;cursor:pointer;text-decoration:none}button{background:#eee;color:#111}.download{color:#ccc;background:#24262a;margin-left:12px}details{border-top:1px solid #303237;padding:22px 0}summary{cursor:pointer}audio{width:100%;margin-top:20px}a{color:#ddd}footer{color:#71747a;margin-top:32px;font-size:13px}textarea{width:100%;height:180px;margin-top:15px;background:#222;color:#eee}small{color:#888}</style>
+<main><header><span>我的动效库</span><span>试样 02</span></header><h1>一个圆点，到一百个圆点</h1><p>干净画面 · 原片配乐与音效 · 14 秒</p>
+<video controls playsinline preload="metadata" poster="poster.png" src="preview.mp4"></video>
+<button id="copy">复制这个模板</button><a class="download" href="preview.mp4" download>下载试样</a><p id="hint">复制后，把模板和你的文案一起发给我。我会替你修改文字、数量和节奏，放进你的视频。</p><textarea id="fallback" readonly hidden></textarea>
+<details><summary>听配乐与音效</summary><audio controls preload="metadata" src="music-and-sfx.wav"></audio><p>原视频第 4—18 秒的原音轨，原速保留。音乐与音效目前是组合素材，没有拆成独立音轨。</p><a href="music-and-sfx.wav" download>下载音乐＋音效</a></details>
+<details><summary>查看原片同一段</summary><video controls playsinline preload="none" src="reference.mp4"></video><p>试样为可复用的动画重建，不是原片复制；字体、背景纹理及部分出场时机仍有差异。</p></details><footer>我的动效库 · 点击复制模板后，直接粘贴到聊天。说明文字仅在网页中，不出现在导出视频里。</footer></main>
+<script>const instruction=`使用我的动效库模板 JJ-001 / clean-v2（一个圆点，到一百个圆点）。请根据我随后提供的文案和视频，由你修改金额、圆点数量、时长及节奏并合入视频，不要让我手动修改参数。保持画面干净，只保留内容必需文字，不添加角标、标题栏或进度条。模板目录 outputs/motion-library/v2，读取 catalog.json 与 motion.mjs，配套音频 music-and-sfx.wav 是原片音乐与音效混合轨，不是独立分轨；按镜头调整音频同步。我的文案／素材：`;
+document.querySelector('#copy').onclick=async()=>{
+ const button=document.querySelector('#copy');
+ const base=new URL('./',location.href);
+ const text=instruction+'\n模板名称：一个圆点，到一百个圆点\n模板编号：JJ-001 / clean-v2\n模板网页：'+base.href+'\n模板清单：'+new URL('catalog.json',base).href;
+ let copied=false;
+ try{await navigator.clipboard.writeText(text);copied=true}catch(e){
+  const t=document.querySelector('#fallback');t.hidden=false;t.style.position='fixed';t.style.left='-9999px';t.value=text;t.focus();t.select();
+  try{copied=document.execCommand('copy')}catch(e){}t.hidden=true;button.focus();
+ }
+ button.textContent=copied?'✓ 已复制，直接粘贴给我':'复制未成功，点击重试';
+ document.querySelector('#hint').textContent=copied?'已复制模板名称、编号和链接。直接回到聊天粘贴，再附上你的文案即可。':'浏览器阻止了剪贴板写入。请允许此网站使用剪贴板，再点一次按钮；不用选中文字。';
+};
+document.querySelectorAll('video,audio').forEach(m=>m.addEventListener('play',()=>document.querySelectorAll('video,audio').forEach(n=>{if(n!==m)n.pause()})));
+</script></html>
