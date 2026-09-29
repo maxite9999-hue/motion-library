@@ -3,7 +3,9 @@ const ease=x=>1-Math.pow(1-Math.max(0,Math.min(1,x)),3);
 const esc=x=>String(x).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
 export function renderSVG(t,options={}){
  const p={...defaults,...options};t=Math.max(0,Math.min(14,t));
- const stage=t<6?0:t<10.3?1:2,dt=t-[0,6,10.3][stage];
+ const frame=Math.floor(t*30+1e-6);
+ if((frame>=204&&frame<218)||(frame>=320&&frame<332))return '<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720"><rect width="1280" height="720" fill="black"/></svg>';
+ const stage=frame<218?0:frame<332?1:2,dt=t-[0,218/30,332/30][stage];
  const count=[1,10,100][stage],radius=[43,43,24][stage];
  let dots='';
  for(let i=0;i<count;i++){
