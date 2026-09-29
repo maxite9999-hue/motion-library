@@ -263,7 +263,7 @@
       "category": "数据动效",
       "notes": "时薪 → 工作量数字 → 放大穿越 → 年数时钟 → 百万金额 → 衰老镜头承接。",
       "status": "reference-module",
-      "reconstructionStatus": "not-started",
+      "reconstructionStatus": "usable-draft",
       "file": "JJ-012.mp4",
       "poster": "JJ-012.jpg",
       "audio": "embedded-original-mix",
@@ -278,7 +278,9 @@
         "hasAudio": true,
         "fullDecode": "pass",
         "fidelity": "source-excerpt-reencoded-720p-not-editable-reconstruction"
-      }
+      },
+      "templateCatalog": "templates.json",
+      "templatePreview": "JJ-012-demo.mp4"
     },
     {
       "id": "JJ-013",
@@ -438,7 +440,7 @@
       "category": "文字动效",
       "notes": "LOOK FOR → PROBLEMS → & SOLUTIONS，保留旋转/位移和末尾承接。",
       "status": "reference-module",
-      "reconstructionStatus": "not-started",
+      "reconstructionStatus": "usable-draft",
       "file": "JJ-019.mp4",
       "poster": "JJ-019.jpg",
       "audio": "embedded-original-mix",
@@ -453,7 +455,9 @@
         "hasAudio": true,
         "fullDecode": "pass",
         "fidelity": "source-excerpt-reencoded-720p-not-editable-reconstruction"
-      }
+      },
+      "templateCatalog": "templates.json",
+      "templatePreview": "JJ-019-demo.mp4"
     },
     {
       "id": "JJ-020",
@@ -613,7 +617,7 @@
       "category": "结尾",
       "notes": "画面淡出 → 三句总结逐行建立 → 保持 → 切入俯拍城市，保留声音尾段。",
       "status": "reference-module",
-      "reconstructionStatus": "not-started",
+      "reconstructionStatus": "usable-draft",
       "file": "JJ-026.mp4",
       "poster": "JJ-026.jpg",
       "audio": "embedded-original-mix",
@@ -628,7 +632,9 @@
         "hasAudio": true,
         "fullDecode": "pass",
         "fidelity": "source-excerpt-reencoded-720p-not-editable-reconstruction"
-      }
+      },
+      "templateCatalog": "templates.json",
+      "templatePreview": "JJ-026-demo.mp4"
     }
   ],
   "stage": "semantic-reference-selection",

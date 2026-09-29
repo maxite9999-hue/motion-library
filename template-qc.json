@@ -1,0 +1,108 @@
+{
+  "scope": "parameterized draft; not pixel/frame-exact",
+  "outputs": [
+    {
+      "id": "JJ-012",
+      "variant": "rebuild",
+      "frames": 534,
+      "fps": "30/1",
+      "width": 1280,
+      "height": 720,
+      "videoDuration": "17.800000",
+      "audioDuration": "17.800000",
+      "fullDecode": "pass",
+      "audioPacketsMatchTemplateTrack": true,
+      "sha256": "3f965cb7fefd4c6ec3b2c837742a37848c82525f072e113b9441482de34c8943",
+      "sourceComparison": {
+        "metric": "SSIM",
+        "framesCompared": 534,
+        "mean": 0.8814108614232197,
+        "minimum": 0.375833,
+        "worstFrame": 18,
+        "pixelExactAcceptance": "not-aligned; editable visual draft only"
+      }
+    },
+    {
+      "id": "JJ-012",
+      "variant": "demo",
+      "frames": 534,
+      "fps": "30/1",
+      "width": 1280,
+      "height": 720,
+      "videoDuration": "17.800000",
+      "audioDuration": "17.800000",
+      "fullDecode": "pass",
+      "audioPacketsMatchTemplateTrack": true,
+      "sha256": "830ef3227d0796d3739e82fbd1a9636df2b1c45856bb9deac6566a973d899e18"
+    },
+    {
+      "id": "JJ-019",
+      "variant": "rebuild",
+      "frames": 168,
+      "fps": "30/1",
+      "width": 1280,
+      "height": 720,
+      "videoDuration": "5.600000",
+      "audioDuration": "5.600000",
+      "fullDecode": "pass",
+      "audioPacketsMatchTemplateTrack": true,
+      "sha256": "9be8089a0c282524a1f3a8533df78cbedb294b95de15c79350d213d0e7e934d2",
+      "sourceComparison": {
+        "metric": "SSIM",
+        "framesCompared": 168,
+        "mean": 0.8420041547619047,
+        "minimum": 0.661339,
+        "worstFrame": 1,
+        "pixelExactAcceptance": "not-aligned; editable visual draft only"
+      }
+    },
+    {
+      "id": "JJ-019",
+      "variant": "demo",
+      "frames": 168,
+      "fps": "30/1",
+      "width": 1280,
+      "height": 720,
+      "videoDuration": "5.600000",
+      "audioDuration": "5.600000",
+      "fullDecode": "pass",
+      "audioPacketsMatchTemplateTrack": true,
+      "sha256": "86f626b2f8c0ec98d998aefdf793aa6fde68c440f3e11cecd2a52c2de1c58562"
+    },
+    {
+      "id": "JJ-026",
+      "variant": "rebuild",
+      "frames": 244,
+      "fps": "30/1",
+      "width": 1280,
+      "height": 720,
+      "videoDuration": "8.133333",
+      "audioDuration": "8.132993",
+      "fullDecode": "pass",
+      "audioPacketsMatchTemplateTrack": true,
+      "sha256": "054b40574e4a2e1dce4802e4b79bf331455da50602da7371ebfb8f8787b7a926",
+      "sourceComparison": {
+        "metric": "SSIM",
+        "framesCompared": 244,
+        "mean": 0.9696876967213102,
+        "minimum": 0.926176,
+        "worstFrame": 0,
+        "pixelExactAcceptance": "not-aligned; editable visual draft only"
+      }
+    },
+    {
+      "id": "JJ-026",
+      "variant": "demo",
+      "frames": 244,
+      "fps": "30/1",
+      "width": 1280,
+      "height": 720,
+      "videoDuration": "8.133333",
+      "audioDuration": "8.132993",
+      "fullDecode": "pass",
+      "audioPacketsMatchTemplateTrack": true,
+      "sha256": "b8b15243c5fe7ec363bfad05a70275b3e7f93c67f246cfded432debd2f8607ef"
+    }
+  ],
+  "runtime": "Remotion production useCurrentFrame rendered for all frames in both configurations"
+}

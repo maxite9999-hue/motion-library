@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "guide": "template-guide.md",
+  "sourcePackage": "templates-source.zip",
+  "templates": [
+    {
+      "id": "JJ-012",
+      "title": "数字变化与时间成本",
+      "type": "parametric-motion",
+      "status": "usable-draft",
+      "fidelity": "visual-rebuild-not-frame-exact",
+      "source": "9月20日.mov",
+      "sourceStartFrame": 9891,
+      "sourceEndFrameExclusive": 10425,
+      "frames": 534,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "duration": 17.8,
+      "implementation": "templates.mjs",
+      "exporter": "render-template.cjs",
+      "background": "gold-plate.jpg",
+      "audio": "JJ-012-template.m4a",
+      "audioType": "original-mixed-music-and-sfx",
+      "demo": "JJ-012-demo.mp4",
+      "rebuild": "JJ-012-rebuild.mp4",
+      "inputs": {
+        "income": 20,
+        "currency": "$",
+        "rateUnit": "/hr",
+        "incomeLabel": "INCOME",
+        "hours": 40,
+        "hoursLabel": "HOURS",
+        "periodLabel": "WEEK",
+        "years": 24,
+        "yearsLabel": "YEARS",
+        "target": "$1,000,000"
+      },
+      "demoInputs": {
+        "income": 50,
+        "currency": "¥",
+        "rateUnit": "/时",
+        "incomeLabel": "时薪",
+        "hours": 30,
+        "hoursLabel": "小时",
+        "periodLabel": "每周",
+        "years": 12,
+        "yearsLabel": "年",
+        "target": "¥1,000,000"
+      },
+      "timingContract": "fixed-source-core-timing; input text and numbers editable",
+      "limits": [
+        "Not pixel/frame-exact",
+        "Original mixed audio, not separate stems",
+        "Context live-action footage excluded",
+        "Text fit must be reviewed"
+      ]
+    },
+    {
+      "id": "JJ-019",
+      "title": "倾斜词组逐行拼接",
+      "type": "parametric-motion",
+      "status": "usable-draft",
+      "fidelity": "visual-rebuild-not-frame-exact",
+      "source": "9月20日.mov",
+      "sourceStartFrame": 15732,
+      "sourceEndFrameExclusive": 15900,
+      "frames": 168,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "duration": 5.6,
+      "implementation": "templates.mjs",
+      "exporter": "render-template.cjs",
+      "background": "gold-plate.jpg",
+      "audio": "JJ-019-template.m4a",
+      "audioType": "original-mixed-music-and-sfx",
+      "demo": "JJ-019-demo.mp4",
+      "rebuild": "JJ-019-rebuild.mp4",
+      "inputs": {
+        "headline": "LOOK FOR",
+        "line2": "PROBLEMS",
+        "connector": "&",
+        "line3": "SOLUTIONS"
+      },
+      "demoInputs": {
+        "headline": "寻找",
+        "line2": "真正的问题",
+        "connector": "和",
+        "line3": "可行的解法"
+      },
+      "timingContract": "fixed-source-core-timing; input text and numbers editable",
+      "limits": [
+        "Not pixel/frame-exact",
+        "Original mixed audio, not separate stems",
+        "Context live-action footage excluded",
+        "Text fit must be reviewed"
+      ]
+    },
+    {
+      "id": "JJ-026",
+      "title": "黑底结论逐行出现",
+      "type": "parametric-motion",
+      "status": "usable-draft",
+      "fidelity": "visual-rebuild-not-frame-exact",
+      "source": "9月20日.mov",
+      "sourceStartFrame": 26076,
+      "sourceEndFrameExclusive": 26320,
+      "frames": 244,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "duration": 8.133333333333333,
+      "implementation": "templates.mjs",
+      "exporter": "render-template.cjs",
+      "background": null,
+      "audio": "JJ-026-template.m4a",
+      "audioType": "original-mixed-music-and-sfx",
+      "demo": "JJ-026-demo.mp4",
+      "rebuild": "JJ-026-rebuild.mp4",
+      "inputs": {
+        "lines": [
+          "STOP CHASING MONEY",
+          "CHASE PROBLEMS",
+          "FIND SOLUTIONS TO THOSE PROBLEMS"
+        ]
+      },
+      "demoInputs": {
+        "lines": [
+          "别再堆砌特效",
+          "让画面服务表达",
+          "让每一次变化都有意义"
+        ]
+      },
+      "timingContract": "fixed-source-core-timing; input text and numbers editable",
+      "limits": [
+        "Not pixel/frame-exact",
+        "Original mixed audio, not separate stems",
+        "Context live-action footage excluded",
+        "Text fit must be reviewed"
+      ]
+    }
+  ]
+}
