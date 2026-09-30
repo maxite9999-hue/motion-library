@@ -76,7 +76,7 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "useCases": "黑场故障插帧与第二章",
+  "useCases": "用在第二层观点展开或重要转折后的章节切换；助手根据文案调整中文内容。",
   "qc": "ML-017-v4-qc.json",
   "scenes": [
     {

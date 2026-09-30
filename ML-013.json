@@ -300,7 +300,7 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "useCases": "人物财富卡盖章与肖像拼贴",
+  "useCases": "用在连续列举人物、案例或成就时；助手根据文案调整中文内容。",
   "qc": "ML-013-v4-qc.json",
   "scenes": [
     {

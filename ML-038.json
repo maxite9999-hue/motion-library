@@ -65,7 +65,7 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "useCases": "画面渐暗后三句结论",
+  "useCases": "用在片尾总结与行动建议；助手根据文案调整中文内容。",
   "qc": "ML-038-v4-qc.json",
   "scenes": [
     {

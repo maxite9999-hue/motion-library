@@ -60,7 +60,7 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "useCases": "黑场呼吸、金色章节与奖励",
+  "useCases": "用在成果、回报或阶段总结的新章节；助手根据文案调整中文内容。",
   "qc": "ML-030-v4-qc.json",
   "scenes": [
     {

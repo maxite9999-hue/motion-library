@@ -60,5 +60,6 @@
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
   "qc": "ML-007-qc.json",
   "renderer": "render-ML-007.py",
-  "revision": "cn-button-20260930-r3"
+  "revision": "cn-button-20260930-r3",
+  "useCases": "用在关注订阅、点击确认或轻量行动提示时；保留点击、铃铛反馈与旋转缩小退出。"
 }

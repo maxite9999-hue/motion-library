@@ -132,7 +132,7 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "useCases": "收入、工时、年数时钟与金额",
+  "useCases": "用在讲工资、时间成本或积累规模时；助手根据文案调整中文内容。",
   "qc": "ML-015-v4-qc.json",
   "scenes": [
     {

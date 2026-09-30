@@ -62,7 +62,7 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "useCases": "解决问题图标组与纸币叠化",
+  "useCases": "用在从问题转向解法或介绍方法价值时；助手根据文案调整中文内容。",
   "qc": "ML-020-v4-qc.json",
   "scenes": [
     {

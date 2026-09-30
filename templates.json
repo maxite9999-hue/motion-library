@@ -161,7 +161,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "圆点增殖、下落与缩小移位",
+      "useCases": "用在开场展示数量级增长、积累或规模差异；助手根据文案调整中文内容。",
       "qc": "ML-001-v4-qc.json",
       "scenes": [
         {
@@ -398,7 +398,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "两级提问标题",
+      "useCases": "用在抛出核心问题或转入方法论之前；助手根据文案调整中文内容。",
       "qc": "ML-003-v4-qc.json",
       "scenes": [
         {
@@ -690,7 +690,8 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "qc": "ML-007-qc.json",
       "renderer": "render-ML-007.py",
-      "revision": "cn-button-20260930-r3"
+      "revision": "cn-button-20260930-r3",
+      "useCases": "用在关注订阅、点击确认或轻量行动提示时；保留点击、铃铛反馈与旋转缩小退出。"
     },
     {
       "id": "ML-008",
@@ -751,7 +752,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "公路提问与城市标题下移",
+      "useCases": "用在邀请观众进入主题的开场或章节引入；助手根据文案调整中文内容。",
       "qc": "ML-008-v4-qc.json",
       "scenes": [
         {
@@ -885,7 +886,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "说明叠化与紫色公路渐黑",
+      "useCases": "用在正式正文前的说明、范围声明或气氛铺垫；助手根据文案调整中文内容。",
       "qc": "ML-009-v4-qc.json",
       "scenes": [
         {
@@ -1000,7 +1001,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "金色烟雾章节渐入",
+      "useCases": "用在第一章开头或从引子进入正文；助手根据文案调整中文内容。",
       "qc": "ML-010-v4-qc.json",
       "scenes": [
         {
@@ -1181,7 +1182,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "新闻网页推进与摘录浮层",
+      "useCases": "用在展示文章、报告或出处证据时；助手根据文案调整中文内容。",
       "qc": "ML-012-v4-qc.json",
       "scenes": [
         {
@@ -1538,7 +1539,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "人物财富卡盖章与肖像拼贴",
+      "useCases": "用在连续列举人物、案例或成就时；助手根据文案调整中文内容。",
       "qc": "ML-013-v4-qc.json",
       "scenes": [
         {
@@ -1849,7 +1850,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "命题、公式与斜向否定",
+      "useCases": "用在纠正常见误解或推翻旧公式的段落；助手根据文案调整中文内容。",
       "qc": "ML-014-v4-qc.json",
       "scenes": [
         {
@@ -2058,7 +2059,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "收入、工时、年数时钟与金额",
+      "useCases": "用在讲工资、时间成本或积累规模时；助手根据文案调整中文内容。",
       "qc": "ML-015-v4-qc.json",
       "scenes": [
         {
@@ -2292,7 +2293,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "黑场故障插帧与第二章",
+      "useCases": "用在第二层观点展开或重要转折后的章节切换；助手根据文案调整中文内容。",
       "qc": "ML-017-v4-qc.json",
       "scenes": [
         {
@@ -2412,7 +2413,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "逐词强调、价值命题与问号",
+      "useCases": "用在解释价值、报酬或核心概念的金句段；助手根据文案调整中文内容。",
       "qc": "ML-018-v4-qc.json",
       "scenes": [
         {
@@ -2565,7 +2566,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "左右分屏、灰化与人物替换",
+      "useCases": "用在比较两种工作方式、投入与结果时；助手根据文案调整中文内容。",
       "qc": "ML-019-v4-qc.json",
       "scenes": [
         {
@@ -2700,7 +2701,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "解决问题图标组与纸币叠化",
+      "useCases": "用在从问题转向解法或介绍方法价值时；助手根据文案调整中文内容。",
       "qc": "ML-020-v4-qc.json",
       "scenes": [
         {
@@ -2840,7 +2841,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "品牌标志、例证与商业版图",
+      "useCases": "用在讲品牌、商业系统或多个环节之间的联系时；助手根据文案调整中文内容。",
       "qc": "ML-021-v4-qc.json",
       "scenes": [
         {
@@ -2962,7 +2963,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "运动画面灰化与大间距否定",
+      "useCases": "用在明确否定一个误区、错误方向或错误选择时；助手根据文案调整中文内容。",
       "qc": "ML-022-v4-qc.json",
       "scenes": [
         {
@@ -3075,7 +3076,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "倾斜词组逐行组装与切出",
+      "useCases": "用在方法论转折或行动建议；助手根据文案调整中文内容。",
       "qc": "ML-023-v4-qc.json",
       "scenes": [
         {
@@ -3354,7 +3355,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "第三章轻淡入与字幕后入",
+      "useCases": "用在第三章或新的问题主题开始时；助手根据文案调整中文内容。",
       "qc": "ML-026-v4-qc.json",
       "scenes": [
         {
@@ -3467,7 +3468,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "红色否定与绿色肯定对照",
+      "useCases": "用在不能复制与能够复制、错误与正确等二选一对比；助手根据文案调整中文内容。",
       "qc": "ML-027-v4-qc.json",
       "scenes": [
         {
@@ -3621,7 +3622,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "有限到无限、画面缩入显示器",
+      "useCases": "用在解释线下单次交付与可扩展产品的差别；助手根据文案调整中文内容。",
       "qc": "ML-028-v4-qc.json",
       "scenes": [
         {
@@ -3788,7 +3789,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "径向推拉转场与逐字命题",
+      "useCases": "用在强调市场、需求与个人兴趣之间的冲突；助手根据文案调整中文内容。",
       "qc": "ML-029-v4-qc.json",
       "scenes": [
         {
@@ -3891,7 +3892,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "黑场呼吸、金色章节与奖励",
+      "useCases": "用在成果、回报或阶段总结的新章节；助手根据文案调整中文内容。",
       "qc": "ML-030-v4-qc.json",
       "scenes": [
         {
@@ -4050,7 +4051,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "角落定义、品牌交易与收益",
+      "useCases": "用在解释价值交换、合作或交易结果；助手根据文案调整中文内容。",
       "qc": "ML-031-v4-qc.json",
       "scenes": [
         {
@@ -4254,7 +4255,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "暗色烟雾章节完整渐入",
+      "useCases": "用在从物质回报转向时间、人生与选择的章节；助手根据文案调整中文内容。",
       "qc": "ML-033-v4-qc.json",
       "scenes": [
         {
@@ -4440,7 +4441,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "五个随构图换位的问题",
+      "useCases": "用在连续自问或列出限制条件的反思段；助手根据文案调整中文内容。",
       "qc": "ML-035-v4-qc.json",
       "scenes": [
         {
@@ -4767,7 +4768,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "useCases": "画面渐暗后三句结论",
+      "useCases": "用在片尾总结与行动建议；助手根据文案调整中文内容。",
       "qc": "ML-038-v4-qc.json",
       "scenes": [
         {
@@ -4982,7 +4983,7 @@
       "recipe": "ML-041.json",
       "qc": "ML-041-v4-qc.json",
       "package": "ML-041-v4.zip",
-      "useCases": "用在从生活场景切到事实依据时；白色闪转把注意力引向文章证据。",
+      "useCases": "用在从生活场景切到事实依据时；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
@@ -5121,7 +5122,7 @@
       "recipe": "ML-042.json",
       "qc": "ML-042-v4-qc.json",
       "package": "ML-042-v4.zip",
-      "useCases": "用在引用文章、报告与关键段落时；滚动页面与放大摘录适合先交代出处，再突出论据。",
+      "useCases": "用在引用文章、报告与关键段落时；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
@@ -5287,7 +5288,7 @@
       "recipe": "ML-043.json",
       "qc": "ML-043-v4-qc.json",
       "package": "ML-043-v4.zip",
-      "useCases": "用在从文字证据切入人物案例的连接处；一秒白闪只作衔接，不放长文案。",
+      "useCases": "用在从文字证据切入人物案例的连接处；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
@@ -5536,7 +5537,7 @@
       "recipe": "ML-044.json",
       "qc": "ML-044-v4-qc.json",
       "package": "ML-044-v4.zip",
-      "useCases": "用在连续列举人物成就、案例或共同标签时；卡片快切与盖章适合并列论证。",
+      "useCases": "用在连续列举人物成就、案例或共同标签时；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
@@ -5854,7 +5855,7 @@
       "recipe": "ML-045.json",
       "qc": "ML-045-v4-qc.json",
       "package": "ML-045-v4.zip",
-      "useCases": "用在多个独立案例之后做群像总结；人物并列适合说明共同点，而非展开新故事。",
+      "useCases": "用在多个独立案例之后做群像总结；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
@@ -6064,7 +6065,7 @@
       "recipe": "ML-046.json",
       "qc": "ML-046-v4-qc.json",
       "package": "ML-046-v4.zip",
-      "useCases": "用在从错误认知转入公式解释的一瞬间；短故障切换适合一句转折，不适合完整长段落。",
+      "useCases": "用在从错误认知转入公式解释的一瞬间；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
@@ -6242,7 +6243,7 @@
       "recipe": "ML-048.json",
       "qc": "ML-048-v4-qc.json",
       "package": "ML-048-v4.zip",
-      "useCases": "用在强调停止某种行为或提出反常识观点时；现有文字与人物合成，换文案须另做内部重建。",
+      "useCases": "用在强调停止某种行为或提出反常识观点时；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
@@ -6444,7 +6445,7 @@
       "recipe": "ML-050.json",
       "qc": "ML-050-v4-qc.json",
       "package": "ML-050-v4.zip",
-      "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；开头问句可局部改字，后续原生镜头保留。",
+      "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
@@ -6702,7 +6703,7 @@
       "recipe": "ML-052.json",
       "qc": "ML-052-v4-qc.json",
       "package": "ML-052-v4.zip",
-      "useCases": "用在开场主题预告、邀请观众进入正文与说明段；最后长渐黑适合接下一章，勿直接裁掉。",
+      "useCases": "用在开场主题预告、邀请观众进入正文与说明段；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",

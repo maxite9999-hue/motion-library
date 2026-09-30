@@ -53,7 +53,7 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "useCases": "运动画面灰化与大间距否定",
+  "useCases": "用在明确否定一个误区、错误方向或错误选择时；助手根据文案调整中文内容。",
   "qc": "ML-022-v4-qc.json",
   "scenes": [
     {

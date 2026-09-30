@@ -81,7 +81,7 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "useCases": "说明叠化与紫色公路渐黑",
+  "useCases": "用在正式正文前的说明、范围声明或气氛铺垫；助手根据文案调整中文内容。",
   "qc": "ML-009-v4-qc.json",
   "scenes": [
     {
