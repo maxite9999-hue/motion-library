@@ -110,12 +110,12 @@
   "useCases": "用在开场主题预告、邀请观众进入正文与说明段；助手根据文案调整中文内容。",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "limits": [
-    "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+    "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
     "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
     "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
   ],
   "status": "reviewed-trial",
-  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
+  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
   "type": "localized-text-hybrid",
   "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
   "architecture": "fixed-native-motion-plus-editable-text",
@@ -136,5 +136,16 @@
     ],
     "duration": "fixed source frames"
   },
-  "reviewLabel": "已复核 · 原生动效＋可改文字"
+  "reviewLabel": "已复核 · 原生动效＋可改文字",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 4559,
+    "sourceEndFrameExclusive": 6018,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }
