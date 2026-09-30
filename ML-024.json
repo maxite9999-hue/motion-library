@@ -1,0 +1,66 @@
+{
+  "id": "ML-024",
+  "title": "紫色公路中的纸币短闪",
+  "kind": "闪回",
+  "sourceStartFrame": 15956,
+  "sourceEndFrameExclusive": 16233,
+  "frames": 277,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "黑场",
+    "紫色公路",
+    "纸币短促插入",
+    "回公路",
+    "保持"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-024-reference.mp4",
+  "demo": "ML-024-demo.mp4",
+  "audio": "ML-024-mix.m4a",
+  "package": "ML-024.zip",
+  "recipe": "ML-024.json",
+  "poster": "ML-024.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      0,
+      42
+    ]
+  ],
+  "cutFrames": [
+    158,
+    160,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    175,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    193,
+    195
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-024-qc.json"
+}

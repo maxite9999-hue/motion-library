@@ -1,0 +1,83 @@
+{
+  "id": "ML-025",
+  "expectedFrames": 403,
+  "fps": 30,
+  "sourceRange": [
+    16676,
+    17079
+  ],
+  "blackRanges": [
+    [
+      0,
+      22
+    ],
+    [
+      28,
+      31
+    ],
+    [
+      37,
+      105
+    ],
+    [
+      111,
+      113
+    ],
+    [
+      119,
+      186
+    ],
+    [
+      192,
+      194
+    ],
+    [
+      200,
+      250
+    ],
+    [
+      256,
+      259
+    ],
+    [
+      265,
+      330
+    ],
+    [
+      336,
+      339
+    ],
+    [
+      345,
+      377
+    ]
+  ],
+  "files": [
+    {
+      "file": "ML-025-reference.mp4",
+      "frames": 403,
+      "size": 1396254,
+      "sha256": "69dc88b056b6765d5f59dfbe209ec298852fac2d79d64c71f9a7e5f11a160a0b",
+      "audioPacketHash": "SHA256=b281c384ea43fc533e929b844240a9649fe0dd9bce23396cdbe4564940c855ed",
+      "decode": "pass"
+    },
+    {
+      "file": "ML-025-demo.mp4",
+      "frames": 403,
+      "size": 1396254,
+      "sha256": "bfe57f7fabe0dda4fbd48993734e771d296ee96ec60fcad7a78743dc8e162146",
+      "audioPacketHash": "SHA256=b281c384ea43fc533e929b844240a9649fe0dd9bce23396cdbe4564940c855ed",
+      "decode": "pass"
+    }
+  ],
+  "claim": "source-native asset plus optional approximate localized text patch; not full parameterized reconstruction",
+  "sameAudioPacketsInBothPreviews": true,
+  "losslessMixSha256": "bc23e90467cc7642698e409befe6cd213bd2e3005b81e31be2e1e3a07d6c9d21",
+  "referenceFullFrameSSIM": {
+    "frames": 403,
+    "minimum": 0.988802,
+    "mean": 0.9984964565756832,
+    "worstFrame": 264,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  }
+}

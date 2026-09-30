@@ -1,0 +1,113 @@
+{
+  "id": "ML-025",
+  "title": "黑场间隔的五次意象闪回",
+  "kind": "节奏剪辑",
+  "sourceStartFrame": 16676,
+  "sourceEndFrameExclusive": 17079,
+  "frames": 403,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "公路渐黑",
+    "城市",
+    "黑场",
+    "人物",
+    "黑场",
+    "床上人物",
+    "黑场",
+    "俯拍",
+    "黑场",
+    "车内",
+    "黑场",
+    "回公路"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-025-reference.mp4",
+  "demo": "ML-025-demo.mp4",
+  "audio": "ML-025-mix.m4a",
+  "package": "ML-025.zip",
+  "recipe": "ML-025.json",
+  "poster": "ML-025.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      0,
+      22
+    ],
+    [
+      28,
+      31
+    ],
+    [
+      37,
+      105
+    ],
+    [
+      111,
+      113
+    ],
+    [
+      119,
+      186
+    ],
+    [
+      192,
+      194
+    ],
+    [
+      200,
+      250
+    ],
+    [
+      256,
+      259
+    ],
+    [
+      265,
+      330
+    ],
+    [
+      336,
+      339
+    ],
+    [
+      345,
+      377
+    ]
+  ],
+  "cutFrames": [
+    22,
+    28,
+    31,
+    37,
+    105,
+    111,
+    113,
+    119,
+    186,
+    192,
+    194,
+    200,
+    250,
+    256,
+    259,
+    265,
+    330,
+    336,
+    339,
+    345
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-025-qc.json"
+}
