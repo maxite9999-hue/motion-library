@@ -1,0 +1,234 @@
+{
+  "id": "ML-043",
+  "technical": {
+    "id": "ML-043",
+    "frames": 30,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "40d865d769510cdafd5d3ba64dfbfe70ddace451f72561c8885f6ef2d5c816cd",
+    "fileSHA256": "b2070917de2829b26130af67bff1d65ee2873cf311ff23239765911ec35ebcf8",
+    "renderSeconds": 13.8,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-043",
+    "framesCompared": 30,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.42349609375,
+    "maxLocalizedMAE": 2.7902360290110257,
+    "pass": true,
+    "recipeRendererFingerprint": "40d865d769510cdafd5d3ba64dfbfe70ddace451f72561c8885f6ef2d5c816cd",
+    "deliverySHA256": "b2070917de2829b26130af67bff1d65ee2873cf311ff23239765911ec35ebcf8"
+  },
+  "replacement": {
+    "id": "ML-043",
+    "sampleFrames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      29
+    ],
+    "tests": [
+      {
+        "field": "nearly_68_of_the_world_s_richest_people_are_self_made_says_new_report",
+        "frame": 1,
+        "replacementChangedPixels": 5724,
+        "activeTrackFound": true
+      },
+      {
+        "field": "third_most_prevalent_is_real_estate_7_6",
+        "frame": 2,
+        "replacementChangedPixels": 4486,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_vast_majority_of_people_who_have_a_lot_of_money_made",
+        "frame": 3,
+        "replacementChangedPixels": 19222,
+        "activeTrackFound": true
+      },
+      {
+        "field": "it_themselves_according_to_a_new_report_released",
+        "frame": 3,
+        "replacementChangedPixels": 20238,
+        "activeTrackFound": true
+      },
+      {
+        "field": "wednesday_from_wealth_x",
+        "frame": 3,
+        "replacementChangedPixels": 14104,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_predominance_of_self_made_wealth_over_inherited_wealth_is_broadly",
+        "frame": 3,
+        "replacementChangedPixels": 9911,
+        "activeTrackFound": true
+      },
+      {
+        "field": "catalyzed_by_new_opportunities_in_technology_and_in_emerging",
+        "frame": 3,
+        "replacementChangedPixels": 6073,
+        "activeTrackFound": true
+      },
+      {
+        "field": "economies_of_the_past_decade_says_wealth_x",
+        "frame": 3,
+        "replacementChangedPixels": 6543,
+        "activeTrackFound": true
+      },
+      {
+        "field": "according_to_previous_data_from_wealth_x_67_4_of_the_ultra_high_net",
+        "frame": 3,
+        "replacementChangedPixels": 9296,
+        "activeTrackFound": true
+      },
+      {
+        "field": "worth_individuals_in_2017_were_self_made_21_7_were_a_combination_of",
+        "frame": 3,
+        "replacementChangedPixels": 8741,
+        "activeTrackFound": true
+      },
+      {
+        "field": "self_made_and_inherited_and_10_9_inherited_their_wealth_in_2016",
+        "frame": 3,
+        "replacementChangedPixels": 9551,
+        "activeTrackFound": true
+      },
+      {
+        "field": "66_4_were_self_made_21_9_were_a_combination_of_self_made_and",
+        "frame": 3,
+        "replacementChangedPixels": 8893,
+        "activeTrackFound": true
+      },
+      {
+        "field": "inherited_and_11_7_inherited_their_wealth",
+        "frame": 3,
+        "replacementChangedPixels": 6637,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_collective_total_of_the_ultra_high_net_worth_people_in_the_world_is",
+        "frame": 3,
+        "replacementChangedPixels": 6946,
+        "activeTrackFound": true
+      },
+      {
+        "field": "32_3_trillion_the_data_showed_and_while_that_money_is_being_made",
+        "frame": 3,
+        "replacementChangedPixels": 6179,
+        "activeTrackFound": true
+      },
+      {
+        "field": "across_any_number_of_industries_the_primary_industry_focus_for_nearly_a",
+        "frame": 3,
+        "replacementChangedPixels": 7731,
+        "activeTrackFound": true
+      },
+      {
+        "field": "quarter_of_them_is_banking_and_finance_22_9_the_second_most",
+        "frame": 3,
+        "replacementChangedPixels": 11088,
+        "activeTrackFound": true
+      },
+      {
+        "field": "prominent_industry_is_consumer_and_business_services_8_6_and_the",
+        "frame": 3,
+        "replacementChangedPixels": 6258,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_market_research_firm_analyzed_the_state_of_the_world_s",
+        "frame": 4,
+        "replacementChangedPixels": 18121,
+        "activeTrackFound": true
+      },
+      {
+        "field": "ultra_wealthy_population_or_those_with_a_net_worth_of",
+        "frame": 4,
+        "replacementChangedPixels": 19515,
+        "activeTrackFound": true
+      },
+      {
+        "field": "30_million_or_more_the_report_which_is_based_on_2018",
+        "frame": 4,
+        "replacementChangedPixels": 23897,
+        "activeTrackFound": true
+      },
+      {
+        "field": "data_showed_muted_growth_in_the_number_of_ultra",
+        "frame": 4,
+        "replacementChangedPixels": 20839,
+        "activeTrackFound": true
+      },
+      {
+        "field": "wealthy_people_that_year_rising_by_0_8_to_265_490",
+        "frame": 4,
+        "replacementChangedPixels": 30488,
+        "activeTrackFound": true
+      },
+      {
+        "field": "individuals_says_wealth_x",
+        "frame": 4,
+        "replacementChangedPixels": 17216,
+        "activeTrackFound": true
+      },
+      {
+        "field": "of_those_folks_67_7_were_self_made_while_23_7_had_a",
+        "frame": 4,
+        "replacementChangedPixels": 23525,
+        "activeTrackFound": true
+      },
+      {
+        "field": "combination_of_inherited_and_self_created_wealth_only",
+        "frame": 4,
+        "replacementChangedPixels": 25685,
+        "activeTrackFound": true
+      },
+      {
+        "field": "8_5_of_global_high_net_worth_individuals_were_categorized",
+        "frame": 4,
+        "replacementChangedPixels": 17045,
+        "activeTrackFound": true
+      },
+      {
+        "field": "as_having_completely_inherited_their_wealth",
+        "frame": 4,
+        "replacementChangedPixels": 18971,
+        "activeTrackFound": true
+      },
+      {
+        "field": "warren_buffett",
+        "frame": 13,
+        "replacementChangedPixels": 49851,
+        "activeTrackFound": true
+      },
+      {
+        "field": "ceo_of_berkshire_hathaway",
+        "frame": 13,
+        "replacementChangedPixels": 79203,
+        "activeTrackFound": true
+      },
+      {
+        "field": "net_worth",
+        "frame": 13,
+        "replacementChangedPixels": 27293,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}
