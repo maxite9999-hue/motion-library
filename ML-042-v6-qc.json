@@ -1,0 +1,588 @@
+{
+  "id": "ML-042",
+  "technical": {
+    "id": "ML-042",
+    "frames": 302,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "3e3042215e85313f078d7e8120a179ce3198c168791c40d9ccaeb06ef525248c",
+    "fileSHA256": "160cd55ec13cea7e95629aac372a2c380b29cc273be9e669137ebca75299ce22",
+    "renderSeconds": 83.7,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-042",
+    "framesCompared": 302,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.4867748119212962,
+    "maxLocalizedMAE": 2.941893158388004,
+    "pass": true,
+    "recipeRendererFingerprint": "76ee4d5dfe9eeccd8de02338d038b50ba583410005d3be51c326ece25951b922",
+    "deliverySHA256": "160cd55ec13cea7e95629aac372a2c380b29cc273be9e669137ebca75299ce22"
+  },
+  "replacement": {
+    "id": "ML-042",
+    "sampleFrames": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      17,
+      18,
+      19,
+      20,
+      21,
+      34,
+      35,
+      36,
+      41,
+      42,
+      43,
+      49,
+      50,
+      51,
+      56,
+      57,
+      58,
+      60,
+      61,
+      62,
+      63,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      74,
+      75,
+      76,
+      81,
+      82,
+      83,
+      84,
+      88,
+      89,
+      90,
+      91,
+      92,
+      102,
+      108,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      145,
+      146,
+      147,
+      159,
+      161,
+      167,
+      171,
+      175,
+      176,
+      177,
+      183,
+      184,
+      185,
+      188,
+      192,
+      193,
+      194,
+      195,
+      197,
+      198,
+      199,
+      205,
+      206,
+      207,
+      208,
+      209,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      245,
+      246,
+      247,
+      248,
+      250,
+      251,
+      252,
+      254,
+      259,
+      260,
+      261,
+      262,
+      265,
+      268,
+      269,
+      270,
+      271,
+      273,
+      274,
+      275,
+      276,
+      277,
+      279,
+      280,
+      281,
+      282,
+      286,
+      288,
+      289,
+      291,
+      292,
+      293,
+      300,
+      301
+    ],
+    "tests": [
+      {
+        "field": "nearly_68_of_the_world_s_richest_people",
+        "frame": 10,
+        "replacementChangedPixels": 23199,
+        "activeTrackFound": true
+      },
+      {
+        "field": "are_self_made_says_new_report",
+        "frame": 17,
+        "replacementChangedPixels": 37349,
+        "activeTrackFound": true
+      },
+      {
+        "field": "retired_navy_seal_everyone",
+        "frame": 56,
+        "replacementChangedPixels": 3206,
+        "activeTrackFound": true
+      },
+      {
+        "field": "bill_gates_if_i_were_president",
+        "frame": 57,
+        "replacementChangedPixels": 3453,
+        "activeTrackFound": true
+      },
+      {
+        "field": "self_made_billionaire_attributes",
+        "frame": 58,
+        "replacementChangedPixels": 3093,
+        "activeTrackFound": true
+      },
+      {
+        "field": "competitive_trait",
+        "frame": 58,
+        "replacementChangedPixels": 2467,
+        "activeTrackFound": true
+      },
+      {
+        "field": "fight_coronavirus",
+        "frame": 58,
+        "replacementChangedPixels": 2167,
+        "activeTrackFound": true
+      },
+      {
+        "field": "over",
+        "frame": 58,
+        "replacementChangedPixels": 707,
+        "activeTrackFound": true
+      },
+      {
+        "field": "here_s_how_to_keep_busy_and",
+        "frame": 58,
+        "replacementChangedPixels": 4264,
+        "activeTrackFound": true
+      },
+      {
+        "field": "trending_now",
+        "frame": 60,
+        "replacementChangedPixels": 5948,
+        "activeTrackFound": true
+      },
+      {
+        "field": "may_take_before_americans_can",
+        "frame": 61,
+        "replacementChangedPixels": 2622,
+        "activeTrackFound": true
+      },
+      {
+        "field": "exercise_after_the_pandemic_is",
+        "frame": 62,
+        "replacementChangedPixels": 2644,
+        "activeTrackFound": true
+      },
+      {
+        "field": "can_benefit_from_this_thought",
+        "frame": 63,
+        "replacementChangedPixels": 2763,
+        "activeTrackFound": true
+      },
+      {
+        "field": "bill_gates_this_is_how_long_it",
+        "frame": 65,
+        "replacementChangedPixels": 3212,
+        "activeTrackFound": true
+      },
+      {
+        "field": "learn_new_skills",
+        "frame": 65,
+        "replacementChangedPixels": 2010,
+        "activeTrackFound": true
+      },
+      {
+        "field": "his_success_to_one_particular",
+        "frame": 66,
+        "replacementChangedPixels": 2418,
+        "activeTrackFound": true
+      },
+      {
+        "field": "be_completely_safe_from",
+        "frame": 67,
+        "replacementChangedPixels": 2169,
+        "activeTrackFound": true
+      },
+      {
+        "field": "this_is_what_i_would_do_now_to",
+        "frame": 67,
+        "replacementChangedPixels": 2663,
+        "activeTrackFound": true
+      },
+      {
+        "field": "not_working_due_to_lockdown",
+        "frame": 67,
+        "replacementChangedPixels": 3020,
+        "activeTrackFound": true
+      },
+      {
+        "field": "covid_19",
+        "frame": 68,
+        "replacementChangedPixels": 1386,
+        "activeTrackFound": true
+      },
+      {
+        "field": "facebook_founder_and_ceo_mark_zuckerberg_leaves_a_meeting_with_senator_john_cornyn_r_tx_in_his",
+        "frame": 88,
+        "replacementChangedPixels": 9789,
+        "activeTrackFound": true
+      },
+      {
+        "field": "office_on_capitol_hill_on_september_19_2019_in_washington_dc_samuel_corum_getty_images_news",
+        "frame": 92,
+        "replacementChangedPixels": 7580,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_vast_majority_of_people_who_have_a_lot_of_money_made_it",
+        "frame": 102,
+        "replacementChangedPixels": 6613,
+        "activeTrackFound": true
+      },
+      {
+        "field": "themselves_according_to_a_new_report_released_wednesday_from",
+        "frame": 108,
+        "replacementChangedPixels": 7829,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy",
+        "frame": 121,
+        "replacementChangedPixels": 7908,
+        "activeTrackFound": true
+      },
+      {
+        "field": "population_or_those_with_a_net_worth_of_30_million_or_more_the",
+        "frame": 128,
+        "replacementChangedPixels": 4842,
+        "activeTrackFound": true
+      },
+      {
+        "field": "report_which_is_based_on_2018_data_showed_muted_growth_in_the",
+        "frame": 135,
+        "replacementChangedPixels": 6465,
+        "activeTrackFound": true
+      },
+      {
+        "field": "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490",
+        "frame": 147,
+        "replacementChangedPixels": 6123,
+        "activeTrackFound": true
+      },
+      {
+        "field": "of_those_folks_67_7_were_self_made_while_23_7_had_a_combination_of",
+        "frame": 159,
+        "replacementChangedPixels": 5699,
+        "activeTrackFound": true
+      },
+      {
+        "field": "inherited_and_self_created_wealth_only_8_5_of_global_high_net_worth",
+        "frame": 161,
+        "replacementChangedPixels": 7509,
+        "activeTrackFound": true
+      },
+      {
+        "field": "individuals_were_categorized_as_having_completely_inherited_their",
+        "frame": 167,
+        "replacementChangedPixels": 4371,
+        "activeTrackFound": true
+      },
+      {
+        "field": "wealth",
+        "frame": 171,
+        "replacementChangedPixels": 1181,
+        "activeTrackFound": true
+      },
+      {
+        "field": "individuals_says_wealth_x",
+        "frame": 188,
+        "replacementChangedPixels": 16596,
+        "activeTrackFound": true
+      },
+      {
+        "field": "nearly_68_of_the_world_s_richest_people_are_self_made_says_new_report",
+        "frame": 192,
+        "replacementChangedPixels": 4821,
+        "activeTrackFound": true
+      },
+      {
+        "field": "just_released_the_new_world_ultra_wealth_report_2019_reveals",
+        "frame": 193,
+        "replacementChangedPixels": 6072,
+        "activeTrackFound": true
+      },
+      {
+        "field": "that_the_combined_net_worth_of_the_ultra_wealthy_saw_a_decrease",
+        "frame": 199,
+        "replacementChangedPixels": 4717,
+        "activeTrackFound": true
+      },
+      {
+        "field": "as_having_completely_inherited_their_wealth",
+        "frame": 207,
+        "replacementChangedPixels": 11992,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_vast_majority_of_people_who_have_a_lot_of_money_made",
+        "frame": 207,
+        "replacementChangedPixels": 17185,
+        "activeTrackFound": true
+      },
+      {
+        "field": "combination_of_inherited_and_self_created_wealth_only",
+        "frame": 207,
+        "replacementChangedPixels": 18360,
+        "activeTrackFound": true
+      },
+      {
+        "field": "8_5_of_global_high_net_worth_individuals_were_categorized",
+        "frame": 207,
+        "replacementChangedPixels": 12330,
+        "activeTrackFound": true
+      },
+      {
+        "field": "for_the_first_time_in_three_years_falling_by_1_7_to_32_3_trillion",
+        "frame": 207,
+        "replacementChangedPixels": 5419,
+        "activeTrackFound": true
+      },
+      {
+        "field": "it_themselves_according_to_a_new_report_released",
+        "frame": 208,
+        "replacementChangedPixels": 13090,
+        "activeTrackFound": true
+      },
+      {
+        "field": "data_showed_muted_growth_in_the_number_of_ultra",
+        "frame": 209,
+        "replacementChangedPixels": 17404,
+        "activeTrackFound": true
+      },
+      {
+        "field": "ultra_wealthy_population_or_those_with_a_net_worth_of",
+        "frame": 212,
+        "replacementChangedPixels": 11781,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_market_research_firm_analyzed_the_state_of_the_world_s",
+        "frame": 213,
+        "replacementChangedPixels": 11034,
+        "activeTrackFound": true
+      },
+      {
+        "field": "30_million_or_more_the_report_which_is_based_on_2018",
+        "frame": 213,
+        "replacementChangedPixels": 18924,
+        "activeTrackFound": true
+      },
+      {
+        "field": "wealthy_people_that_year_rising_by_0_8_to_265_490",
+        "frame": 213,
+        "replacementChangedPixels": 18216,
+        "activeTrackFound": true
+      },
+      {
+        "field": "of_those_folks_67_7_were_self_made_while_23_7_had_a",
+        "frame": 214,
+        "replacementChangedPixels": 16151,
+        "activeTrackFound": true
+      },
+      {
+        "field": "wednesday_from_wealth_x",
+        "frame": 216,
+        "replacementChangedPixels": 11536,
+        "activeTrackFound": true
+      },
+      {
+        "field": "despite_a_slight_rise_in_overall_population_bit_ly_2ltxpll",
+        "frame": 219,
+        "replacementChangedPixels": 4749,
+        "activeTrackFound": true
+      },
+      {
+        "field": "see_wealthx_s_other_tweets",
+        "frame": 254,
+        "replacementChangedPixels": 3489,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_predominance_of_self_made_wealth_over_inherited_wealth_is_broadly",
+        "frame": 259,
+        "replacementChangedPixels": 11010,
+        "activeTrackFound": true
+      },
+      {
+        "field": "catalyzed_by_new_opportunities_in_technology_and_in_emerging",
+        "frame": 262,
+        "replacementChangedPixels": 6369,
+        "activeTrackFound": true
+      },
+      {
+        "field": "economies_of_the_past_decade_says_wealth_x",
+        "frame": 265,
+        "replacementChangedPixels": 5181,
+        "activeTrackFound": true
+      },
+      {
+        "field": "according_to_previous_data_from_wealth_x_67_4_of_the_ultra_high_net",
+        "frame": 268,
+        "replacementChangedPixels": 7158,
+        "activeTrackFound": true
+      },
+      {
+        "field": "worth_individuals_in_2017_were_self_made_21_7_were_a_combination_of",
+        "frame": 269,
+        "replacementChangedPixels": 6702,
+        "activeTrackFound": true
+      },
+      {
+        "field": "self_made_and_inherited_and_10_9_inherited_their_wealth_in_2016",
+        "frame": 271,
+        "replacementChangedPixels": 7173,
+        "activeTrackFound": true
+      },
+      {
+        "field": "66_4_were_self_made_21_9_were_a_combination_of_self_made_and",
+        "frame": 274,
+        "replacementChangedPixels": 6908,
+        "activeTrackFound": true
+      },
+      {
+        "field": "inherited_and_11_7_inherited_their_wealth",
+        "frame": 276,
+        "replacementChangedPixels": 3884,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_collective_total_of_the_ultra_high_net_worth_people_in_the_world_is",
+        "frame": 281,
+        "replacementChangedPixels": 7307,
+        "activeTrackFound": true
+      },
+      {
+        "field": "32_3_trillion_the_data_showed_and_while_that_money_is_being_made",
+        "frame": 286,
+        "replacementChangedPixels": 4067,
+        "activeTrackFound": true
+      },
+      {
+        "field": "across_any_number_of_industries_the_primary_industry_focus_for_nearly_a",
+        "frame": 288,
+        "replacementChangedPixels": 6033,
+        "activeTrackFound": true
+      },
+      {
+        "field": "quarter_of_them_is_banking_and_finance_22_9_the_second_most",
+        "frame": 289,
+        "replacementChangedPixels": 6519,
+        "activeTrackFound": true
+      },
+      {
+        "field": "prominent_industry_is_consumer_and_business_services_8_6_and_the",
+        "frame": 291,
+        "replacementChangedPixels": 1625,
+        "activeTrackFound": true
+      },
+      {
+        "field": "third_most_prevalent_is_real_estate_7_6",
+        "frame": 301,
+        "replacementChangedPixels": 3404,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}
