@@ -1,0 +1,52 @@
+{
+  "id": "ML-028",
+  "title": "有限到无限、画面缩入显示器",
+  "kind": "空间转场",
+  "sourceStartFrame": 18501,
+  "sourceEndFrameExclusive": 19203,
+  "frames": 702,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "课堂",
+    "时薪",
+    "灰化有限",
+    "径向收缩",
+    "课堂嵌入显示器",
+    "保持",
+    "屏幕场景灰化",
+    "无限绿色命题"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-028-reference.mp4",
+  "demo": "ML-028-demo.mp4",
+  "audio": "ML-028-mix.m4a",
+  "package": "ML-028.zip",
+  "recipe": "ML-028.json",
+  "poster": "ML-028.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    9,
+    431,
+    432,
+    433,
+    434,
+    435,
+    600,
+    695
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-028-qc.json"
+}

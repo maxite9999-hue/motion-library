@@ -4,7 +4,7 @@
   "sourceFrames": 26672,
   "fps": 30,
   "sourceDuration": 889.066666667,
-  "publishedCount": 26,
+  "publishedCount": 28,
   "plannedCount": 39,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
   "fidelity": "Native video assets preserve source event order. Local editable text patches are approximate, not reconstructed original layers.",
@@ -1823,6 +1823,117 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "qc": "ML-026-qc.json"
+    },
+    {
+      "id": "ML-027",
+      "title": "红色否定与绿色肯定对照",
+      "kind": "判断对照",
+      "sourceStartFrame": 17673,
+      "sourceEndFrameExclusive": 18018,
+      "frames": 345,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "城市下坠模糊",
+        "人群",
+        "厨师",
+        "灰化红章",
+        "灰色航拍",
+        "公司场景",
+        "绿色斜章",
+        "黑场"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-027-reference.mp4",
+      "demo": "ML-027-demo.mp4",
+      "audio": "ML-027-mix.m4a",
+      "package": "ML-027.zip",
+      "recipe": "ML-027.json",
+      "poster": "ML-027.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [
+        [
+          309,
+          345
+        ]
+      ],
+      "cutFrames": [
+        3,
+        8,
+        9,
+        14,
+        19,
+        82,
+        109,
+        156,
+        236,
+        309
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-027-qc.json"
+    },
+    {
+      "id": "ML-028",
+      "title": "有限到无限、画面缩入显示器",
+      "kind": "空间转场",
+      "sourceStartFrame": 18501,
+      "sourceEndFrameExclusive": 19203,
+      "frames": 702,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "课堂",
+        "时薪",
+        "灰化有限",
+        "径向收缩",
+        "课堂嵌入显示器",
+        "保持",
+        "屏幕场景灰化",
+        "无限绿色命题"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-028-reference.mp4",
+      "demo": "ML-028-demo.mp4",
+      "audio": "ML-028-mix.m4a",
+      "package": "ML-028.zip",
+      "recipe": "ML-028.json",
+      "poster": "ML-028.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        9,
+        431,
+        432,
+        433,
+        434,
+        435,
+        600,
+        695
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-028-qc.json"
     }
   ]
 }
