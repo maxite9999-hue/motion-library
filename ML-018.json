@@ -1,0 +1,74 @@
+{
+  "id": "ML-018",
+  "title": "逐词强调、价值命题与问号",
+  "kind": "文字叙事",
+  "sourceStartFrame": 11772,
+  "sourceEndFrameExclusive": 12204,
+  "frames": 432,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "人物上STOP/CHASING/MONEY依次出现",
+    "金色底句子",
+    "大字命题",
+    "问号长出",
+    "电视噪声衔接"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-018-reference.mp4",
+  "demo": "ML-018-demo.mp4",
+  "audio": "ML-018-mix.m4a",
+  "package": "ML-018.zip",
+  "recipe": "ML-018.json",
+  "poster": "ML-018.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    192,
+    193,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364
+  ],
+  "slots": [
+    {
+      "box": [
+        30,
+        170,
+        1220,
+        390
+      ],
+      "original": "YOU ARE PAID IN PROPORTION TO YOUR / PERCEIVED VALUE",
+      "demo": "让每一次视觉变化\n都服务于清晰表达",
+      "size": 49,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 0,
+      "lineDelays": [
+        0.0,
+        0.6
+      ],
+      "key": "text1",
+      "from": 198,
+      "to": 359
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "让每一次视觉变化\n都服务于清晰表达"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-018-qc.json"
+}
