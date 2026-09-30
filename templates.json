@@ -4,7 +4,7 @@
   "sourceFrames": 26672,
   "fps": 30,
   "sourceDuration": 889.066666667,
-  "publishedCount": 13,
+  "publishedCount": 15,
   "plannedCount": 39,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
   "fidelity": "Native video assets preserve source event order. Local editable text patches are approximate, not reconstructed original layers.",
@@ -830,6 +830,187 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "qc": "ML-013-qc.json"
+    },
+    {
+      "id": "ML-014",
+      "title": "命题、公式与斜向否定",
+      "kind": "文字叙事",
+      "sourceStartFrame": 8748,
+      "sourceEndFrameExclusive": 9477,
+      "frames": 729,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "命题逐字",
+        "副标题",
+        "命题向下滑出",
+        "公式建立",
+        "例证镜头",
+        "旋转返回公式",
+        "WRONG盖章"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-014-reference.mp4",
+      "demo": "ML-014-demo.mp4",
+      "audio": "ML-014-mix.m4a",
+      "package": "ML-014.zip",
+      "recipe": "ML-014.json",
+      "poster": "ML-014.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        157,
+        159,
+        285,
+        408,
+        506,
+        568,
+        569,
+        570,
+        623,
+        624,
+        625,
+        726
+      ],
+      "slots": [
+        {
+          "box": [
+            100,
+            130,
+            1080,
+            430
+          ],
+          "original": "YOUR EQUATION / IS ALL WRONG",
+          "demo": "重新检查假设\n别急着相信直觉",
+          "size": 48,
+          "fill": "gold",
+          "color": "#161714",
+          "fade": 0.15,
+          "angle": 0,
+          "lineDelays": [
+            0.0,
+            0.6
+          ],
+          "key": "text1",
+          "from": 12,
+          "to": 117
+        },
+        {
+          "box": [
+            100,
+            280,
+            1080,
+            150
+          ],
+          "original": "MONEY = SALARY FROM A JOB",
+          "demo": "忙碌 ≠ 有效进步",
+          "size": 54,
+          "fill": "gold",
+          "color": "#161714",
+          "fade": 0.15,
+          "angle": 0,
+          "key": "text2",
+          "from": 135,
+          "to": 296
+        }
+      ],
+      "templateType": "editable-text-hybrid",
+      "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+      "demoOptions": {
+        "text1": "重新检查假设\n别急着相信直觉",
+        "text2": "忙碌 ≠ 有效进步"
+      },
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-014-qc.json"
+    },
+    {
+      "id": "ML-015",
+      "title": "收入、工时、年数时钟与金额",
+      "kind": "数字变化",
+      "sourceStartFrame": 9882,
+      "sourceEndFrameExclusive": 10440,
+      "frames": 558,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "数字时薪增长与缩放",
+        "工时",
+        "WEEK",
+        "穿越数字",
+        "时钟绘制",
+        "年数增长",
+        "金额逐字",
+        "缩小退出"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-015-reference.mp4",
+      "demo": "ML-015-demo.mp4",
+      "audio": "ML-015-mix.m4a",
+      "package": "ML-015.zip",
+      "recipe": "ML-015.json",
+      "poster": "ML-015.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        26,
+        28,
+        33,
+        165,
+        166,
+        167,
+        168,
+        544,
+        545,
+        546,
+        547
+      ],
+      "slots": [
+        {
+          "box": [
+            115,
+            210,
+            1050,
+            330
+          ],
+          "original": "$1,000,000",
+          "demo": "一百万种可能",
+          "size": 93,
+          "fill": "gold",
+          "color": "#161714",
+          "fade": 0.15,
+          "angle": 0,
+          "key": "text1",
+          "from": 231,
+          "to": 522
+        }
+      ],
+      "templateType": "editable-text-hybrid",
+      "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+      "demoOptions": {
+        "text1": "一百万种可能"
+      },
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-015-qc.json"
     }
   ]
 }
