@@ -1,0 +1,43 @@
+{
+  "id": "ML-047",
+  "sourceFrames": 162,
+  "firstFrame": 0,
+  "lastFrameInclusive": 161,
+  "fps": 30,
+  "blackRanges": [],
+  "cutCandidates": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    43,
+    79,
+    116,
+    146,
+    147,
+    152,
+    153,
+    154,
+    155,
+    156
+  ],
+  "files": [
+    {
+      "file": "ML-047-reference.mp4",
+      "frames": 162,
+      "sha256": "90d7881f8fb1f5bfe44ef20f55e46f0d304f051a6023ab87ceba2a55095e6d32",
+      "decode": "pass"
+    }
+  ],
+  "originalAudioPacketHash": "SHA256=f9346e761d9d30b45d3eaa7040c2cb1fb33d9c0b09a7a3abf9f7853d05cce0b7",
+  "sourceAudioPacketsPreserved": true,
+  "fullReferenceSSIM": {
+    "frames": 162,
+    "minimum": 0.9846,
+    "mean": 0.9889936419753085,
+    "worstFrame": 104
+  },
+  "claim": "Native clip encode checked at every frame; optional local text replacement is approximate, not parameterized reconstruction."
+}

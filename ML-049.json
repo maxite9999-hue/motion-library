@@ -1,0 +1,65 @@
+{
+  "id": "ML-049",
+  "title": "日常到财富结果的故事蒙太奇",
+  "kind": "用户精选片段",
+  "sourceFile": "9月30日14个精选片段-10.mov",
+  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-10.mov",
+  "sourceStartFrame": 0,
+  "sourceEndFrameExclusive": 836,
+  "frames": 836,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "sourceWidth": 1920,
+  "sourceHeight": 1080,
+  "events": [
+    "办公室对话",
+    "桌面特写",
+    "城市与工作",
+    "取款",
+    "讲堂",
+    "休息",
+    "支票",
+    "现金"
+  ],
+  "blackRanges": [
+    [
+      814,
+      836
+    ]
+  ],
+  "cutFrames": [
+    161,
+    190,
+    264,
+    309,
+    347,
+    385,
+    558,
+    608,
+    704,
+    736,
+    812,
+    813,
+    814
+  ],
+  "slots": [],
+  "demoOptions": {},
+  "templateType": "native-motion-asset",
+  "reference": "ML-049-reference.mp4",
+  "demo": "ML-049-reference.mp4",
+  "audio": "ML-049-mix.m4a",
+  "poster": "ML-049.jpg",
+  "recipe": "ML-049.json",
+  "qc": "ML-049-qc.json",
+  "package": "ML-049.zip",
+  "useCases": "用在讲人物从日常处境到结果变化的完整故事段；保留多镜头推进，不宜把每个镜头当成独立模板。",
+  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+  "limits": [
+    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+    "720p预览有压缩；原生回放不是自由参数化重建。"
+  ],
+  "status": "verified-native-asset",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+}

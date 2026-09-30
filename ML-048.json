@@ -1,0 +1,43 @@
+{
+  "id": "ML-048",
+  "title": "人物侧旁逐词强调",
+  "kind": "用户精选片段",
+  "sourceFile": "9月30日14个精选片段-9.mov",
+  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-9.mov",
+  "sourceStartFrame": 0,
+  "sourceEndFrameExclusive": 157,
+  "frames": 157,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "sourceWidth": 1920,
+  "sourceHeight": 1080,
+  "events": [
+    "人物保持",
+    "STOP出现",
+    "CHASING出现",
+    "MONEY变色出现",
+    "故障散开"
+  ],
+  "blackRanges": [],
+  "cutFrames": [],
+  "slots": [],
+  "demoOptions": {},
+  "templateType": "native-motion-asset",
+  "reference": "ML-048-reference.mp4",
+  "demo": "ML-048-reference.mp4",
+  "audio": "ML-048-mix.m4a",
+  "poster": "ML-048.jpg",
+  "recipe": "ML-048.json",
+  "qc": "ML-048-qc.json",
+  "package": "ML-048.zip",
+  "useCases": "用在强调停止某种行为或提出反常识观点时；现有文字与人物合成，换文案须另做内部重建。",
+  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+  "limits": [
+    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+    "720p预览有压缩；原生回放不是自由参数化重建。"
+  ],
+  "status": "verified-native-asset",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+}
