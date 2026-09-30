@@ -44,7 +44,7 @@
       "poster": "ML-001-cn-v5.jpg",
       "status": "reviewed-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -129,7 +129,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已复核 · 原生动效＋可改文字"
+      "reviewLabel": "已复核 · 原生动效＋可改文字",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 0,
+        "sourceEndFrameExclusive": 1182,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-002",
@@ -163,7 +174,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -196,7 +207,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在人物经历或故事背景段，把工作、金钱与生活处境快速串起来；不适合直接承载密集数据。",
       "qc": "ML-002-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 1182,
+        "sourceEndFrameExclusive": 2079,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-003",
@@ -224,7 +246,7 @@
       "poster": "ML-003-cn-v5.jpg",
       "status": "reviewed-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -268,7 +290,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已复核 · 原生动效＋可改文字"
+      "reviewLabel": "已复核 · 原生动效＋可改文字",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 2053,
+        "sourceEndFrameExclusive": 2139,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-004",
@@ -298,7 +331,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -322,7 +355,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在引用采访、切换观点或强调媒体信息时；电视换台感适合短促的证据插入。",
       "qc": "ML-004-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 2199,
+        "sourceEndFrameExclusive": 2307,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-005",
@@ -352,7 +396,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -398,7 +442,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在从知识、计算讲到金钱与价值的连接段；叠化适合表达两件事之间的联系。",
       "qc": "ML-005-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 3252,
+        "sourceEndFrameExclusive": 3759,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-006",
@@ -430,7 +485,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -460,7 +515,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在认知冲击、选择关口或节奏突然加速处；闪切不宜覆盖需要仔细阅读的长句。",
       "qc": "ML-006-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 4008,
+        "sourceEndFrameExclusive": 4329,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-007",
@@ -490,7 +556,7 @@
       "poster": "ML-007-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -529,7 +595,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity."
+      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 4329,
+        "sourceEndFrameExclusive": 4542,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-008",
@@ -557,7 +634,7 @@
       "poster": "ML-008-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -600,7 +677,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 4755,
+        "sourceEndFrameExclusive": 5085,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-009",
@@ -629,7 +717,7 @@
       "poster": "ML-009-cn-v5.jpg",
       "status": "reviewed-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -707,7 +795,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已复核 · 原生动效＋可改文字"
+      "reviewLabel": "已复核 · 原生动效＋可改文字",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 5085,
+        "sourceEndFrameExclusive": 6044,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-010",
@@ -736,7 +835,7 @@
       "poster": "ML-010-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -781,7 +880,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 5931,
+        "sourceEndFrameExclusive": 6228,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-011",
@@ -811,7 +921,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -829,7 +939,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在轻松、讽刺或反差的观点旁，作为短小的卡通反应镜头。",
       "qc": "ML-011-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 6366,
+        "sourceEndFrameExclusive": 6438,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-012",
@@ -858,7 +979,7 @@
       "poster": "ML-012-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -1025,7 +1146,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 7959,
+        "sourceEndFrameExclusive": 8334,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-013",
@@ -1055,7 +1187,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
@@ -1541,7 +1673,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 8334,
+        "sourceEndFrameExclusive": 8748,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-014",
@@ -1573,7 +1716,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
@@ -1715,7 +1858,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 8748,
+        "sourceEndFrameExclusive": 9477,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-015",
@@ -1748,7 +1902,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
@@ -1947,7 +2101,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 9882,
+        "sourceEndFrameExclusive": 10440,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-016",
@@ -1978,7 +2143,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -2007,7 +2172,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在插入短采访或名人观点时；适合作为论述间的证据性镜头。",
       "qc": "ML-016-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 10971,
+        "sourceEndFrameExclusive": 11145,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-017",
@@ -2036,7 +2212,7 @@
       "poster": "ML-017-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -2103,7 +2279,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 11313,
+        "sourceEndFrameExclusive": 11772,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-018",
@@ -2133,7 +2320,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
@@ -2243,7 +2430,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 11772,
+        "sourceEndFrameExclusive": 12204,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-019",
@@ -2276,7 +2474,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
@@ -2409,7 +2607,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 12969,
+        "sourceEndFrameExclusive": 13674,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-020",
@@ -2441,7 +2650,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
@@ -2517,7 +2726,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 14292,
+        "sourceEndFrameExclusive": 14814,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-021",
@@ -2546,7 +2766,7 @@
       "poster": "ML-021-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -2596,7 +2816,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 14904,
+        "sourceEndFrameExclusive": 15318,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-022",
@@ -2624,7 +2855,7 @@
       "poster": "ML-022-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -2663,7 +2894,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 15477,
+        "sourceEndFrameExclusive": 15645,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-023",
@@ -2695,7 +2937,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
@@ -2781,7 +3023,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 15729,
+        "sourceEndFrameExclusive": 15998,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-024",
@@ -2811,7 +3064,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -2849,7 +3102,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在从金钱结果切回长期道路或过程时；现金闪回可作视觉重音。",
       "qc": "ML-024-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 15956,
+        "sourceEndFrameExclusive": 16233,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-025",
@@ -2886,7 +3150,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -2964,7 +3228,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在紧张、觉醒或冲击性观点处；黑场与闪回制造节奏，不适合平静的连续阅读。",
       "qc": "ML-025-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 16676,
+        "sourceEndFrameExclusive": 17079,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-026",
@@ -2992,7 +3267,7 @@
       "poster": "ML-026-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -3031,7 +3306,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 17334,
+        "sourceEndFrameExclusive": 17550,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-027",
@@ -3062,7 +3348,7 @@
       "poster": "ML-027-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -3115,7 +3401,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 17673,
+        "sourceEndFrameExclusive": 18018,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-028",
@@ -3148,7 +3445,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
@@ -3306,7 +3603,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 18501,
+        "sourceEndFrameExclusive": 19203,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-029",
@@ -3336,7 +3644,7 @@
       "poster": "ML-029-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -3396,7 +3704,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 20031,
+        "sourceEndFrameExclusive": 20301,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-030",
@@ -3425,7 +3744,7 @@
       "poster": "ML-030-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -3470,7 +3789,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 20601,
+        "sourceEndFrameExclusive": 21048,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-031",
@@ -3503,7 +3833,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
@@ -3684,7 +4014,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 21120,
+        "sourceEndFrameExclusive": 21645,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-032",
@@ -3715,7 +4056,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -3734,7 +4075,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在同时展示三类人物、三种方案或三个维度；文案最好使用平行结构。",
       "qc": "ML-032-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 22008,
+        "sourceEndFrameExclusive": 22488,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-033",
@@ -3763,7 +4115,7 @@
       "poster": "ML-033-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -3807,7 +4159,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 22683,
+        "sourceEndFrameExclusive": 23280,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-034",
@@ -3837,7 +4200,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -3858,7 +4221,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在技术、系统、信息流或机制揭示的短插入；代码雨主要营造氛围，不表达具体代码结论。",
       "qc": "ML-034-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 23445,
+        "sourceEndFrameExclusive": 23565,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-035",
@@ -3888,7 +4262,7 @@
       "poster": "ML-035-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -3965,7 +4339,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 24216,
+        "sourceEndFrameExclusive": 24696,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-036",
@@ -3995,7 +4380,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -4058,7 +4443,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在回顾多个案例、情绪加速或结尾前的总结蒙太奇；不适合逐条细读。",
       "qc": "ML-036-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 25050,
+        "sourceEndFrameExclusive": 25545,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-037",
@@ -4089,7 +4485,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -4129,7 +4525,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在最后一次观点引用、媒体回顾或节奏重击；电视闪屏作为短过渡。",
       "qc": "ML-037-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 25658,
+        "sourceEndFrameExclusive": 25905,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-038",
@@ -4158,7 +4565,7 @@
       "poster": "ML-038-cn-v5.jpg",
       "status": "candidate-trial",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -4208,7 +4615,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 26040,
+        "sourceEndFrameExclusive": 26349,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-039",
@@ -4237,7 +4655,7 @@
       "limits": [
         "原生合成特效保留为视频层，不冒充恢复的独立图层",
         "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-        "音效与音乐为原始混合轨，不是独立分轨"
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
       ],
       "blackRanges": [
         [
@@ -4258,7 +4676,18 @@
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在故事收束、情绪落点或片尾余韵；城市与人物镜头用于结束，不强塞新概念。",
       "qc": "ML-039-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 26349,
+        "sourceEndFrameExclusive": 26672,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-040",
@@ -4294,12 +4723,23 @@
       "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
       "limits": [
         "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
       "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 7623,
+        "sourceEndFrameExclusive": 7716,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-041",
@@ -4388,7 +4828,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "status": "reusable-Chinese-rebuild",
@@ -4447,7 +4887,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 7943,
+        "sourceEndFrameExclusive": 7997,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-042",
@@ -4528,7 +4979,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "status": "reusable-Chinese-rebuild",
@@ -4586,7 +5037,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 7997,
+        "sourceEndFrameExclusive": 8299,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-043",
@@ -4695,7 +5157,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "status": "reusable-Chinese-rebuild",
@@ -4783,7 +5245,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 8299,
+        "sourceEndFrameExclusive": 8329,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-044",
@@ -4929,7 +5402,7 @@
       "useCases": "用在连续列举人物成就、案例或共同标签时；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -4965,7 +5438,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 8329,
+        "sourceEndFrameExclusive": 8649,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-045",
@@ -5162,7 +5646,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "status": "reusable-Chinese-rebuild",
@@ -5307,7 +5791,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 8648,
+        "sourceEndFrameExclusive": 8687,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-046",
@@ -5373,7 +5868,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "status": "reusable-Chinese-rebuild",
@@ -5433,7 +5928,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 8899,
+        "sourceEndFrameExclusive": 8943,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-047",
@@ -5488,12 +5994,23 @@
       "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
       "limits": [
         "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
       "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 10979,
+        "sourceEndFrameExclusive": 11141,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-048",
@@ -5552,7 +6069,7 @@
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "status": "reusable-Chinese-rebuild",
@@ -5598,7 +6115,18 @@
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
       },
-      "reviewLabel": "待优化 · 保留现有版本"
+      "reviewLabel": "待优化 · 保留现有版本",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 11794,
+        "sourceEndFrameExclusive": 11951,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-049",
@@ -5658,12 +6186,23 @@
       "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
       "limits": [
         "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
       "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 1240,
+        "sourceEndFrameExclusive": 2076,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-050",
@@ -5751,7 +6290,7 @@
       "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -5769,7 +6308,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用"
+      "reviewLabel": "待优化 · 新版试用",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 2075,
+        "sourceEndFrameExclusive": 3256,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-051",
@@ -5865,12 +6415,23 @@
       "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
       "limits": [
         "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
       "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 3257,
+        "sourceEndFrameExclusive": 4312,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-052",
@@ -5984,7 +6545,7 @@
       "useCases": "用在开场主题预告、邀请观众进入正文与说明段；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
         "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
@@ -6010,7 +6571,18 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已复核 · 原生动效＋可改文字"
+      "reviewLabel": "已复核 · 原生动效＋可改文字",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 4559,
+        "sourceEndFrameExclusive": 6018,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     },
     {
       "id": "ML-053",
@@ -6053,12 +6625,23 @@
       "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
       "limits": [
         "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
       "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "reviewLabel": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+      "audioReplacement": {
+        "revision": "sfx-only-20260930",
+        "sourceFile": "纯音效视频.mov",
+        "sourceStartFrame": 1136,
+        "sourceEndFrameExclusive": 1239,
+        "fps": 30,
+        "onlyReplacementAudio": true,
+        "oldMusicRetained": false,
+        "oldSoundEffectsRetained": false,
+        "gainDB": 0
+      }
     }
   ],
   "sources": [
@@ -6068,5 +6651,7 @@
   "editableCount": 35,
   "nativeAssetCount": 18,
   "trialUpdatedCount": 20,
-  "reviewedTextCount": 4
+  "reviewedTextCount": 4,
+  "audioRevision": "sfx-only-20260930",
+  "audioPolicy": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
 }
