@@ -1,0 +1,192 @@
+{
+  "id": "ML-019",
+  "reference": "ML-019-reference.mp4",
+  "audio": "ML-019-mix.m4a",
+  "frames": 705,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [],
+  "tracks": [
+    {
+      "key": "claim",
+      "text": "关键不在于你有多努力",
+      "start": 12,
+      "end": 88,
+      "roi": [
+        125,
+        323,
+        1150,
+        390
+      ],
+      "ink": "dark",
+      "fullBox": [
+        145,
+        333,
+        1136,
+        380
+      ],
+      "revealEnd": 46,
+      "naturalWidth": true,
+      "redCeiling": 235,
+      "greenCeiling": 205,
+      "contrastThreshold": 3,
+      "weight": "Medium",
+      "colorSpans": [
+        {
+          "text": "不",
+          "color": [
+            185,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "key": "why",
+      "text": "为什么？",
+      "start": 275,
+      "end": 293,
+      "roi": [
+        577,
+        333,
+        706,
+        387
+      ],
+      "ink": "dark",
+      "weight": "Medium",
+      "naturalWidth": true
+    },
+    {
+      "key": "lower",
+      "text": "更低的",
+      "start": 396,
+      "end": 526,
+      "roi": [
+        858,
+        253,
+        1114,
+        316
+      ],
+      "ink": "red",
+      "weight": "Medium",
+      "naturalWidth": true,
+      "maskPad": 5,
+      "colorPercentile": 20,
+      "clipRightByFrame": {
+        "520": 1280,
+        "521": 1280,
+        "522": 1238,
+        "523": 1126,
+        "524": 992,
+        "525": 854,
+        "526": 742,
+        "527": 685,
+        "528": 685,
+        "529": 685
+      },
+      "lockedBox": [
+        870,
+        258,
+        1105,
+        314
+      ]
+    },
+    {
+      "key": "perceived",
+      "text": "感知",
+      "start": 396,
+      "end": 526,
+      "roi": [
+        775,
+        329,
+        1170,
+        392
+      ],
+      "ink": "dark",
+      "weight": "Medium",
+      "naturalWidth": true,
+      "maskPad": 5,
+      "redCeiling": 65,
+      "greenCeiling": 65,
+      "contrastThreshold": 2,
+      "clipRightByFrame": {
+        "520": 1280,
+        "521": 1280,
+        "522": 1238,
+        "523": 1126,
+        "524": 992,
+        "525": 854,
+        "526": 742,
+        "527": 685,
+        "528": 685,
+        "529": 685
+      },
+      "lockedBox": [
+        793,
+        330,
+        1155,
+        388
+      ]
+    },
+    {
+      "key": "value",
+      "text": "价值",
+      "start": 396,
+      "end": 526,
+      "roi": [
+        842,
+        399,
+        1120,
+        469
+      ],
+      "ink": "dark",
+      "weight": "Medium",
+      "naturalWidth": true,
+      "maskPad": 5,
+      "redCeiling": 65,
+      "greenCeiling": 65,
+      "contrastThreshold": 2,
+      "clipRightByFrame": {
+        "520": 1280,
+        "521": 1280,
+        "522": 1238,
+        "523": 1126,
+        "524": 992,
+        "525": 854,
+        "526": 742,
+        "527": 685,
+        "528": 685,
+        "529": 685
+      },
+      "lockedBox": [
+        885,
+        408,
+        1085,
+        464
+      ]
+    }
+  ],
+  "demoOptions": {
+    "claim": "关键不在于你有多努力",
+    "why": "为什么？",
+    "lower": "更低的",
+    "perceived": "感知",
+    "value": "价值"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid, approximate localized background repair; not pixel-exact or fully parametric.",
+  "status": "visually-reviewed-hybrid",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 12969,
+    "sourceEndFrameExclusive": 13674,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
+}

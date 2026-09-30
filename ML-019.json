@@ -20,12 +20,12 @@
   ],
   "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-019-reference.mp4",
-  "demo": "ML-019-cn-v4.mp4",
+  "demo": "ML-019-cn-v6.mp4",
   "audio": "ML-019-mix.m4a",
-  "package": "ML-019-v4.zip",
-  "recipe": "ML-019.json",
-  "poster": "ML-019-cn-v4.jpg",
-  "status": "reusable-Chinese-rebuild",
+  "package": "ML-019-v6.zip",
+  "recipe": "ML-019-v6.json",
+  "poster": "ML-019-cn-v6.jpg",
+  "status": "reviewed-trial",
   "limits": [
     "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
     "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
@@ -50,50 +50,39 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "关键不在于",
-      "maxCharacters": 220
+      "key": "claim",
+      "demo": "关键不在于你有多努力"
     },
     {
-      "key": "scene1.text2",
-      "demo": "你有多努力",
-      "maxCharacters": 220
+      "key": "why",
+      "demo": "为什么？"
     },
     {
-      "key": "scene2.text1",
-      "demo": "为什么？",
-      "maxCharacters": 220
+      "key": "lower",
+      "demo": "更低的"
     },
     {
-      "key": "scene3.text1",
-      "demo": "更低的",
-      "maxCharacters": 220
+      "key": "perceived",
+      "demo": "感知"
     },
     {
-      "key": "scene3.text2",
-      "demo": "感知",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene3.text3",
-      "demo": "价值",
-      "maxCharacters": 220
+      "key": "value",
+      "demo": "价值"
     }
   ],
   "templateType": "parametric-motion-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "scene1.text1": "关键不在于",
-    "scene1.text2": "你有多努力",
-    "scene2.text1": "为什么？",
-    "scene3.text1": "更低的",
-    "scene3.text2": "感知",
-    "scene3.text3": "价值"
+    "claim": "关键不在于你有多努力",
+    "why": "为什么？",
+    "lower": "更低的",
+    "perceived": "感知",
+    "value": "价值"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "useCases": "用在比较两种工作方式、投入与结果时；助手根据文案调整中文内容。",
-  "qc": "ML-019-v4-qc.json",
+  "qc": "ML-019-v6-qc.json",
   "scenes": [
     {
       "start": 0,
@@ -139,29 +128,19 @@
   "type": "parametric-motion-hybrid",
   "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
   "assetRoot": "assets",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "renderer": "render-faithful-v6c.py",
+  "revision": "v6c-sfx-20261001",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene1.text2",
-      "scene2.text1",
-      "scene3.text1",
-      "scene3.text2",
-      "scene3.text3"
+      "claim",
+      "why",
+      "lower",
+      "perceived",
+      "value"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
+    "duration": "fixed source frames"
   },
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",
