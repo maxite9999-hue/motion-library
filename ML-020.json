@@ -1,0 +1,45 @@
+{
+  "id": "ML-020",
+  "title": "解决问题图标组与纸币叠化",
+  "kind": "图文组合",
+  "sourceStartFrame": 14292,
+  "sourceEndFrameExclusive": 14814,
+  "frames": 522,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "空金色底",
+    "短句",
+    "旋转放大SOLVE",
+    "PROBLEMS",
+    "工具/纸币图标",
+    "组合位移缩放",
+    "钞票背景叠入"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-020-reference.mp4",
+  "demo": "ML-020-demo.mp4",
+  "audio": "ML-020-mix.m4a",
+  "package": "ML-020.zip",
+  "recipe": "ML-020.json",
+  "poster": "ML-020.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    1,
+    2
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-020-qc.json"
+}
