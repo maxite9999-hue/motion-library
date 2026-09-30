@@ -1,0 +1,84 @@
+{
+  "id": "ML-023",
+  "technical": {
+    "id": "ML-023",
+    "frames": 269,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "072719224c50f62ef1700139c21f4ec2513f815b16ba0d50560cb71742ac6840",
+    "fileSHA256": "f01dbfe711db21de7c782080a92d67a7e5a5bccc236ce0c3858b6abf8483a67e",
+    "renderSeconds": 317.9,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-023",
+    "framesCompared": 269,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.6960376880787038,
+    "maxLocalizedMAE": 2.6812685342002633,
+    "pass": true,
+    "recipeRendererFingerprint": "7e7ef5bdba478f8a2d6a90994ae228e01972f36ef9cd70d2d85559eabbea2f26",
+    "deliverySHA256": "f01dbfe711db21de7c782080a92d67a7e5a5bccc236ce0c3858b6abf8483a67e"
+  },
+  "replacement": {
+    "id": "ML-023",
+    "sampleFrames": [
+      0,
+      5,
+      6,
+      7,
+      11,
+      15,
+      16,
+      17,
+      41,
+      42,
+      43,
+      71,
+      72,
+      73,
+      96,
+      109,
+      124,
+      175,
+      176,
+      177,
+      268
+    ],
+    "tests": [
+      {
+        "field": "look",
+        "frame": 11,
+        "replacementChangedPixels": 187981,
+        "activeTrackFound": true
+      },
+      {
+        "field": "look",
+        "frame": 96,
+        "replacementChangedPixels": 191676,
+        "activeTrackFound": true
+      },
+      {
+        "field": "problems",
+        "frame": 96,
+        "replacementChangedPixels": 84845,
+        "activeTrackFound": true
+      },
+      {
+        "field": "and",
+        "frame": 109,
+        "replacementChangedPixels": 22272,
+        "activeTrackFound": true
+      },
+      {
+        "field": "solutions",
+        "frame": 124,
+        "replacementChangedPixels": 88375,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}

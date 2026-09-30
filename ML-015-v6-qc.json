@@ -1,0 +1,90 @@
+{
+  "id": "ML-015",
+  "technical": {
+    "id": "ML-015",
+    "frames": 558,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "b20cf544852950ca746f232c510f64d9a44487cd277677326c543bd050b5b512",
+    "fileSHA256": "7f6c148df64cc8d0dd8494cd9e3323f43b7e0fbdc3a4b41eaf1f085526bdb57f",
+    "renderSeconds": 89.2,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-015",
+    "framesCompared": 558,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.7079144965277777,
+    "maxLocalizedMAE": 5.8904249871991805,
+    "pass": true,
+    "recipeRendererFingerprint": "b20cf544852950ca746f232c510f64d9a44487cd277677326c543bd050b5b512",
+    "deliverySHA256": "7f6c148df64cc8d0dd8494cd9e3323f43b7e0fbdc3a4b41eaf1f085526bdb57f"
+  },
+  "replacement": {
+    "id": "ML-015",
+    "sampleFrames": [
+      0,
+      19,
+      20,
+      21,
+      60,
+      99,
+      100,
+      101,
+      109,
+      110,
+      111,
+      115,
+      116,
+      117,
+      138,
+      141,
+      166,
+      167,
+      168,
+      188,
+      189,
+      190,
+      210,
+      231,
+      232,
+      233,
+      557
+    ],
+    "tests": [
+      {
+        "field": "income",
+        "frame": 60,
+        "replacementChangedPixels": 7140,
+        "activeTrackFound": true
+      },
+      {
+        "field": "per_hour",
+        "frame": 60,
+        "replacementChangedPixels": 21283,
+        "activeTrackFound": true
+      },
+      {
+        "field": "hours",
+        "frame": 138,
+        "replacementChangedPixels": 28995,
+        "activeTrackFound": true
+      },
+      {
+        "field": "week",
+        "frame": 141,
+        "replacementChangedPixels": 39301,
+        "activeTrackFound": true
+      },
+      {
+        "field": "years",
+        "frame": 210,
+        "replacementChangedPixels": 47628,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}

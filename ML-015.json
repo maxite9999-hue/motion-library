@@ -20,12 +20,12 @@
   ],
   "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-015-reference.mp4",
-  "demo": "ML-015-cn-v4.mp4",
+  "demo": "ML-015-cn-v6.mp4",
   "audio": "ML-015-mix.m4a",
-  "package": "ML-015-v4.zip",
-  "recipe": "ML-015.json",
-  "poster": "ML-015-cn-v4.jpg",
-  "status": "reusable-Chinese-rebuild",
+  "package": "ML-015-v6.zip",
+  "recipe": "ML-015-v6.json",
+  "poster": "ML-015-cn-v6.jpg",
+  "status": "reviewed-trial",
   "limits": [
     "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
     "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
@@ -54,86 +54,39 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "收入",
-      "maxCharacters": 220
+      "key": "income",
+      "demo": "收入"
     },
     {
-      "key": "scene1.text2",
-      "demo": "20美元",
-      "maxCharacters": 220
+      "key": "per_hour",
+      "demo": "时"
     },
     {
-      "key": "scene1.text3",
-      "demo": "每小时",
-      "maxCharacters": 220
+      "key": "hours",
+      "demo": "小时"
     },
     {
-      "key": "scene2.text1",
-      "demo": "工作时间",
-      "maxCharacters": 220
+      "key": "week",
+      "demo": "每周"
     },
     {
-      "key": "scene2.text2",
-      "demo": "40小时",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.text3",
-      "demo": "每周",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene3.text1",
-      "demo": "持续积累",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene3.text2",
-      "demo": "24年",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene3.text3",
-      "demo": "时间成本",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene4.text1",
-      "demo": "最终金额",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene4.text2",
-      "demo": "100万美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene4.text3",
-      "demo": "",
-      "maxCharacters": 220
+      "key": "years",
+      "demo": "年"
     }
   ],
   "templateType": "parametric-motion-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "scene1.text1": "收入",
-    "scene1.text2": "20美元",
-    "scene1.text3": "每小时",
-    "scene2.text1": "工作时间",
-    "scene2.text2": "40小时",
-    "scene2.text3": "每周",
-    "scene3.text1": "持续积累",
-    "scene3.text2": "24年",
-    "scene3.text3": "时间成本",
-    "scene4.text1": "最终金额",
-    "scene4.text2": "100万美元",
-    "scene4.text3": ""
+    "income": "收入",
+    "per_hour": "时",
+    "hours": "小时",
+    "week": "每周",
+    "years": "年"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "useCases": "用在讲工资、时间成本或积累规模时；助手根据文案调整中文内容。",
-  "qc": "ML-015-v4-qc.json",
+  "qc": "ML-015-v6-qc.json",
   "scenes": [
     {
       "start": 0,
@@ -199,35 +152,19 @@
   "type": "parametric-motion-hybrid",
   "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
   "assetRoot": "assets",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "renderer": "render-faithful-v6e.py",
+  "revision": "v6e-sfx-20261001",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene1.text2",
-      "scene1.text3",
-      "scene2.text1",
-      "scene2.text2",
-      "scene2.text3",
-      "scene3.text1",
-      "scene3.text2",
-      "scene3.text3",
-      "scene4.text1",
-      "scene4.text2",
-      "scene4.text3"
+      "income",
+      "per_hour",
+      "hours",
+      "week",
+      "years"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
+    "duration": "fixed source frames"
   },
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",
