@@ -1,0 +1,71 @@
+{
+  "id": "ML-048",
+  "technical": {
+    "id": "ML-048",
+    "frames": 157,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "5611795f260c662f1b03d60d91e19268b4f8de70af5a48deb4c86591691beff0",
+    "fileSHA256": "ee8637fad80598575e8aabfb0ea0317eb4d6ac6c71ea79d3faa26a37bd533547",
+    "renderSeconds": 15.4,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-048",
+    "framesCompared": 157,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.4530226417824075,
+    "maxLocalizedMAE": 1.5924014221290266,
+    "pass": true,
+    "recipeRendererFingerprint": "c9ff1be21e8e1dfd0b53856fbeeea7ee7bc3c407f91e70142b0e23a5d59616e2",
+    "deliverySHA256": "ee8637fad80598575e8aabfb0ea0317eb4d6ac6c71ea79d3faa26a37bd533547"
+  },
+  "replacement": {
+    "id": "ML-048",
+    "sampleFrames": [
+      0,
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      55,
+      56,
+      57,
+      79,
+      92,
+      106,
+      156
+    ],
+    "tests": [
+      {
+        "field": "stop",
+        "frame": 79,
+        "replacementChangedPixels": 70372,
+        "activeTrackFound": true
+      },
+      {
+        "field": "chasing",
+        "frame": 92,
+        "replacementChangedPixels": 115361,
+        "activeTrackFound": true
+      },
+      {
+        "field": "money",
+        "frame": 106,
+        "replacementChangedPixels": 90382,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}

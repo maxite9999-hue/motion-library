@@ -1,0 +1,60 @@
+{
+  "id": "ML-021",
+  "technical": {
+    "id": "ML-021",
+    "frames": 414,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "d72152e58c9a4bd433de0e5ab247b29c3420c2db164845c15a7dc21508f9c777",
+    "fileSHA256": "4be05ac9bab5ac14fa5d5483e43e0f00c5e0a53d84a97a71f44718df349c5ca4",
+    "renderSeconds": 44.1,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-021",
+    "framesCompared": 414,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.9696625434027777,
+    "maxLocalizedMAE": 3.414490861618799,
+    "pass": true,
+    "recipeRendererFingerprint": "0fc46451a01f67c858dc5b48757bd1adea4002da0e90f169c8b70a5c5ce8377d",
+    "deliverySHA256": "4be05ac9bab5ac14fa5d5483e43e0f00c5e0a53d84a97a71f44718df349c5ca4"
+  },
+  "replacement": {
+    "id": "ML-021",
+    "sampleFrames": [
+      0,
+      275,
+      276,
+      277,
+      336,
+      396,
+      397,
+      398,
+      413
+    ],
+    "tests": [
+      {
+        "field": "lead",
+        "frame": 336,
+        "replacementChangedPixels": 2705,
+        "activeTrackFound": true
+      },
+      {
+        "field": "name",
+        "frame": 336,
+        "replacementChangedPixels": 55156,
+        "activeTrackFound": true
+      },
+      {
+        "field": "empire",
+        "frame": 336,
+        "replacementChangedPixels": 8911,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}
