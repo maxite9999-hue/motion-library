@@ -17,5 +17,16 @@
     }
   ],
   "sha256": "5237ffa953f69b4dfa1b8296ac64d95c101a05effe19f04f5ad9ca2144334d84",
-  "visualScope": "Semantic Chinese reconstruction. Not pixel/frame-exact motion alignment."
+  "visualScope": "Semantic Chinese reconstruction. Not pixel/frame-exact motion alignment.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 17673,
+    "sourceEndFrameExclusive": 18018,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }
