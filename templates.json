@@ -4,7 +4,7 @@
   "sourceFrames": 26672,
   "fps": 30,
   "sourceDuration": 889.066666667,
-  "publishedCount": 10,
+  "publishedCount": 12,
   "plannedCount": 39,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
   "fidelity": "Native video assets preserve source event order. Local editable text patches are approximate, not reconstructed original layers.",
@@ -660,6 +660,103 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "qc": "ML-010-qc.json"
+    },
+    {
+      "id": "ML-011",
+      "title": "动画电视换台短转场",
+      "kind": "质感转场",
+      "sourceStartFrame": 6366,
+      "sourceEndFrameExclusive": 6438,
+      "frames": 72,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "实拍",
+        "电视曲面",
+        "水平黑带",
+        "动画画面",
+        "切实拍"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-011-reference.mp4",
+      "demo": "ML-011-demo.mp4",
+      "audio": "ML-011-mix.m4a",
+      "package": "ML-011.zip",
+      "recipe": "ML-011.json",
+      "poster": "ML-011.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        11,
+        12,
+        13,
+        15,
+        65
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-011-qc.json"
+    },
+    {
+      "id": "ML-012",
+      "title": "新闻网页推进与摘录浮层",
+      "kind": "信息卡",
+      "sourceStartFrame": 7959,
+      "sourceEndFrameExclusive": 8334,
+      "frames": 375,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "方块闪白",
+        "网页缩入",
+        "向上推进",
+        "右侧摘录叠出",
+        "双卡同步移动",
+        "方块闪白"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-012-reference.mp4",
+      "demo": "ML-012-demo.mp4",
+      "audio": "ML-012-mix.m4a",
+      "package": "ML-012.zip",
+      "recipe": "ML-012.json",
+      "poster": "ML-012.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        353,
+        354,
+        362,
+        374
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-012-qc.json"
     }
   ]
 }

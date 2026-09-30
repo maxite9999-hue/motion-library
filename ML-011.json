@@ -1,0 +1,46 @@
+{
+  "id": "ML-011",
+  "title": "动画电视换台短转场",
+  "kind": "质感转场",
+  "sourceStartFrame": 6366,
+  "sourceEndFrameExclusive": 6438,
+  "frames": 72,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "实拍",
+    "电视曲面",
+    "水平黑带",
+    "动画画面",
+    "切实拍"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-011-reference.mp4",
+  "demo": "ML-011-demo.mp4",
+  "audio": "ML-011-mix.m4a",
+  "package": "ML-011.zip",
+  "recipe": "ML-011.json",
+  "poster": "ML-011.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    11,
+    12,
+    13,
+    15,
+    65
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-011-qc.json"
+}
