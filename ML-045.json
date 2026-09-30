@@ -40,154 +40,41 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "萨拉·布莱克利",
-      "maxCharacters": 220
+      "key": "sara_blakely",
+      "demo": "萨拉·布莱克利"
     },
     {
-      "key": "scene1.text2",
-      "demo": "Spanx 创始人",
-      "maxCharacters": 220
+      "key": "founder_of_spanx",
+      "demo": "Spanx 创始人"
     },
     {
-      "key": "scene1.text3",
-      "demo": "10亿美元",
-      "maxCharacters": 220
+      "key": "1_billion",
+      "demo": "10亿美元"
     },
     {
-      "key": "scene1.text4",
-      "demo": "白手起家",
-      "maxCharacters": 220
+      "key": "stamp",
+      "demo": "白手起家"
     },
     {
-      "key": "scene2.text1",
-      "demo": "共同的起点",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person1.name",
-      "demo": "沃伦·巴菲特",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person1.role",
-      "demo": "伯克希尔·哈撒韦首席执行官",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person1.value",
-      "demo": "729亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person2.name",
-      "demo": "霍华德·舒尔茨",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person2.role",
-      "demo": "星巴克前首席执行官",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person2.value",
-      "demo": "35亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person3.name",
-      "demo": "奥普拉·温弗瑞",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person3.role",
-      "demo": "主持人、媒体制作人",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person3.value",
-      "demo": "26亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person4.name",
-      "demo": "杰夫·贝索斯",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person4.role",
-      "demo": "亚马逊创始人",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person4.value",
-      "demo": "1173亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person5.name",
-      "demo": "埃隆·马斯克",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person5.role",
-      "demo": "SpaceX、特斯拉首席执行官",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person5.value",
-      "demo": "300亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person6.name",
-      "demo": "萨拉·布莱克利",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person6.role",
-      "demo": "Spanx 创始人",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person6.value",
-      "demo": "10亿美元",
-      "maxCharacters": 220
+      "key": "net_worth",
+      "demo": "净资产"
     }
   ],
   "demoOptions": {
-    "scene1.text1": "萨拉·布莱克利",
-    "scene1.text2": "Spanx 创始人",
-    "scene1.text3": "10亿美元",
-    "scene1.text4": "白手起家",
-    "scene2.text1": "共同的起点",
-    "scene2.person1.name": "沃伦·巴菲特",
-    "scene2.person1.role": "伯克希尔·哈撒韦首席执行官",
-    "scene2.person1.value": "729亿美元",
-    "scene2.person2.name": "霍华德·舒尔茨",
-    "scene2.person2.role": "星巴克前首席执行官",
-    "scene2.person2.value": "35亿美元",
-    "scene2.person3.name": "奥普拉·温弗瑞",
-    "scene2.person3.role": "主持人、媒体制作人",
-    "scene2.person3.value": "26亿美元",
-    "scene2.person4.name": "杰夫·贝索斯",
-    "scene2.person4.role": "亚马逊创始人",
-    "scene2.person4.value": "1173亿美元",
-    "scene2.person5.name": "埃隆·马斯克",
-    "scene2.person5.role": "SpaceX、特斯拉首席执行官",
-    "scene2.person5.value": "300亿美元",
-    "scene2.person6.name": "萨拉·布莱克利",
-    "scene2.person6.role": "Spanx 创始人",
-    "scene2.person6.value": "10亿美元"
+    "sara_blakely": "萨拉·布莱克利",
+    "founder_of_spanx": "Spanx 创始人",
+    "1_billion": "10亿美元",
+    "stamp": "白手起家",
+    "net_worth": "净资产"
   },
   "templateType": "parametric-motion-hybrid",
   "reference": "ML-045-reference.mp4",
-  "demo": "ML-045-cn-v4.mp4",
+  "demo": "ML-045-cn-v6.mp4",
   "audio": "ML-045-mix.m4a",
-  "poster": "ML-045-cn-v4.jpg",
-  "recipe": "ML-045.json",
-  "qc": "ML-045-v4-qc.json",
-  "package": "ML-045-v4.zip",
+  "poster": "ML-045-cn-v6.jpg",
+  "recipe": "ML-045-v6.json",
+  "qc": "ML-045-v6-qc.json",
+  "package": "ML-045-v6.zip",
   "useCases": "用在多个独立案例之后做群像总结；助手根据文案调整中文内容。",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "limits": [
@@ -196,8 +83,8 @@
     "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
     "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
-  "status": "reusable-Chinese-rebuild",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "status": "reviewed-trial",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "scenes": [
     {
       "start": 0,
@@ -298,46 +185,19 @@
   "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
   "assetRoot": "assets",
   "architecture": "editable-Chinese-composition-plus-native-footage",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "renderer": "render-faithful-v6k.py",
+  "revision": "v6k-sfx-20261001",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene1.text2",
-      "scene1.text3",
-      "scene1.text4",
-      "scene2.text1",
-      "scene2.person1.name",
-      "scene2.person1.role",
-      "scene2.person1.value",
-      "scene2.person2.name",
-      "scene2.person2.role",
-      "scene2.person2.value",
-      "scene2.person3.name",
-      "scene2.person3.role",
-      "scene2.person3.value",
-      "scene2.person4.name",
-      "scene2.person4.role",
-      "scene2.person4.value",
-      "scene2.person5.name",
-      "scene2.person5.role",
-      "scene2.person5.value",
-      "scene2.person6.name",
-      "scene2.person6.role",
-      "scene2.person6.value"
+      "sara_blakely",
+      "founder_of_spanx",
+      "1_billion",
+      "stamp",
+      "net_worth"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
+    "duration": "fixed source frames"
   },
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",

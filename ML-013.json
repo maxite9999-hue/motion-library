@@ -17,12 +17,12 @@
   ],
   "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-013-reference.mp4",
-  "demo": "ML-013-cn-v4.mp4",
+  "demo": "ML-013-cn-v6.mp4",
   "audio": "ML-013-mix.m4a",
-  "package": "ML-013-v4.zip",
-  "recipe": "ML-013.json",
-  "poster": "ML-013-cn-v4.jpg",
-  "status": "reusable-Chinese-rebuild",
+  "package": "ML-013-v6.zip",
+  "recipe": "ML-013-v6.json",
+  "poster": "ML-013-cn-v6.jpg",
+  "status": "reviewed-trial",
   "limits": [
     "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
     "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
@@ -66,242 +66,114 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "白手起家",
-      "maxCharacters": 220
+      "key": "howard_schultz",
+      "demo": "霍华德·舒尔茨"
     },
     {
-      "key": "scene2.text1",
-      "demo": "共同的起点",
-      "maxCharacters": 220
+      "key": "previous_ceo_of_starbucks",
+      "demo": "星巴克前首席执行官"
     },
     {
-      "key": "scene1.person1.name",
-      "demo": "沃伦·巴菲特",
-      "maxCharacters": 220
+      "key": "3_5_billion",
+      "demo": "35亿美元"
     },
     {
-      "key": "scene1.person1.role",
-      "demo": "伯克希尔·哈撒韦首席执行官",
-      "maxCharacters": 220
+      "key": "jeff_bezos",
+      "demo": "杰夫·贝索斯"
     },
     {
-      "key": "scene1.person1.value",
-      "demo": "729亿美元",
-      "maxCharacters": 220
+      "key": "ceo_of_amazon",
+      "demo": "亚马逊首席执行官"
     },
     {
-      "key": "scene1.person2.name",
-      "demo": "霍华德·舒尔茨",
-      "maxCharacters": 220
+      "key": "117_3_billion",
+      "demo": "1173亿美元"
     },
     {
-      "key": "scene1.person2.role",
-      "demo": "星巴克前首席执行官",
-      "maxCharacters": 220
+      "key": "elon_musk",
+      "demo": "埃隆·马斯克"
     },
     {
-      "key": "scene1.person2.value",
-      "demo": "35亿美元",
-      "maxCharacters": 220
+      "key": "ceo_of_spacex_tesla",
+      "demo": "SpaceX、特斯拉首席执行官"
     },
     {
-      "key": "scene1.person3.name",
-      "demo": "奥普拉·温弗瑞",
-      "maxCharacters": 220
+      "key": "30_billion",
+      "demo": "300亿美元"
     },
     {
-      "key": "scene1.person3.role",
-      "demo": "主持人、媒体制作人",
-      "maxCharacters": 220
+      "key": "oprah_winfrey",
+      "demo": "奥普拉·温弗瑞"
     },
     {
-      "key": "scene1.person3.value",
-      "demo": "26亿美元",
-      "maxCharacters": 220
+      "key": "media_executive_presenter_producer",
+      "demo": "媒体高管、主持人、制作人"
     },
     {
-      "key": "scene1.person4.name",
-      "demo": "杰夫·贝索斯",
-      "maxCharacters": 220
+      "key": "2_6_billion",
+      "demo": "26亿美元"
     },
     {
-      "key": "scene1.person4.role",
-      "demo": "亚马逊创始人",
-      "maxCharacters": 220
+      "key": "net_worth",
+      "demo": "净资产"
     },
     {
-      "key": "scene1.person4.value",
-      "demo": "1173亿美元",
-      "maxCharacters": 220
+      "key": "sara_blakely",
+      "demo": "萨拉·布莱克利"
     },
     {
-      "key": "scene1.person5.name",
-      "demo": "埃隆·马斯克",
-      "maxCharacters": 220
+      "key": "founder_of_spanx",
+      "demo": "Spanx 创始人"
     },
     {
-      "key": "scene1.person5.role",
-      "demo": "SpaceX、特斯拉首席执行官",
-      "maxCharacters": 220
+      "key": "1_billion",
+      "demo": "10亿美元"
     },
     {
-      "key": "scene1.person5.value",
-      "demo": "300亿美元",
-      "maxCharacters": 220
+      "key": "warren_buffett",
+      "demo": "沃伦·巴菲特"
     },
     {
-      "key": "scene1.person6.name",
-      "demo": "萨拉·布莱克利",
-      "maxCharacters": 220
+      "key": "ceo_of_berkshire_hathaway",
+      "demo": "伯克希尔·哈撒韦首席执行官"
     },
     {
-      "key": "scene1.person6.role",
-      "demo": "Spanx 创始人",
-      "maxCharacters": 220
+      "key": "72_9_billion",
+      "demo": "729亿美元"
     },
     {
-      "key": "scene1.person6.value",
-      "demo": "10亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person1.name",
-      "demo": "沃伦·巴菲特",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person1.role",
-      "demo": "伯克希尔·哈撒韦首席执行官",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person1.value",
-      "demo": "729亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person2.name",
-      "demo": "霍华德·舒尔茨",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person2.role",
-      "demo": "星巴克前首席执行官",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person2.value",
-      "demo": "35亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person3.name",
-      "demo": "奥普拉·温弗瑞",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person3.role",
-      "demo": "主持人、媒体制作人",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person3.value",
-      "demo": "26亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person4.name",
-      "demo": "杰夫·贝索斯",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person4.role",
-      "demo": "亚马逊创始人",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person4.value",
-      "demo": "1173亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person5.name",
-      "demo": "埃隆·马斯克",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person5.role",
-      "demo": "SpaceX、特斯拉首席执行官",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person5.value",
-      "demo": "300亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person6.name",
-      "demo": "萨拉·布莱克利",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person6.role",
-      "demo": "Spanx 创始人",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.person6.value",
-      "demo": "10亿美元",
-      "maxCharacters": 220
+      "key": "stamp",
+      "demo": "白手起家"
     }
   ],
   "templateType": "parametric-motion-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "scene1.text1": "白手起家",
-    "scene2.text1": "共同的起点",
-    "scene1.person1.name": "沃伦·巴菲特",
-    "scene1.person1.role": "伯克希尔·哈撒韦首席执行官",
-    "scene1.person1.value": "729亿美元",
-    "scene1.person2.name": "霍华德·舒尔茨",
-    "scene1.person2.role": "星巴克前首席执行官",
-    "scene1.person2.value": "35亿美元",
-    "scene1.person3.name": "奥普拉·温弗瑞",
-    "scene1.person3.role": "主持人、媒体制作人",
-    "scene1.person3.value": "26亿美元",
-    "scene1.person4.name": "杰夫·贝索斯",
-    "scene1.person4.role": "亚马逊创始人",
-    "scene1.person4.value": "1173亿美元",
-    "scene1.person5.name": "埃隆·马斯克",
-    "scene1.person5.role": "SpaceX、特斯拉首席执行官",
-    "scene1.person5.value": "300亿美元",
-    "scene1.person6.name": "萨拉·布莱克利",
-    "scene1.person6.role": "Spanx 创始人",
-    "scene1.person6.value": "10亿美元",
-    "scene2.person1.name": "沃伦·巴菲特",
-    "scene2.person1.role": "伯克希尔·哈撒韦首席执行官",
-    "scene2.person1.value": "729亿美元",
-    "scene2.person2.name": "霍华德·舒尔茨",
-    "scene2.person2.role": "星巴克前首席执行官",
-    "scene2.person2.value": "35亿美元",
-    "scene2.person3.name": "奥普拉·温弗瑞",
-    "scene2.person3.role": "主持人、媒体制作人",
-    "scene2.person3.value": "26亿美元",
-    "scene2.person4.name": "杰夫·贝索斯",
-    "scene2.person4.role": "亚马逊创始人",
-    "scene2.person4.value": "1173亿美元",
-    "scene2.person5.name": "埃隆·马斯克",
-    "scene2.person5.role": "SpaceX、特斯拉首席执行官",
-    "scene2.person5.value": "300亿美元",
-    "scene2.person6.name": "萨拉·布莱克利",
-    "scene2.person6.role": "Spanx 创始人",
-    "scene2.person6.value": "10亿美元"
+    "howard_schultz": "霍华德·舒尔茨",
+    "previous_ceo_of_starbucks": "星巴克前首席执行官",
+    "3_5_billion": "35亿美元",
+    "jeff_bezos": "杰夫·贝索斯",
+    "ceo_of_amazon": "亚马逊首席执行官",
+    "117_3_billion": "1173亿美元",
+    "elon_musk": "埃隆·马斯克",
+    "ceo_of_spacex_tesla": "SpaceX、特斯拉首席执行官",
+    "30_billion": "300亿美元",
+    "oprah_winfrey": "奥普拉·温弗瑞",
+    "media_executive_presenter_producer": "媒体高管、主持人、制作人",
+    "2_6_billion": "26亿美元",
+    "net_worth": "净资产",
+    "sara_blakely": "萨拉·布莱克利",
+    "founder_of_spanx": "Spanx 创始人",
+    "1_billion": "10亿美元",
+    "warren_buffett": "沃伦·巴菲特",
+    "ceo_of_berkshire_hathaway": "伯克希尔·哈撒韦首席执行官",
+    "72_9_billion": "729亿美元",
+    "stamp": "白手起家"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "useCases": "用在连续列举人物、案例或成就时；助手根据文案调整中文内容。",
-  "qc": "ML-013-v4-qc.json",
+  "qc": "ML-013-v6-qc.json",
   "scenes": [
     {
       "start": 0,
@@ -457,61 +329,34 @@
   "type": "parametric-motion-hybrid",
   "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
   "assetRoot": "assets",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "renderer": "render-faithful-v6k.py",
+  "revision": "v6k-sfx-20261001",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene2.text1",
-      "scene1.person1.name",
-      "scene1.person1.role",
-      "scene1.person1.value",
-      "scene1.person2.name",
-      "scene1.person2.role",
-      "scene1.person2.value",
-      "scene1.person3.name",
-      "scene1.person3.role",
-      "scene1.person3.value",
-      "scene1.person4.name",
-      "scene1.person4.role",
-      "scene1.person4.value",
-      "scene1.person5.name",
-      "scene1.person5.role",
-      "scene1.person5.value",
-      "scene1.person6.name",
-      "scene1.person6.role",
-      "scene1.person6.value",
-      "scene2.person1.name",
-      "scene2.person1.role",
-      "scene2.person1.value",
-      "scene2.person2.name",
-      "scene2.person2.role",
-      "scene2.person2.value",
-      "scene2.person3.name",
-      "scene2.person3.role",
-      "scene2.person3.value",
-      "scene2.person4.name",
-      "scene2.person4.role",
-      "scene2.person4.value",
-      "scene2.person5.name",
-      "scene2.person5.role",
-      "scene2.person5.value",
-      "scene2.person6.name",
-      "scene2.person6.role",
-      "scene2.person6.value"
+      "howard_schultz",
+      "previous_ceo_of_starbucks",
+      "3_5_billion",
+      "jeff_bezos",
+      "ceo_of_amazon",
+      "117_3_billion",
+      "elon_musk",
+      "ceo_of_spacex_tesla",
+      "30_billion",
+      "oprah_winfrey",
+      "media_executive_presenter_producer",
+      "2_6_billion",
+      "net_worth",
+      "sara_blakely",
+      "founder_of_spanx",
+      "1_billion",
+      "warren_buffett",
+      "ceo_of_berkshire_hathaway",
+      "72_9_billion",
+      "stamp"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
+    "duration": "fixed source frames"
   },
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",

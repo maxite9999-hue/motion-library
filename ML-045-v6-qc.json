@@ -1,0 +1,70 @@
+{
+  "id": "ML-045",
+  "technical": {
+    "id": "ML-045",
+    "frames": 39,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "7e998d35083db5340462308b1c6957526afa8014ec5cbb4d990b2f440df44c16",
+    "fileSHA256": "a6fc0999bd94bb94126e20dbb9a55b5beefc1a5f531ae43acca6d77ad5683f7f",
+    "renderSeconds": 13.8,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-045",
+    "framesCompared": 39,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.9692288773148148,
+    "maxLocalizedMAE": 3.113634843340664,
+    "pass": true,
+    "recipeRendererFingerprint": "7e998d35083db5340462308b1c6957526afa8014ec5cbb4d990b2f440df44c16",
+    "deliverySHA256": "a6fc0999bd94bb94126e20dbb9a55b5beefc1a5f531ae43acca6d77ad5683f7f"
+  },
+  "replacement": {
+    "id": "ML-045",
+    "sampleFrames": [
+      0,
+      1,
+      5,
+      9,
+      10,
+      11,
+      38
+    ],
+    "tests": [
+      {
+        "field": "sara_blakely",
+        "frame": 5,
+        "replacementChangedPixels": 13027,
+        "activeTrackFound": true
+      },
+      {
+        "field": "founder_of_spanx",
+        "frame": 5,
+        "replacementChangedPixels": 88647,
+        "activeTrackFound": true
+      },
+      {
+        "field": "1_billion",
+        "frame": 5,
+        "replacementChangedPixels": 123269,
+        "activeTrackFound": true
+      },
+      {
+        "field": "stamp",
+        "frame": 5,
+        "replacementChangedPixels": 539982,
+        "activeTrackFound": true
+      },
+      {
+        "field": "net_worth",
+        "frame": 5,
+        "replacementChangedPixels": 19003,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}

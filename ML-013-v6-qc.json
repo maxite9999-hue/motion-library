@@ -1,0 +1,389 @@
+{
+  "id": "ML-013",
+  "technical": {
+    "id": "ML-013",
+    "frames": 414,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "90e595062285b2b3f54d8022bca01d8ea629ee6b737d817a225b3c5392b01d26",
+    "fileSHA256": "527fef41ee404afa572ebd8f9aae6278a44a0085b8c4599e7e7b7e7fcbccbeab",
+    "renderSeconds": 259.2,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-013",
+    "framesCompared": 414,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 2.063063151041667,
+    "maxLocalizedMAE": 4.561464308476737,
+    "pass": true,
+    "recipeRendererFingerprint": "90e595062285b2b3f54d8022bca01d8ea629ee6b737d817a225b3c5392b01d26",
+    "deliverySHA256": "527fef41ee404afa572ebd8f9aae6278a44a0085b8c4599e7e7b7e7fcbccbeab"
+  },
+  "replacement": {
+    "id": "ML-013",
+    "sampleFrames": [
+      0,
+      1,
+      19,
+      20,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      52,
+      53,
+      54,
+      55,
+      57,
+      58,
+      59,
+      64,
+      65,
+      66,
+      78,
+      80,
+      95,
+      96,
+      97,
+      98,
+      99,
+      107,
+      108,
+      109,
+      111,
+      114,
+      115,
+      116,
+      119,
+      120,
+      121,
+      129,
+      133,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      157,
+      158,
+      159,
+      160,
+      162,
+      163,
+      164,
+      165,
+      183,
+      192,
+      202,
+      203,
+      204,
+      213,
+      214,
+      215,
+      216,
+      218,
+      219,
+      220,
+      225,
+      226,
+      227,
+      241,
+      243,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      269,
+      270,
+      271,
+      274,
+      278,
+      279,
+      280,
+      289,
+      290,
+      291,
+      301,
+      307,
+      323,
+      324,
+      325,
+      413
+    ],
+    "tests": [
+      {
+        "field": "warren_buffett",
+        "frame": 19,
+        "replacementChangedPixels": 56936,
+        "activeTrackFound": true
+      },
+      {
+        "field": "ceo_of_berkshire_hathaway",
+        "frame": 19,
+        "replacementChangedPixels": 36015,
+        "activeTrackFound": true
+      },
+      {
+        "field": "72_9_billion",
+        "frame": 19,
+        "replacementChangedPixels": 72664,
+        "activeTrackFound": true
+      },
+      {
+        "field": "stamp",
+        "frame": 20,
+        "replacementChangedPixels": 252026,
+        "activeTrackFound": true
+      },
+      {
+        "field": "net_worth",
+        "frame": 54,
+        "replacementChangedPixels": 5244,
+        "activeTrackFound": true
+      },
+      {
+        "field": "howard_schultz",
+        "frame": 55,
+        "replacementChangedPixels": 85778,
+        "activeTrackFound": true
+      },
+      {
+        "field": "previous_ceo_of_starbucks",
+        "frame": 55,
+        "replacementChangedPixels": 50323,
+        "activeTrackFound": true
+      },
+      {
+        "field": "3_5_billion",
+        "frame": 55,
+        "replacementChangedPixels": 38128,
+        "activeTrackFound": true
+      },
+      {
+        "field": "howard_schultz",
+        "frame": 78,
+        "replacementChangedPixels": 50886,
+        "activeTrackFound": true
+      },
+      {
+        "field": "previous_ceo_of_starbucks",
+        "frame": 78,
+        "replacementChangedPixels": 35754,
+        "activeTrackFound": true
+      },
+      {
+        "field": "3_5_billion",
+        "frame": 78,
+        "replacementChangedPixels": 67742,
+        "activeTrackFound": true
+      },
+      {
+        "field": "stamp",
+        "frame": 80,
+        "replacementChangedPixels": 262110,
+        "activeTrackFound": true
+      },
+      {
+        "field": "oprah_winfrey",
+        "frame": 111,
+        "replacementChangedPixels": 97476,
+        "activeTrackFound": true
+      },
+      {
+        "field": "media_executive_presenter_producer",
+        "frame": 111,
+        "replacementChangedPixels": 39220,
+        "activeTrackFound": true
+      },
+      {
+        "field": "2_6_billion",
+        "frame": 111,
+        "replacementChangedPixels": 44054,
+        "activeTrackFound": true
+      },
+      {
+        "field": "net_worth",
+        "frame": 111,
+        "replacementChangedPixels": 9200,
+        "activeTrackFound": true
+      },
+      {
+        "field": "oprah_winfrey",
+        "frame": 129,
+        "replacementChangedPixels": 57591,
+        "activeTrackFound": true
+      },
+      {
+        "field": "media_executive_presenter_producer",
+        "frame": 129,
+        "replacementChangedPixels": 24266,
+        "activeTrackFound": true
+      },
+      {
+        "field": "2_6_billion",
+        "frame": 129,
+        "replacementChangedPixels": 67264,
+        "activeTrackFound": true
+      },
+      {
+        "field": "stamp",
+        "frame": 133,
+        "replacementChangedPixels": 261907,
+        "activeTrackFound": true
+      },
+      {
+        "field": "jeff_bezos",
+        "frame": 160,
+        "replacementChangedPixels": 70766,
+        "activeTrackFound": true
+      },
+      {
+        "field": "ceo_of_amazon",
+        "frame": 160,
+        "replacementChangedPixels": 16045,
+        "activeTrackFound": true
+      },
+      {
+        "field": "117_3_billion",
+        "frame": 160,
+        "replacementChangedPixels": 42804,
+        "activeTrackFound": true
+      },
+      {
+        "field": "jeff_bezos",
+        "frame": 183,
+        "replacementChangedPixels": 47532,
+        "activeTrackFound": true
+      },
+      {
+        "field": "ceo_of_amazon",
+        "frame": 183,
+        "replacementChangedPixels": 11434,
+        "activeTrackFound": true
+      },
+      {
+        "field": "117_3_billion",
+        "frame": 183,
+        "replacementChangedPixels": 75065,
+        "activeTrackFound": true
+      },
+      {
+        "field": "stamp",
+        "frame": 183,
+        "replacementChangedPixels": 238527,
+        "activeTrackFound": true
+      },
+      {
+        "field": "net_worth",
+        "frame": 192,
+        "replacementChangedPixels": 13979,
+        "activeTrackFound": true
+      },
+      {
+        "field": "elon_musk",
+        "frame": 216,
+        "replacementChangedPixels": 59724,
+        "activeTrackFound": true
+      },
+      {
+        "field": "ceo_of_spacex_tesla",
+        "frame": 216,
+        "replacementChangedPixels": 23302,
+        "activeTrackFound": true
+      },
+      {
+        "field": "30_billion",
+        "frame": 216,
+        "replacementChangedPixels": 38963,
+        "activeTrackFound": true
+      },
+      {
+        "field": "elon_musk",
+        "frame": 241,
+        "replacementChangedPixels": 52347,
+        "activeTrackFound": true
+      },
+      {
+        "field": "ceo_of_spacex_tesla",
+        "frame": 241,
+        "replacementChangedPixels": 25499,
+        "activeTrackFound": true
+      },
+      {
+        "field": "30_billion",
+        "frame": 241,
+        "replacementChangedPixels": 68412,
+        "activeTrackFound": true
+      },
+      {
+        "field": "stamp",
+        "frame": 243,
+        "replacementChangedPixels": 251309,
+        "activeTrackFound": true
+      },
+      {
+        "field": "sara_blakely",
+        "frame": 274,
+        "replacementChangedPixels": 101152,
+        "activeTrackFound": true
+      },
+      {
+        "field": "founder_of_spanx",
+        "frame": 274,
+        "replacementChangedPixels": 34353,
+        "activeTrackFound": true
+      },
+      {
+        "field": "1_billion",
+        "frame": 274,
+        "replacementChangedPixels": 41004,
+        "activeTrackFound": true
+      },
+      {
+        "field": "net_worth",
+        "frame": 274,
+        "replacementChangedPixels": 9648,
+        "activeTrackFound": true
+      },
+      {
+        "field": "sara_blakely",
+        "frame": 301,
+        "replacementChangedPixels": 52959,
+        "activeTrackFound": true
+      },
+      {
+        "field": "founder_of_spanx",
+        "frame": 301,
+        "replacementChangedPixels": 23949,
+        "activeTrackFound": true
+      },
+      {
+        "field": "1_billion",
+        "frame": 301,
+        "replacementChangedPixels": 59044,
+        "activeTrackFound": true
+      },
+      {
+        "field": "net_worth",
+        "frame": 301,
+        "replacementChangedPixels": 13977,
+        "activeTrackFound": true
+      },
+      {
+        "field": "stamp",
+        "frame": 307,
+        "replacementChangedPixels": 260797,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}

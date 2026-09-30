@@ -29,22 +29,6 @@
   ],
   "slots": [
     {
-      "key": "warren_buffett",
-      "demo": "沃伦·巴菲特"
-    },
-    {
-      "key": "ceo_of_berkshire_hathaway",
-      "demo": "伯克希尔·哈撒韦首席执行官"
-    },
-    {
-      "key": "net_worth",
-      "demo": "净资产"
-    },
-    {
-      "key": "72_9_billion",
-      "demo": "729亿美元"
-    },
-    {
       "key": "howard_schultz",
       "demo": "霍华德·舒尔茨"
     },
@@ -55,18 +39,6 @@
     {
       "key": "3_5_billion",
       "demo": "35亿美元"
-    },
-    {
-      "key": "oprah_winfrey",
-      "demo": "奥普拉·温弗瑞"
-    },
-    {
-      "key": "media_executive_presenter_producer",
-      "demo": "媒体高管、主持人、制作人"
-    },
-    {
-      "key": "2_6_billion",
-      "demo": "26亿美元"
     },
     {
       "key": "jeff_bezos",
@@ -93,6 +65,22 @@
       "demo": "300亿美元"
     },
     {
+      "key": "oprah_winfrey",
+      "demo": "奥普拉·温弗瑞"
+    },
+    {
+      "key": "media_executive_presenter_producer",
+      "demo": "媒体高管、主持人、制作人"
+    },
+    {
+      "key": "2_6_billion",
+      "demo": "26亿美元"
+    },
+    {
+      "key": "net_worth",
+      "demo": "净资产"
+    },
+    {
       "key": "sara_blakely",
       "demo": "萨拉·布莱克利"
     },
@@ -105,40 +93,57 @@
       "demo": "10亿美元"
     },
     {
+      "key": "warren_buffett",
+      "demo": "沃伦·巴菲特"
+    },
+    {
+      "key": "ceo_of_berkshire_hathaway",
+      "demo": "伯克希尔·哈撒韦首席执行官"
+    },
+    {
+      "key": "72_9_billion",
+      "demo": "729亿美元"
+    },
+    {
       "key": "stamp",
       "demo": "白手起家"
+    },
+    {
+      "key": "worth_amount",
+      "demo": "729亿美元"
     }
   ],
   "demoOptions": {
-    "warren_buffett": "沃伦·巴菲特",
-    "ceo_of_berkshire_hathaway": "伯克希尔·哈撒韦首席执行官",
-    "net_worth": "净资产",
-    "72_9_billion": "729亿美元",
     "howard_schultz": "霍华德·舒尔茨",
     "previous_ceo_of_starbucks": "星巴克前首席执行官",
     "3_5_billion": "35亿美元",
-    "oprah_winfrey": "奥普拉·温弗瑞",
-    "media_executive_presenter_producer": "媒体高管、主持人、制作人",
-    "2_6_billion": "26亿美元",
     "jeff_bezos": "杰夫·贝索斯",
     "ceo_of_amazon": "亚马逊首席执行官",
     "117_3_billion": "1173亿美元",
     "elon_musk": "埃隆·马斯克",
     "ceo_of_spacex_tesla": "SpaceX、特斯拉首席执行官",
     "30_billion": "300亿美元",
+    "oprah_winfrey": "奥普拉·温弗瑞",
+    "media_executive_presenter_producer": "媒体高管、主持人、制作人",
+    "2_6_billion": "26亿美元",
+    "net_worth": "净资产",
     "sara_blakely": "萨拉·布莱克利",
     "founder_of_spanx": "Spanx 创始人",
     "1_billion": "10亿美元",
-    "stamp": "白手起家"
+    "warren_buffett": "沃伦·巴菲特",
+    "ceo_of_berkshire_hathaway": "伯克希尔·哈撒韦首席执行官",
+    "72_9_billion": "729亿美元",
+    "stamp": "白手起家",
+    "worth_amount": "729亿美元"
   },
   "templateType": "localized-text-hybrid",
   "reference": "ML-044-reference.mp4",
-  "demo": "ML-044-cn-v5.mp4",
+  "demo": "ML-044-cn-v6.mp4",
   "audio": "ML-044-mix.m4a",
-  "poster": "ML-044-cn-v5.jpg",
-  "recipe": "ML-044-v5.json",
-  "qc": "ML-044-v5-qc.json",
-  "package": "ML-044-v5.zip",
+  "poster": "ML-044-cn-v6.jpg",
+  "recipe": "ML-044-v6.json",
+  "qc": "ML-044-v6-qc.json",
+  "package": "ML-044-v6.zip",
   "useCases": "用在连续列举人物成就、案例或共同标签时；助手根据文案调整中文内容。",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "limits": [
@@ -146,39 +151,40 @@
     "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
     "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
   ],
-  "status": "candidate-trial",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "status": "reviewed-trial",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "type": "localized-text-hybrid",
   "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
   "architecture": "fixed-native-motion-plus-editable-text",
-  "renderer": "render-faithful.py",
-  "revision": "v5-trial-20260930",
+  "renderer": "render-faithful-v6k.py",
+  "revision": "v6k-sfx-20261001",
   "inputSchema": {
     "textFields": [
-      "warren_buffett",
-      "ceo_of_berkshire_hathaway",
-      "net_worth",
-      "72_9_billion",
       "howard_schultz",
       "previous_ceo_of_starbucks",
       "3_5_billion",
-      "oprah_winfrey",
-      "media_executive_presenter_producer",
-      "2_6_billion",
       "jeff_bezos",
       "ceo_of_amazon",
       "117_3_billion",
       "elon_musk",
       "ceo_of_spacex_tesla",
       "30_billion",
+      "oprah_winfrey",
+      "media_executive_presenter_producer",
+      "2_6_billion",
+      "net_worth",
       "sara_blakely",
       "founder_of_spanx",
       "1_billion",
-      "stamp"
+      "warren_buffett",
+      "ceo_of_berkshire_hathaway",
+      "72_9_billion",
+      "stamp",
+      "worth_amount"
     ],
     "duration": "fixed source frames"
   },
-  "reviewLabel": "待优化 · 新版试用",
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",
