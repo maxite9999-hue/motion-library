@@ -7,8 +7,21 @@
   "duration": 11.5,
   "completeDecode": true,
   "audioPacketSHA256": "SHA256=5cc97b180b7f07d23d61bbb30c00ad6f15ba9d7ccf28abee3b7c65d4d88b8f01",
-  "audioMatchesOriginal": true,
-  "fileSHA256": "ad2067d2571af2a599378f63e9298935ff2f50b2c81038742b80f79d56c850ad",
+  "audioMatchesOriginal": false,
   "fidelity": "Native motion with localized editable Chinese text. Not whole-image pixel identity; localized background repair and CJK glyphs differ.",
-  "status": "technical-check-passed-visual-review-separate"
+  "status": "technical-check-passed-visual-review-separate",
+  "audioCheckSupersededBy": "sfx-only-20260930",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 17673,
+    "sourceEndFrameExclusive": 18018,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  },
+  "previousFileSHA256": "ad2067d2571af2a599378f63e9298935ff2f50b2c81038742b80f79d56c850ad",
+  "fileHashSupersededBy": "sfx-only-20260930"
 }

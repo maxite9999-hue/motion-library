@@ -46,5 +46,16 @@
     "heading": "回报"
   },
   "type": "native-motion-localized-text",
-  "fidelity": "Native motion retained; Chinese glyphs and small text-mask repairs differ. Fixed motion is not editable vector geometry."
+  "fidelity": "Native motion retained; Chinese glyphs and small text-mask repairs differ. Fixed motion is not editable vector geometry.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 20601,
+    "sourceEndFrameExclusive": 21048,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }
