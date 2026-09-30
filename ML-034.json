@@ -1,0 +1,49 @@
+{
+  "id": "ML-034",
+  "title": "纸币渐黑与绿色代码雨",
+  "kind": "质感转场",
+  "sourceStartFrame": 23445,
+  "sourceEndFrameExclusive": 23565,
+  "frames": 120,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "纸币渐黑",
+    "黑场",
+    "绿色字符列/扫描横线",
+    "黑场",
+    "下一镜头"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-034-reference.mp4",
+  "demo": "ML-034-demo.mp4",
+  "audio": "ML-034-mix.m4a",
+  "package": "ML-034.zip",
+  "recipe": "ML-034.json",
+  "poster": "ML-034.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      6,
+      28
+    ],
+    [
+      95,
+      117
+    ]
+  ],
+  "cutFrames": [],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-034-qc.json"
+}

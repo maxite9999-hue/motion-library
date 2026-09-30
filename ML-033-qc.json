@@ -1,0 +1,43 @@
+{
+  "id": "ML-033",
+  "expectedFrames": 597,
+  "fps": 30,
+  "sourceRange": [
+    22683,
+    23280
+  ],
+  "blackRanges": [
+    [
+      0,
+      236
+    ]
+  ],
+  "files": [
+    {
+      "file": "ML-033-reference.mp4",
+      "frames": 597,
+      "size": 1566092,
+      "sha256": "915d1433922a65860991799282e8cce17d8e439be27688911231cb75eafca6f2",
+      "audioPacketHash": "SHA256=a4f0b36369fe7ec433bbd880ad0db59f27c77dfefca5b27433bcefeaf8460710",
+      "decode": "pass"
+    },
+    {
+      "file": "ML-033-demo.mp4",
+      "frames": 597,
+      "size": 1580803,
+      "sha256": "e38422d95304b60378d39fbcf49518a1af62f3e6735a1aa15d79a5da72198d14",
+      "audioPacketHash": "SHA256=a4f0b36369fe7ec433bbd880ad0db59f27c77dfefca5b27433bcefeaf8460710",
+      "decode": "pass"
+    }
+  ],
+  "claim": "source-native asset plus optional approximate localized text patch; not full parameterized reconstruction",
+  "sameAudioPacketsInBothPreviews": true,
+  "losslessMixSha256": "bb0fdd3f52854b9aa7cc43cd3f52e0d80ec2eb187155d4455cd0a5b71e1c56c4",
+  "referenceFullFrameSSIM": {
+    "frames": 597,
+    "minimum": 0.982299,
+    "mean": 0.9984615644891126,
+    "worstFrame": 596,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "ML-033",
+  "title": "暗色烟雾章节完整渐入",
+  "kind": "章节",
+  "sourceStartFrame": 22683,
+  "sourceEndFrameExclusive": 23280,
+  "frames": 597,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "黑场停顿",
+    "暗色烟雾缓入",
+    "PART 5",
+    "副标题",
+    "保持",
+    "公路"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-033-reference.mp4",
+  "demo": "ML-033-demo.mp4",
+  "audio": "ML-033-mix.m4a",
+  "package": "ML-033.zip",
+  "recipe": "ML-033.json",
+  "poster": "ML-033.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      0,
+      236
+    ]
+  ],
+  "cutFrames": [
+    573
+  ],
+  "slots": [
+    {
+      "box": [
+        210,
+        230,
+        860,
+        310
+      ],
+      "original": "PART 5 / Your Money or Your Life",
+      "demo": "第五章\n把时间留给重要的事",
+      "size": 40,
+      "fill": "sample-top",
+      "color": "#eeeeee",
+      "fade": 1,
+      "angle": 0,
+      "lineDelays": [
+        0.0,
+        0.6
+      ],
+      "key": "text1",
+      "from": 297,
+      "to": 579
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "第五章\n把时间留给重要的事"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-033-qc.json"
+}
