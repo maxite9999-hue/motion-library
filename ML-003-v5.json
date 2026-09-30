@@ -55,5 +55,16 @@
   },
   "type": "native-motion-localized-text",
   "fidelity": "Native motion retained; Chinese glyphs and small text-mask repairs differ. Fixed motion is not editable vector geometry.",
-  "inputContract": "Assistant selects concise copy matching each source text block; preserve original line hierarchy, motion and native audio. Do not insert additional headings or collapse separate source blocks. Fixed native motion cannot change dot count/trajectory."
+  "inputContract": "Assistant selects concise copy matching each source text block; preserve original line hierarchy, motion and native audio. Do not insert additional headings or collapse separate source blocks. Fixed native motion cannot change dot count/trajectory.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 2053,
+    "sourceEndFrameExclusive": 2139,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }

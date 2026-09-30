@@ -6,5 +6,16 @@
   "decodedAudioIdentical": true,
   "completeDecode": true,
   "visualAcceptance": "Human inspection of 3fps contact sheet and 176-182 frame boundary sheet; no pixel-exact claim",
-  "sha256": "55a28088e413fe719a9ad88577855223116ccd3c5bba44069953f5dc35cb9b6e"
+  "sha256": "55a28088e413fe719a9ad88577855223116ccd3c5bba44069953f5dc35cb9b6e",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 4329,
+    "sourceEndFrameExclusive": 4542,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }

@@ -26,7 +26,7 @@
   "poster": "ML-007-cn-v5.jpg",
   "status": "candidate-trial",
   "limits": [
-    "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+    "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
     "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
     "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
   ],
@@ -51,7 +51,7 @@
     "subscribed": "已订阅"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
   "qc": "ML-007-v5-qc.json",
   "renderer": "render-faithful.py",
   "revision": "v5-trial-20260930",
@@ -65,5 +65,16 @@
     ],
     "duration": "fixed source frames"
   },
-  "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity."
+  "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 4329,
+    "sourceEndFrameExclusive": 4542,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }

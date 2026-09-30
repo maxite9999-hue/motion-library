@@ -348,5 +348,16 @@
   },
   "type": "native-motion-localized-text",
   "status": "candidate-needs-visual-review",
-  "fidelity": "Native source motion; OCR-assisted source typography tracking is not yet visually accepted."
+  "fidelity": "Native source motion; OCR-assisted source typography tracking is not yet visually accepted.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 4755,
+    "sourceEndFrameExclusive": 5085,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }
