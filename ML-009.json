@@ -1,0 +1,46 @@
+{
+  "id": "ML-009",
+  "title": "说明叠化与紫色公路渐黑",
+  "kind": "文字与背景",
+  "sourceStartFrame": 5085,
+  "sourceEndFrameExclusive": 6044,
+  "frames": 959,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "纸币背景",
+    "说明标题与小字",
+    "缓慢叠化紫色公路",
+    "全部文字退出",
+    "公路渐黑",
+    "黑场"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-009-reference.mp4",
+  "demo": "ML-009-demo.mp4",
+  "audio": "ML-009-mix.m4a",
+  "package": "ML-009.zip",
+  "recipe": "ML-009.json",
+  "poster": "ML-009.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      846,
+      959
+    ]
+  ],
+  "cutFrames": [],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-009-qc.json"
+}
