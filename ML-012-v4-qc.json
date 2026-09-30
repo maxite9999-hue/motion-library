@@ -7,5 +7,16 @@
   "audioDecodedIdentical": true,
   "blackSamples": [],
   "sha256": "04f72c832f4f4bc1b0fa75df3b97c2f25635946a73f239d6c63b87fc2a8a575c",
-  "visualScope": "Semantic Chinese reconstruction. Not pixel/frame-exact motion alignment."
+  "visualScope": "Semantic Chinese reconstruction. Not pixel/frame-exact motion alignment.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 7959,
+    "sourceEndFrameExclusive": 8334,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }

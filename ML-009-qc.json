@@ -39,5 +39,16 @@
     "mean": 0.9895948143899902,
     "worstFrame": 75,
     "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 5085,
+    "sourceEndFrameExclusive": 6044,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
   }
 }

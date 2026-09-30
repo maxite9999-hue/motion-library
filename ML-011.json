@@ -26,7 +26,7 @@
   "limits": [
     "原生合成特效保留为视频层，不冒充恢复的独立图层",
     "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -41,6 +41,17 @@
   "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
   "demoOptions": {},
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-011-qc.json"
+  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "qc": "ML-011-qc.json",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 6366,
+    "sourceEndFrameExclusive": 6438,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }
