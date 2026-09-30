@@ -33,9 +33,20 @@
   "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
   "limits": [
     "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+    "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
     "720p预览有压缩；原生回放不是自由参数化重建。"
   ],
   "status": "verified-native-asset",
-  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 7623,
+    "sourceEndFrameExclusive": 7716,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }

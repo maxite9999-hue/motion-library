@@ -73,5 +73,16 @@
   },
   "type": "native-motion-localized-text",
   "fidelity": "Native source motion with replaceable CJK text; not a vector reconstruction.",
-  "status": "candidate-needs-visual-review"
+  "status": "candidate-needs-visual-review",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 22683,
+    "sourceEndFrameExclusive": 23280,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }
