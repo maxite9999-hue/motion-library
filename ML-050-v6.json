@@ -1,0 +1,71 @@
+{
+  "id": "ML-050",
+  "reference": "ML-050-reference.mp4",
+  "audio": "ML-050-mix.m4a",
+  "frames": 1181,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      218,
+      227
+    ],
+    [
+      669,
+      714
+    ],
+    [
+      1172,
+      1181
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "lead",
+      "text": "他们究竟",
+      "start": 0,
+      "end": 66,
+      "roi": [
+        390,
+        205,
+        900,
+        282
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    },
+    {
+      "key": "question",
+      "text": "如何做到？",
+      "start": 0,
+      "end": 66,
+      "roi": [
+        390,
+        284,
+        900,
+        445
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    }
+  ],
+  "demoOptions": {
+    "lead": "他们究竟",
+    "question": "如何做到？"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 2075,
+    "sourceEndFrameExclusive": 3256,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  },
+  "status": "visually-reviewed-hybrid"
+}

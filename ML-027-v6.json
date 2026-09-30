@@ -1,0 +1,67 @@
+{
+  "id": "ML-027",
+  "reference": "ML-027-reference.mp4",
+  "audio": "ML-027-mix.m4a",
+  "frames": 345,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      309,
+      345
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "negative",
+      "text": "难以规模化",
+      "start": 109,
+      "end": 156,
+      "roi": [
+        140,
+        65,
+        1120,
+        670
+      ],
+      "ink": "red",
+      "autoRotate": true,
+      "weight": "Medium",
+      "naturalWidth": true
+    },
+    {
+      "key": "positive",
+      "text": "可以规模化",
+      "start": 273,
+      "end": 309,
+      "roi": [
+        140,
+        70,
+        1135,
+        670
+      ],
+      "ink": "green",
+      "autoRotate": true,
+      "weight": "Medium",
+      "naturalWidth": true
+    }
+  ],
+  "demoOptions": {
+    "negative": "难以规模化",
+    "positive": "可以规模化"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "status": "visually-reviewed-hybrid",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 17673,
+    "sourceEndFrameExclusive": 18018,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
+}

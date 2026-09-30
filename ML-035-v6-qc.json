@@ -1,0 +1,95 @@
+{
+  "id": "ML-035",
+  "version": "v6-sfx-20261001",
+  "technical": {
+    "id": "ML-035",
+    "frames": 480,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "459cce9ef9a079c3236d9a5d903bcd60df78d160e1243c904ae9c842ee4794a3",
+    "fileSHA256": "fe752cc6e650c8347a80328cc8bd4ba5e42a86dd08f1e3d90ac9d85aec9f2bb4",
+    "renderSeconds": 41.8,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-035",
+    "framesCompared": 480,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.597941623263889,
+    "maxLocalizedMAE": 3.6972139396198287,
+    "pass": true,
+    "recipeRendererFingerprint": "32b2b680d993b3543dcf10f671d47ce5f4752fc4c72e025c0104ac9c022012e8",
+    "deliverySHA256": "fe752cc6e650c8347a80328cc8bd4ba5e42a86dd08f1e3d90ac9d85aec9f2bb4"
+  },
+  "replacement": {
+    "id": "ML-035",
+    "sampleFrames": [
+      0,
+      89,
+      90,
+      91,
+      108,
+      125,
+      126,
+      127,
+      159,
+      191,
+      192,
+      193,
+      212,
+      232,
+      233,
+      234,
+      258,
+      283,
+      284,
+      285,
+      343,
+      402,
+      403,
+      404,
+      479
+    ],
+    "tests": [
+      {
+        "field": "question1",
+        "frame": 108,
+        "replacementChangedPixels": 23614,
+        "activeTrackFound": true
+      },
+      {
+        "field": "question2",
+        "frame": 159,
+        "replacementChangedPixels": 26721,
+        "activeTrackFound": true
+      },
+      {
+        "field": "question3",
+        "frame": 212,
+        "replacementChangedPixels": 22676,
+        "activeTrackFound": true
+      },
+      {
+        "field": "question4",
+        "frame": 258,
+        "replacementChangedPixels": 22940,
+        "activeTrackFound": true
+      },
+      {
+        "field": "question5",
+        "frame": 343,
+        "replacementChangedPixels": 20171,
+        "activeTrackFound": true
+      },
+      {
+        "field": "question6",
+        "frame": 343,
+        "replacementChangedPixels": 13773,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "source/CN boundaries and transition windows reviewed; Chinese glyph shapes differ, local background repair approximate",
+  "wholeLibraryComplete": false
+}

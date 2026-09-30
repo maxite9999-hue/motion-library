@@ -1,0 +1,112 @@
+{
+  "id": "ML-038",
+  "reference": "ML-038-reference.mp4",
+  "audio": "ML-038-mix.m4a",
+  "frames": 309,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [],
+  "tracks": [
+    {
+      "key": "line1",
+      "text": "别再追逐金钱",
+      "start": 38,
+      "end": 292,
+      "roi": [
+        190,
+        264,
+        655,
+        316
+      ],
+      "ink": "white",
+      "lockedBox": [
+        213,
+        274,
+        643,
+        307
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAdEAAAA0CAAAAADwVl3CAAADk0lEQVR4nO1a2ZakMAg1c/r/f5l50NIs7BC75gz3pUsDF0IWIunjKBQKhUKhUCgUCoVCoVAoFEY0oR0UMn7xDQT5dHAkkCT5ogBrAlYxWKWQtoF1VOEM0gRtkppY8GDhdIPsoji/IFySjKO8CA9mjo51Q1SW+faH8nNkRAbSKQ50G0EASvs+f/jGnkMpF/JFJbBgmCTMiAL5EBMn2sBoT6IN0iFqehKTLw7fAPn1AT2iwD5GxFVdsPQTk83wJyH2Vl9krLv/+OZHow7zi3X3hlkcBjttEMMgEPiwuO/mkEgAT77dI901rqdEE6NCrtF+zO6MLBhqXOPZtFLZCBisWxvpPqeJc8gkAriu2WiZuXMc/Mno0dWF2Cg+YFz0NgIqIBF/zKrCqGT4IlGfYEc0BKKL+h0mtlmaoDGlHwo5bcYSdLs1ML2kEZ2owxPRRRCYArtnz8bKwkwtnIwoNa/MDpyf3OyYvDFB7sOKtP+iJ3Ozh9AIS8oRfR0vTo8Ghyqku1xCh1itsXjF7rovZrIdSHDfMooQseqpqOA6fB79F4b0qnM+x4WxSYHoh8mxjLxtOdvtN+TXB+Sue65svAQeQUo9TsYu978IREjoPHpv1plh6csne2Fxn86k6hNLg0vYEy0mkxMZk8m9zMmo14qW5PZt3zfzHdPu+RHi/ScDNJcRv23BI/5weXQoNyWOSXpY2JrkCYX78UwKXpJIJp3BVwHbjjn52jw3uJ9wOJrIXgFmSfoefbqacRdCOGFTY2vu2KEz030ebiNkJrUTqioM9m/ghSFKQKE7iNDJUOE+W2ZQXcqdDIezr+YQkwq6mpG2rPI7EIPhd//dPqdYU1bq3x/M1O9WhfvxTBq63M3L5NQa/e1vcxC/OC4x+r1rTTp0vgyJ96PfFg2jP8sEMM8InYJ4Px8ENaJYmZRBymU1oD/9JEa6nWf57PtjBsrbNEeE37j1nv+BbSggpeA5rLgZtb4k+Wy4TRMjDMsPPcaDgYWAdsvoflyi0TWNSGxsUN2mKUqA/YiEt8y0BXb9cfK1TjlcBe27xn72RqG4TTPYM4rr7amy0/WyyXSsD7QV74fJ7IvB/vBGZZ9eo8ZL3NCdr0hAh4Ma+IwJn3WACcfGAmbXVSySgPgGAo5OxzdLNbbV64vevgfK2zTVnsX9r4QGhD2SjFi4n9cZC7bvUyTcFl++tdhaKBQKhUKhUCgUCoVC4T/CX8udH19zQdDSAAAAAElFTkSuQmCC",
+      "fullContrast": 254.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "weight": "Medium"
+    },
+    {
+      "key": "line2",
+      "text": "去寻找问题",
+      "start": 94,
+      "end": 292,
+      "roi": [
+        200,
+        317,
+        582,
+        363
+      ],
+      "ink": "white",
+      "lockedBox": [
+        215,
+        325,
+        563,
+        358
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAX4AAAAuCAAAAAAKSC1jAAADGUlEQVR4nO1awXbEIAiUvv7/L9NLk9U4Axgx3e1zDu0mCgxoUElK2djY2NjY2NjY2Nj47xB4V2GjtncUSCtUCNVpgIrSZt5imLSkkDdXkUYOu9/ewyw4iavFS7jNa3yLqevc8sJvivMwXxkzKUgdyBydlJmV9hLyO/FlG9Q+SgZgZ/U6TOoHLVEPJuk4iLDowz/LSa3LR+JvMsikYyKkuwv/ka5EmutJyKHvgfgfv4Sn3IC+G3SQMsfxb3hXfv9oKUUDXnBU6VBCqy3mcqqq2bQtQEp6GZyaoxQGYDt+4Dr70YoyZBFgavwiaqSzLpf/L2jXZwb2woZ2QS3A0ltJ3WLIZ5WYrS5i+zelLX8HygKF//MRD3ryRmMUieFnO+e/x9oN5owRvPSekFGlotZi/X6j8xCjgWNXKxfZvr0zVtPXy/8x5CUfnnvWP/uPZJdx+LTSl160uxkrXVDkBjmBlLycxRt214aT+zt9Y93PxYM8GoGiVAA6pACeD8IilkDTJtawnBgMPwfLPa/Fm5V04/qLscO/pTplYSA7jWrXgsvwpSSGv0FTGqiixHkYuhL4LMPhHJp8Ecfzj12dHaEzNkG522Bi7dAGHB+d/axiZTpCiw2DQUsJflPJDdYTjXKHlqJCM29xIjMYfpJUusbeLQEly9u2qxt3J7AMiHqUvbnHHV+Q++lJ2Si8WuoC1u6P6Vw5PQjueFL49fzzQRiuqFhK/GFEI+0tvZp0ZFqHjy6KOLP/duz19YrtifjwHLJ89gg8WQUd/wf1ft/L931AcnI//8ClPLS6tUYeMXlA2HE+wALN/v6jgRALpOSRMIhxZXmQlZfYjj/Q7Rr+Zi89saeuod2PBcCnQDf6KfODvRPxHcfJR6tTScLXMlod//jb/9QnhXsQ/epK/PsxFlYi6MJfF0pHrPW1bkHqlqA9eo14sC45xhzvc38GI/QtVJ72AetpPadZhCuedcfQm157hIVe5MFw1fJg7VyIOI5yv+CkCc7ocjZcA9C8IELqoid+o9jItUU8mIw94988+PHlc2NjY2NjY+MJ/ABc8+xqrsEKAwAAAABJRU5ErkJggg==",
+      "fullContrast": 252.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "weight": "Medium"
+    },
+    {
+      "key": "line3",
+      "text": "找到这些问题的解决方案",
+      "start": 127,
+      "end": 292,
+      "roi": [
+        200,
+        366,
+        974,
+        414
+      ],
+      "ink": "white",
+      "lockedBox": [
+        215,
+        376,
+        954,
+        409
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAwYAAAAwCAAAAACOZjIlAAAE/0lEQVR4nO2cyZYbIQxFISf//8tkEafNoCcJJCgqR3fTLgOagGJ0pxQEQRAEQRAEQRAEQRAEQRAEQRAEQRAE/8jdc0E5Sp25eaASoXxa2ZDrKyP3X48Su2+/j6MzVUIrhzZlyEeoIoqNyWM+7LtQtjCh5wWTKYMewp4CM+AUzhimFF3D2nYJhEixTukXSnCiENX5kwZzFfLjPir9gz6VA9NmYt8FeZIiKJjzcUYBU6VDNapUck3EA40V691Aa7yuQpUPe1jUZzBzl4cFCvbUiIuvVaM1APglqrVi92iAVasHgO39QNCH9BvMPOUhfA+e6AcTKjdWsc6K38R37Hy+ksjkqyZuIGOp8lHdt0rhFLHUVkgyFvXBRQinH/veF4VzZZpKMCUX+ahSAKu0Xe50wYNhrR1Ugs0s5EpgKFlG+z5YRgPZgywEOFd/yHWTpoJEMwQhdSvVrnSpYqwdo2B10Uk+Mc+j4ImYEmJb8VyWv4hhreXtHfFlj3dPilgn8/BBTllAEeNFfWvF2tHBw8NaMEzx0qjtB4PKI7sdHdR7gGD72mA65k8ESzDhApPUZOLTBhxD4vymg1urHKZusK15dIZvbYad8IlpkYWTHnrDN6vS/NGVOUVOINTUElnP8uK1hxlo39FCslsoDvAiU7X8hJ9vLsjzAxumL4BrF8pp7XrT+s8aJbWHdD3r3cBh1fOOFz3D/Q4YDrpPcfpciMIwGjj09VtrpoHr769wIDnv1Pg6rTrV4amm/P05i9JxqhsYzkP1fM5Vdl8o2ceDDqyqdDTWbSdhosy68aLj5BK5KsPOmvGp3ARz56RPIPj5gAPzDSJXb0v2WrHoyaCbPPcUUW7oozLdWXX5VNBYFxkMEy22nSIL9RZQubsj0LtVL3IgddYuGLvW2HVsjV3lOK4l006RbcbZHMvfPzcijmVe5UBj7KkTHx0+1hTwytc4/uiGaa4a0tXNCPX31ziQUmusfL+FFwVVTFn0w3Tsej2sXoXjhhumyWN18F3kv+n8qeIRBxTtGZdbum2gyj4j5yev3gFDfKV5yw3HZ6vvkIPwYTztgH170VB6cDbnnA33RH32cnP6zHi4y6wJqjJ2A6f96Pv7gcBjNyhXWDI2529zh0LXzTkCtt46Ghy5JnwBr2rnEtsa3oMBkn/ZwOGyYbrg/f2nBRTd1YT6+sylXeRjYnljtD1QOm5eG/hE17rKNjLzwxx3DnSgckANEaA7Xg0aK55cIuN368kLYdqb/77VfPY6/rGR4OvW8cEnW7Tau4GgGTQV5gcG0ypaNeb9QB1E77li2sEFQk6xwLp/x8AA2f7vulJaaR9l+MDQiF9T2Oqji7sNB+1y27GB8G7vvA4BlGjC6hYAuI+leDM4dAMuoLyLTFMoKEGQtXz5cq146f4uavRsk41J/wTnIWUDeXxShHXvODE6TsbaY6eI2CWR7w/mftmWmxR8m5AQ3cuaa1WCvj7jdDGFRi+GoLagFLm29BRYW0w1EgM6kbQ+nImhPrBEBvZm+IhTTAq1+RfbgfWofweZ+CSpNPROYjhYKeiKznGXbsBfbJoXgR9Q6TrTfEy1+rpqnjbTo6ggGD4tN9FZwGYRd+Fk696CyvEH/09RHRj10CCrWYnpvD5LMWNRXi4UnOlMowRHY3RSz+0WQ8ev2OQDnL5zevy3M7sUXrN7m+6yJQiCIAiCIAiCIAgCgT8awoZwnHlIkgAAAABJRU5ErkJggg==",
+      "fullContrast": 252.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "weight": "Medium"
+    }
+  ],
+  "demoOptions": {
+    "line1": "别再追逐金钱",
+    "line2": "去寻找问题",
+    "line3": "找到这些问题的解决方案"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "status": "visually-reviewed-hybrid",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 26040,
+    "sourceEndFrameExclusive": 26349,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
+}

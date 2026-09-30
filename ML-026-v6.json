@@ -1,0 +1,64 @@
+{
+  "id": "ML-026",
+  "reference": "ML-026-reference.mp4",
+  "audio": "ML-026-mix.m4a",
+  "frames": 216,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [],
+  "tracks": [
+    {
+      "key": "chapter",
+      "text": "第三章",
+      "start": 0,
+      "end": 209,
+      "roi": [
+        420,
+        260,
+        850,
+        350
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    },
+    {
+      "key": "heading",
+      "text": "值得解决的问题",
+      "start": 92,
+      "end": 209,
+      "roi": [
+        275,
+        357,
+        1000,
+        444
+      ],
+      "ink": "dark",
+      "fadingPlate": true,
+      "lockedBox": [
+        305,
+        370,
+        975,
+        429
+      ]
+    }
+  ],
+  "demoOptions": {
+    "chapter": "第三章",
+    "heading": "值得解决的问题"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 17334,
+    "sourceEndFrameExclusive": 17550,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  },
+  "status": "visually-reviewed-hybrid"
+}

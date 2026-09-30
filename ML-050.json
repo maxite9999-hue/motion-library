@@ -75,26 +75,25 @@
   },
   "templateType": "localized-text-hybrid",
   "reference": "ML-050-reference.mp4",
-  "demo": "ML-050-cn-v5.mp4",
+  "demo": "ML-050-cn-v6.mp4",
   "audio": "ML-050-mix.m4a",
-  "poster": "ML-050-cn-v5.jpg",
-  "recipe": "ML-050-v5.json",
-  "qc": "ML-050-v5-qc.json",
-  "package": "ML-050-v5.zip",
+  "poster": "ML-050-cn-v6.jpg",
+  "recipe": "ML-050-v6.json",
+  "qc": "ML-050-v6-qc.json",
+  "package": "ML-050-v6.zip",
   "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；助手根据文案调整中文内容。",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "limits": [
     "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-    "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-    "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+    "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
   ],
-  "status": "candidate-trial",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "status": "reviewed-trial",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "type": "localized-text-hybrid",
   "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
   "architecture": "fixed-native-motion-plus-editable-text",
-  "renderer": "render-faithful.py",
-  "revision": "v5-trial-20260930",
+  "renderer": "render-faithful-v6.py",
+  "revision": "v6-sfx-20261001",
   "inputSchema": {
     "textFields": [
       "lead",
@@ -102,7 +101,7 @@
     ],
     "duration": "fixed source frames"
   },
-  "reviewLabel": "待优化 · 新版试用",
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",

@@ -17,16 +17,15 @@
   ],
   "architecture": "fixed-native-motion-plus-editable-text",
   "reference": "ML-008-reference.mp4",
-  "demo": "ML-008-cn-v5.mp4",
+  "demo": "ML-008-cn-v6.mp4",
   "audio": "ML-008-mix.m4a",
-  "package": "ML-008-v5.zip",
-  "recipe": "ML-008-v5.json",
-  "poster": "ML-008-cn-v5.jpg",
-  "status": "candidate-trial",
+  "package": "ML-008-v6.zip",
+  "recipe": "ML-008-v6.json",
+  "poster": "ML-008-cn-v6.jpg",
+  "status": "reviewed-trial",
   "limits": [
     "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-    "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-    "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+    "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -43,31 +42,79 @@
     },
     {
       "key": "the_untold_truth_about_money",
-      "demo": "关于金钱的真相"
+      "demo": "关于金钱不为人知的真相"
+    },
+    {
+      "key": "disclaimer",
+      "demo": "观看说明"
+    },
+    {
+      "key": "credit",
+      "demo": "本片深受 M.J.德马科作品的启发，"
+    },
+    {
+      "key": "opinion",
+      "demo": "也融入了我对社会如何围绕金钱运转的"
+    },
+    {
+      "key": "observation",
+      "demo": "个人看法与观察。"
+    },
+    {
+      "key": "scope",
+      "demo": "当然，这个话题十分庞大，很难在一条视频中讲完。"
+    },
+    {
+      "key": "condensed",
+      "demo": "因此，接下来的内容已经尽可能精简，"
+    },
+    {
+      "key": "information",
+      "demo": "呈现其中最重要的信息。"
+    },
+    {
+      "key": "enjoy",
+      "demo": "祝你愉快 :)"
     }
   ],
   "templateType": "localized-text-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
     "are_you_with_me": "准备好一起开始了吗？",
-    "the_untold_truth_about_money": "关于金钱的真相"
+    "the_untold_truth_about_money": "关于金钱不为人知的真相",
+    "disclaimer": "观看说明",
+    "credit": "本片深受 M.J.德马科作品的启发，",
+    "opinion": "也融入了我对社会如何围绕金钱运转的",
+    "observation": "个人看法与观察。",
+    "scope": "当然，这个话题十分庞大，很难在一条视频中讲完。",
+    "condensed": "因此，接下来的内容已经尽可能精简，",
+    "information": "呈现其中最重要的信息。",
+    "enjoy": "祝你愉快 :)"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "useCases": "用在邀请观众进入主题的开场或章节引入；助手根据文案调整中文内容。",
-  "qc": "ML-008-v5-qc.json",
+  "qc": "ML-008-v6-qc.json",
   "type": "localized-text-hybrid",
   "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-  "renderer": "render-faithful.py",
-  "revision": "v5-trial-20260930",
+  "renderer": "render-faithful-v6.py",
+  "revision": "v6-sfx-20261001",
   "inputSchema": {
     "textFields": [
       "are_you_with_me",
-      "the_untold_truth_about_money"
+      "the_untold_truth_about_money",
+      "disclaimer",
+      "credit",
+      "opinion",
+      "observation",
+      "scope",
+      "condensed",
+      "information",
+      "enjoy"
     ],
     "duration": "fixed source frames"
   },
-  "reviewLabel": "待优化 · 新版试用",
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",

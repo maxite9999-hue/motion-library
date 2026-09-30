@@ -1,0 +1,59 @@
+{
+  "id": "ML-010",
+  "version": "v6-sfx-20261001",
+  "technical": {
+    "id": "ML-010",
+    "frames": 297,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "39ba2c362268ce3e126ae8fa98b9ef4fc3e6d9a9161a95e09331017cee3595ba",
+    "fileSHA256": "8b0f423e85e5c089ff324d2743d8d77a0c425f313cfb6cad7bf51f719d623163",
+    "renderSeconds": 53.6,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-010",
+    "framesCompared": 297,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.5573752170138888,
+    "maxLocalizedMAE": 4.428877316142452,
+    "pass": true,
+    "recipeRendererFingerprint": "8bca7a706695357b1b8342fc587b11e21f26e097118d370448b5d00b994daab3",
+    "deliverySHA256": "8b0f423e85e5c089ff324d2743d8d77a0c425f313cfb6cad7bf51f719d623163"
+  },
+  "replacement": {
+    "id": "ML-010",
+    "sampleFrames": [
+      0,
+      112,
+      113,
+      114,
+      179,
+      180,
+      181,
+      200,
+      233,
+      286,
+      287,
+      288,
+      296
+    ],
+    "tests": [
+      {
+        "field": "chapter",
+        "frame": 200,
+        "replacementChangedPixels": 38279,
+        "activeTrackFound": true
+      },
+      {
+        "field": "heading",
+        "frame": 233,
+        "replacementChangedPixels": 40585,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "source/CN boundaries and transition windows reviewed; Chinese glyph shapes differ, local background repair approximate",
+  "wholeLibraryComplete": false
+}

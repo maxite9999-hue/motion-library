@@ -1,0 +1,89 @@
+{
+  "id": "ML-017",
+  "reference": "ML-017-reference.mp4",
+  "audio": "ML-017-mix.m4a",
+  "frames": 459,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      0,
+      124
+    ],
+    [
+      186,
+      262
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "chapter",
+      "text": "第二章",
+      "start": 282,
+      "end": 459,
+      "roi": [
+        420,
+        250,
+        850,
+        350
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    },
+    {
+      "key": "heading1",
+      "text": "揭开真相",
+      "start": 307,
+      "end": 459,
+      "roi": [
+        380,
+        360,
+        920,
+        423
+      ],
+      "ink": "dark",
+      "fullBox": [
+        411,
+        370,
+        880,
+        420
+      ],
+      "revealEnd": 350,
+      "naturalWidth": true
+    },
+    {
+      "key": "heading2",
+      "text": "金钱与财富",
+      "start": 350,
+      "end": 459,
+      "roi": [
+        380,
+        423,
+        920,
+        520
+      ],
+      "ink": "dark",
+      "naturalWidth": true
+    }
+  ],
+  "demoOptions": {
+    "chapter": "第二章",
+    "heading1": "揭开真相",
+    "heading2": "金钱与财富"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 11313,
+    "sourceEndFrameExclusive": 11772,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  },
+  "status": "visually-reviewed-hybrid"
+}

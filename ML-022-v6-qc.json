@@ -1,0 +1,46 @@
+{
+  "id": "ML-022",
+  "version": "v6-sfx-20261001",
+  "technical": {
+    "id": "ML-022",
+    "frames": 168,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "1e036826de7ba9f44b498d166183eb54bdb8a938ba7cb9567305669d37919fff",
+    "fileSHA256": "9f3cabf5546285f59ff8090e28807a5ec238cd76477575715e4e76aad027391f",
+    "renderSeconds": 49.8,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-022",
+    "framesCompared": 168,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.507621166087963,
+    "maxLocalizedMAE": 1.073184650502807,
+    "pass": true,
+    "recipeRendererFingerprint": "df0c80f72b150a8a703809a157b0448d868cc4eff73b7b8a7d5edb18b4046162",
+    "deliverySHA256": "9f3cabf5546285f59ff8090e28807a5ec238cd76477575715e4e76aad027391f"
+  },
+  "replacement": {
+    "id": "ML-022",
+    "sampleFrames": [
+      0,
+      73,
+      74,
+      75,
+      121,
+      167
+    ],
+    "tests": [
+      {
+        "field": "wrong",
+        "frame": 121,
+        "replacementChangedPixels": 141921,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "source/CN boundaries and transition windows reviewed; Chinese glyph shapes differ, local background repair approximate",
+  "wholeLibraryComplete": false
+}

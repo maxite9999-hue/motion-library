@@ -1,0 +1,56 @@
+{
+  "id": "ML-007",
+  "version": "v6-sfx-20261001",
+  "technical": {
+    "id": "ML-007",
+    "frames": 213,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "7523371e1ff529a817d5711c7d42ed93c980b3ef0a6e518d7d55dedc63e4c206",
+    "fileSHA256": "d34409b8cccdafcde85a1a2ae7504ba5c843a18562a52873beb5517789d9d641",
+    "renderSeconds": 23.7,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-007",
+    "framesCompared": 213,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.6491966869212964,
+    "maxLocalizedMAE": 3.919496855345912,
+    "pass": true,
+    "recipeRendererFingerprint": "7523371e1ff529a817d5711c7d42ed93c980b3ef0a6e518d7d55dedc63e4c206",
+    "deliverySHA256": "d34409b8cccdafcde85a1a2ae7504ba5c843a18562a52873beb5517789d9d641"
+  },
+  "replacement": {
+    "id": "ML-007",
+    "sampleFrames": [
+      0,
+      1,
+      2,
+      3,
+      14,
+      91,
+      179,
+      180,
+      181,
+      212
+    ],
+    "tests": [
+      {
+        "field": "subscribe",
+        "frame": 14,
+        "replacementChangedPixels": 10668,
+        "activeTrackFound": true
+      },
+      {
+        "field": "subscribed",
+        "frame": 91,
+        "replacementChangedPixels": 11916,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "source/CN boundaries and transition windows reviewed; Chinese glyph shapes differ, local background repair approximate",
+  "wholeLibraryComplete": false
+}

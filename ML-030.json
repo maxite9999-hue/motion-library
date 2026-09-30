@@ -18,16 +18,15 @@
   ],
   "architecture": "fixed-native-motion-plus-editable-text",
   "reference": "ML-030-reference.mp4",
-  "demo": "ML-030-cn-v5.mp4",
+  "demo": "ML-030-cn-v6.mp4",
   "audio": "ML-030-mix.m4a",
-  "package": "ML-030-v5.zip",
-  "recipe": "ML-030-v5.json",
-  "poster": "ML-030-cn-v5.jpg",
-  "status": "candidate-trial",
+  "package": "ML-030-v6.zip",
+  "recipe": "ML-030-v6.json",
+  "poster": "ML-030-cn-v6.jpg",
+  "status": "reviewed-trial",
   "limits": [
     "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-    "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-    "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+    "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
   ],
   "blackRanges": [
     [
@@ -56,13 +55,13 @@
     "heading": "回报"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "useCases": "用在成果、回报或阶段总结的新章节；助手根据文案调整中文内容。",
-  "qc": "ML-030-v5-qc.json",
+  "qc": "ML-030-v6-qc.json",
   "type": "localized-text-hybrid",
   "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-  "renderer": "render-faithful.py",
-  "revision": "v5-trial-20260930",
+  "renderer": "render-faithful-v6.py",
+  "revision": "v6-sfx-20261001",
   "inputSchema": {
     "textFields": [
       "chapter",
@@ -70,7 +69,7 @@
     ],
     "duration": "fixed source frames"
   },
-  "reviewLabel": "待优化 · 新版试用",
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",

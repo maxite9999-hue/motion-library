@@ -1,0 +1,53 @@
+{
+  "id": "ML-050",
+  "version": "v6-sfx-20261001",
+  "technical": {
+    "id": "ML-050",
+    "frames": 1181,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "f38c69c2eee1afa257d9db9cbecd9da539243ad142f2fb5de92e3a2fea780c52",
+    "fileSHA256": "306bf21cc4b06e0e2c96f9c0caf23e386eb17f7a9da6d9dbe3627e79e20e6ac8",
+    "renderSeconds": 103.2,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-050",
+    "framesCompared": 1181,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 2.064027054398148,
+    "maxLocalizedMAE": 3.6090935968913667,
+    "pass": true,
+    "recipeRendererFingerprint": "2164fc873702bb66af223ad86918428d0696a111915f97aa813c55452344f3f4",
+    "deliverySHA256": "306bf21cc4b06e0e2c96f9c0caf23e386eb17f7a9da6d9dbe3627e79e20e6ac8"
+  },
+  "replacement": {
+    "id": "ML-050",
+    "sampleFrames": [
+      0,
+      1,
+      33,
+      65,
+      66,
+      67,
+      1180
+    ],
+    "tests": [
+      {
+        "field": "lead",
+        "frame": 33,
+        "replacementChangedPixels": 38777,
+        "activeTrackFound": true
+      },
+      {
+        "field": "question",
+        "frame": 33,
+        "replacementChangedPixels": 124190,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "source/CN boundaries and transition windows reviewed; Chinese glyph shapes differ, local background repair approximate",
+  "wholeLibraryComplete": false
+}

@@ -1,0 +1,107 @@
+{
+  "id": "ML-008",
+  "version": "v6-sfx-20261001",
+  "technical": {
+    "id": "ML-008",
+    "frames": 330,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "4dac51c51bea476b68850f37b2ebd001eb7624cbd239f6b0f393b9a7e841fb91",
+    "fileSHA256": "93b74706b4359a2ebb14725beea3fb72643c4d7249ab11b92a0fca82aed7028a",
+    "renderSeconds": 111.0,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-008",
+    "framesCompared": 330,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.6615733506944443,
+    "maxLocalizedMAE": 2.5615419980240826,
+    "pass": true,
+    "recipeRendererFingerprint": "712380c2de43db89d9681cf7036cc33530ea9d356f9f574b5823e6a2e5415bba",
+    "deliverySHA256": "93b74706b4359a2ebb14725beea3fb72643c4d7249ab11b92a0fca82aed7028a"
+  },
+  "replacement": {
+    "id": "ML-008",
+    "sampleFrames": [
+      0,
+      29,
+      30,
+      31,
+      57,
+      83,
+      84,
+      85,
+      86,
+      206,
+      327,
+      328,
+      329
+    ],
+    "tests": [
+      {
+        "field": "are_you_with_me",
+        "frame": 57,
+        "replacementChangedPixels": 64253,
+        "activeTrackFound": true
+      },
+      {
+        "field": "the_untold_truth_about_money",
+        "frame": 206,
+        "replacementChangedPixels": 41718,
+        "activeTrackFound": true
+      },
+      {
+        "field": "disclaimer",
+        "frame": 329,
+        "replacementChangedPixels": 75886,
+        "activeTrackFound": true
+      },
+      {
+        "field": "credit",
+        "frame": 329,
+        "replacementChangedPixels": 12399,
+        "activeTrackFound": true
+      },
+      {
+        "field": "opinion",
+        "frame": 329,
+        "replacementChangedPixels": 14004,
+        "activeTrackFound": true
+      },
+      {
+        "field": "observation",
+        "frame": 329,
+        "replacementChangedPixels": 6730,
+        "activeTrackFound": true
+      },
+      {
+        "field": "scope",
+        "frame": 329,
+        "replacementChangedPixels": 18311,
+        "activeTrackFound": true
+      },
+      {
+        "field": "condensed",
+        "frame": 329,
+        "replacementChangedPixels": 13544,
+        "activeTrackFound": true
+      },
+      {
+        "field": "information",
+        "frame": 329,
+        "replacementChangedPixels": 9929,
+        "activeTrackFound": true
+      },
+      {
+        "field": "enjoy",
+        "frame": 329,
+        "replacementChangedPixels": 4934,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "source/CN boundaries and transition windows reviewed; Chinese glyph shapes differ, local background repair approximate",
+  "wholeLibraryComplete": false
+}

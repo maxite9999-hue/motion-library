@@ -1,0 +1,159 @@
+{
+  "id": "ML-022",
+  "reference": "ML-022-reference.mp4",
+  "audio": "ML-022-mix.m4a",
+  "frames": 168,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [],
+  "tracks": [
+    {
+      "key": "wrong",
+      "text": "错了",
+      "start": 74,
+      "end": 168,
+      "roi": [
+        171,
+        301,
+        1017,
+        425
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "minArea": 2,
+      "minPixels": 12,
+      "geometry": [
+        {
+          "f": 75,
+          "roi": [
+            171,
+            301,
+            1017,
+            425
+          ],
+          "lockedBox": [
+            176,
+            306,
+            1012,
+            420
+          ]
+        },
+        {
+          "f": 90,
+          "roi": [
+            167,
+            301,
+            1019,
+            425
+          ],
+          "lockedBox": [
+            172,
+            306,
+            1014,
+            420
+          ]
+        },
+        {
+          "f": 105,
+          "roi": [
+            165,
+            299,
+            1021,
+            427
+          ],
+          "lockedBox": [
+            170,
+            304,
+            1016,
+            422
+          ]
+        },
+        {
+          "f": 120,
+          "roi": [
+            163,
+            299,
+            1023,
+            427
+          ],
+          "lockedBox": [
+            168,
+            304,
+            1018,
+            422
+          ]
+        },
+        {
+          "f": 135,
+          "roi": [
+            161,
+            299,
+            1025,
+            427
+          ],
+          "lockedBox": [
+            166,
+            304,
+            1020,
+            422
+          ]
+        },
+        {
+          "f": 150,
+          "roi": [
+            159,
+            297,
+            1027,
+            427
+          ],
+          "lockedBox": [
+            164,
+            302,
+            1022,
+            422
+          ]
+        },
+        {
+          "f": 165,
+          "roi": [
+            154,
+            293,
+            1030,
+            432
+          ],
+          "lockedBox": [
+            159,
+            298,
+            1025,
+            427
+          ]
+        }
+      ],
+      "lockedBox": [
+        176,
+        306,
+        1012,
+        420
+      ],
+      "naturalWidth": true
+    }
+  ],
+  "demoOptions": {
+    "wrong": "错了"
+  },
+  "type": "native-motion-localized-text",
+  "status": "visually-reviewed-hybrid",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 15477,
+    "sourceEndFrameExclusive": 15645,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
+}

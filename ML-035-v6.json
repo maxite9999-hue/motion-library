@@ -1,0 +1,205 @@
+{
+  "id": "ML-035",
+  "reference": "ML-035-reference.mp4",
+  "audio": "ML-035-mix.m4a",
+  "frames": 480,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      0,
+      90
+    ],
+    [
+      403,
+      480
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "question1",
+      "text": "“我买得起吗？”",
+      "start": 90,
+      "end": 126,
+      "roi": [
+        75,
+        88,
+        510,
+        145
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        97,
+        105,
+        489,
+        139
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAbMAAAA5CAAAAACZ2ppRAAADTElEQVR4nO2a27rjIAhGZb55/1dmLtLdGOVXQGLTPayLNiflFBWNpSRJkiRJkiRJkiRJkiRJkiRJkiRJkvxGuPlPnsJfdEMK2XlM4vPUXakvteeg2KzGCwSvNgXOihg829wRlJLe3h8FZDsbk7ku1V2l6lyo9uSPdLHMQla41d/ZGnlSdq2RjxSe3WBYwq0Njw/V8kDMJiEDEoRrfsMXXHYU5bnCzhsBj4kOVtaE2tlM5m8a5xaDBrp2V10q4HiGZJKxObHOpNDiVIqgMK5qUUcDp2ZcKSn7FKKO2SmyUC11DbK/47JUpAsdP21tQpbS3BFMbJMEC+/glN5oElXEaPvGa41IY2n4G+pyXwdbO6lpeTXQ93c0PWr+O3Tu0I9nVll6o4dPLkV12fE3Dtpy4q/B1je6cPWhn89wcLcdVP/7x4qpnc11EO10G78jNbDLCIglES3Y5mxn0vpE+Iu5JZv7fIM+qJdM3obLHghrZyMH2/3C4uF/wiRkqJ1NMxzEOXhF+PruMWUzg5G9MnQWspB21i5y1tDlCRNf1TXO6nn5YbyKSYOzitvzRldTuZRhafA86pZLKILNBOpRIFukNhN+3lCrETWeTbrEx/Vx4av2M4ZflWzKBMRsItDbxZ3zl7vdu2e1cfYpUK9G3PxsLHXja20Nwa4F4uucrFvm06sRNJ7VI0sr3D6ieQLsTjGD1rfgh/BO1us+KzOOnvWYIRXpuvwd9r0DresbE4kS2/YN0i1L+CKhfSNgId8vq0UB/sW+MOl+gvpGBi/P4vrw49LNR+CM2TlqcnXhddjFaX2Odg/EZedHaoTV0pvn1EH++LxfFxlmhlbjdoxnRq12TwvQZrl9ahgxxSx289gGljUJTXaj/KLtG69DUpMloL24qLhG3rVKe+d4kdhOoa6IlT/nxeuwjWdcz2tEF5yu8hptXBSYVTaeiKF36Z6IsTzrsVqsjtnLOpUxTKV1x/4vYQaFGXUUcanPoY3x6wPAn4OcXfSXJHVyv2AuEcRC3fqYNbtOAldi+6bQbwV1NFOST4P28FkfA9p4sLSzSg7eNvT2MNy6O6o3dCQhUWFJgLg/U7PxFhVWa+PBWvibOsNSyhcqnCRJkiRJkiQx/ANHdfFGc/ZwywAAAABJRU5ErkJggg==",
+      "fullContrast": 201.0,
+      "color": [
+        220,
+        224,
+        234
+      ]
+    },
+    {
+      "key": "question2",
+      "text": "“我的假期用完了吗？”",
+      "start": 126,
+      "end": 192,
+      "roi": [
+        390,
+        540,
+        1095,
+        606
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        412,
+        560,
+        1074,
+        594
+      ],
+      "fixedMask": "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",
+      "fullContrast": 184.33333333333334,
+      "color": [
+        230,
+        227,
+        232
+      ]
+    },
+    {
+      "key": "question3",
+      "text": "“我该如何支付房租？”",
+      "start": 192,
+      "end": 233,
+      "roi": [
+        50,
+        565,
+        680,
+        623
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        68,
+        582,
+        661,
+        612
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAnYAAAA6CAAAAAAYOksbAAAER0lEQVR4nO2b23bsIAiGw159/1e2F+3MePhRUDTpXv9304wRRMUTptdFCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQh6IrCpIEUqCSNd1AWsSTJ3XF5b/P8PRziDXryO9/al0rOJXqvXkb8tOwO5Zp7aWg65UqtcYU6WWhkn5BBRjfYXG4r2Wv5FRKwPKB9ZkatosAvMqDdLTL40Fr5+tJZ/MH4Hai0r+tUld8jJTws+qgDGH1q99LdiYwl5j+T193vJHWTu5ruvAzDm2xWRsns0i4HW7p2JyKWMLOrNOiCuv8VS1mYDyxDS8cxbcLik/1zs3DXOsK9ZS8fwSNScocptdbW3OrJsnYgb+WpSvtjWizbW9hk3rFcl3gI3TNsnT+rJUtAj2C8rllCrXzZflynUXwlrjdRsV22Lsh8yU1hJbM8/PdnmxtgInvMvlK4ox42J7a15XHm7/B40xNKdXZzFpMGPTZNnZOgX27+06NqivphYdpQ0l/+tRDA7UIejHSjx7/hU81q65XVC77NramPXWGU9v68sC0zkLoqY7EXH5Ana7qD2oQU93C29t/KmQyzacZavZD9Rhj3ePdyfwSDEWayRS/VDGCWHUUAklLjOzh+zJuHbaWH03XdLHADlytPViP/S1e2ooimY70bNvoIhwv0kXTN7Gff2s3BOZO+Cs5fbSuuYDt5Pq7y6eMqJHV1/R9EuYDxlPCGmh1xyXQZ8T/Wuuw15kjNvNdka+fsD3Owr1IukKCR7aWI+F6wpxMqwZfJ1A2pbmWQ0XQ5J7mU5aPeHNc0/RW4lL7IS+vCJSPBWD87U73joMNo1o8z1yeNwu4lx2yzH0KWv+aQK3kPavF3aFi8dWjuYR23caIRx38+4t2tETnSXcJsrzMLOOcZEtb4HcDK4p2/Q0yLCDY7s7JVQ5W/xLLuHkGVXb2bK3++HnQDM4U7yI6nMcjhlKqfGaOX1KKca0Sa3isBNXqzsLONavMfGLrNJRdZVMNs51SvSYDRwRDTfuKB2RkfBZcNNsZ/wiIQ8mlN/QHO6OiPK8E3Z9H3Fskd+JsQ5Bs92jjoHRxjyqcs/GOnLW3G6+Q0aSvg/L1jNGfnH0V9w0epV1fIWy73s7//cEiyhb5KS+9uiLr4ZyD/1Qguu/uLdLWQSqDrMPKT9QScsTDjLGDLgcyPVZpPXy1SZZDEwtcvZWMGfe7fSgA8xd/qxjTDtvJ426gQ1eq9y1yO7Iwv0O38VNixgMdIz3uEX21nNY00jd5Gl9ZoFxQagXT314EqxgggW3My6KEZe0YxRjPAu3qD/uHVIb8dQrtA1WZrv84NLc2/n7bW3UKReHKNl2LFOe1fyCn61l3MgN053X7eQqdiRS/i2ydWg+Z/efANoUbMz719gXpPIdrXKaeD8/sFh/7fiHGOddfpmgxKmy4ouncTc/ZCQRQgghhBBCCCGEEEIIIYQQ8hi+AQzhKZVlAzeDAAAAAElFTkSuQmCC",
+      "fullContrast": 160.66666666666666,
+      "color": [
+        222,
+        226,
+        224
+      ]
+    },
+    {
+      "key": "question4",
+      "text": "“养老金够我生活吗？”",
+      "start": 233,
+      "end": 284,
+      "roi": [
+        715,
+        25,
+        1250,
+        90
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        737,
+        46,
+        1228,
+        76
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAhcAAABBCAAAAABH+tlXAAAD2UlEQVR4nO2a27qjIAxGzf7m/V+ZudhtDZCQA6B25l8XrVbMicgh9jgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADfS6m+wP/FH+1CnxafQ+pbUnPOfmgvdw3kRmer5lphP3Oa2yV7uxwnQ4xqu+FjJVRVT/2tlVzZgaZxr0E2q1RNX1eEsL/4EX89SpcWhR3K99QCHG1SrUvz7ZBZYsaoctgJVVfG8m31cgMj4EVzUGr9aeGNhZIXY9P6k+tnGznNT8xQXUhKfVGOr2GcFxoOO9e6UkuzcmKtelEUHzCEeTFojXC9GA2s6+plX2TU9UU/0fJgFEfXrIJ0TwwrRHule7zehLKN2C2nfmkVNRYhzyLNdd4hcudIazKdyHhB7LPFSuhVOKWyR9jR55kkp+EpuzAWztaBFS4HtOtqkPyO+vKiGimFBfq1OL2T7ZXwjsJy71kRIPXEeaP2pPsdrBq5eiy3vnCxNGOeV0ZJd3eFd3sVU9DtiI1Rq8efF4PhLDZ1hRE1D/UtntWCupbTd+uMg1R9KWTGC2J2jszZELGzEHPhwpcrl39aYMzO/dsIxXRlP/LOqSv3Hd/GYJ+0hvXBPy221ibGeOGxjKRm+g4rweZ5ykZfXzrqh3YLLVi5Qq2xuaXPx2izpNcvXDD1dwwtff77bqOjyPuqkJjPgBGoackWUzmaAL5k2yWzTUzmhU7v6gL09zwxGW0p6NyJSiNfeWdSbO7gTQWjjdgwTSXosxb6SJJt3Kf+g8jFrAXJL4z96vvZeUUO5vLi8/wKK4CVK4x7Fxjz2lO1dz75x9TLoQ/J+Nrxotohhss25632b5W+0D1yC9FY+ZXGWRBY+IC52La+2LHC4MsLep2E5U+8N+uaeZYb1J9p6qRgUSYn6LOIYsJDEqbyotUs+bsm0bfXCjZozywWF6oXJblbzo8XgwH2rhpelOxw8VymQ59ZX5TiLLhsCOQ9fXOF1tAfM6LSwvjzwvGq5jEvPZX662qhCbz/HynjYmfCQQq9VE2MF4HeX/ecJSQ9Jks5Az9IOVYZOjgZet/6Qt9aBP/uMUvG2xWG3TJ9vQNuObAj8pHx4rd6PKqmdhbeulRjrxgeQ2hysBwo5f3h0exdFR7H4d6PkPBGsXlZUS2BZ59rYf6UnFJvae19zlaCmTwyynKAmpzxBcxfTcrVO/1hznXIfDcK1SSdG4cU9d+AlgPqdZJbBPHmBek2czZHOOCqZu9EuTPZPEnEaK9FfssD/++k+sCZAleN4H2NmtqD5yOPHooDpoPf4zcAAAAAAAAAAAAAAAAAAAAAAHwPfwF/WhtqqdNzRgAAAABJRU5ErkJggg==",
+      "fullContrast": 208.5,
+      "color": [
+        228,
+        224,
+        222
+      ]
+    },
+    {
+      "key": "question5",
+      "text": "“我又不得不放弃",
+      "start": 284,
+      "end": 403,
+      "roi": [
+        35,
+        256,
+        570,
+        304
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        53,
+        272,
+        557,
+        302
+      ],
+      "fullContrast": 216.66666666666666,
+      "color": [
+        230,
+        226,
+        228
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAhcAAAAwCAAAAACHhAczAAAD50lEQVR4nO1ayZalMAiVPvX/v0wvtDTDJUAGTffhLqqeGZhEQkiOIxAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAwAoKtTPc/TgZxPoXP30yckEnHn8/E+XyJO8Nm3FqRoryropDrmQ8p1EKDBM3vNsbzsXWvbmo8MpUNOXekr2wSpqyvfCFIyh8ocvZPAlc/8JwGGSY4DFu0fN/9YPTAduKVRnxU7xm2yRRKpbnq1IRpvS2GT8n/Ss4/MhUuGwwCYFquGdc8PEdo1jlK85j1MZsAevMD9yfT/JyBX2xunnGICmqaf2aZFYzbHzuKFxnmRO4OCLbAzb1SXgsskUBAXFFtDNcYr6aq8JG0O45D0hzmF6twidBIFJIRejOkIS4Yom3ODqryARJJSZS+h6QkHUdh9ycbJ5QKqfEiQR151O/BlsFWuNVIHi3sKsZKVzrqs8Coo2XFESdtqOzxixfRkLjXEBt/5T2oXHpAP2Bt3S/yrTHaKO+EO4r5k0s5y1DxUqz5Fb2PnbKfyeGMF06J+LiSnnddacVrytV4fdFREuPpAH5h13njJRmAk78m3J4wUL+ZAY3hgmIfjBdXPC3D6ibLx0xnPFecTRRTUIbdtVK780581oGLsddiP7yQCKVeoeYucpRTDt7DN+DJAoL4bfBxajOsjqF+QXzvbn/rCLVca+2q1bj0GPJbjDgdh8tm6UzmmZ/VM1YtoOJOtHXOAs8T5XKNDR/sU8dcqKmvQhp046PbpHMot5j6tbyav4/4heaSro3RJJ5lRa9obhe0XaX3z7FUrNXxgu4/edMIuf5xDPrSsoXF1G97CVxGlu8ELecjlG3W4LGBy7J+5JdgKqY2Gg3R1BDd+R6c08qrQgBK3jDNX1zxQr43Yhgyo07ryx98R696MZmqH9/hWRbXCGP1C5B+2a83TQkiX7wM675r4cnrHasd++4JMJ+zd+blk2U3bL/k8w+fNwv0XApN8+XHMYSrj7PRkXcad4qV0MsTNj/HrAK0ICC9kKNOk7rj/sVci/Um/aOnyZoaSl5qpjMVcvQbowuLYQk88WKDdGsYQ5VatwE2t1hD9f57fBad842XvTaLM4H6ql1rEhiMp/KT21cjWptbA0ar0ZcQD71pNFMgHZfd7yyYGQ3seg3p4D5j5ZWZQSRk0Ma6S0LVigVVu0mo2OMUo3vqnWYN8UDj9C47EvxpZiLMUUktXS96hRpiYvMLUM3ugefDRNyezHNaok/igzj666Rh1klTqkel06rzkYbwFr20m5agWzyjtlKCPG1OsGo/qtL1+GjjkOVFV9/0EPJ/whQT73EjKRAI/MP4Cx4MMysL8qhIAAAAAElFTkSuQmCC"
+    },
+    {
+      "key": "question6",
+      "text": "哪些梦想？”",
+      "start": 284,
+      "end": 403,
+      "roi": [
+        195,
+        308,
+        425,
+        358
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        209,
+        323,
+        410,
+        353
+      ],
+      "fullContrast": 215.66666666666666,
+      "color": [
+        230,
+        225,
+        225
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAOYAAAAyCAAAAABtrvheAAACIklEQVR4nO1Zy3IEIQiUVP7/l8lhq2YUmpfjbvZAH5KJQiMFCpoxGo1Go9FoNBqNRqPxURAcZXsKy2aF0+AkZ1IOiLA1iZzXwrzM0yJIWuA1uK42Ir0mWP2lycYYY/xI/ZlRkSvZUJhDDqCTXMHNHRpRbrL5h7seW7jsZ2UFlphMUh3NlxitWXF/O3Y3Ahez2KQVc79Il14/Ip758BGyNEkwOiLMYyMmVUNsGbmBolk6NcnTMZkCEy5plWwMM2kvMPhKCBdWALBoeXbT9DJpY5I1PU7XywIqpqNoOsxGgTyJHOlUJy0FL5qKawyyU+iMn/Gp44HE7wsommZJh+efizM1JmvD9NJIWt5pXio4SD+XwBdACsikvbJSNIbFdTHJhhMtzpw1SK+v8gZR0ZwZwEYhPYyXlM2Hp3HNXaZ00jp+buG9JSd5ZQQn7ZRvUQ8V4x/r6gxcUO57IaPTNXY+zO0d9y2dZ82e1KYsZ8L6brO7C68LEtf58CKG8InCmUC6CxpLG2+8rTyPBbhtngiwcLNCuzZ+IGyUuAiWSaV8jhYk7Zfk2VEIN/EVRDuee2yCD3kJLCpHDiW0N3GerU+RUrjyshsDlrEngEfQRE/q494+xEL4BBzSeXB+bNqom0gF2URjWnc3a4MF1eG27pGRimwabyF1W3ciNGoswt7QxXCGpBvI/KuIpRjrm+jSMc2zpJQYGJVjas9Zl1dE1mg0Gt+FP3MIlUt1jQrZAAAAAElFTkSuQmCC"
+    }
+  ],
+  "demoOptions": {
+    "question1": "“我买得起吗？”",
+    "question2": "“我的假期用完了吗？”",
+    "question3": "“我该如何支付房租？”",
+    "question4": "“养老金够我生活吗？”",
+    "question5": "“我又不得不放弃",
+    "question6": "哪些梦想？”"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "status": "visually-reviewed-hybrid",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 24216,
+    "sourceEndFrameExclusive": 24696,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
+}

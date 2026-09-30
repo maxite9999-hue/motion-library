@@ -1,0 +1,63 @@
+{
+  "id": "ML-030",
+  "reference": "ML-030-reference.mp4",
+  "audio": "ML-030-mix.m4a",
+  "frames": 447,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      13,
+      115
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "chapter",
+      "text": "第四章",
+      "start": 277,
+      "end": 430,
+      "roi": [
+        420,
+        263,
+        840,
+        350
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    },
+    {
+      "key": "heading",
+      "text": "回报",
+      "start": 303,
+      "end": 430,
+      "roi": [
+        425,
+        365,
+        845,
+        435
+      ],
+      "ink": "dark",
+      "naturalWidth": true
+    }
+  ],
+  "demoOptions": {
+    "chapter": "第四章",
+    "heading": "回报"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 20601,
+    "sourceEndFrameExclusive": 21048,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  },
+  "status": "visually-reviewed-hybrid"
+}

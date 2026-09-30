@@ -1,5 +1,5 @@
 {
-  "version": "v6-sfx-20261001",
+  "version": "v5-trial-20260930",
   "source": "没有人名的完整版去掉人声音.mov",
   "sourceFrames": 26672,
   "fps": 30,
@@ -7,7 +7,7 @@
   "publishedCount": 53,
   "plannedCount": 53,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
-  "fidelity": "本轮修复复核12个文字模块；累计16个已复核，19个待优化，另有18个原生素材。并非整库验收完成。",
+  "fidelity": "用户授权先试用发布；4个文字模块已复核，31个仍需优化，18个为原生素材。",
   "templates": [
     {
       "id": "ML-001",
@@ -549,15 +549,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-007-reference.mp4",
-      "demo": "ML-007-cn-v6.mp4",
+      "demo": "ML-007-cn-v5.mp4",
       "audio": "ML-007-mix.m4a",
-      "package": "ML-007-v6.zip",
-      "recipe": "ML-007-v6.json",
-      "poster": "ML-007-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-007-v5.zip",
+      "recipe": "ML-007-v5.json",
+      "poster": "ML-007-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -580,12 +581,12 @@
         "subscribed": "已订阅"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
-      "qc": "ML-007-v6-qc.json",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-007-v5-qc.json",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "useCases": "用在关注订阅、点击确认或轻量行动提示时；保留点击、铃铛反馈与旋转缩小退出。",
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "type": "localized-text-hybrid",
       "inputSchema": {
         "textFields": [
@@ -626,15 +627,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-008-reference.mp4",
-      "demo": "ML-008-cn-v6.mp4",
+      "demo": "ML-008-cn-v5.mp4",
       "audio": "ML-008-mix.m4a",
-      "package": "ML-008-v6.zip",
-      "recipe": "ML-008-v6.json",
-      "poster": "ML-008-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-008-v5.zip",
+      "recipe": "ML-008-v5.json",
+      "poster": "ML-008-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -651,79 +653,31 @@
         },
         {
           "key": "the_untold_truth_about_money",
-          "demo": "关于金钱不为人知的真相"
-        },
-        {
-          "key": "disclaimer",
-          "demo": "观看说明"
-        },
-        {
-          "key": "credit",
-          "demo": "本片深受 M.J.德马科作品的启发，"
-        },
-        {
-          "key": "opinion",
-          "demo": "也融入了我对社会如何围绕金钱运转的"
-        },
-        {
-          "key": "observation",
-          "demo": "个人看法与观察。"
-        },
-        {
-          "key": "scope",
-          "demo": "当然，这个话题十分庞大，很难在一条视频中讲完。"
-        },
-        {
-          "key": "condensed",
-          "demo": "因此，接下来的内容已经尽可能精简，"
-        },
-        {
-          "key": "information",
-          "demo": "呈现其中最重要的信息。"
-        },
-        {
-          "key": "enjoy",
-          "demo": "祝你愉快 :)"
+          "demo": "关于金钱的真相"
         }
       ],
       "templateType": "localized-text-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
         "are_you_with_me": "准备好一起开始了吗？",
-        "the_untold_truth_about_money": "关于金钱不为人知的真相",
-        "disclaimer": "观看说明",
-        "credit": "本片深受 M.J.德马科作品的启发，",
-        "opinion": "也融入了我对社会如何围绕金钱运转的",
-        "observation": "个人看法与观察。",
-        "scope": "当然，这个话题十分庞大，很难在一条视频中讲完。",
-        "condensed": "因此，接下来的内容已经尽可能精简，",
-        "information": "呈现其中最重要的信息。",
-        "enjoy": "祝你愉快 :)"
+        "the_untold_truth_about_money": "关于金钱的真相"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在邀请观众进入主题的开场或章节引入；助手根据文案调整中文内容。",
-      "qc": "ML-008-v6-qc.json",
+      "qc": "ML-008-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "are_you_with_me",
-          "the_untold_truth_about_money",
-          "disclaimer",
-          "credit",
-          "opinion",
-          "observation",
-          "scope",
-          "condensed",
-          "information",
-          "enjoy"
+          "the_untold_truth_about_money"
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -874,15 +828,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-010-reference.mp4",
-      "demo": "ML-010-cn-v6.mp4",
+      "demo": "ML-010-cn-v5.mp4",
       "audio": "ML-010-mix.m4a",
-      "package": "ML-010-v6.zip",
-      "recipe": "ML-010-v6.json",
-      "poster": "ML-010-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-010-v5.zip",
+      "recipe": "ML-010-v5.json",
+      "poster": "ML-010-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [
         [
@@ -911,13 +866,13 @@
         "heading": "你一直被灌输的谎言"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在第一章开头或从引子进入正文；助手根据文案调整中文内容。",
-      "qc": "ML-010-v6-qc.json",
+      "qc": "ML-010-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "chapter",
@@ -925,7 +880,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -2250,15 +2205,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-017-reference.mp4",
-      "demo": "ML-017-cn-v6.mp4",
+      "demo": "ML-017-cn-v5.mp4",
       "audio": "ML-017-mix.m4a",
-      "package": "ML-017-v6.zip",
-      "recipe": "ML-017-v6.json",
-      "poster": "ML-017-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-017-v5.zip",
+      "recipe": "ML-017-v5.json",
+      "poster": "ML-017-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [
         [
@@ -2293,28 +2249,28 @@
         },
         {
           "key": "heading1",
-          "demo": "揭开真相"
+          "demo": "关于金钱与财富的"
         },
         {
           "key": "heading2",
-          "demo": "金钱与财富"
+          "demo": "真相"
         }
       ],
       "templateType": "localized-text-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
         "chapter": "第二章",
-        "heading1": "揭开真相",
-        "heading2": "金钱与财富"
+        "heading1": "关于金钱与财富的",
+        "heading2": "真相"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在第二层观点展开或重要转折后的章节切换；助手根据文案调整中文内容。",
-      "qc": "ML-017-v6-qc.json",
+      "qc": "ML-017-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "chapter",
@@ -2323,7 +2279,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -2892,15 +2848,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-022-reference.mp4",
-      "demo": "ML-022-cn-v6.mp4",
+      "demo": "ML-022-cn-v5.mp4",
       "audio": "ML-022-mix.m4a",
-      "package": "ML-022-v6.zip",
-      "recipe": "ML-022-v6.json",
-      "poster": "ML-022-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-022-v5.zip",
+      "recipe": "ML-022-v5.json",
+      "poster": "ML-022-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -2924,20 +2881,20 @@
         "wrong": "错了"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在明确否定一个误区、错误方向或错误选择时；助手根据文案调整中文内容。",
-      "qc": "ML-022-v6-qc.json",
+      "qc": "ML-022-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "wrong"
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -3303,15 +3260,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-026-reference.mp4",
-      "demo": "ML-026-cn-v6.mp4",
+      "demo": "ML-026-cn-v5.mp4",
       "audio": "ML-026-mix.m4a",
-      "package": "ML-026-v6.zip",
-      "recipe": "ML-026-v6.json",
-      "poster": "ML-026-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-026-v5.zip",
+      "recipe": "ML-026-v5.json",
+      "poster": "ML-026-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -3334,13 +3292,13 @@
         "heading": "值得解决的问题"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在第三章或新的问题主题开始时；助手根据文案调整中文内容。",
-      "qc": "ML-026-v6-qc.json",
+      "qc": "ML-026-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "chapter",
@@ -3348,7 +3306,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -3383,15 +3341,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-027-reference.mp4",
-      "demo": "ML-027-cn-v6.mp4",
+      "demo": "ML-027-cn-v5.mp4",
       "audio": "ML-027-mix.m4a",
-      "package": "ML-027-v6.zip",
-      "recipe": "ML-027-v6.json",
-      "poster": "ML-027-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-027-v5.zip",
+      "recipe": "ML-027-v5.json",
+      "poster": "ML-027-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [
         [
@@ -3428,13 +3387,13 @@
         "positive": "可以规模化"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在不能复制与能够复制、错误与正确等二选一对比；助手根据文案调整中文内容。",
-      "qc": "ML-027-v6-qc.json",
+      "qc": "ML-027-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "negative",
@@ -3442,7 +3401,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -3778,15 +3737,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-030-reference.mp4",
-      "demo": "ML-030-cn-v6.mp4",
+      "demo": "ML-030-cn-v5.mp4",
       "audio": "ML-030-mix.m4a",
-      "package": "ML-030-v6.zip",
-      "recipe": "ML-030-v6.json",
-      "poster": "ML-030-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-030-v5.zip",
+      "recipe": "ML-030-v5.json",
+      "poster": "ML-030-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [
         [
@@ -3815,13 +3775,13 @@
         "heading": "回报"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在成果、回报或阶段总结的新章节；助手根据文案调整中文内容。",
-      "qc": "ML-030-v6-qc.json",
+      "qc": "ML-030-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "chapter",
@@ -3829,7 +3789,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -4148,15 +4108,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-033-reference.mp4",
-      "demo": "ML-033-cn-v6.mp4",
+      "demo": "ML-033-cn-v5.mp4",
       "audio": "ML-033-mix.m4a",
-      "package": "ML-033-v6.zip",
-      "recipe": "ML-033-v6.json",
-      "poster": "ML-033-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-033-v5.zip",
+      "recipe": "ML-033-v5.json",
+      "poster": "ML-033-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [
         [
@@ -4184,13 +4145,13 @@
         "heading": "金钱，还是人生"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在从物质回报转向时间、人生与选择的章节；助手根据文案调整中文内容。",
-      "qc": "ML-033-v6-qc.json",
+      "qc": "ML-033-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "chapter",
@@ -4198,7 +4159,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -4294,15 +4255,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-035-reference.mp4",
-      "demo": "ML-035-cn-v6.mp4",
+      "demo": "ML-035-cn-v5.mp4",
       "audio": "ML-035-mix.m4a",
-      "package": "ML-035-v6.zip",
-      "recipe": "ML-035-v6.json",
-      "poster": "ML-035-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-035-v5.zip",
+      "recipe": "ML-035-v5.json",
+      "poster": "ML-035-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [
         [
@@ -4359,13 +4321,13 @@
         "question6": "哪些梦想？”"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在连续自问或列出限制条件的反思段；助手根据文案调整中文内容。",
-      "qc": "ML-035-v6-qc.json",
+      "qc": "ML-035-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "question1",
@@ -4377,7 +4339,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -4596,15 +4558,16 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-038-reference.mp4",
-      "demo": "ML-038-cn-v6.mp4",
+      "demo": "ML-038-cn-v5.mp4",
       "audio": "ML-038-mix.m4a",
-      "package": "ML-038-v6.zip",
-      "recipe": "ML-038-v6.json",
-      "poster": "ML-038-cn-v6.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-038-v5.zip",
+      "recipe": "ML-038-v5.json",
+      "poster": "ML-038-cn-v5.jpg",
+      "status": "candidate-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
       "blackRanges": [
         [
@@ -4637,13 +4600,13 @@
         "line3": "找到这些问题的解决方案"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在片尾总结与行动建议；助手根据文案调整中文内容。",
-      "qc": "ML-038-v6-qc.json",
+      "qc": "ML-038-v5-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "line1",
@@ -4652,7 +4615,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -6318,25 +6281,26 @@
       },
       "templateType": "localized-text-hybrid",
       "reference": "ML-050-reference.mp4",
-      "demo": "ML-050-cn-v6.mp4",
+      "demo": "ML-050-cn-v5.mp4",
       "audio": "ML-050-mix.m4a",
-      "poster": "ML-050-cn-v6.jpg",
-      "recipe": "ML-050-v6.json",
-      "qc": "ML-050-v6-qc.json",
-      "package": "ML-050-v6.zip",
+      "poster": "ML-050-cn-v5.jpg",
+      "recipe": "ML-050-v5.json",
+      "qc": "ML-050-v5-qc.json",
+      "package": "ML-050-v5.zip",
       "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-        "保留原素材运动；中文文字可替换，背景局部修补存在近似，不是全参数化或全图像素相同。"
+        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
       ],
-      "status": "reviewed-trial",
-      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
+      "status": "candidate-trial",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
       "architecture": "fixed-native-motion-plus-editable-text",
-      "renderer": "render-faithful-v6.py",
-      "revision": "v6-sfx-20261001",
+      "renderer": "render-faithful.py",
+      "revision": "v5-trial-20260930",
       "inputSchema": {
         "textFields": [
           "lead",
@@ -6344,7 +6308,7 @@
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "已修复复核 · 中文可改＋新音效",
+      "reviewLabel": "待优化 · 新版试用",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -6687,8 +6651,7 @@
   "editableCount": 35,
   "nativeAssetCount": 18,
   "trialUpdatedCount": 20,
-  "reviewedTextCount": 16,
+  "reviewedTextCount": 4,
   "audioRevision": "sfx-only-20260930",
-  "audioPolicy": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-  "repairUpdatedCount": 12
+  "audioPolicy": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。"
 }

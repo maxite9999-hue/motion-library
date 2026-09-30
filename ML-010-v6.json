@@ -1,0 +1,62 @@
+{
+  "id": "ML-010",
+  "reference": "ML-010-reference.mp4",
+  "audio": "ML-010-mix.m4a",
+  "frames": 297,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      0,
+      113
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "chapter",
+      "text": "第一章",
+      "start": 113,
+      "end": 287,
+      "roi": [
+        420,
+        263,
+        830,
+        350
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    },
+    {
+      "key": "heading",
+      "text": "你一直被灌输的谎言",
+      "start": 180,
+      "end": 287,
+      "roi": [
+        300,
+        360,
+        980,
+        433
+      ],
+      "ink": "dark"
+    }
+  ],
+  "demoOptions": {
+    "chapter": "第一章",
+    "heading": "你一直被灌输的谎言"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Visual hybrid: native source movement, localized replaceable text; not whole-frame pixel identity.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 5931,
+    "sourceEndFrameExclusive": 6228,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  },
+  "status": "visually-reviewed-hybrid"
+}
