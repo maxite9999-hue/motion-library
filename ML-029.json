@@ -1,0 +1,90 @@
+{
+  "id": "ML-029",
+  "title": "径向推拉转场与逐字命题",
+  "kind": "转场文字",
+  "sourceStartFrame": 20031,
+  "sourceEndFrameExclusive": 20301,
+  "frames": 270,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "会议镜头",
+    "径向拉远模糊",
+    "街道人群",
+    "径向推进",
+    "金色底",
+    "两行命题逐字",
+    "切出"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-029-reference.mp4",
+  "demo": "ML-029-demo.mp4",
+  "audio": "ML-029-mix.m4a",
+  "package": "ML-029.zip",
+  "recipe": "ML-029.json",
+  "poster": "ML-029.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    259
+  ],
+  "slots": [
+    {
+      "box": [
+        105,
+        255,
+        1070,
+        230
+      ],
+      "original": "THE MARKET DOES NOT CARE ABOUT YOUR PASSIONS",
+      "demo": "先理解需要\n再选择表达方式",
+      "size": 45,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 0,
+      "lineDelays": [
+        0.0,
+        0.6
+      ],
+      "key": "text1",
+      "from": 203,
+      "to": 265
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "先理解需要\n再选择表达方式"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-029-qc.json"
+}
