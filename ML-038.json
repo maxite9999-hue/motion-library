@@ -1,0 +1,74 @@
+{
+  "id": "ML-038",
+  "title": "画面渐暗后三句结论",
+  "kind": "结尾文字",
+  "sourceStartFrame": 26040,
+  "sourceEndFrameExclusive": 26349,
+  "frames": 309,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "人物背影渐暗",
+    "黑底第一句淡入",
+    "第二句",
+    "第三句",
+    "保持",
+    "城市切入"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-038-reference.mp4",
+  "demo": "ML-038-demo.mp4",
+  "audio": "ML-038-mix.m4a",
+  "package": "ML-038.zip",
+  "recipe": "ML-038.json",
+  "poster": "ML-038.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      38,
+      58
+    ]
+  ],
+  "cutFrames": [
+    292
+  ],
+  "slots": [
+    {
+      "box": [
+        190,
+        220,
+        1030,
+        270
+      ],
+      "original": "STOP CHASING MONEY / CHASE PROBLEMS / FIND SOLUTIONS",
+      "demo": "别再堆砌特效\n让画面服务表达\n让每一次变化都有意义",
+      "size": 37,
+      "fill": "#000000",
+      "color": "#eeeeec",
+      "fade": 0.65,
+      "angle": 0,
+      "lineDelays": [
+        0,
+        1.8,
+        2.66
+      ],
+      "key": "text1",
+      "from": 58,
+      "to": 303
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "别再堆砌特效\n让画面服务表达\n让每一次变化都有意义"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-038-qc.json"
+}

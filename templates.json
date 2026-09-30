@@ -4,7 +4,7 @@
   "sourceFrames": 26672,
   "fps": 30,
   "sourceDuration": 889.066666667,
-  "publishedCount": 35,
+  "publishedCount": 38,
   "plannedCount": 39,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
   "fidelity": "Native video assets preserve source event order. Local editable text patches are approximate, not reconstructed original layers.",
@@ -2418,6 +2418,240 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "qc": "ML-035-qc.json"
+    },
+    {
+      "id": "ML-036",
+      "title": "生活片段递进加速蒙太奇",
+      "kind": "节奏剪辑",
+      "sourceStartFrame": 25050,
+      "sourceEndFrameExclusive": 25545,
+      "frames": 495,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "四类生活镜头先建立",
+        "重复交叉",
+        "节奏加速",
+        "黑场",
+        "办公室承接"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-036-reference.mp4",
+      "demo": "ML-036-demo.mp4",
+      "audio": "ML-036-mix.m4a",
+      "package": "ML-036.zip",
+      "recipe": "ML-036.json",
+      "poster": "ML-036.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [
+        [
+          451,
+          488
+        ]
+      ],
+      "cutFrames": [
+        39,
+        64,
+        88,
+        118,
+        146,
+        246,
+        262,
+        274,
+        286,
+        298,
+        310,
+        317,
+        325,
+        332,
+        340,
+        347,
+        353,
+        358,
+        364,
+        369,
+        375,
+        379,
+        383,
+        387,
+        391,
+        395,
+        398,
+        402,
+        405,
+        409,
+        412,
+        415,
+        418,
+        421,
+        424,
+        427,
+        430,
+        433,
+        436,
+        439,
+        442,
+        445,
+        448,
+        451,
+        488
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-036-qc.json"
+    },
+    {
+      "id": "ML-037",
+      "title": "黑场、人物与电视故障闪回",
+      "kind": "质感转场",
+      "sourceStartFrame": 25658,
+      "sourceEndFrameExclusive": 25905,
+      "frames": 247,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "黑场",
+        "暗部人物",
+        "电视扭曲",
+        "横向断带",
+        "电视恢复",
+        "黑场"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-037-reference.mp4",
+      "demo": "ML-037-demo.mp4",
+      "audio": "ML-037-mix.m4a",
+      "package": "ML-037.zip",
+      "recipe": "ML-037.json",
+      "poster": "ML-037.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [
+        [
+          0,
+          52
+        ],
+        [
+          185,
+          237
+        ]
+      ],
+      "cutFrames": [
+        99,
+        106,
+        108,
+        109,
+        140,
+        141,
+        151,
+        154,
+        155,
+        156,
+        158,
+        159,
+        160,
+        163,
+        164,
+        165,
+        176,
+        237
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-037-qc.json"
+    },
+    {
+      "id": "ML-038",
+      "title": "画面渐暗后三句结论",
+      "kind": "结尾文字",
+      "sourceStartFrame": 26040,
+      "sourceEndFrameExclusive": 26349,
+      "frames": 309,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "人物背影渐暗",
+        "黑底第一句淡入",
+        "第二句",
+        "第三句",
+        "保持",
+        "城市切入"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-038-reference.mp4",
+      "demo": "ML-038-demo.mp4",
+      "audio": "ML-038-mix.m4a",
+      "package": "ML-038.zip",
+      "recipe": "ML-038.json",
+      "poster": "ML-038.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [
+        [
+          38,
+          58
+        ]
+      ],
+      "cutFrames": [
+        292
+      ],
+      "slots": [
+        {
+          "box": [
+            190,
+            220,
+            1030,
+            270
+          ],
+          "original": "STOP CHASING MONEY / CHASE PROBLEMS / FIND SOLUTIONS",
+          "demo": "别再堆砌特效\n让画面服务表达\n让每一次变化都有意义",
+          "size": 37,
+          "fill": "#000000",
+          "color": "#eeeeec",
+          "fade": 0.65,
+          "angle": 0,
+          "lineDelays": [
+            0,
+            1.8,
+            2.66
+          ],
+          "key": "text1",
+          "from": 58,
+          "to": 303
+        }
+      ],
+      "templateType": "editable-text-hybrid",
+      "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+      "demoOptions": {
+        "text1": "别再堆砌特效\n让画面服务表达\n让每一次变化都有意义"
+      },
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-038-qc.json"
     }
   ]
 }
