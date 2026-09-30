@@ -1,5 +1,5 @@
 {
-  "version": "v6b-sfx-20261001",
+  "version": "v6c-sfx-20261001",
   "source": "没有人名的完整版去掉人声音.mov",
   "sourceFrames": 26672,
   "fps": 30,
@@ -7,7 +7,7 @@
   "publishedCount": 53,
   "plannedCount": 53,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
-  "fidelity": "本轮修复复核14个文字模块；累计18个已复核，17个待优化，另有18个原生素材。并非整库验收完成。",
+  "fidelity": "本轮修复复核17个文字模块；累计21个已复核，14个待优化，另有18个原生素材。并非整库验收完成。",
   "templates": [
     {
       "id": "ML-001",
@@ -2355,12 +2355,12 @@
       ],
       "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-018-reference.mp4",
-      "demo": "ML-018-cn-v4.mp4",
+      "demo": "ML-018-cn-v6.mp4",
       "audio": "ML-018-mix.m4a",
-      "package": "ML-018-v4.zip",
-      "recipe": "ML-018.json",
-      "poster": "ML-018-cn-v4.jpg",
-      "status": "reusable-Chinese-rebuild",
+      "package": "ML-018-v6.zip",
+      "recipe": "ML-018-v6.json",
+      "poster": "ML-018-cn-v6.jpg",
+      "status": "reviewed-trial",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
@@ -2380,44 +2380,39 @@
       ],
       "slots": [
         {
-          "key": "scene1.text1",
-          "demo": "停止",
-          "maxCharacters": 220
+          "key": "stop",
+          "demo": "停止"
         },
         {
-          "key": "scene1.text2",
-          "demo": "追逐",
-          "maxCharacters": 220
+          "key": "chasing",
+          "demo": "追逐"
         },
         {
-          "key": "scene1.text3",
-          "demo": "金钱",
-          "maxCharacters": 220
+          "key": "money",
+          "demo": "金钱"
         },
         {
-          "key": "scene2.text1",
-          "demo": "你的报酬取决于",
-          "maxCharacters": 220
+          "key": "lead",
+          "demo": "报酬取决于你的"
         },
         {
-          "key": "scene2.text2",
-          "demo": "他人眼中你提供的价值",
-          "maxCharacters": 220
+          "key": "value",
+          "demo": "感知价值"
         }
       ],
       "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "scene1.text1": "停止",
-        "scene1.text2": "追逐",
-        "scene1.text3": "金钱",
-        "scene2.text1": "你的报酬取决于",
-        "scene2.text2": "他人眼中你提供的价值"
+        "stop": "停止",
+        "chasing": "追逐",
+        "money": "金钱",
+        "lead": "报酬取决于你的",
+        "value": "感知价值"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
       "useCases": "用在解释价值、报酬或核心概念的金句段；助手根据文案调整中文内容。",
-      "qc": "ML-018-v4-qc.json",
+      "qc": "ML-018-v6-qc.json",
       "scenes": [
         {
           "start": 0,
@@ -2452,29 +2447,19 @@
       "type": "parametric-motion-hybrid",
       "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
       "assetRoot": "assets",
-      "renderer": "render-v4.py",
-      "revision": "cn-reusable-v4-20260930",
+      "renderer": "render-faithful-v6c.py",
+      "revision": "v6c-sfx-20261001",
       "inputSchema": {
         "textFields": [
-          "scene1.text1",
-          "scene1.text2",
-          "scene1.text3",
-          "scene2.text1",
-          "scene2.text2"
+          "stop",
+          "chasing",
+          "money",
+          "lead",
+          "value"
         ],
-        "optionalMedia": [
-          "asset",
-          "footage",
-          "person1Asset",
-          "person2Asset",
-          "person3Asset",
-          "person4Asset",
-          "person5Asset",
-          "person6Asset"
-        ],
-        "duration": "fixed source frame count; assistant edits final timeline"
+        "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 保留现有版本",
+      "reviewLabel": "已修复复核 · 中文可改＋新音效",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -2509,12 +2494,12 @@
       ],
       "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-019-reference.mp4",
-      "demo": "ML-019-cn-v4.mp4",
+      "demo": "ML-019-cn-v6.mp4",
       "audio": "ML-019-mix.m4a",
-      "package": "ML-019-v4.zip",
-      "recipe": "ML-019.json",
-      "poster": "ML-019-cn-v4.jpg",
-      "status": "reusable-Chinese-rebuild",
+      "package": "ML-019-v6.zip",
+      "recipe": "ML-019-v6.json",
+      "poster": "ML-019-cn-v6.jpg",
+      "status": "reviewed-trial",
       "limits": [
         "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
         "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
@@ -2539,50 +2524,39 @@
       ],
       "slots": [
         {
-          "key": "scene1.text1",
-          "demo": "关键不在于",
-          "maxCharacters": 220
+          "key": "claim",
+          "demo": "关键不在于你有多努力"
         },
         {
-          "key": "scene1.text2",
-          "demo": "你有多努力",
-          "maxCharacters": 220
+          "key": "why",
+          "demo": "为什么？"
         },
         {
-          "key": "scene2.text1",
-          "demo": "为什么？",
-          "maxCharacters": 220
+          "key": "lower",
+          "demo": "更低的"
         },
         {
-          "key": "scene3.text1",
-          "demo": "更低的",
-          "maxCharacters": 220
+          "key": "perceived",
+          "demo": "感知"
         },
         {
-          "key": "scene3.text2",
-          "demo": "感知",
-          "maxCharacters": 220
-        },
-        {
-          "key": "scene3.text3",
-          "demo": "价值",
-          "maxCharacters": 220
+          "key": "value",
+          "demo": "价值"
         }
       ],
       "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "scene1.text1": "关键不在于",
-        "scene1.text2": "你有多努力",
-        "scene2.text1": "为什么？",
-        "scene3.text1": "更低的",
-        "scene3.text2": "感知",
-        "scene3.text3": "价值"
+        "claim": "关键不在于你有多努力",
+        "why": "为什么？",
+        "lower": "更低的",
+        "perceived": "感知",
+        "value": "价值"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
       "useCases": "用在比较两种工作方式、投入与结果时；助手根据文案调整中文内容。",
-      "qc": "ML-019-v4-qc.json",
+      "qc": "ML-019-v6-qc.json",
       "scenes": [
         {
           "start": 0,
@@ -2628,30 +2602,19 @@
       "type": "parametric-motion-hybrid",
       "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
       "assetRoot": "assets",
-      "renderer": "render-v4.py",
-      "revision": "cn-reusable-v4-20260930",
+      "renderer": "render-faithful-v6c.py",
+      "revision": "v6c-sfx-20261001",
       "inputSchema": {
         "textFields": [
-          "scene1.text1",
-          "scene1.text2",
-          "scene2.text1",
-          "scene3.text1",
-          "scene3.text2",
-          "scene3.text3"
+          "claim",
+          "why",
+          "lower",
+          "perceived",
+          "value"
         ],
-        "optionalMedia": [
-          "asset",
-          "footage",
-          "person1Asset",
-          "person2Asset",
-          "person3Asset",
-          "person4Asset",
-          "person5Asset",
-          "person6Asset"
-        ],
-        "duration": "fixed source frame count; assistant edits final timeline"
+        "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 保留现有版本",
+      "reviewLabel": "已修复复核 · 中文可改＋新音效",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -3678,12 +3641,12 @@
       ],
       "architecture": "fixed-native-motion-plus-editable-text",
       "reference": "ML-029-reference.mp4",
-      "demo": "ML-029-cn-v5.mp4",
+      "demo": "ML-029-cn-v6.mp4",
       "audio": "ML-029-mix.m4a",
-      "package": "ML-029-v5.zip",
-      "recipe": "ML-029-v5.json",
-      "poster": "ML-029-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-029-v6.zip",
+      "recipe": "ML-029-v6.json",
+      "poster": "ML-029-cn-v6.jpg",
+      "status": "reviewed-trial",
       "limits": [
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
@@ -3722,30 +3685,36 @@
         {
           "key": "object",
           "demo": "你的热情"
+        },
+        {
+          "key": "entry_word",
+          "demo": "市"
         }
       ],
       "templateType": "localized-text-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
         "claim": "市场并不关心",
-        "object": "你的热情"
+        "object": "你的热情",
+        "entry_word": "市"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
-      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
       "useCases": "用在强调市场、需求与个人兴趣之间的冲突；助手根据文案调整中文内容。",
-      "qc": "ML-029-v5-qc.json",
+      "qc": "ML-029-v6-qc.json",
       "type": "localized-text-hybrid",
       "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "renderer": "render-faithful-v6c.py",
+      "revision": "v6c-sfx-20261001",
       "inputSchema": {
         "textFields": [
           "claim",
-          "object"
+          "object",
+          "entry_word"
         ],
         "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 新版试用",
+      "reviewLabel": "已修复复核 · 中文可改＋新音效",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -6674,8 +6643,8 @@
   "editableCount": 35,
   "nativeAssetCount": 18,
   "trialUpdatedCount": 20,
-  "reviewedTextCount": 18,
+  "reviewedTextCount": 21,
   "audioRevision": "sfx-only-20260930",
   "audioPolicy": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-  "repairUpdatedCount": 14
+  "repairUpdatedCount": 17
 }

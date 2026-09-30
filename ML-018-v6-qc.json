@@ -1,0 +1,97 @@
+{
+  "id": "ML-018",
+  "technical": {
+    "id": "ML-018",
+    "frames": 432,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "15ba82731d8cf4dcbcd4c76a075648ba60a3c0a1b6b227695d615c5982654ec6",
+    "fileSHA256": "2020e62f1aa2f1cfdce8109ee968bb715a7883708b4e1e63e37a14d86f52233b",
+    "renderSeconds": 223.6,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-018",
+    "framesCompared": 432,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 2.0789312065972223,
+    "maxLocalizedMAE": 4.206768323194017,
+    "pass": true,
+    "recipeRendererFingerprint": "168141c80c275a7e8447aca4fbd2dc3d0af1f2738e8c67b276cbcdce8efaa03b",
+    "deliverySHA256": "2020e62f1aa2f1cfdce8109ee968bb715a7883708b4e1e63e37a14d86f52233b"
+  },
+  "replacement": {
+    "id": "ML-018",
+    "sampleFrames": [
+      0,
+      23,
+      24,
+      25,
+      31,
+      32,
+      33,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      77,
+      78,
+      79,
+      108,
+      121,
+      135,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      242,
+      243,
+      244,
+      277,
+      301,
+      358,
+      359,
+      360,
+      431
+    ],
+    "tests": [
+      {
+        "field": "stop",
+        "frame": 108,
+        "replacementChangedPixels": 67167,
+        "activeTrackFound": true
+      },
+      {
+        "field": "chasing",
+        "frame": 121,
+        "replacementChangedPixels": 116765,
+        "activeTrackFound": true
+      },
+      {
+        "field": "money",
+        "frame": 135,
+        "replacementChangedPixels": 90499,
+        "activeTrackFound": true
+      },
+      {
+        "field": "lead",
+        "frame": 277,
+        "replacementChangedPixels": 39610,
+        "activeTrackFound": true
+      },
+      {
+        "field": "value",
+        "frame": 301,
+        "replacementChangedPixels": 125924,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}
