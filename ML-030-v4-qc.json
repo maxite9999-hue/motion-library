@@ -1,0 +1,21 @@
+{
+  "id": "ML-030",
+  "status": "technical-pass",
+  "frames": 447,
+  "fps": "30/1",
+  "completeDecode": true,
+  "audioDecodedIdentical": true,
+  "blackSamples": [
+    {
+      "frame": 63,
+      "rgbMean": [
+        1,
+        0,
+        1
+      ],
+      "pass": true
+    }
+  ],
+  "sha256": "78d777227b0e1c018a47c1f18fa3b71498809d597a2568712db3b8c0aa9ec570",
+  "visualScope": "Semantic Chinese reconstruction. Not pixel/frame-exact motion alignment."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ML-001",
+  "status": "technical-pass",
+  "frames": 1182,
+  "fps": "30/1",
+  "completeDecode": true,
+  "audioDecodedIdentical": true,
+  "blackSamples": [
+    {
+      "frame": 1,
+      "rgbMean": [
+        1,
+        0,
+        2
+      ],
+      "pass": true
+    },
+    {
+      "frame": 330,
+      "rgbMean": [
+        1,
+        0,
+        2
+      ],
+      "pass": true
+    },
+    {
+      "frame": 445,
+      "rgbMean": [
+        1,
+        0,
+        1
+      ],
+      "pass": true
+    },
+    {
+      "frame": 564,
+      "rgbMean": [
+        1,
+        0,
+        1
+      ],
+      "pass": true
+    },
+    {
+      "frame": 1153,
+      "rgbMean": [
+        1,
+        0,
+        1
+      ],
+      "pass": true
+    }
+  ],
+  "sha256": "08793625628cf605ab96859a07cb1e02cc0e24680afaf3f7027b00f5bf590d52",
+  "visualScope": "Semantic Chinese reconstruction. Not pixel/frame-exact motion alignment."
+}
