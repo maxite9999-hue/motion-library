@@ -1,0 +1,102 @@
+{
+  "id": "ML-028",
+  "technical": {
+    "id": "ML-028",
+    "frames": 702,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "90274f61be57c2a82da0d6dd9431ca701025b1e52473d3069acf81d5c3714996",
+    "fileSHA256": "66af99a76fa7240a05745116bce1b895395b698e153f0217952cff8a1c1e3347",
+    "renderSeconds": 433.2,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-028",
+    "framesCompared": 702,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.604271195023148,
+    "maxLocalizedMAE": 3.9328946500428787,
+    "pass": true,
+    "recipeRendererFingerprint": "32ba10b31a75b44035c79ed63c3644e62d9482f55fd0281ef0984717bcc8dd10",
+    "deliverySHA256": "66af99a76fa7240a05745116bce1b895395b698e153f0217952cff8a1c1e3347"
+  },
+  "replacement": {
+    "id": "ML-028",
+    "sampleFrames": [
+      0,
+      75,
+      76,
+      77,
+      100,
+      124,
+      125,
+      126,
+      277,
+      429,
+      430,
+      431,
+      432,
+      599,
+      600,
+      601,
+      647,
+      694,
+      695,
+      696,
+      701
+    ],
+    "tests": [
+      {
+        "field": "amount",
+        "frame": 100,
+        "replacementChangedPixels": 84095,
+        "activeTrackFound": true
+      },
+      {
+        "field": "per_hour",
+        "frame": 100,
+        "replacementChangedPixels": 18934,
+        "activeTrackFound": true
+      },
+      {
+        "field": "limited",
+        "frame": 277,
+        "replacementChangedPixels": 132640,
+        "activeTrackFound": true
+      },
+      {
+        "field": "scalability",
+        "frame": 277,
+        "replacementChangedPixels": 156105,
+        "activeTrackFound": true
+      },
+      {
+        "field": "limited",
+        "frame": 430,
+        "replacementChangedPixels": 41949,
+        "activeTrackFound": true
+      },
+      {
+        "field": "scalability",
+        "frame": 430,
+        "replacementChangedPixels": 80385,
+        "activeTrackFound": true
+      },
+      {
+        "field": "scalability",
+        "frame": 647,
+        "replacementChangedPixels": 132122,
+        "activeTrackFound": true
+      },
+      {
+        "field": "unlimited",
+        "frame": 647,
+        "replacementChangedPixels": 128510,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}
