@@ -4,8 +4,8 @@
   "sourceFrames": 26672,
   "fps": 30,
   "sourceDuration": 889.066666667,
-  "publishedCount": 39,
-  "plannedCount": 39,
+  "publishedCount": 53,
+  "plannedCount": 53,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
   "fidelity": "Native video assets preserve source event order. Local editable text patches are approximate, not reconstructed original layers.",
   "templates": [
@@ -126,6 +126,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在开场展示数量级增长、积累或规模差异；适合从一个点讲到成百上千的递进文案。",
       "qc": "ML-001-qc.json"
     },
     {
@@ -191,6 +192,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在人物经历或故事背景段，把工作、金钱与生活处境快速串起来；不适合直接承载密集数据。",
       "qc": "ML-002-qc.json"
     },
     {
@@ -263,6 +265,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在抛出核心问题或转入方法论之前；适合一句短问句制造停顿和悬念。",
       "qc": "ML-003-qc.json"
     },
     {
@@ -315,6 +318,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在引用采访、切换观点或强调媒体信息时；电视换台感适合短促的证据插入。",
       "qc": "ML-004-qc.json"
     },
     {
@@ -389,6 +393,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在从知识、计算讲到金钱与价值的连接段；叠化适合表达两件事之间的联系。",
       "qc": "ML-005-qc.json"
     },
     {
@@ -449,6 +454,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在认知冲击、选择关口或节奏突然加速处；闪切不宜覆盖需要仔细阅读的长句。",
       "qc": "ML-006-qc.json"
     },
     {
@@ -493,6 +499,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在片尾关注、订阅或提醒动作；保留点击、振铃与缩小退出的完整节奏。",
       "qc": "ML-007-qc.json"
     },
     {
@@ -539,6 +546,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在邀请观众进入主题的开场或章节引入；从公路提问转到城市主标题。",
       "qc": "ML-008-qc.json"
     },
     {
@@ -585,6 +593,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在正式正文前的说明、范围声明或气氛铺垫；长渐黑适合留出停顿再进入下一章。",
       "qc": "ML-009-qc.json"
     },
     {
@@ -659,6 +668,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在第一章开头或从引子进入正文；适合短章名与一句副标题。",
       "qc": "ML-010-qc.json"
     },
     {
@@ -705,6 +715,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在轻松、讽刺或反差的观点旁，作为短小的卡通反应镜头。",
       "qc": "ML-011-qc.json"
     },
     {
@@ -756,6 +767,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在展示文章、报告或出处证据时；文章内容须与文案对应，不能拿原文冒充新证据。",
       "qc": "ML-012-qc.json"
     },
     {
@@ -829,6 +841,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在连续列举人物、案例或成就时；多张人物卡适合相同句式的并列论据。",
       "qc": "ML-013-qc.json"
     },
     {
@@ -928,6 +941,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在纠正常见误解或推翻旧公式的段落；适合先给旧认知，再强调问题。",
       "qc": "ML-014-qc.json"
     },
     {
@@ -1010,6 +1024,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在讲工资、时间成本或积累规模时；数字和时钟帮助把抽象成本可视化。",
       "qc": "ML-015-qc.json"
     },
     {
@@ -1068,6 +1083,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在插入短采访或名人观点时；适合作为论述间的证据性镜头。",
       "qc": "ML-016-qc.json"
     },
     {
@@ -1158,6 +1174,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在第二层观点展开或重要转折后的章节切换；前面的故障与黑场用于重置注意力。",
       "qc": "ML-017-qc.json"
     },
     {
@@ -1232,6 +1249,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在解释价值、报酬或核心概念的金句段；适合两行有明确重音的短文案。",
       "qc": "ML-018-qc.json"
     },
     {
@@ -1329,6 +1347,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在比较两种工作方式、投入与结果时；分屏适合对照，提问用于引出差异原因。",
       "qc": "ML-019-qc.json"
     },
     {
@@ -1374,6 +1393,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在从问题转向解法或介绍方法价值时；图标与文字一起强调解决问题。",
       "qc": "ML-020-qc.json"
     },
     {
@@ -1443,6 +1463,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在讲品牌、商业系统或多个环节之间的联系时；适合从单个品牌扩展到关系图。",
       "qc": "ML-021-qc.json"
     },
     {
@@ -1491,6 +1512,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在明确否定一个误区、错误方向或错误选择时；短促反驳，不宜承载多条解释。",
       "qc": "ML-022-qc.json"
     },
     {
@@ -1576,6 +1598,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在方法论转折或行动建议；适合寻找问题、定位原因、提出解法这类递进句。",
       "qc": "ML-023-qc.json"
     },
     {
@@ -1642,6 +1665,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在从金钱结果切回长期道路或过程时；现金闪回可作视觉重音。",
       "qc": "ML-024-qc.json"
     },
     {
@@ -1755,6 +1779,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在紧张、觉醒或冲击性观点处；黑场与闪回制造节奏，不适合平静的连续阅读。",
       "qc": "ML-025-qc.json"
     },
     {
@@ -1822,6 +1847,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在第三章或新的问题主题开始时；适合章名加一句内容提要。",
       "qc": "ML-026-qc.json"
     },
     {
@@ -1881,6 +1907,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在不能复制与能够复制、错误与正确等二选一对比；红绿切换强调结论。",
       "qc": "ML-027-qc.json"
     },
     {
@@ -1933,6 +1960,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在解释线下单次交付与可扩展产品的差别；教室到屏幕的变化用于表现规模变化。",
       "qc": "ML-028-qc.json"
     },
     {
@@ -2023,6 +2051,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在强调市场、需求与个人兴趣之间的冲突；先推近吸引注意，再落下结论。",
       "qc": "ML-029-qc.json"
     },
     {
@@ -2097,6 +2126,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在成果、回报或阶段总结的新章节；适合从过程转向结果。",
       "qc": "ML-030-qc.json"
     },
     {
@@ -2189,6 +2219,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在解释价值交换、合作或交易结果；适合一个概念配一个具体数字或成果。",
       "qc": "ML-031-qc.json"
     },
     {
@@ -2237,6 +2268,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在同时展示三类人物、三种方案或三个维度；文案最好使用平行结构。",
       "qc": "ML-032-qc.json"
     },
     {
@@ -2310,6 +2342,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在从物质回报转向时间、人生与选择的章节；暗色背景适合更严肃的反思。",
       "qc": "ML-033-qc.json"
     },
     {
@@ -2359,6 +2392,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在技术、系统、信息流或机制揭示的短插入；代码雨主要营造氛围，不表达具体代码结论。",
       "qc": "ML-034-qc.json"
     },
     {
@@ -2417,6 +2451,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在连续自问或列出限制条件的反思段；每次提问配一个明确的配音重音。",
       "qc": "ML-035-qc.json"
     },
     {
@@ -2508,6 +2543,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在回顾多个案例、情绪加速或结尾前的总结蒙太奇；不适合逐条细读。",
       "qc": "ML-036-qc.json"
     },
     {
@@ -2577,6 +2613,7 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在最后一次观点引用、媒体回顾或节奏重击；电视闪屏作为短过渡。",
       "qc": "ML-037-qc.json"
     },
     {
@@ -2651,6 +2688,7 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在片尾总结与行动建议；适合三句递进式短文案，留足阅读停顿。",
       "qc": "ML-038-qc.json"
     },
     {
@@ -2699,7 +2737,831 @@
       "demoOptions": {},
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "useCases": "用在故事收束、情绪落点或片尾余韵；城市与人物镜头用于结束，不强塞新概念。",
       "qc": "ML-039-qc.json"
+    },
+    {
+      "id": "ML-040",
+      "title": "卡通反应与表情推近",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-1.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-1.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 93,
+      "frames": 93,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "人物展开双手",
+        "收手与表情变化",
+        "镜头推近"
+      ],
+      "blackRanges": [],
+      "cutFrames": [],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-040-reference.mp4",
+      "demo": "ML-040-reference.mp4",
+      "audio": "ML-040-mix.m4a",
+      "poster": "ML-040.jpg",
+      "recipe": "ML-040.json",
+      "qc": "ML-040-qc.json",
+      "package": "ML-040.zip",
+      "useCases": "用在讽刺贪婪、得意或盘算的短反应镜头；适合一句带反差的点评，人物本身不可直接换成新角色。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-041",
+      "title": "生活镜头白闪切入文章",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-2.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-2.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 54,
+      "frames": 54,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "生活镜头",
+        "方块白闪",
+        "网页出现"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        22,
+        23
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-041-reference.mp4",
+      "demo": "ML-041-reference.mp4",
+      "audio": "ML-041-mix.m4a",
+      "poster": "ML-041.jpg",
+      "recipe": "ML-041.json",
+      "qc": "ML-041-qc.json",
+      "package": "ML-041.zip",
+      "useCases": "用在从生活场景切到事实依据时；白色闪转把注意力引向文章证据。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-042",
+      "title": "网页滚动与关键摘录展开",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-3.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-3.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 302,
+      "frames": 302,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "网页向上滚动",
+        "摘录卡右侧展开",
+        "文章与摘录并列保持"
+      ],
+      "blackRanges": [],
+      "cutFrames": [],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-042-reference.mp4",
+      "demo": "ML-042-reference.mp4",
+      "audio": "ML-042-mix.m4a",
+      "poster": "ML-042.jpg",
+      "recipe": "ML-042.json",
+      "qc": "ML-042-qc.json",
+      "package": "ML-042.zip",
+      "useCases": "用在引用文章、报告与关键段落时；滚动页面与放大摘录适合先交代出处，再突出论据。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-043",
+      "title": "文章白闪切入人物卡",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-4.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-4.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 30,
+      "frames": 30,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "文章末尾",
+        "白闪遮罩",
+        "人物卡显露"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        13,
+        14,
+        22
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-043-reference.mp4",
+      "demo": "ML-043-reference.mp4",
+      "audio": "ML-043-mix.m4a",
+      "poster": "ML-043.jpg",
+      "recipe": "ML-043.json",
+      "qc": "ML-043-qc.json",
+      "package": "ML-043.zip",
+      "useCases": "用在从文字证据切入人物案例的连接处；一秒白闪只作衔接，不放长文案。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-044",
+      "title": "人物成就卡与红色盖章快切",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-5.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-5.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 320,
+      "frames": 320,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "人物卡与数字",
+        "红色斜盖章",
+        "彩色拉伸快切",
+        "多个人物重复推进"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        4,
+        5,
+        101,
+        102,
+        208,
+        265,
+        266
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-044-reference.mp4",
+      "demo": "ML-044-reference.mp4",
+      "audio": "ML-044-mix.m4a",
+      "poster": "ML-044.jpg",
+      "recipe": "ML-044.json",
+      "qc": "ML-044-qc.json",
+      "package": "ML-044.zip",
+      "useCases": "用在连续列举人物成就、案例或共同标签时；卡片快切与盖章适合并列论证。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-045",
+      "title": "人物卡推近为并列群像",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-6.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-6.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 39,
+      "frames": 39,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "人物卡",
+        "横向推近模糊",
+        "多人并排收束"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-045-reference.mp4",
+      "demo": "ML-045-reference.mp4",
+      "audio": "ML-045-mix.m4a",
+      "poster": "ML-045.jpg",
+      "recipe": "ML-045.json",
+      "qc": "ML-045-qc.json",
+      "package": "ML-045.zip",
+      "useCases": "用在多个独立案例之后做群像总结；人物并列适合说明共同点，而非展开新故事。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-046",
+      "title": "错误认知故障切入公式",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-7.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-7.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 44,
+      "frames": 44,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "错误认知标题",
+        "数字方块故障",
+        "公式文字显露"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        6,
+        8
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-046-reference.mp4",
+      "demo": "ML-046-reference.mp4",
+      "audio": "ML-046-mix.m4a",
+      "poster": "ML-046.jpg",
+      "recipe": "ML-046.json",
+      "qc": "ML-046-qc.json",
+      "package": "ML-046.zip",
+      "useCases": "用在从错误认知转入公式解释的一瞬间；短故障切换适合一句转折，不适合完整长段落。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-047",
+      "title": "访谈电视换台与扫描断层",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-8.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-8.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 162,
+      "frames": 162,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "人物近景",
+        "电视边框",
+        "扫描线",
+        "横向断层换台",
+        "多访谈收束"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        43,
+        79,
+        116,
+        146,
+        147,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-047-reference.mp4",
+      "demo": "ML-047-reference.mp4",
+      "audio": "ML-047-mix.m4a",
+      "poster": "ML-047.jpg",
+      "recipe": "ML-047.json",
+      "qc": "ML-047-qc.json",
+      "package": "ML-047.zip",
+      "useCases": "用在串联多位受访者或多方观点时；电视换台与扫描线适合作为证据蒙太奇。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-048",
+      "title": "人物侧旁逐词强调",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-9.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-9.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 157,
+      "frames": 157,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "人物保持",
+        "STOP出现",
+        "CHASING出现",
+        "MONEY变色出现",
+        "故障散开"
+      ],
+      "blackRanges": [],
+      "cutFrames": [],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-048-reference.mp4",
+      "demo": "ML-048-reference.mp4",
+      "audio": "ML-048-mix.m4a",
+      "poster": "ML-048.jpg",
+      "recipe": "ML-048.json",
+      "qc": "ML-048-qc.json",
+      "package": "ML-048.zip",
+      "useCases": "用在强调停止某种行为或提出反常识观点时；现有文字与人物合成，换文案须另做内部重建。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-049",
+      "title": "日常到财富结果的故事蒙太奇",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-10.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-10.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 836,
+      "frames": 836,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "办公室对话",
+        "桌面特写",
+        "城市与工作",
+        "取款",
+        "讲堂",
+        "休息",
+        "支票",
+        "现金"
+      ],
+      "blackRanges": [
+        [
+          814,
+          836
+        ]
+      ],
+      "cutFrames": [
+        161,
+        190,
+        264,
+        309,
+        347,
+        385,
+        558,
+        608,
+        704,
+        736,
+        812,
+        813,
+        814
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-049-reference.mp4",
+      "demo": "ML-049-reference.mp4",
+      "audio": "ML-049-mix.m4a",
+      "poster": "ML-049.jpg",
+      "recipe": "ML-049.json",
+      "qc": "ML-049-qc.json",
+      "package": "ML-049.zip",
+      "useCases": "用在讲人物从日常处境到结果变化的完整故事段；保留多镜头推进，不宜把每个镜头当成独立模板。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-050",
+      "title": "核心提问到人物心理的长引子",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-11.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-11.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 1181,
+      "frames": 1181,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "核心提问",
+        "人物对话",
+        "故障电视",
+        "黑场",
+        "生活与财富镜头",
+        "公路",
+        "夕阳",
+        "思考",
+        "暗室渐黑"
+      ],
+      "blackRanges": [
+        [
+          218,
+          227
+        ],
+        [
+          669,
+          714
+        ],
+        [
+          1172,
+          1181
+        ]
+      ],
+      "cutFrames": [
+        66,
+        117,
+        178,
+        193,
+        199,
+        206,
+        218,
+        227,
+        253,
+        285,
+        333,
+        404,
+        454,
+        530,
+        568,
+        600,
+        636,
+        669,
+        714,
+        810,
+        987
+      ],
+      "slots": [
+        {
+          "key": "text1",
+          "from": 0,
+          "to": 68,
+          "box": [
+            285,
+            150,
+            710,
+            365
+          ],
+          "original": "HOW DID THEY DO IT?",
+          "demo": "他们究竟\n如何做到？",
+          "size": 66,
+          "fill": "gold",
+          "color": "#161714",
+          "fade": 0,
+          "angle": 0
+        }
+      ],
+      "demoOptions": {
+        "text1": "他们究竟\n如何做到？"
+      },
+      "templateType": "editable-text-hybrid",
+      "reference": "ML-050-reference.mp4",
+      "demo": "ML-050-demo.mp4",
+      "audio": "ML-050-mix.m4a",
+      "poster": "ML-050.jpg",
+      "recipe": "ML-050.json",
+      "qc": "ML-050-qc.json",
+      "package": "ML-050.zip",
+      "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；开头问句可局部改字，后续原生镜头保留。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。开头问句支持局部改字，其余镜头保持原生。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-051",
+      "title": "黑场到知识、金钱与选择",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-12.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-12.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 1055,
+      "frames": 1055,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "暗室尾部",
+        "完整黑场",
+        "城市",
+        "板书",
+        "纸币叠化",
+        "人物对话",
+        "公路",
+        "故障闪切",
+        "选择特写"
+      ],
+      "blackRanges": [
+        [
+          0,
+          100
+        ]
+      ],
+      "cutFrames": [
+        100,
+        224,
+        361,
+        363,
+        364,
+        379,
+        380,
+        398,
+        409,
+        410,
+        411,
+        413,
+        421,
+        426,
+        428,
+        436,
+        441,
+        443,
+        444,
+        454,
+        458,
+        459,
+        468,
+        469,
+        471,
+        474,
+        483,
+        489,
+        502,
+        671,
+        749,
+        852,
+        854,
+        857,
+        870,
+        877,
+        878,
+        891,
+        892,
+        893,
+        896,
+        933,
+        934,
+        936,
+        937,
+        938,
+        977,
+        1012
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-051-reference.mp4",
+      "demo": "ML-051-reference.mp4",
+      "audio": "ML-051-mix.m4a",
+      "poster": "ML-051.jpg",
+      "recipe": "ML-051.json",
+      "qc": "ML-051-qc.json",
+      "package": "ML-051.zip",
+      "useCases": "用在从停顿进入知识、金钱与选择主题的完整段落；黑场、叠化和公路故障共同构成节奏。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-052",
+      "title": "主题邀请、城市标题与说明收尾",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-13.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-13.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 1459,
+      "frames": 1459,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "演讲",
+        "公路",
+        "夕阳人物",
+        "邀请提问",
+        "城市标题",
+        "说明叠化",
+        "紫色公路",
+        "渐黑与黑场"
+      ],
+      "blackRanges": [
+        [
+          1369,
+          1459
+        ]
+      ],
+      "cutFrames": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        84,
+        85,
+        86,
+        87,
+        189,
+        278,
+        279,
+        280,
+        282,
+        283
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-052-reference.mp4",
+      "demo": "ML-052-reference.mp4",
+      "audio": "ML-052-mix.m4a",
+      "poster": "ML-052.jpg",
+      "recipe": "ML-052.json",
+      "qc": "ML-052-qc.json",
+      "package": "ML-052.zip",
+      "useCases": "用在开场主题预告、邀请观众进入正文与说明段；最后长渐黑适合接下一章，勿直接裁掉。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+    },
+    {
+      "id": "ML-053",
+      "title": "黑场停顿后暗室人物揭示",
+      "kind": "用户精选片段",
+      "sourceFile": "9月30日14个精选片段-14.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-14.mov",
+      "sourceStartFrame": 0,
+      "sourceEndFrameExclusive": 103,
+      "frames": 103,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "events": [
+        "完整黑场",
+        "暗室人物显现",
+        "保持"
+      ],
+      "blackRanges": [
+        [
+          0,
+          43
+        ]
+      ],
+      "cutFrames": [
+        43
+      ],
+      "slots": [],
+      "demoOptions": {},
+      "templateType": "native-motion-asset",
+      "reference": "ML-053-reference.mp4",
+      "demo": "ML-053-reference.mp4",
+      "audio": "ML-053-mix.m4a",
+      "poster": "ML-053.jpg",
+      "recipe": "ML-053.json",
+      "qc": "ML-053-qc.json",
+      "package": "ML-053.zip",
+      "useCases": "用在重要句子前的留白、悬念停顿或暗场揭示；先黑场再出现人物，不宜从亮画面中间截起。",
+      "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+      "limits": [
+        "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+        "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+        "720p预览有压缩；原生回放不是自由参数化重建。"
+      ],
+      "status": "published",
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
     }
+  ],
+  "sources": [
+    "没有人名的完整版去掉人声音.mov",
+    "9月30日14个精选片段（用户划分14段）"
   ]
 }
