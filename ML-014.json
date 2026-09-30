@@ -1,0 +1,99 @@
+{
+  "id": "ML-014",
+  "title": "命题、公式与斜向否定",
+  "kind": "文字叙事",
+  "sourceStartFrame": 8748,
+  "sourceEndFrameExclusive": 9477,
+  "frames": 729,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "命题逐字",
+    "副标题",
+    "命题向下滑出",
+    "公式建立",
+    "例证镜头",
+    "旋转返回公式",
+    "WRONG盖章"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-014-reference.mp4",
+  "demo": "ML-014-demo.mp4",
+  "audio": "ML-014-mix.m4a",
+  "package": "ML-014.zip",
+  "recipe": "ML-014.json",
+  "poster": "ML-014.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    157,
+    159,
+    285,
+    408,
+    506,
+    568,
+    569,
+    570,
+    623,
+    624,
+    625,
+    726
+  ],
+  "slots": [
+    {
+      "box": [
+        100,
+        130,
+        1080,
+        430
+      ],
+      "original": "YOUR EQUATION / IS ALL WRONG",
+      "demo": "重新检查假设\n别急着相信直觉",
+      "size": 48,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 0,
+      "lineDelays": [
+        0.0,
+        0.6
+      ],
+      "key": "text1",
+      "from": 12,
+      "to": 117
+    },
+    {
+      "box": [
+        100,
+        280,
+        1080,
+        150
+      ],
+      "original": "MONEY = SALARY FROM A JOB",
+      "demo": "忙碌 ≠ 有效进步",
+      "size": 54,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 0,
+      "key": "text2",
+      "from": 135,
+      "to": 296
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "重新检查假设\n别急着相信直觉",
+    "text2": "忙碌 ≠ 有效进步"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-014-qc.json"
+}
