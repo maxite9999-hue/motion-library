@@ -1,0 +1,151 @@
+{
+  "id": "ML-014",
+  "technical": {
+    "id": "ML-014",
+    "frames": 729,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "32f3dc94656dab2e5f7e1b1214f2fb933ef714e65ede3d1b28d1819a2fa788f7",
+    "fileSHA256": "a2c5cda374a0fe91a6e7e86fe4a61863baeb0543074ae573c448f705f81b8e53",
+    "renderSeconds": 381.5,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-014",
+    "framesCompared": 729,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.6802549913194444,
+    "maxLocalizedMAE": 4.120060886261432,
+    "pass": true,
+    "recipeRendererFingerprint": "1e2b22da65684b0208fd33ef7d0d32c81ff27facb1bddb2a4d36599a817402a1",
+    "deliverySHA256": "a2c5cda374a0fe91a6e7e86fe4a61863baeb0543074ae573c448f705f81b8e53"
+  },
+  "replacement": {
+    "id": "ML-014",
+    "sampleFrames": [
+      0,
+      16,
+      17,
+      18,
+      47,
+      48,
+      49,
+      50,
+      51,
+      77,
+      79,
+      80,
+      81,
+      94,
+      137,
+      138,
+      139,
+      147,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      222,
+      284,
+      285,
+      286,
+      624,
+      625,
+      626,
+      652,
+      679,
+      680,
+      681,
+      688,
+      689,
+      690,
+      703,
+      707,
+      725,
+      726,
+      727,
+      728
+    ],
+    "tests": [
+      {
+        "field": "lead",
+        "frame": 77,
+        "replacementChangedPixels": 120172,
+        "activeTrackFound": true
+      },
+      {
+        "field": "sub",
+        "frame": 94,
+        "replacementChangedPixels": 36844,
+        "activeTrackFound": true
+      },
+      {
+        "field": "lead_exit",
+        "frame": 147,
+        "replacementChangedPixels": 134607,
+        "activeTrackFound": true
+      },
+      {
+        "field": "sub_exit",
+        "frame": 147,
+        "replacementChangedPixels": 45899,
+        "activeTrackFound": true
+      },
+      {
+        "field": "money_flash",
+        "frame": 155,
+        "replacementChangedPixels": 18766,
+        "activeTrackFound": true
+      },
+      {
+        "field": "money_word",
+        "frame": 222,
+        "replacementChangedPixels": 33760,
+        "activeTrackFound": true
+      },
+      {
+        "field": "salary_word",
+        "frame": 222,
+        "replacementChangedPixels": 37483,
+        "activeTrackFound": true
+      },
+      {
+        "field": "from_word",
+        "frame": 222,
+        "replacementChangedPixels": 28066,
+        "activeTrackFound": true
+      },
+      {
+        "field": "job_word",
+        "frame": 222,
+        "replacementChangedPixels": 27205,
+        "activeTrackFound": true
+      },
+      {
+        "field": "equation",
+        "frame": 652,
+        "replacementChangedPixels": 57413,
+        "activeTrackFound": true
+      },
+      {
+        "field": "equation",
+        "frame": 703,
+        "replacementChangedPixels": 92045,
+        "activeTrackFound": true
+      },
+      {
+        "field": "stamp",
+        "frame": 707,
+        "replacementChangedPixels": 640690,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}
