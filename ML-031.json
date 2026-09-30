@@ -20,12 +20,12 @@
   ],
   "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-031-reference.mp4",
-  "demo": "ML-031-cn-v4.mp4",
+  "demo": "ML-031-cn-v6.mp4",
   "audio": "ML-031-mix.m4a",
-  "package": "ML-031-v4.zip",
-  "recipe": "ML-031.json",
-  "poster": "ML-031-cn-v4.jpg",
-  "status": "reusable-Chinese-rebuild",
+  "package": "ML-031-v6.zip",
+  "recipe": "ML-031-v6.json",
+  "poster": "ML-031-cn-v6.jpg",
+  "status": "reviewed-trial",
   "limits": [
     "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
     "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
@@ -45,80 +45,39 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "收购",
-      "maxCharacters": 220
+      "key": "acquisition",
+      "demo": "收购"
     },
     {
-      "key": "scene1.text2",
-      "demo": "买入或取得一项资产、业务。",
-      "maxCharacters": 220
+      "key": "definition",
+      "demo": "购买或取得的资产与物品"
     },
     {
-      "key": "scene2.text1",
-      "demo": "交易金额",
-      "maxCharacters": 220
+      "key": "1_billion",
+      "demo": "10亿美元"
     },
     {
-      "key": "scene2.text2",
-      "demo": "10亿美元",
-      "maxCharacters": 220
+      "key": "1_5_billion",
+      "demo": "15亿美元"
     },
     {
-      "key": "scene2.text3",
-      "demo": "",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene3.text1",
-      "demo": "交易金额",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene3.text2",
-      "demo": "15亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene3.text3",
-      "demo": "",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene4.text1",
-      "demo": "个人所得",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene4.text2",
-      "demo": "1.65亿美元",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene4.text3",
-      "demo": "",
-      "maxCharacters": 220
+      "key": "165_million",
+      "demo": "1.65亿美元"
     }
   ],
   "templateType": "parametric-motion-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "scene1.text1": "收购",
-    "scene1.text2": "买入或取得一项资产、业务。",
-    "scene2.text1": "交易金额",
-    "scene2.text2": "10亿美元",
-    "scene2.text3": "",
-    "scene3.text1": "交易金额",
-    "scene3.text2": "15亿美元",
-    "scene3.text3": "",
-    "scene4.text1": "个人所得",
-    "scene4.text2": "1.65亿美元",
-    "scene4.text3": ""
+    "acquisition": "收购",
+    "definition": "购买或取得的资产与物品",
+    "1_billion": "10亿美元",
+    "1_5_billion": "15亿美元",
+    "165_million": "1.65亿美元"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "useCases": "用在解释价值交换、合作或交易结果；助手根据文案调整中文内容。",
-  "qc": "ML-031-v4-qc.json",
+  "qc": "ML-031-v6-qc.json",
   "scenes": [
     {
       "start": 0,
@@ -182,34 +141,19 @@
   "type": "parametric-motion-hybrid",
   "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
   "assetRoot": "assets",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "renderer": "render-faithful-v6d.py",
+  "revision": "v6d-sfx-20261001",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene1.text2",
-      "scene2.text1",
-      "scene2.text2",
-      "scene2.text3",
-      "scene3.text1",
-      "scene3.text2",
-      "scene3.text3",
-      "scene4.text1",
-      "scene4.text2",
-      "scene4.text3"
+      "acquisition",
+      "definition",
+      "1_billion",
+      "1_5_billion",
+      "165_million"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
+    "duration": "fixed source frames"
   },
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",
