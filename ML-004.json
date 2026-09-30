@@ -1,0 +1,52 @@
+{
+  "id": "ML-004",
+  "title": "弧面电视、扫描线与断裂换台",
+  "kind": "质感转场",
+  "sourceStartFrame": 2199,
+  "sourceEndFrameExclusive": 2307,
+  "frames": 108,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "进入电视边框",
+    "扫描噪点",
+    "横向断裂",
+    "人物换台",
+    "黑场"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-004-reference.mp4",
+  "demo": "ML-004-demo.mp4",
+  "audio": "ML-004-mix.m4a",
+  "package": "ML-004.zip",
+  "recipe": "ML-004.json",
+  "poster": "ML-004.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      94,
+      103
+    ]
+  ],
+  "cutFrames": [
+    54,
+    69,
+    75,
+    82,
+    94,
+    103
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-004-qc.json"
+}
