@@ -41,5 +41,16 @@
     "mean": 0.9936582691387574,
     "worstFrame": 812
   },
-  "claim": "Native clip encode checked at every frame; optional local text replacement is approximate, not parameterized reconstruction."
+  "claim": "Native clip encode checked at every frame; optional local text replacement is approximate, not parameterized reconstruction.",
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 1240,
+    "sourceEndFrameExclusive": 2076,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
+  }
 }

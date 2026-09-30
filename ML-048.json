@@ -55,11 +55,11 @@
   "limits": [
     "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
     "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
     "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
   "status": "reusable-Chinese-rebuild",
-  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
+  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
   "scenes": [
     {
       "start": 0,
@@ -100,5 +100,16 @@
       "person6Asset"
     ],
     "duration": "fixed source frame count; assistant edits final timeline"
+  },
+  "audioReplacement": {
+    "revision": "sfx-only-20260930",
+    "sourceFile": "纯音效视频.mov",
+    "sourceStartFrame": 11794,
+    "sourceEndFrameExclusive": 11951,
+    "fps": 30,
+    "onlyReplacementAudio": true,
+    "oldMusicRetained": false,
+    "oldSoundEffectsRetained": false,
+    "gainDB": 0
   }
 }
