@@ -1,0 +1,69 @@
+{
+  "id": "ML-021",
+  "title": "品牌标志、例证与商业版图",
+  "kind": "信息叙事",
+  "sourceStartFrame": 14904,
+  "sourceEndFrameExclusive": 15318,
+  "frames": 414,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "品牌标志缩放",
+    "商店",
+    "人物",
+    "硬币",
+    "黄色闪切",
+    "业务版图卡进入保持"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-021-reference.mp4",
+  "demo": "ML-021-demo.mp4",
+  "audio": "ML-021-mix.m4a",
+  "package": "ML-021.zip",
+  "recipe": "ML-021.json",
+  "poster": "ML-021.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    12,
+    143,
+    188,
+    220,
+    273,
+    397
+  ],
+  "slots": [
+    {
+      "box": [
+        240,
+        210,
+        800,
+        300
+      ],
+      "original": "amazon",
+      "demo": "创作工作室",
+      "size": 83,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 0,
+      "key": "text1",
+      "from": 6,
+      "to": 153
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "创作工作室"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-021-qc.json"
+}

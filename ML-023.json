@@ -1,0 +1,85 @@
+{
+  "id": "ML-023",
+  "title": "倾斜词组逐行组装与切出",
+  "kind": "文字",
+  "sourceStartFrame": 15729,
+  "sourceEndFrameExclusive": 15998,
+  "frames": 269,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "LOOK FOR旋入",
+    "PROBLEMS",
+    "&",
+    "SOLUTIONS",
+    "组合缓转与移位",
+    "桌面镜头",
+    "黑场"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-023-reference.mp4",
+  "demo": "ML-023-demo.mp4",
+  "audio": "ML-023-mix.m4a",
+  "package": "ML-023.zip",
+  "recipe": "ML-023.json",
+  "poster": "ML-023.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      227,
+      269
+    ]
+  ],
+  "cutFrames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    176,
+    227
+  ],
+  "slots": [
+    {
+      "box": [
+        80,
+        130,
+        1020,
+        500
+      ],
+      "original": "LOOK FOR / PROBLEMS / & SOLUTIONS",
+      "demo": "寻找\n真正的问题\n和可行的解法",
+      "size": 66,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 8,
+      "lineDelays": [
+        0,
+        0.43,
+        1.17
+      ],
+      "rotation": [
+        -15,
+        3
+      ],
+      "key": "text1",
+      "from": 3,
+      "to": 186
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "寻找\n真正的问题\n和可行的解法"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-023-qc.json"
+}

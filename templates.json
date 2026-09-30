@@ -4,7 +4,7 @@
   "sourceFrames": 26672,
   "fps": 30,
   "sourceDuration": 889.066666667,
-  "publishedCount": 20,
+  "publishedCount": 22,
   "plannedCount": 39,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
   "fidelity": "Native video assets preserve source event order. Local editable text patches are approximate, not reconstructed original layers.",
@@ -1375,6 +1375,123 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "qc": "ML-020-qc.json"
+    },
+    {
+      "id": "ML-021",
+      "title": "品牌标志、例证与商业版图",
+      "kind": "信息叙事",
+      "sourceStartFrame": 14904,
+      "sourceEndFrameExclusive": 15318,
+      "frames": 414,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "品牌标志缩放",
+        "商店",
+        "人物",
+        "硬币",
+        "黄色闪切",
+        "业务版图卡进入保持"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-021-reference.mp4",
+      "demo": "ML-021-demo.mp4",
+      "audio": "ML-021-mix.m4a",
+      "package": "ML-021.zip",
+      "recipe": "ML-021.json",
+      "poster": "ML-021.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        12,
+        143,
+        188,
+        220,
+        273,
+        397
+      ],
+      "slots": [
+        {
+          "box": [
+            240,
+            210,
+            800,
+            300
+          ],
+          "original": "amazon",
+          "demo": "创作工作室",
+          "size": 83,
+          "fill": "gold",
+          "color": "#161714",
+          "fade": 0.15,
+          "angle": 0,
+          "key": "text1",
+          "from": 6,
+          "to": 153
+        }
+      ],
+      "templateType": "editable-text-hybrid",
+      "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+      "demoOptions": {
+        "text1": "创作工作室"
+      },
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-021-qc.json"
+    },
+    {
+      "id": "ML-022",
+      "title": "运动画面灰化与大间距否定",
+      "kind": "强调",
+      "sourceStartFrame": 15477,
+      "sourceEndFrameExclusive": 15645,
+      "frames": 168,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "运动实拍",
+        "灰化",
+        "WRONG间距强调",
+        "保持",
+        "切出"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-022-reference.mp4",
+      "demo": "ML-022-demo.mp4",
+      "audio": "ML-022-mix.m4a",
+      "package": "ML-022.zip",
+      "recipe": "ML-022.json",
+      "poster": "ML-022.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [],
+      "cutFrames": [
+        2,
+        47,
+        48,
+        49,
+        51,
+        52,
+        53
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-022-qc.json"
     }
   ]
 }
