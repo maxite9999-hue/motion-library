@@ -3,7 +3,6 @@
   "title": "文章白闪切入人物卡",
   "kind": "用户精选片段",
   "sourceFile": "9月30日14个精选片段-4.mov",
-  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-4.mov",
   "sourceStartFrame": 0,
   "sourceEndFrameExclusive": 30,
   "frames": 30,
@@ -23,23 +22,175 @@
     14,
     22
   ],
-  "slots": [],
-  "demoOptions": {},
-  "templateType": "native-motion-asset",
-  "reference": "ML-043-reference.mp4",
-  "demo": "ML-043-reference.mp4",
-  "audio": "ML-043-mix.m4a",
-  "poster": "ML-043.jpg",
-  "recipe": "ML-043.json",
-  "qc": "ML-043-qc.json",
-  "package": "ML-043.zip",
-  "useCases": "用在从文字证据切入人物案例的连接处；一秒白闪只作衔接，不放长文案。",
-  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
-  "limits": [
-    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
-    "720p预览有压缩；原生回放不是自由参数化重建。"
+  "slots": [
+    {
+      "key": "scene1.text1",
+      "demo": "全球近68%的顶级富豪靠白手起家致富",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text2",
+      "demo": "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text3",
+      "demo": "报告分析了净资产达到3000万美元以上的超高净值人群。",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text4",
+      "demo": "根据2018年数据，这一人群增长0.8%，达到265490人。",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text5",
+      "demo": "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text6",
+      "demo": "只有8.5%完全依靠继承获得财富。",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text7",
+      "demo": "科技发展与新兴经济体提供了新的财富创造机会。",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text1",
+      "demo": "沃伦·巴菲特",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text2",
+      "demo": "伯克希尔·哈撒韦首席执行官",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text3",
+      "demo": "729亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text4",
+      "demo": "白手起家",
+      "maxCharacters": 220
+    }
   ],
-  "status": "verified-native-asset",
-  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+  "demoOptions": {
+    "scene1.text1": "全球近68%的顶级富豪靠白手起家致富",
+    "scene1.text2": "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
+    "scene1.text3": "报告分析了净资产达到3000万美元以上的超高净值人群。",
+    "scene1.text4": "根据2018年数据，这一人群增长0.8%，达到265490人。",
+    "scene1.text5": "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
+    "scene1.text6": "只有8.5%完全依靠继承获得财富。",
+    "scene1.text7": "科技发展与新兴经济体提供了新的财富创造机会。",
+    "scene3.text1": "沃伦·巴菲特",
+    "scene3.text2": "伯克希尔·哈撒韦首席执行官",
+    "scene3.text3": "729亿美元",
+    "scene3.text4": "白手起家"
+  },
+  "templateType": "parametric-motion-hybrid",
+  "reference": "ML-043-reference.mp4",
+  "demo": "ML-043-cn-v4.mp4",
+  "audio": "ML-043-mix.m4a",
+  "poster": "ML-043-cn-v4.jpg",
+  "recipe": "ML-043.json",
+  "qc": "ML-043-v4-qc.json",
+  "package": "ML-043-v4.zip",
+  "useCases": "用在从文字证据切入人物案例的连接处；一秒白闪只作衔接，不放长文案。",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
+  "limits": [
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
+  ],
+  "status": "reusable-Chinese-rebuild",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 13,
+      "kind": "article",
+      "texts": [
+        "全球近68%的顶级富豪靠白手起家致富",
+        "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
+        "报告分析了净资产达到3000万美元以上的超高净值人群。",
+        "根据2018年数据，这一人群增长0.8%，达到265490人。",
+        "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
+        "只有8.5%完全依靠继承获得财富。",
+        "科技发展与新兴经济体提供了新的财富创造机会。"
+      ],
+      "offset": 9.8,
+      "keys": [
+        "scene1.text1",
+        "scene1.text2",
+        "scene1.text3",
+        "scene1.text4",
+        "scene1.text5",
+        "scene1.text6",
+        "scene1.text7"
+      ]
+    },
+    {
+      "start": 13,
+      "end": 22,
+      "kind": "flash",
+      "texts": [],
+      "keys": []
+    },
+    {
+      "start": 22,
+      "end": 30,
+      "kind": "person",
+      "texts": [
+        "沃伦·巴菲特",
+        "伯克希尔·哈撒韦首席执行官",
+        "729亿美元",
+        "白手起家"
+      ],
+      "person": 0,
+      "keys": [
+        "scene3.text1",
+        "scene3.text2",
+        "scene3.text3",
+        "scene3.text4"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2",
+      "scene1.text3",
+      "scene1.text4",
+      "scene1.text5",
+      "scene1.text6",
+      "scene1.text7",
+      "scene3.text1",
+      "scene3.text2",
+      "scene3.text3",
+      "scene3.text4"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

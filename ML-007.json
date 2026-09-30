@@ -23,7 +23,7 @@
   "audio": "ML-007-mix.m4a",
   "package": "ML-007.zip",
   "recipe": "ML-007.json",
-  "poster": "ML-007.jpg",
+  "poster": "ML-007-cn-v4.jpg",
   "status": "localized-button-reviewed",
   "limits": [
     "只参数化按钮内的两个短标签；每项1至4个汉字。",

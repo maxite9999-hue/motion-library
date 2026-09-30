@@ -3,7 +3,6 @@
   "title": "人物成就卡与红色盖章快切",
   "kind": "用户精选片段",
   "sourceFile": "9月30日14个精选片段-5.mov",
-  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-5.mov",
   "sourceStartFrame": 0,
   "sourceEndFrameExclusive": 320,
   "frames": 320,
@@ -28,23 +27,257 @@
     265,
     266
   ],
-  "slots": [],
-  "demoOptions": {},
-  "templateType": "native-motion-asset",
-  "reference": "ML-044-reference.mp4",
-  "demo": "ML-044-reference.mp4",
-  "audio": "ML-044-mix.m4a",
-  "poster": "ML-044.jpg",
-  "recipe": "ML-044.json",
-  "qc": "ML-044-qc.json",
-  "package": "ML-044.zip",
-  "useCases": "用在连续列举人物成就、案例或共同标签时；卡片快切与盖章适合并列论证。",
-  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
-  "limits": [
-    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
-    "720p预览有压缩；原生回放不是自由参数化重建。"
+  "slots": [
+    {
+      "key": "scene1.text1",
+      "demo": "白手起家",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person1.name",
+      "demo": "沃伦·巴菲特",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person1.role",
+      "demo": "伯克希尔·哈撒韦首席执行官",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person1.value",
+      "demo": "729亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person2.name",
+      "demo": "霍华德·舒尔茨",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person2.role",
+      "demo": "星巴克前首席执行官",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person2.value",
+      "demo": "35亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person3.name",
+      "demo": "奥普拉·温弗瑞",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person3.role",
+      "demo": "主持人、媒体制作人",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person3.value",
+      "demo": "26亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person4.name",
+      "demo": "杰夫·贝索斯",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person4.role",
+      "demo": "亚马逊创始人",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person4.value",
+      "demo": "1173亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person5.name",
+      "demo": "埃隆·马斯克",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person5.role",
+      "demo": "SpaceX、特斯拉首席执行官",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person5.value",
+      "demo": "300亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person6.name",
+      "demo": "萨拉·布莱克利",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person6.role",
+      "demo": "Spanx 创始人",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.person6.value",
+      "demo": "10亿美元",
+      "maxCharacters": 220
+    }
   ],
-  "status": "verified-native-asset",
-  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+  "demoOptions": {
+    "scene1.text1": "白手起家",
+    "scene1.person1.name": "沃伦·巴菲特",
+    "scene1.person1.role": "伯克希尔·哈撒韦首席执行官",
+    "scene1.person1.value": "729亿美元",
+    "scene1.person2.name": "霍华德·舒尔茨",
+    "scene1.person2.role": "星巴克前首席执行官",
+    "scene1.person2.value": "35亿美元",
+    "scene1.person3.name": "奥普拉·温弗瑞",
+    "scene1.person3.role": "主持人、媒体制作人",
+    "scene1.person3.value": "26亿美元",
+    "scene1.person4.name": "杰夫·贝索斯",
+    "scene1.person4.role": "亚马逊创始人",
+    "scene1.person4.value": "1173亿美元",
+    "scene1.person5.name": "埃隆·马斯克",
+    "scene1.person5.role": "SpaceX、特斯拉首席执行官",
+    "scene1.person5.value": "300亿美元",
+    "scene1.person6.name": "萨拉·布莱克利",
+    "scene1.person6.role": "Spanx 创始人",
+    "scene1.person6.value": "10亿美元"
+  },
+  "templateType": "parametric-motion-hybrid",
+  "reference": "ML-044-reference.mp4",
+  "demo": "ML-044-cn-v4.mp4",
+  "audio": "ML-044-mix.m4a",
+  "poster": "ML-044-cn-v4.jpg",
+  "recipe": "ML-044.json",
+  "qc": "ML-044-v4-qc.json",
+  "package": "ML-044-v4.zip",
+  "useCases": "用在连续列举人物成就、案例或共同标签时；卡片快切与盖章适合并列论证。",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
+  "limits": [
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
+  ],
+  "status": "reusable-Chinese-rebuild",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 320,
+      "kind": "people",
+      "texts": [
+        "白手起家"
+      ],
+      "people": [
+        [
+          "沃伦·巴菲特",
+          "伯克希尔·哈撒韦首席执行官",
+          "729亿美元"
+        ],
+        [
+          "霍华德·舒尔茨",
+          "星巴克前首席执行官",
+          "35亿美元"
+        ],
+        [
+          "奥普拉·温弗瑞",
+          "主持人、媒体制作人",
+          "26亿美元"
+        ],
+        [
+          "杰夫·贝索斯",
+          "亚马逊创始人",
+          "1173亿美元"
+        ],
+        [
+          "埃隆·马斯克",
+          "SpaceX、特斯拉首席执行官",
+          "300亿美元"
+        ],
+        [
+          "萨拉·布莱克利",
+          "Spanx 创始人",
+          "10亿美元"
+        ]
+      ],
+      "keys": [
+        "scene1.text1"
+      ],
+      "peopleKeys": [
+        [
+          "scene1.person1.name",
+          "scene1.person1.role",
+          "scene1.person1.value"
+        ],
+        [
+          "scene1.person2.name",
+          "scene1.person2.role",
+          "scene1.person2.value"
+        ],
+        [
+          "scene1.person3.name",
+          "scene1.person3.role",
+          "scene1.person3.value"
+        ],
+        [
+          "scene1.person4.name",
+          "scene1.person4.role",
+          "scene1.person4.value"
+        ],
+        [
+          "scene1.person5.name",
+          "scene1.person5.role",
+          "scene1.person5.value"
+        ],
+        [
+          "scene1.person6.name",
+          "scene1.person6.role",
+          "scene1.person6.value"
+        ]
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.person1.name",
+      "scene1.person1.role",
+      "scene1.person1.value",
+      "scene1.person2.name",
+      "scene1.person2.role",
+      "scene1.person2.value",
+      "scene1.person3.name",
+      "scene1.person3.role",
+      "scene1.person3.value",
+      "scene1.person4.name",
+      "scene1.person4.role",
+      "scene1.person4.value",
+      "scene1.person5.name",
+      "scene1.person5.role",
+      "scene1.person5.value",
+      "scene1.person6.name",
+      "scene1.person6.role",
+      "scene1.person6.value"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

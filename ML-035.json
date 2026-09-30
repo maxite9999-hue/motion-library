@@ -17,18 +17,19 @@
     "手表提问",
     "黑场"
   ],
-  "architecture": "hybrid-native-timeline",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-035-reference.mp4",
-  "demo": "ML-035-demo.mp4",
+  "demo": "ML-035-cn-v4.mp4",
   "audio": "ML-035-mix.m4a",
-  "package": "ML-035.zip",
+  "package": "ML-035-v4.zip",
   "recipe": "ML-035.json",
-  "poster": "ML-035.jpg",
-  "status": "rendered-awaiting-visual-review",
+  "poster": "ML-035-cn-v4.jpg",
+  "status": "reusable-Chinese-rebuild",
   "limits": [
-    "原生合成特效保留为视频层，不冒充恢复的独立图层",
-    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
   "blackRanges": [
     [
@@ -48,11 +49,145 @@
     284,
     403
   ],
-  "slots": [],
-  "templateType": "native-motion-asset",
-  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
-  "demoOptions": {},
+  "slots": [
+    {
+      "key": "scene1.text1",
+      "demo": "我买得起吗？",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text1",
+      "demo": "我的假期用完了吗？",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text1",
+      "demo": "我该如何支付房租？",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text1",
+      "demo": "养老金够我生活吗？",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene5.text1",
+      "demo": "我不得不放弃",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene5.text2",
+      "demo": "哪些梦想？",
+      "maxCharacters": 220
+    }
+  ],
+  "templateType": "parametric-motion-hybrid",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
+  "demoOptions": {
+    "scene1.text1": "我买得起吗？",
+    "scene2.text1": "我的假期用完了吗？",
+    "scene3.text1": "我该如何支付房租？",
+    "scene4.text1": "养老金够我生活吗？",
+    "scene5.text1": "我不得不放弃",
+    "scene5.text2": "哪些梦想？"
+  },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-035-qc.json"
+  "useCases": "五个随构图换位的问题",
+  "qc": "ML-035-v4-qc.json",
+  "scenes": [
+    {
+      "start": 90,
+      "end": 132,
+      "kind": "question",
+      "texts": [
+        "我买得起吗？"
+      ],
+      "background": "life",
+      "position": 0,
+      "keys": [
+        "scene1.text1"
+      ]
+    },
+    {
+      "start": 132,
+      "end": 192,
+      "kind": "question",
+      "texts": [
+        "我的假期用完了吗？"
+      ],
+      "background": "life",
+      "position": 1,
+      "keys": [
+        "scene2.text1"
+      ]
+    },
+    {
+      "start": 192,
+      "end": 237,
+      "kind": "question",
+      "texts": [
+        "我该如何支付房租？"
+      ],
+      "background": "life",
+      "position": 2,
+      "keys": [
+        "scene3.text1"
+      ]
+    },
+    {
+      "start": 237,
+      "end": 282,
+      "kind": "question",
+      "texts": [
+        "养老金够我生活吗？"
+      ],
+      "background": "life",
+      "position": 1,
+      "keys": [
+        "scene4.text1"
+      ]
+    },
+    {
+      "start": 282,
+      "end": 403,
+      "kind": "question",
+      "texts": [
+        "我不得不放弃",
+        "哪些梦想？"
+      ],
+      "background": "life",
+      "position": 0,
+      "keys": [
+        "scene5.text1",
+        "scene5.text2"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene2.text1",
+      "scene3.text1",
+      "scene4.text1",
+      "scene5.text1",
+      "scene5.text2"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

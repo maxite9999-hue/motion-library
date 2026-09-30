@@ -18,18 +18,19 @@
     "屏幕场景灰化",
     "无限绿色命题"
   ],
-  "architecture": "hybrid-native-timeline",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-028-reference.mp4",
-  "demo": "ML-028-demo.mp4",
+  "demo": "ML-028-cn-v4.mp4",
   "audio": "ML-028-mix.m4a",
-  "package": "ML-028.zip",
+  "package": "ML-028-v4.zip",
   "recipe": "ML-028.json",
-  "poster": "ML-028.jpg",
-  "status": "rendered-awaiting-visual-review",
+  "poster": "ML-028-cn-v4.jpg",
+  "status": "reusable-Chinese-rebuild",
   "limits": [
-    "原生合成特效保留为视频层，不冒充恢复的独立图层",
-    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -42,11 +43,148 @@
     600,
     695
   ],
-  "slots": [],
-  "templateType": "native-motion-asset",
-  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
-  "demoOptions": {},
+  "slots": [
+    {
+      "key": "scene1.text1",
+      "demo": "线下课程",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text2",
+      "demo": "100美元/小时",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text1",
+      "demo": "有限的扩展能力",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text2",
+      "demo": "时间与地点限制",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text1",
+      "demo": "课程搬到线上",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text2",
+      "demo": "一次制作，多次交付",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text1",
+      "demo": "更大的扩展空间",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text2",
+      "demo": "突破时间与地点",
+      "maxCharacters": 220
+    }
+  ],
+  "templateType": "parametric-motion-hybrid",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
+  "demoOptions": {
+    "scene1.text1": "线下课程",
+    "scene1.text2": "100美元/小时",
+    "scene2.text1": "有限的扩展能力",
+    "scene2.text2": "时间与地点限制",
+    "scene3.text1": "课程搬到线上",
+    "scene3.text2": "一次制作，多次交付",
+    "scene4.text1": "更大的扩展空间",
+    "scene4.text2": "突破时间与地点"
+  },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-028-qc.json"
+  "useCases": "有限到无限、画面缩入显示器",
+  "qc": "ML-028-v4-qc.json",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 129,
+      "kind": "lesson",
+      "texts": [
+        "线下课程",
+        "100美元/小时"
+      ],
+      "stage": 0,
+      "keys": [
+        "scene1.text1",
+        "scene1.text2"
+      ]
+    },
+    {
+      "start": 129,
+      "end": 429,
+      "kind": "lesson",
+      "texts": [
+        "有限的扩展能力",
+        "时间与地点限制"
+      ],
+      "stage": 1,
+      "keys": [
+        "scene2.text1",
+        "scene2.text2"
+      ]
+    },
+    {
+      "start": 429,
+      "end": 579,
+      "kind": "lesson",
+      "texts": [
+        "课程搬到线上",
+        "一次制作，多次交付"
+      ],
+      "stage": 2,
+      "keys": [
+        "scene3.text1",
+        "scene3.text2"
+      ]
+    },
+    {
+      "start": 579,
+      "end": 702,
+      "kind": "lesson",
+      "texts": [
+        "更大的扩展空间",
+        "突破时间与地点"
+      ],
+      "stage": 3,
+      "keys": [
+        "scene4.text1",
+        "scene4.text2"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2",
+      "scene2.text1",
+      "scene2.text2",
+      "scene3.text1",
+      "scene3.text2",
+      "scene4.text1",
+      "scene4.text2"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

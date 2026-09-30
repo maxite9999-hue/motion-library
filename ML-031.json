@@ -18,18 +18,19 @@
     "收益箭头肖像",
     "径向放大退出"
   ],
-  "architecture": "hybrid-native-timeline",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-031-reference.mp4",
-  "demo": "ML-031-demo.mp4",
+  "demo": "ML-031-cn-v4.mp4",
   "audio": "ML-031-mix.m4a",
-  "package": "ML-031.zip",
+  "package": "ML-031-v4.zip",
   "recipe": "ML-031.json",
-  "poster": "ML-031.jpg",
-  "status": "rendered-awaiting-visual-review",
+  "poster": "ML-031-cn-v4.jpg",
+  "status": "reusable-Chinese-rebuild",
   "limits": [
-    "原生合成特效保留为视频层，不冒充恢复的独立图层",
-    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -44,49 +45,169 @@
   ],
   "slots": [
     {
-      "box": [
-        405,
-        414,
-        470,
-        125
-      ],
-      "original": "$1 BILLION",
-      "demo": "一个好想法",
-      "size": 42,
-      "fill": "gold",
-      "color": "#161714",
-      "fade": 0.15,
-      "angle": 0,
-      "key": "text1",
-      "from": 240,
-      "to": 282
+      "key": "scene1.text1",
+      "demo": "收购",
+      "maxCharacters": 220
     },
     {
-      "box": [
-        335,
-        438,
-        610,
-        140
-      ],
-      "original": "$1.5 BILLION",
-      "demo": "变成完整作品",
-      "size": 42,
-      "fill": "gold",
-      "color": "#161714",
-      "fade": 0.15,
-      "angle": 0,
-      "key": "text2",
-      "from": 330,
-      "to": 384
+      "key": "scene1.text2",
+      "demo": "买入或取得一项资产、业务。",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text1",
+      "demo": "交易金额",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text2",
+      "demo": "10亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text3",
+      "demo": "",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text1",
+      "demo": "交易金额",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text2",
+      "demo": "15亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text3",
+      "demo": "",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text1",
+      "demo": "个人所得",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text2",
+      "demo": "1.65亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text3",
+      "demo": "",
+      "maxCharacters": 220
     }
   ],
-  "templateType": "editable-text-hybrid",
-  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "templateType": "parametric-motion-hybrid",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "text1": "一个好想法",
-    "text2": "变成完整作品"
+    "scene1.text1": "收购",
+    "scene1.text2": "买入或取得一项资产、业务。",
+    "scene2.text1": "交易金额",
+    "scene2.text2": "10亿美元",
+    "scene2.text3": "",
+    "scene3.text1": "交易金额",
+    "scene3.text2": "15亿美元",
+    "scene3.text3": "",
+    "scene4.text1": "个人所得",
+    "scene4.text2": "1.65亿美元",
+    "scene4.text3": ""
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-031-qc.json"
+  "useCases": "角落定义、品牌交易与收益",
+  "qc": "ML-031-v4-qc.json",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 180,
+      "kind": "definition",
+      "texts": [
+        "收购",
+        "买入或取得一项资产、业务。"
+      ],
+      "keys": [
+        "scene1.text1",
+        "scene1.text2"
+      ]
+    },
+    {
+      "start": 246,
+      "end": 330,
+      "kind": "metric",
+      "texts": [
+        "交易金额",
+        "10亿美元",
+        ""
+      ],
+      "keys": [
+        "scene2.text1",
+        "scene2.text2",
+        "scene2.text3"
+      ]
+    },
+    {
+      "start": 330,
+      "end": 405,
+      "kind": "metric",
+      "texts": [
+        "交易金额",
+        "15亿美元",
+        ""
+      ],
+      "keys": [
+        "scene3.text1",
+        "scene3.text2",
+        "scene3.text3"
+      ]
+    },
+    {
+      "start": 405,
+      "end": 525,
+      "kind": "metric",
+      "texts": [
+        "个人所得",
+        "1.65亿美元",
+        ""
+      ],
+      "keys": [
+        "scene4.text1",
+        "scene4.text2",
+        "scene4.text3"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2",
+      "scene2.text1",
+      "scene2.text2",
+      "scene2.text3",
+      "scene3.text1",
+      "scene3.text2",
+      "scene3.text3",
+      "scene4.text1",
+      "scene4.text2",
+      "scene4.text3"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

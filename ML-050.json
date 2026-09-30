@@ -3,7 +3,6 @@
   "title": "核心提问到人物心理的长引子",
   "kind": "用户精选片段",
   "sourceFile": "9月30日14个精选片段-11.mov",
-  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-11.mov",
   "sourceStartFrame": 0,
   "sourceEndFrameExclusive": 1181,
   "frames": 1181,
@@ -62,42 +61,75 @@
   ],
   "slots": [
     {
-      "key": "text1",
-      "from": 0,
-      "to": 68,
-      "box": [
-        285,
-        150,
-        710,
-        365
-      ],
-      "original": "HOW DID THEY DO IT?",
-      "demo": "他们究竟\n如何做到？",
-      "size": 66,
-      "fill": "gold",
-      "color": "#161714",
-      "fade": 0,
-      "angle": 0
+      "key": "scene1.text1",
+      "demo": "他们究竟",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text2",
+      "demo": "如何做到？",
+      "maxCharacters": 220
     }
   ],
   "demoOptions": {
-    "text1": "他们究竟\n如何做到？"
+    "scene1.text1": "他们究竟",
+    "scene1.text2": "如何做到？"
   },
-  "templateType": "editable-text-hybrid",
+  "templateType": "parametric-motion-hybrid",
   "reference": "ML-050-reference.mp4",
-  "demo": "ML-050-demo.mp4",
+  "demo": "ML-050-cn-v4.mp4",
   "audio": "ML-050-mix.m4a",
-  "poster": "ML-050.jpg",
+  "poster": "ML-050-cn-v4.jpg",
   "recipe": "ML-050.json",
-  "qc": "ML-050-qc.json",
-  "package": "ML-050.zip",
+  "qc": "ML-050-v4-qc.json",
+  "package": "ML-050-v4.zip",
   "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；开头问句可局部改字，后续原生镜头保留。",
-  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。开头问句支持局部改字，其余镜头保持原生。",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "limits": [
-    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
-    "720p预览有压缩；原生回放不是自由参数化重建。"
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
-  "status": "verified-native-asset",
-  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+  "status": "reusable-Chinese-rebuild",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 78,
+      "kind": "title",
+      "texts": [
+        "他们究竟",
+        "如何做到？"
+      ],
+      "strong": 1,
+      "keys": [
+        "scene1.text1",
+        "scene1.text2"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

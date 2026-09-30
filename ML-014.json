@@ -17,18 +17,19 @@
     "旋转返回公式",
     "WRONG盖章"
   ],
-  "architecture": "hybrid-native-timeline",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-014-reference.mp4",
-  "demo": "ML-014-demo.mp4",
+  "demo": "ML-014-cn-v4.mp4",
   "audio": "ML-014-mix.m4a",
-  "package": "ML-014.zip",
+  "package": "ML-014-v4.zip",
   "recipe": "ML-014.json",
-  "poster": "ML-014.jpg",
-  "status": "rendered-awaiting-visual-review",
+  "poster": "ML-014-cn-v4.jpg",
+  "status": "reusable-Chinese-rebuild",
   "limits": [
-    "原生合成特效保留为视频层，不冒充恢复的独立图层",
-    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -47,53 +48,126 @@
   ],
   "slots": [
     {
-      "box": [
-        100,
-        130,
-        1080,
-        430
-      ],
-      "original": "YOUR EQUATION / IS ALL WRONG",
-      "demo": "重新检查假设\n别急着相信直觉",
-      "size": 48,
-      "fill": "gold",
-      "color": "#161714",
-      "fade": 0.15,
-      "angle": 0,
-      "lineDelays": [
-        0.0,
-        0.6
-      ],
-      "key": "text1",
-      "from": 12,
-      "to": 117
+      "key": "scene1.text1",
+      "demo": "你的公式",
+      "maxCharacters": 220
     },
     {
-      "box": [
-        100,
-        280,
-        1080,
-        150
-      ],
-      "original": "MONEY = SALARY FROM A JOB",
-      "demo": "忙碌 ≠ 有效进步",
-      "size": 54,
-      "fill": "gold",
-      "color": "#161714",
-      "fade": 0.15,
-      "angle": 0,
-      "key": "text2",
-      "from": 135,
-      "to": 296
+      "key": "scene1.text2",
+      "demo": "完全错了",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text1",
+      "demo": "金钱",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text2",
+      "demo": "工作赚取的薪水",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text1",
+      "demo": "金钱",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text2",
+      "demo": "工作赚取的薪水",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text3",
+      "demo": "错了",
+      "maxCharacters": 220
     }
   ],
-  "templateType": "editable-text-hybrid",
-  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "templateType": "parametric-motion-hybrid",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "text1": "重新检查假设\n别急着相信直觉",
-    "text2": "忙碌 ≠ 有效进步"
+    "scene1.text1": "你的公式",
+    "scene1.text2": "完全错了",
+    "scene2.text1": "金钱",
+    "scene2.text2": "工作赚取的薪水",
+    "scene3.text1": "金钱",
+    "scene3.text2": "工作赚取的薪水",
+    "scene3.text3": "错了"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-014-qc.json"
+  "useCases": "命题、公式与斜向否定",
+  "qc": "ML-014-v4-qc.json",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 162,
+      "kind": "title",
+      "texts": [
+        "你的公式",
+        "完全错了"
+      ],
+      "strong": 1,
+      "keys": [
+        "scene1.text1",
+        "scene1.text2"
+      ]
+    },
+    {
+      "start": 162,
+      "end": 324,
+      "kind": "equation",
+      "texts": [
+        "金钱",
+        "工作赚取的薪水"
+      ],
+      "keys": [
+        "scene2.text1",
+        "scene2.text2"
+      ]
+    },
+    {
+      "start": 615,
+      "end": 729,
+      "kind": "equation",
+      "texts": [
+        "金钱",
+        "工作赚取的薪水",
+        "错了"
+      ],
+      "stamp": true,
+      "keys": [
+        "scene3.text1",
+        "scene3.text2",
+        "scene3.text3"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2",
+      "scene2.text1",
+      "scene2.text2",
+      "scene3.text1",
+      "scene3.text2",
+      "scene3.text3"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

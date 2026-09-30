@@ -18,18 +18,19 @@
     "金额逐字",
     "缩小退出"
   ],
-  "architecture": "hybrid-native-timeline",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-015-reference.mp4",
-  "demo": "ML-015-demo.mp4",
+  "demo": "ML-015-cn-v4.mp4",
   "audio": "ML-015-mix.m4a",
-  "package": "ML-015.zip",
+  "package": "ML-015-v4.zip",
   "recipe": "ML-015.json",
-  "poster": "ML-015.jpg",
-  "status": "rendered-awaiting-visual-review",
+  "poster": "ML-015-cn-v4.jpg",
+  "status": "reusable-Chinese-rebuild",
   "limits": [
-    "原生合成特效保留为视频层，不冒充恢复的独立图层",
-    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -53,30 +54,178 @@
   ],
   "slots": [
     {
-      "box": [
-        115,
-        210,
-        1050,
-        330
-      ],
-      "original": "$1,000,000",
-      "demo": "一百万种可能",
-      "size": 93,
-      "fill": "gold",
-      "color": "#161714",
-      "fade": 0.15,
-      "angle": 0,
-      "key": "text1",
-      "from": 231,
-      "to": 522
+      "key": "scene1.text1",
+      "demo": "收入",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text2",
+      "demo": "20美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text3",
+      "demo": "每小时",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text1",
+      "demo": "工作时间",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text2",
+      "demo": "40小时",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text3",
+      "demo": "每周",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text1",
+      "demo": "持续积累",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text2",
+      "demo": "24年",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text3",
+      "demo": "时间成本",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text1",
+      "demo": "最终金额",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text2",
+      "demo": "100万美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text3",
+      "demo": "",
+      "maxCharacters": 220
     }
   ],
-  "templateType": "editable-text-hybrid",
-  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "templateType": "parametric-motion-hybrid",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "text1": "一百万种可能"
+    "scene1.text1": "收入",
+    "scene1.text2": "20美元",
+    "scene1.text3": "每小时",
+    "scene2.text1": "工作时间",
+    "scene2.text2": "40小时",
+    "scene2.text3": "每周",
+    "scene3.text1": "持续积累",
+    "scene3.text2": "24年",
+    "scene3.text3": "时间成本",
+    "scene4.text1": "最终金额",
+    "scene4.text2": "100万美元",
+    "scene4.text3": ""
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-015-qc.json"
+  "useCases": "收入、工时、年数时钟与金额",
+  "qc": "ML-015-v4-qc.json",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 105,
+      "kind": "metric",
+      "texts": [
+        "收入",
+        "20美元",
+        "每小时"
+      ],
+      "keys": [
+        "scene1.text1",
+        "scene1.text2",
+        "scene1.text3"
+      ]
+    },
+    {
+      "start": 105,
+      "end": 174,
+      "kind": "metric",
+      "texts": [
+        "工作时间",
+        "40小时",
+        "每周"
+      ],
+      "keys": [
+        "scene2.text1",
+        "scene2.text2",
+        "scene2.text3"
+      ]
+    },
+    {
+      "start": 174,
+      "end": 240,
+      "kind": "metric",
+      "texts": [
+        "持续积累",
+        "24年",
+        "时间成本"
+      ],
+      "keys": [
+        "scene3.text1",
+        "scene3.text2",
+        "scene3.text3"
+      ]
+    },
+    {
+      "start": 240,
+      "end": 558,
+      "kind": "metric",
+      "texts": [
+        "最终金额",
+        "100万美元",
+        ""
+      ],
+      "keys": [
+        "scene4.text1",
+        "scene4.text2",
+        "scene4.text3"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2",
+      "scene1.text3",
+      "scene2.text1",
+      "scene2.text2",
+      "scene2.text3",
+      "scene3.text1",
+      "scene3.text2",
+      "scene3.text3",
+      "scene4.text1",
+      "scene4.text2",
+      "scene4.text3"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

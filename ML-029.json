@@ -17,18 +17,19 @@
     "两行命题逐字",
     "切出"
   ],
-  "architecture": "hybrid-native-timeline",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-029-reference.mp4",
-  "demo": "ML-029-demo.mp4",
+  "demo": "ML-029-cn-v4.mp4",
   "audio": "ML-029-mix.m4a",
-  "package": "ML-029.zip",
+  "package": "ML-029-v4.zip",
   "recipe": "ML-029.json",
-  "poster": "ML-029.jpg",
-  "status": "rendered-awaiting-visual-review",
+  "poster": "ML-029-cn-v4.jpg",
+  "status": "reusable-Chinese-rebuild",
   "limits": [
-    "原生合成特效保留为视频层，不冒充恢复的独立图层",
-    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -57,34 +58,62 @@
   ],
   "slots": [
     {
-      "box": [
-        105,
-        255,
-        1070,
-        230
-      ],
-      "original": "THE MARKET DOES NOT CARE ABOUT YOUR PASSIONS",
-      "demo": "先理解需要\n再选择表达方式",
-      "size": 45,
-      "fill": "gold",
-      "color": "#161714",
-      "fade": 0.15,
-      "angle": 0,
-      "lineDelays": [
-        0.0,
-        0.6
-      ],
-      "key": "text1",
-      "from": 203,
-      "to": 265
+      "key": "scene1.text1",
+      "demo": "市场并不关心",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text2",
+      "demo": "你的热情",
+      "maxCharacters": 220
     }
   ],
-  "templateType": "editable-text-hybrid",
-  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "templateType": "parametric-motion-hybrid",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "text1": "先理解需要\n再选择表达方式"
+    "scene1.text1": "市场并不关心",
+    "scene1.text2": "你的热情"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-029-qc.json"
+  "useCases": "径向推拉转场与逐字命题",
+  "qc": "ML-029-v4-qc.json",
+  "scenes": [
+    {
+      "start": 192,
+      "end": 270,
+      "kind": "title",
+      "texts": [
+        "市场并不关心",
+        "你的热情"
+      ],
+      "strong": 1,
+      "keys": [
+        "scene1.text1",
+        "scene1.text2"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

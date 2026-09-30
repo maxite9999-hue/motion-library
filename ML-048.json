@@ -3,7 +3,6 @@
   "title": "人物侧旁逐词强调",
   "kind": "用户精选片段",
   "sourceFile": "9月30日14个精选片段-9.mov",
-  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-9.mov",
   "sourceStartFrame": 0,
   "sourceEndFrameExclusive": 157,
   "frames": 157,
@@ -21,23 +20,85 @@
   ],
   "blackRanges": [],
   "cutFrames": [],
-  "slots": [],
-  "demoOptions": {},
-  "templateType": "native-motion-asset",
-  "reference": "ML-048-reference.mp4",
-  "demo": "ML-048-reference.mp4",
-  "audio": "ML-048-mix.m4a",
-  "poster": "ML-048.jpg",
-  "recipe": "ML-048.json",
-  "qc": "ML-048-qc.json",
-  "package": "ML-048.zip",
-  "useCases": "用在强调停止某种行为或提出反常识观点时；现有文字与人物合成，换文案须另做内部重建。",
-  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
-  "limits": [
-    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
-    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
-    "720p预览有压缩；原生回放不是自由参数化重建。"
+  "slots": [
+    {
+      "key": "scene1.text1",
+      "demo": "停止",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text2",
+      "demo": "追逐",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene1.text3",
+      "demo": "金钱",
+      "maxCharacters": 220
+    }
   ],
-  "status": "verified-native-asset",
-  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+  "demoOptions": {
+    "scene1.text1": "停止",
+    "scene1.text2": "追逐",
+    "scene1.text3": "金钱"
+  },
+  "templateType": "parametric-motion-hybrid",
+  "reference": "ML-048-reference.mp4",
+  "demo": "ML-048-cn-v4.mp4",
+  "audio": "ML-048-mix.m4a",
+  "poster": "ML-048-cn-v4.jpg",
+  "recipe": "ML-048.json",
+  "qc": "ML-048-v4-qc.json",
+  "package": "ML-048-v4.zip",
+  "useCases": "用在强调停止某种行为或提出反常识观点时；现有文字与人物合成，换文案须另做内部重建。",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
+  "limits": [
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
+  ],
+  "status": "reusable-Chinese-rebuild",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 157,
+      "kind": "split",
+      "texts": [
+        "停止",
+        "追逐",
+        "金钱"
+      ],
+      "keys": [
+        "scene1.text1",
+        "scene1.text2",
+        "scene1.text3"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2",
+      "scene1.text3"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

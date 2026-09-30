@@ -24,18 +24,19 @@
     "倍率",
     "黑场"
   ],
-  "architecture": "hybrid-native-timeline",
+  "architecture": "editable-Chinese-composition-plus-native-footage",
   "reference": "ML-001-reference.mp4",
-  "demo": "ML-001-demo.mp4",
+  "demo": "ML-001-cn-v4.mp4",
   "audio": "ML-001-mix.m4a",
-  "package": "ML-001.zip",
+  "package": "ML-001-v4.zip",
   "recipe": "ML-001.json",
-  "poster": "ML-001.jpg",
-  "status": "rendered-awaiting-visual-review",
+  "poster": "ML-001-cn-v4.jpg",
+  "status": "reusable-Chinese-rebuild",
   "limits": [
-    "原生合成特效保留为视频层，不冒充恢复的独立图层",
-    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
   "blackRanges": [
     [
@@ -71,49 +72,192 @@
   ],
   "slots": [
     {
-      "box": [
-        440,
-        427,
-        400,
-        100
-      ],
-      "original": "= $1,000,000",
-      "demo": "= 1 次尝试",
-      "size": 36,
-      "fill": "gold",
-      "color": "#fff2d0",
-      "fade": 0.15,
-      "angle": 0,
-      "key": "text1",
-      "from": 205,
-      "to": 324
+      "key": "scene1.text1",
+      "demo": "财富如何增长？",
+      "maxCharacters": 220
     },
     {
-      "box": [
-        360,
-        95,
-        620,
-        140
-      ],
-      "original": "$10 MILLION",
-      "demo": "十次尝试",
-      "size": 60,
-      "fill": "gold",
-      "color": "#fff2d0",
-      "fade": 0.15,
-      "angle": 0,
-      "key": "text2",
-      "from": 390,
-      "to": 440
+      "key": "scene1.text2",
+      "demo": "100万美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text1",
+      "demo": "放大十倍",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene2.text2",
+      "demo": "1000万美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text1",
+      "demo": "继续扩大",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene3.text2",
+      "demo": "1亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text1",
+      "demo": "数量级的差异",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene4.text2",
+      "demo": "10亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene5.text1",
+      "demo": "杰夫·贝索斯",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene5.text2",
+      "demo": "亚马逊创始人",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene5.text3",
+      "demo": "1173亿美元",
+      "maxCharacters": 220
+    },
+    {
+      "key": "scene5.text4",
+      "demo": "117.3倍",
+      "maxCharacters": 220
     }
   ],
-  "templateType": "editable-text-hybrid",
-  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "templateType": "parametric-motion-hybrid",
+  "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "text1": "= 1 次尝试",
-    "text2": "十次尝试"
+    "scene1.text1": "财富如何增长？",
+    "scene1.text2": "100万美元",
+    "scene2.text1": "放大十倍",
+    "scene2.text2": "1000万美元",
+    "scene3.text1": "继续扩大",
+    "scene3.text2": "1亿美元",
+    "scene4.text1": "数量级的差异",
+    "scene4.text2": "10亿美元",
+    "scene5.text1": "杰夫·贝索斯",
+    "scene5.text2": "亚马逊创始人",
+    "scene5.text3": "1173亿美元",
+    "scene5.text4": "117.3倍"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-001-qc.json"
+  "useCases": "圆点增殖、下落与缩小移位",
+  "qc": "ML-001-v4-qc.json",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 330,
+      "kind": "wealth",
+      "texts": [
+        "财富如何增长？",
+        "100万美元"
+      ],
+      "level": 1,
+      "keys": [
+        "scene1.text1",
+        "scene1.text2"
+      ]
+    },
+    {
+      "start": 330,
+      "end": 450,
+      "kind": "wealth",
+      "texts": [
+        "放大十倍",
+        "1000万美元"
+      ],
+      "level": 10,
+      "keys": [
+        "scene2.text1",
+        "scene2.text2"
+      ]
+    },
+    {
+      "start": 450,
+      "end": 570,
+      "kind": "wealth",
+      "texts": [
+        "继续扩大",
+        "1亿美元"
+      ],
+      "level": 100,
+      "keys": [
+        "scene3.text1",
+        "scene3.text2"
+      ]
+    },
+    {
+      "start": 570,
+      "end": 810,
+      "kind": "wealth",
+      "texts": [
+        "数量级的差异",
+        "10亿美元"
+      ],
+      "level": 1000,
+      "keys": [
+        "scene4.text1",
+        "scene4.text2"
+      ]
+    },
+    {
+      "start": 810,
+      "end": 1182,
+      "kind": "person",
+      "texts": [
+        "杰夫·贝索斯",
+        "亚马逊创始人",
+        "1173亿美元",
+        "117.3倍"
+      ],
+      "person": 3,
+      "keys": [
+        "scene5.text1",
+        "scene5.text2",
+        "scene5.text3",
+        "scene5.text4"
+      ]
+    }
+  ],
+  "type": "parametric-motion-hybrid",
+  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+  "assetRoot": "assets",
+  "renderer": "render-v4.py",
+  "revision": "cn-reusable-v4-20260930",
+  "inputSchema": {
+    "textFields": [
+      "scene1.text1",
+      "scene1.text2",
+      "scene2.text1",
+      "scene2.text2",
+      "scene3.text1",
+      "scene3.text2",
+      "scene4.text1",
+      "scene4.text2",
+      "scene5.text1",
+      "scene5.text2",
+      "scene5.text3",
+      "scene5.text4"
+    ],
+    "optionalMedia": [
+      "asset",
+      "footage",
+      "person1Asset",
+      "person2Asset",
+      "person3Asset",
+      "person4Asset",
+      "person5Asset",
+      "person6Asset"
+    ],
+    "duration": "fixed source frame count; assistant edits final timeline"
+  }
 }

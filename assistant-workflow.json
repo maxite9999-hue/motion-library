@@ -1,0 +1,12 @@
+{
+  "catalog": "templates.json",
+  "contract": "用户只提供文案、录音或编号；助手完成适配。",
+  "steps": [
+    "按文案意群检索 useCases，不要求用户手改模板。",
+    "区分 parametric-motion-hybrid、editable-text-hybrid 和 native-motion-asset；不要声称原生层中的文字可编辑。",
+    "下载所选 package；读取 recipe、demoOptions 与 limits，逐项替换，避免历史示例数字当成当前事实。",
+    "以录音为主时间轴，按必要程度换素材；优先库内素材，不生硬强套。",
+    "保留原音乐音效，配旁白时混音，检查可听性与动作音效同步。",
+    "检查每个切点及中文文字，完整解码和试听，交付真实成片。"
+  ]
+}
