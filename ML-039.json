@@ -1,0 +1,48 @@
+{
+  "id": "ML-039",
+  "title": "俯拍城市与电影式收尾",
+  "kind": "结尾剪辑",
+  "sourceStartFrame": 26349,
+  "sourceEndFrameExclusive": 26672,
+  "frames": 323,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "俯拍城市运动",
+    "人物对白镜头",
+    "花田人物",
+    "暗公路结束"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-039-reference.mp4",
+  "demo": "ML-039-demo.mp4",
+  "audio": "ML-039-mix.m4a",
+  "package": "ML-039.zip",
+  "recipe": "ML-039.json",
+  "poster": "ML-039.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      296,
+      305
+    ]
+  ],
+  "cutFrames": [
+    191,
+    256,
+    296
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-039-qc.json"
+}
