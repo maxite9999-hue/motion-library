@@ -1,0 +1,314 @@
+[
+  {
+    "id": "ML-001",
+    "frames": 1182,
+    "minimum": 0.989904,
+    "mean": 0.9969583443316385,
+    "worstFrame": 840,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-002",
+    "frames": 897,
+    "minimum": 0.982685,
+    "mean": 0.993095651059086,
+    "worstFrame": 869,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-003",
+    "frames": 86,
+    "minimum": 0.996374,
+    "mean": 0.9982432558139536,
+    "worstFrame": 85,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-004",
+    "frames": 108,
+    "minimum": 0.978599,
+    "mean": 0.9879371111111113,
+    "worstFrame": 67,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-005",
+    "frames": 507,
+    "minimum": 0.983578,
+    "mean": 0.9942898422090737,
+    "worstFrame": 468,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-006",
+    "frames": 321,
+    "minimum": 0.966257,
+    "mean": 0.9906009688473524,
+    "worstFrame": 101,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-007",
+    "frames": 213,
+    "minimum": 0.981509,
+    "mean": 0.9856920657276992,
+    "worstFrame": 111,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-008",
+    "frames": 330,
+    "minimum": 0.980891,
+    "mean": 0.9891624575757577,
+    "worstFrame": 45,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-009",
+    "frames": 959,
+    "minimum": 0.978438,
+    "mean": 0.9895948143899902,
+    "worstFrame": 75,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-010",
+    "frames": 297,
+    "minimum": 0.986752,
+    "mean": 0.998298818181818,
+    "worstFrame": 296,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-011",
+    "frames": 72,
+    "minimum": 0.975304,
+    "mean": 0.9844144166666668,
+    "worstFrame": 18,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-012",
+    "frames": 375,
+    "minimum": 0.979427,
+    "mean": 0.9941225306666671,
+    "worstFrame": 1,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-013",
+    "frames": 414,
+    "minimum": 0.984947,
+    "mean": 0.9922496956521744,
+    "worstFrame": 398,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-014",
+    "frames": 729,
+    "minimum": 0.972406,
+    "mean": 0.9947049272976671,
+    "worstFrame": 728,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-015",
+    "frames": 558,
+    "minimum": 0.973742,
+    "mean": 0.9967933924731188,
+    "worstFrame": 27,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-016",
+    "frames": 174,
+    "minimum": 0.983001,
+    "mean": 0.9883031034482758,
+    "worstFrame": 112,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-017",
+    "frames": 459,
+    "minimum": 0.98608,
+    "mean": 0.9977521960784316,
+    "worstFrame": 175,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-018",
+    "frames": 432,
+    "minimum": 0.973898,
+    "mean": 0.9923090972222226,
+    "worstFrame": 361,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-019",
+    "frames": 705,
+    "minimum": 0.983211,
+    "mean": 0.9917922382978719,
+    "worstFrame": 3,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-020",
+    "frames": 522,
+    "minimum": 0.982953,
+    "mean": 0.9939889827586211,
+    "worstFrame": 26,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-021",
+    "frames": 414,
+    "minimum": 0.936729,
+    "mean": 0.9924986932367155,
+    "worstFrame": 10,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-022",
+    "frames": 168,
+    "minimum": 0.988895,
+    "mean": 0.992991714285714,
+    "worstFrame": 19,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-023",
+    "frames": 269,
+    "minimum": 0.989488,
+    "mean": 0.9958695576208179,
+    "worstFrame": 226,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-024",
+    "frames": 277,
+    "minimum": 0.95395,
+    "mean": 0.9928855920577622,
+    "worstFrame": 186,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-025",
+    "frames": 403,
+    "minimum": 0.988802,
+    "mean": 0.9984964565756832,
+    "worstFrame": 264,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-026",
+    "frames": 216,
+    "minimum": 0.987108,
+    "mean": 0.9962483009259251,
+    "worstFrame": 215,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-027",
+    "frames": 345,
+    "minimum": 0.981997,
+    "mean": 0.9918051101449284,
+    "worstFrame": 8,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-028",
+    "frames": 702,
+    "minimum": 0.987496,
+    "mean": 0.992371306267807,
+    "worstFrame": 10,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-029",
+    "frames": 270,
+    "minimum": 0.983782,
+    "mean": 0.9906146481481493,
+    "worstFrame": 184,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-030",
+    "frames": 447,
+    "minimum": 0.992188,
+    "mean": 0.9978254854586133,
+    "worstFrame": 12,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-031",
+    "frames": 525,
+    "minimum": 0.98248,
+    "mean": 0.9949710761904764,
+    "worstFrame": 524,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-032",
+    "frames": 480,
+    "minimum": 0.980467,
+    "mean": 0.9922819708333328,
+    "worstFrame": 2,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-033",
+    "frames": 597,
+    "minimum": 0.982299,
+    "mean": 0.9984615644891126,
+    "worstFrame": 596,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-034",
+    "frames": 120,
+    "minimum": 0.984214,
+    "mean": 0.9923215833333336,
+    "worstFrame": 75,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-035",
+    "frames": 480,
+    "minimum": 0.986803,
+    "mean": 0.9950341937499995,
+    "worstFrame": 400,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-036",
+    "frames": 495,
+    "minimum": 0.982902,
+    "mean": 0.9933528868686874,
+    "worstFrame": 401,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-037",
+    "frames": 247,
+    "minimum": 0.984475,
+    "mean": 0.9957647489878542,
+    "worstFrame": 139,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-038",
+    "frames": 309,
+    "minimum": 0.979584,
+    "mean": 0.9982725242718447,
+    "worstFrame": 308,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  },
+  {
+    "id": "ML-039",
+    "frames": 323,
+    "minimum": 0.97449,
+    "mean": 0.987891436532507,
+    "worstFrame": 190,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  }
+]

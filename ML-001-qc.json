@@ -48,5 +48,12 @@
   ],
   "claim": "source-native asset plus optional approximate localized text patch; not full parameterized reconstruction",
   "sameAudioPacketsInBothPreviews": true,
-  "losslessMixSha256": "58874be13150bc755af29ba3cdd3beb79bf1c691eadb2c80beb167e68b6a3866"
+  "losslessMixSha256": "58874be13150bc755af29ba3cdd3beb79bf1c691eadb2c80beb167e68b6a3866",
+  "referenceFullFrameSSIM": {
+    "frames": 1182,
+    "minimum": 0.989904,
+    "mean": 0.9969583443316385,
+    "worstFrame": 840,
+    "interpretation": "720p source resize versus encoded reference; NOT editable-demo fidelity"
+  }
 }
