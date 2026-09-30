@@ -4,7 +4,7 @@
   "sourceFrames": 26672,
   "fps": 30,
   "sourceDuration": 889.066666667,
-  "publishedCount": 34,
+  "publishedCount": 35,
   "plannedCount": 39,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
   "fidelity": "Native video assets preserve source event order. Local editable text patches are approximate, not reconstructed original layers.",
@@ -2360,6 +2360,64 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "qc": "ML-034-qc.json"
+    },
+    {
+      "id": "ML-035",
+      "title": "五个随构图换位的问题",
+      "kind": "连续提问",
+      "sourceStartFrame": 24216,
+      "sourceEndFrameExclusive": 24696,
+      "frames": 480,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "黑场",
+        "车内留白提问",
+        "人群提问",
+        "近景提问",
+        "侧脸提问",
+        "手表提问",
+        "黑场"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-035-reference.mp4",
+      "demo": "ML-035-demo.mp4",
+      "audio": "ML-035-mix.m4a",
+      "package": "ML-035.zip",
+      "recipe": "ML-035.json",
+      "poster": "ML-035.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [
+        [
+          0,
+          90
+        ],
+        [
+          403,
+          480
+        ]
+      ],
+      "cutFrames": [
+        90,
+        126,
+        192,
+        233,
+        284,
+        403
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-035-qc.json"
     }
   ]
 }
