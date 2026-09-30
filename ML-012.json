@@ -18,12 +18,12 @@
   ],
   "architecture": "fixed-native-motion-plus-editable-text",
   "reference": "ML-012-reference.mp4",
-  "demo": "ML-012-cn-v5.mp4",
+  "demo": "ML-012-cn-v6.mp4",
   "audio": "ML-012-mix.m4a",
-  "package": "ML-012-v5.zip",
-  "recipe": "ML-012-v5.json",
-  "poster": "ML-012-cn-v5.jpg",
-  "status": "candidate-trial",
+  "package": "ML-012-v6.zip",
+  "recipe": "ML-012-v6.json",
+  "poster": "ML-012-cn-v6.jpg",
+  "status": "reviewed-trial",
   "limits": [
     "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
     "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
@@ -43,16 +43,92 @@
   ],
   "slots": [
     {
-      "key": "nearly_68_of_the_world_s_richest_people",
-      "demo": "全球近68%的顶级富豪"
-    },
-    {
       "key": "are_self_made_says_new_report",
       "demo": "靠白手起家致富，最新报告显示"
     },
     {
+      "key": "nearly_68_of_the_world_s_richest_people",
+      "demo": "全球近68%的顶级富豪"
+    },
+    {
       "key": "trending_now",
       "demo": "热门阅读"
+    },
+    {
+      "key": "bill_gates_this_is_how_long_it",
+      "demo": "比尔·盖茨谈美国民众"
+    },
+    {
+      "key": "may_take_before_americans_can",
+      "demo": "还需要多长时间，"
+    },
+    {
+      "key": "be_completely_safe_from",
+      "demo": "才能完全摆脱"
+    },
+    {
+      "key": "covid_19",
+      "demo": "新冠疫情的威胁"
+    },
+    {
+      "key": "self_made_billionaire_attributes",
+      "demo": "白手起家的亿万富翁"
+    },
+    {
+      "key": "his_success_to_one_particular",
+      "demo": "把成功归于一种"
+    },
+    {
+      "key": "competitive_trait",
+      "demo": "独特的竞争特质"
+    },
+    {
+      "key": "bill_gates_if_i_were_president",
+      "demo": "盖茨说，如果我是总统，"
+    },
+    {
+      "key": "this_is_what_i_would_do_now_to",
+      "demo": "我现在会这样做，"
+    },
+    {
+      "key": "fight_coronavirus",
+      "demo": "抗击新冠疫情"
+    },
+    {
+      "key": "retired_navy_seal_everyone",
+      "demo": "退役海豹突击队员说，"
+    },
+    {
+      "key": "can_benefit_from_this_thought",
+      "demo": "每个人都能从这种"
+    },
+    {
+      "key": "exercise_after_the_pandemic_is",
+      "demo": "思维练习中获益，"
+    },
+    {
+      "key": "over",
+      "demo": "在疫情结束之后"
+    },
+    {
+      "key": "facebook_founder_and_ceo_mark_zuckerberg_leaves_a_meeting_with_senator_john_cornyn_r_tx_in_his",
+      "demo": "Facebook创始人兼首席执行官扎克伯格结束了与参议员约翰·科宁的会面。"
+    },
+    {
+      "key": "office_on_capitol_hill_on_september_19_2019_in_washington_dc_samuel_corum_getty_images_news",
+      "demo": "2019年9月19日，华盛顿国会山。摄影：Samuel Corum / Getty Images。"
+    },
+    {
+      "key": "not_working_due_to_lockdown",
+      "demo": "封锁期间无法工作？"
+    },
+    {
+      "key": "here_s_how_to_keep_busy_and",
+      "demo": "这些方法能让你充实，"
+    },
+    {
+      "key": "learn_new_skills",
+      "demo": "并学会新的技能"
     },
     {
       "key": "the_vast_majority_of_people_who_have_a_lot_of_money_made_it",
@@ -71,10 +147,6 @@
       "demo": "即净资产达到3000万美元以上的人。"
     },
     {
-      "key": "individuals_says_wealth_x",
-      "demo": "以上数据来自 Wealth-X。"
-    },
-    {
       "key": "report_which_is_based_on_2018_data_showed_muted_growth_in_the",
       "demo": "报告根据2018年的数据，发现这一人群增长缓慢，"
     },
@@ -83,32 +155,40 @@
       "demo": "当年人数增加0.8%，达到265490人。"
     },
     {
+      "key": "individuals_says_wealth_x",
+      "demo": "以上数据来自 Wealth-X。"
+    },
+    {
+      "key": "nearly_68_of_the_world_s_richest_people_are_self_made_says_new_report",
+      "demo": "近68%的顶级富豪白手起家，最新报告显示"
+    },
+    {
+      "key": "of_those_folks_67_7_were_self_made_while_23_7_had_a_combination_of",
+      "demo": "其中67.7%白手起家，23.7%的财富同时来自"
+    },
+    {
+      "key": "inherited_and_self_created_wealth_only_8_5_of_global_high_net_worth",
+      "demo": "继承和个人创造。只有8.5%的全球高净值"
+    },
+    {
+      "key": "individuals_were_categorized_as_having_completely_inherited_their",
+      "demo": "人士完全依靠继承获得他们的"
+    },
+    {
+      "key": "wealth",
+      "demo": "财富。"
+    },
+    {
+      "key": "just_released_the_new_world_ultra_wealth_report_2019_reveals",
+      "demo": "刚刚发布的《2019世界超级财富报告》显示，"
+    },
+    {
+      "key": "as_having_completely_inherited_their_wealth",
+      "demo": "完全依靠继承获得财富。"
+    },
+    {
       "key": "the_vast_majority_of_people_who_have_a_lot_of_money_made",
       "demo": "绝大多数富人的财富来自自身创造，"
-    },
-    {
-      "key": "it_themselves_according_to_a_new_report_released",
-      "demo": "这一结论来自周三发布的"
-    },
-    {
-      "key": "the_market_research_firm_analyzed_the_state_of_the_world_s",
-      "demo": "这家研究机构分析了全球"
-    },
-    {
-      "key": "ultra_wealthy_population_or_those_with_a_net_worth_of",
-      "demo": "超高净值人群，也就是净资产"
-    },
-    {
-      "key": "30_million_or_more_the_report_which_is_based_on_2018",
-      "demo": "达到3000万美元的人。报告根据2018年"
-    },
-    {
-      "key": "data_showed_muted_growth_in_the_number_of_ultra",
-      "demo": "的数据，发现超级富豪的人数"
-    },
-    {
-      "key": "of_those_folks_67_7_were_self_made_while_23_7_had_a",
-      "demo": "其中67.7%白手起家，23.7%的财富"
     },
     {
       "key": "combination_of_inherited_and_self_created_wealth_only",
@@ -119,80 +199,282 @@
       "demo": "8.5%的全球高净值人士"
     },
     {
-      "key": "as_having_completely_inherited_their_wealth",
-      "demo": "完全依靠继承获得财富。"
+      "key": "data_showed_muted_growth_in_the_number_of_ultra",
+      "demo": "的数据，发现超级富豪的人数"
+    },
+    {
+      "key": "it_themselves_according_to_a_new_report_released",
+      "demo": "这一结论来自周三发布的"
+    },
+    {
+      "key": "ultra_wealthy_population_or_those_with_a_net_worth_of",
+      "demo": "超高净值人群，也就是净资产"
+    },
+    {
+      "key": "that_the_combined_net_worth_of_the_ultra_wealthy_saw_a_decrease",
+      "demo": "超级富豪的净资产总额出现了下降，"
+    },
+    {
+      "key": "the_market_research_firm_analyzed_the_state_of_the_world_s",
+      "demo": "这家研究机构分析了全球"
+    },
+    {
+      "key": "30_million_or_more_the_report_which_is_based_on_2018",
+      "demo": "达到3000万美元的人。报告根据2018年"
+    },
+    {
+      "key": "wealthy_people_that_year_rising_by_0_8_to_265_490",
+      "demo": "增长缓慢，仅增加0.8%，达到265490人。"
+    },
+    {
+      "key": "of_those_folks_67_7_were_self_made_while_23_7_had_a",
+      "demo": "其中67.7%白手起家，23.7%的财富"
     },
     {
       "key": "wednesday_from_wealth_x",
       "demo": "Wealth-X 最新报告。"
     },
     {
-      "key": "wealthy_people_that_year_rising_by_0_8_to_265_490",
-      "demo": "增长缓慢，仅增加0.8%，达到265490人。"
+      "key": "for_the_first_time_in_three_years_falling_by_1_7_to_32_3_trillion",
+      "demo": "这是三年来首次，下滑1.7%至32.3万亿美元，"
+    },
+    {
+      "key": "despite_a_slight_rise_in_overall_population_bit_ly_2ltxpll",
+      "demo": "尽管这一人群的总人数略有增加。"
+    },
+    {
+      "key": "see_wealthx_s_other_tweets",
+      "demo": "查看 Wealth-X 的其他推文"
+    },
+    {
+      "key": "the_predominance_of_self_made_wealth_over_inherited_wealth_is_broadly",
+      "demo": "白手起家的财富超过继承财富，主要得益于"
+    },
+    {
+      "key": "catalyzed_by_new_opportunities_in_technology_and_in_emerging",
+      "demo": "过去十年科技领域与新兴经济体中"
+    },
+    {
+      "key": "economies_of_the_past_decade_says_wealth_x",
+      "demo": "涌现的新机遇，Wealth-X表示。"
+    },
+    {
+      "key": "according_to_previous_data_from_wealth_x_67_4_of_the_ultra_high_net",
+      "demo": "Wealth-X此前数据显示，2017年超高净值"
+    },
+    {
+      "key": "worth_individuals_in_2017_were_self_made_21_7_were_a_combination_of",
+      "demo": "人士中67.4%白手起家，21.7%同时依靠"
+    },
+    {
+      "key": "self_made_and_inherited_and_10_9_inherited_their_wealth_in_2016",
+      "demo": "个人创造与继承，10.9%依靠继承。2016年，"
+    },
+    {
+      "key": "66_4_were_self_made_21_9_were_a_combination_of_self_made_and",
+      "demo": "66.4%白手起家，21.9%同时依靠创造与"
+    },
+    {
+      "key": "inherited_and_11_7_inherited_their_wealth",
+      "demo": "继承，11.7%完全依靠继承。"
+    },
+    {
+      "key": "the_collective_total_of_the_ultra_high_net_worth_people_in_the_world_is",
+      "demo": "数据显示，全球超高净值人士的总财富为"
+    },
+    {
+      "key": "32_3_trillion_the_data_showed_and_while_that_money_is_being_made",
+      "demo": "32.3万亿美元。这些财富来自"
+    },
+    {
+      "key": "across_any_number_of_industries_the_primary_industry_focus_for_nearly_a",
+      "demo": "许多不同的行业，其中接近四分之一"
+    },
+    {
+      "key": "quarter_of_them_is_banking_and_finance_22_9_the_second_most",
+      "demo": "集中在银行与金融业，占22.9%。其次是"
+    },
+    {
+      "key": "prominent_industry_is_consumer_and_business_services_8_6_and_the",
+      "demo": "消费与商业服务业，占8.6%，"
+    },
+    {
+      "key": "third_most_prevalent_is_real_estate_7_6",
+      "demo": "第三是房地产业，占7.6%。"
+    },
+    {
+      "key": "warren_buffett",
+      "demo": "沃伦·巴菲特"
+    },
+    {
+      "key": "ceo_of_berkshire_hathaway",
+      "demo": "伯克希尔·哈撒韦首席执行官"
+    },
+    {
+      "key": "net_worth",
+      "demo": "净资产"
+    },
+    {
+      "key": "worth_amount",
+      "demo": "729亿美元"
     }
   ],
   "templateType": "localized-text-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "nearly_68_of_the_world_s_richest_people": "全球近68%的顶级富豪",
     "are_self_made_says_new_report": "靠白手起家致富，最新报告显示",
+    "nearly_68_of_the_world_s_richest_people": "全球近68%的顶级富豪",
     "trending_now": "热门阅读",
+    "bill_gates_this_is_how_long_it": "比尔·盖茨谈美国民众",
+    "may_take_before_americans_can": "还需要多长时间，",
+    "be_completely_safe_from": "才能完全摆脱",
+    "covid_19": "新冠疫情的威胁",
+    "self_made_billionaire_attributes": "白手起家的亿万富翁",
+    "his_success_to_one_particular": "把成功归于一种",
+    "competitive_trait": "独特的竞争特质",
+    "bill_gates_if_i_were_president": "盖茨说，如果我是总统，",
+    "this_is_what_i_would_do_now_to": "我现在会这样做，",
+    "fight_coronavirus": "抗击新冠疫情",
+    "retired_navy_seal_everyone": "退役海豹突击队员说，",
+    "can_benefit_from_this_thought": "每个人都能从这种",
+    "exercise_after_the_pandemic_is": "思维练习中获益，",
+    "over": "在疫情结束之后",
+    "facebook_founder_and_ceo_mark_zuckerberg_leaves_a_meeting_with_senator_john_cornyn_r_tx_in_his": "Facebook创始人兼首席执行官扎克伯格结束了与参议员约翰·科宁的会面。",
+    "office_on_capitol_hill_on_september_19_2019_in_washington_dc_samuel_corum_getty_images_news": "2019年9月19日，华盛顿国会山。摄影：Samuel Corum / Getty Images。",
+    "not_working_due_to_lockdown": "封锁期间无法工作？",
+    "here_s_how_to_keep_busy_and": "这些方法能让你充实，",
+    "learn_new_skills": "并学会新的技能",
     "the_vast_majority_of_people_who_have_a_lot_of_money_made_it": "绝大多数富人的财富是自己创造的，",
     "themselves_according_to_a_new_report_released_wednesday_from": "这是周三公布的一份最新报告得出的结论。",
     "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy": "这家市场研究机构分析了全球超高净值人群，",
     "population_or_those_with_a_net_worth_of_30_million_or_more_the": "即净资产达到3000万美元以上的人。",
-    "individuals_says_wealth_x": "以上数据来自 Wealth-X。",
     "report_which_is_based_on_2018_data_showed_muted_growth_in_the": "报告根据2018年的数据，发现这一人群增长缓慢，",
     "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490": "当年人数增加0.8%，达到265490人。",
+    "individuals_says_wealth_x": "以上数据来自 Wealth-X。",
+    "nearly_68_of_the_world_s_richest_people_are_self_made_says_new_report": "近68%的顶级富豪白手起家，最新报告显示",
+    "of_those_folks_67_7_were_self_made_while_23_7_had_a_combination_of": "其中67.7%白手起家，23.7%的财富同时来自",
+    "inherited_and_self_created_wealth_only_8_5_of_global_high_net_worth": "继承和个人创造。只有8.5%的全球高净值",
+    "individuals_were_categorized_as_having_completely_inherited_their": "人士完全依靠继承获得他们的",
+    "wealth": "财富。",
+    "just_released_the_new_world_ultra_wealth_report_2019_reveals": "刚刚发布的《2019世界超级财富报告》显示，",
+    "as_having_completely_inherited_their_wealth": "完全依靠继承获得财富。",
     "the_vast_majority_of_people_who_have_a_lot_of_money_made": "绝大多数富人的财富来自自身创造，",
-    "it_themselves_according_to_a_new_report_released": "这一结论来自周三发布的",
-    "the_market_research_firm_analyzed_the_state_of_the_world_s": "这家研究机构分析了全球",
-    "ultra_wealthy_population_or_those_with_a_net_worth_of": "超高净值人群，也就是净资产",
-    "30_million_or_more_the_report_which_is_based_on_2018": "达到3000万美元的人。报告根据2018年",
-    "data_showed_muted_growth_in_the_number_of_ultra": "的数据，发现超级富豪的人数",
-    "of_those_folks_67_7_were_self_made_while_23_7_had_a": "其中67.7%白手起家，23.7%的财富",
     "combination_of_inherited_and_self_created_wealth_only": "同时来自继承和个人创造。只有",
     "8_5_of_global_high_net_worth_individuals_were_categorized": "8.5%的全球高净值人士",
-    "as_having_completely_inherited_their_wealth": "完全依靠继承获得财富。",
+    "data_showed_muted_growth_in_the_number_of_ultra": "的数据，发现超级富豪的人数",
+    "it_themselves_according_to_a_new_report_released": "这一结论来自周三发布的",
+    "ultra_wealthy_population_or_those_with_a_net_worth_of": "超高净值人群，也就是净资产",
+    "that_the_combined_net_worth_of_the_ultra_wealthy_saw_a_decrease": "超级富豪的净资产总额出现了下降，",
+    "the_market_research_firm_analyzed_the_state_of_the_world_s": "这家研究机构分析了全球",
+    "30_million_or_more_the_report_which_is_based_on_2018": "达到3000万美元的人。报告根据2018年",
+    "wealthy_people_that_year_rising_by_0_8_to_265_490": "增长缓慢，仅增加0.8%，达到265490人。",
+    "of_those_folks_67_7_were_self_made_while_23_7_had_a": "其中67.7%白手起家，23.7%的财富",
     "wednesday_from_wealth_x": "Wealth-X 最新报告。",
-    "wealthy_people_that_year_rising_by_0_8_to_265_490": "增长缓慢，仅增加0.8%，达到265490人。"
+    "for_the_first_time_in_three_years_falling_by_1_7_to_32_3_trillion": "这是三年来首次，下滑1.7%至32.3万亿美元，",
+    "despite_a_slight_rise_in_overall_population_bit_ly_2ltxpll": "尽管这一人群的总人数略有增加。",
+    "see_wealthx_s_other_tweets": "查看 Wealth-X 的其他推文",
+    "the_predominance_of_self_made_wealth_over_inherited_wealth_is_broadly": "白手起家的财富超过继承财富，主要得益于",
+    "catalyzed_by_new_opportunities_in_technology_and_in_emerging": "过去十年科技领域与新兴经济体中",
+    "economies_of_the_past_decade_says_wealth_x": "涌现的新机遇，Wealth-X表示。",
+    "according_to_previous_data_from_wealth_x_67_4_of_the_ultra_high_net": "Wealth-X此前数据显示，2017年超高净值",
+    "worth_individuals_in_2017_were_self_made_21_7_were_a_combination_of": "人士中67.4%白手起家，21.7%同时依靠",
+    "self_made_and_inherited_and_10_9_inherited_their_wealth_in_2016": "个人创造与继承，10.9%依靠继承。2016年，",
+    "66_4_were_self_made_21_9_were_a_combination_of_self_made_and": "66.4%白手起家，21.9%同时依靠创造与",
+    "inherited_and_11_7_inherited_their_wealth": "继承，11.7%完全依靠继承。",
+    "the_collective_total_of_the_ultra_high_net_worth_people_in_the_world_is": "数据显示，全球超高净值人士的总财富为",
+    "32_3_trillion_the_data_showed_and_while_that_money_is_being_made": "32.3万亿美元。这些财富来自",
+    "across_any_number_of_industries_the_primary_industry_focus_for_nearly_a": "许多不同的行业，其中接近四分之一",
+    "quarter_of_them_is_banking_and_finance_22_9_the_second_most": "集中在银行与金融业，占22.9%。其次是",
+    "prominent_industry_is_consumer_and_business_services_8_6_and_the": "消费与商业服务业，占8.6%，",
+    "third_most_prevalent_is_real_estate_7_6": "第三是房地产业，占7.6%。",
+    "warren_buffett": "沃伦·巴菲特",
+    "ceo_of_berkshire_hathaway": "伯克希尔·哈撒韦首席执行官",
+    "net_worth": "净资产",
+    "worth_amount": "729亿美元"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "useCases": "用在展示文章、报告或出处证据时；助手根据文案调整中文内容。",
-  "qc": "ML-012-v5-qc.json",
+  "qc": "ML-012-v6-qc.json",
   "type": "localized-text-hybrid",
   "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-  "renderer": "render-faithful.py",
-  "revision": "v5-trial-20260930",
+  "renderer": "render-faithful-v6i.py",
+  "revision": "v6i-sfx-20261001",
   "inputSchema": {
     "textFields": [
-      "nearly_68_of_the_world_s_richest_people",
       "are_self_made_says_new_report",
+      "nearly_68_of_the_world_s_richest_people",
       "trending_now",
+      "bill_gates_this_is_how_long_it",
+      "may_take_before_americans_can",
+      "be_completely_safe_from",
+      "covid_19",
+      "self_made_billionaire_attributes",
+      "his_success_to_one_particular",
+      "competitive_trait",
+      "bill_gates_if_i_were_president",
+      "this_is_what_i_would_do_now_to",
+      "fight_coronavirus",
+      "retired_navy_seal_everyone",
+      "can_benefit_from_this_thought",
+      "exercise_after_the_pandemic_is",
+      "over",
+      "facebook_founder_and_ceo_mark_zuckerberg_leaves_a_meeting_with_senator_john_cornyn_r_tx_in_his",
+      "office_on_capitol_hill_on_september_19_2019_in_washington_dc_samuel_corum_getty_images_news",
+      "not_working_due_to_lockdown",
+      "here_s_how_to_keep_busy_and",
+      "learn_new_skills",
       "the_vast_majority_of_people_who_have_a_lot_of_money_made_it",
       "themselves_according_to_a_new_report_released_wednesday_from",
       "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy",
       "population_or_those_with_a_net_worth_of_30_million_or_more_the",
-      "individuals_says_wealth_x",
       "report_which_is_based_on_2018_data_showed_muted_growth_in_the",
       "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490",
+      "individuals_says_wealth_x",
+      "nearly_68_of_the_world_s_richest_people_are_self_made_says_new_report",
+      "of_those_folks_67_7_were_self_made_while_23_7_had_a_combination_of",
+      "inherited_and_self_created_wealth_only_8_5_of_global_high_net_worth",
+      "individuals_were_categorized_as_having_completely_inherited_their",
+      "wealth",
+      "just_released_the_new_world_ultra_wealth_report_2019_reveals",
+      "as_having_completely_inherited_their_wealth",
       "the_vast_majority_of_people_who_have_a_lot_of_money_made",
-      "it_themselves_according_to_a_new_report_released",
-      "the_market_research_firm_analyzed_the_state_of_the_world_s",
-      "ultra_wealthy_population_or_those_with_a_net_worth_of",
-      "30_million_or_more_the_report_which_is_based_on_2018",
-      "data_showed_muted_growth_in_the_number_of_ultra",
-      "of_those_folks_67_7_were_self_made_while_23_7_had_a",
       "combination_of_inherited_and_self_created_wealth_only",
       "8_5_of_global_high_net_worth_individuals_were_categorized",
-      "as_having_completely_inherited_their_wealth",
+      "data_showed_muted_growth_in_the_number_of_ultra",
+      "it_themselves_according_to_a_new_report_released",
+      "ultra_wealthy_population_or_those_with_a_net_worth_of",
+      "that_the_combined_net_worth_of_the_ultra_wealthy_saw_a_decrease",
+      "the_market_research_firm_analyzed_the_state_of_the_world_s",
+      "30_million_or_more_the_report_which_is_based_on_2018",
+      "wealthy_people_that_year_rising_by_0_8_to_265_490",
+      "of_those_folks_67_7_were_self_made_while_23_7_had_a",
       "wednesday_from_wealth_x",
-      "wealthy_people_that_year_rising_by_0_8_to_265_490"
+      "for_the_first_time_in_three_years_falling_by_1_7_to_32_3_trillion",
+      "despite_a_slight_rise_in_overall_population_bit_ly_2ltxpll",
+      "see_wealthx_s_other_tweets",
+      "the_predominance_of_self_made_wealth_over_inherited_wealth_is_broadly",
+      "catalyzed_by_new_opportunities_in_technology_and_in_emerging",
+      "economies_of_the_past_decade_says_wealth_x",
+      "according_to_previous_data_from_wealth_x_67_4_of_the_ultra_high_net",
+      "worth_individuals_in_2017_were_self_made_21_7_were_a_combination_of",
+      "self_made_and_inherited_and_10_9_inherited_their_wealth_in_2016",
+      "66_4_were_self_made_21_9_were_a_combination_of_self_made_and",
+      "inherited_and_11_7_inherited_their_wealth",
+      "the_collective_total_of_the_ultra_high_net_worth_people_in_the_world_is",
+      "32_3_trillion_the_data_showed_and_while_that_money_is_being_made",
+      "across_any_number_of_industries_the_primary_industry_focus_for_nearly_a",
+      "quarter_of_them_is_banking_and_finance_22_9_the_second_most",
+      "prominent_industry_is_consumer_and_business_services_8_6_and_the",
+      "third_most_prevalent_is_real_estate_7_6",
+      "warren_buffett",
+      "ceo_of_berkshire_hathaway",
+      "net_worth",
+      "worth_amount"
     ],
     "duration": "fixed source frames"
   },
-  "reviewLabel": "待优化 · 新版试用",
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",
