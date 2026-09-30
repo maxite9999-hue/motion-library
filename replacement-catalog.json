@@ -1,0 +1,696 @@
+{
+  "fps": 30,
+  "contract": "Native source replay plus editable hybrid; not pixel-exact",
+  "templates": {
+    "JJ-004": {
+      "frames": 836,
+      "fps": 30,
+      "startFrame": 0,
+      "title": "叙事蒙太奇与黑场收束",
+      "kind": "完整剪辑模块",
+      "description": "11组叙事镜头依次切换，保留末尾22帧黑场及完整声音；示例只换镜头，不额外加字。",
+      "mode": "hybrid-editable",
+      "defaults": {},
+      "demo": {
+        "shots": {
+          "shot01": {
+            "src": "JJ-004-reference.mp4",
+            "startFrom": 385
+          }
+        }
+      },
+      "referenceMode": "source-replay",
+      "referenceFidelity": "720p compressed proxy; all source video frames retained, original AAC stream copied",
+      "editableFidelity": "Draft: source-native motion retained in unmodified shots; rebuilt typography/UI and replacement backgrounds are not pixel-exact",
+      "cuts": [
+        0,
+        161,
+        190,
+        264,
+        309,
+        347,
+        385,
+        558,
+        608,
+        704,
+        736,
+        814,
+        836
+      ],
+      "black": [
+        [
+          814,
+          836
+        ]
+      ],
+      "shots": [
+        {
+          "key": "shot01",
+          "from": 0,
+          "to": 161,
+          "name": "办公室"
+        },
+        {
+          "key": "shot02",
+          "from": 161,
+          "to": 190,
+          "name": "硬币落桌"
+        },
+        {
+          "key": "shot03",
+          "from": 190,
+          "to": 264,
+          "name": "城市积水"
+        },
+        {
+          "key": "shot04",
+          "from": 264,
+          "to": 309,
+          "name": "办公室对话"
+        },
+        {
+          "key": "shot05",
+          "from": 309,
+          "to": 347,
+          "name": "ATM操作"
+        },
+        {
+          "key": "shot06",
+          "from": 347,
+          "to": 385,
+          "name": "取钞"
+        },
+        {
+          "key": "shot07",
+          "from": 385,
+          "to": 558,
+          "name": "教室离席"
+        },
+        {
+          "key": "shot08",
+          "from": 558,
+          "to": 608,
+          "name": "心理咨询"
+        },
+        {
+          "key": "shot09",
+          "from": 608,
+          "to": 704,
+          "name": "躺在座椅上"
+        },
+        {
+          "key": "shot10",
+          "from": 704,
+          "to": 736,
+          "name": "支票"
+        },
+        {
+          "key": "shot11",
+          "from": 736,
+          "to": 814,
+          "name": "点钞机"
+        },
+        {
+          "key": "shot12",
+          "from": 814,
+          "to": 836,
+          "name": "黑场"
+        }
+      ]
+    },
+    "JJ-005": {
+      "frames": 1182,
+      "fps": 30,
+      "startFrame": 0,
+      "title": "提问字卡·电视扫描·叙事转折",
+      "kind": "完整剪辑模块",
+      "description": "双层提问、电视曲面/扫描线/横向断裂、近景推进、两处黑场及结尾渐暗。中文例只替换开场字卡。",
+      "mode": "hybrid-editable",
+      "defaults": {
+        "eyebrow": "HOW DID THEY",
+        "headline": "DO IT?"
+      },
+      "demo": {
+        "eyebrow": "他们究竟",
+        "headline": "如何做到？"
+      },
+      "referenceMode": "source-replay",
+      "referenceFidelity": "720p compressed proxy; all source video frames retained, original AAC stream copied",
+      "editableFidelity": "Draft: source-native motion retained in unmodified shots; rebuilt typography/UI and replacement backgrounds are not pixel-exact",
+      "cuts": [
+        0,
+        66,
+        117,
+        137,
+        157,
+        178,
+        218,
+        227,
+        253,
+        285,
+        333,
+        454,
+        530,
+        568,
+        600,
+        636,
+        669,
+        714,
+        810,
+        987,
+        1182
+      ],
+      "black": [
+        [
+          218,
+          227
+        ],
+        [
+          669,
+          714
+        ],
+        [
+          1173,
+          1182
+        ]
+      ],
+      "shots": [
+        {
+          "key": "shot01",
+          "from": 0,
+          "to": 66,
+          "name": "提问字卡"
+        },
+        {
+          "key": "shot02",
+          "from": 66,
+          "to": 117,
+          "name": "人物近景"
+        },
+        {
+          "key": "shot03",
+          "from": 117,
+          "to": 137,
+          "name": "电视人物1"
+        },
+        {
+          "key": "shot04",
+          "from": 137,
+          "to": 157,
+          "name": "电视人物2"
+        },
+        {
+          "key": "shot05",
+          "from": 157,
+          "to": 178,
+          "name": "电视人物3"
+        },
+        {
+          "key": "shot06",
+          "from": 178,
+          "to": 218,
+          "name": "电视人物4/推进"
+        },
+        {
+          "key": "shot07",
+          "from": 218,
+          "to": 227,
+          "name": "黑场"
+        },
+        {
+          "key": "shot08",
+          "from": 227,
+          "to": 253,
+          "name": "蓝衣人物"
+        },
+        {
+          "key": "shot09",
+          "from": 253,
+          "to": 285,
+          "name": "领带人物"
+        },
+        {
+          "key": "shot10",
+          "from": 285,
+          "to": 333,
+          "name": "楼梯照片墙"
+        },
+        {
+          "key": "shot11",
+          "from": 333,
+          "to": 454,
+          "name": "走廊"
+        },
+        {
+          "key": "shot12",
+          "from": 454,
+          "to": 530,
+          "name": "桌前"
+        },
+        {
+          "key": "shot13",
+          "from": 530,
+          "to": 568,
+          "name": "楼梯酒杯"
+        },
+        {
+          "key": "shot14",
+          "from": 568,
+          "to": 600,
+          "name": "车库"
+        },
+        {
+          "key": "shot15",
+          "from": 600,
+          "to": 636,
+          "name": "钞票"
+        },
+        {
+          "key": "shot16",
+          "from": 636,
+          "to": 669,
+          "name": "公路"
+        },
+        {
+          "key": "shot17",
+          "from": 669,
+          "to": 714,
+          "name": "黑场"
+        },
+        {
+          "key": "shot18",
+          "from": 714,
+          "to": 810,
+          "name": "夕阳背影"
+        },
+        {
+          "key": "shot19",
+          "from": 810,
+          "to": 987,
+          "name": "餐厅"
+        },
+        {
+          "key": "shot20",
+          "from": 987,
+          "to": 1182,
+          "name": "暗室渐黑"
+        }
+      ]
+    },
+    "JJ-006": {
+      "frames": 2762,
+      "fps": 30,
+      "startFrame": 0,
+      "title": "完整片头组曲·故障闪回·订阅·标题·说明",
+      "kind": "完整剪辑模块",
+      "description": "保留92秒完整意群：黑场、货币叠化、色差闪回、订阅/铃铛/缩小右移、提问、标题下移、说明叠化、紫色公路与渐黑。",
+      "mode": "hybrid-editable",
+      "defaults": {
+        "button": "SUBSCRIBE",
+        "done": "SUBSCRIBED",
+        "question": "ARE YOU WITH ME?",
+        "title": "THE UNTOLD TRUTH ABOUT MONEY",
+        "disclaimer": "DISCLAIMER",
+        "lines": [
+          "This video was heavily inspired by the works of M J DeMarco,",
+          "as well as my own opinions and observations on how society functions on a",
+          "monetary level.",
+          "",
+          "Of course, it’s very difficult to cover this vast topic in just one YouTube",
+          "video like this, so what you are about to watch is as condensed as",
+          "I could make this information.",
+          "",
+          "Enjoy :)"
+        ]
+      },
+      "demo": {
+        "button": "订阅频道",
+        "done": "已订阅",
+        "question": "准备好一起出发了吗？",
+        "title": "看见金钱背后的真实逻辑",
+        "disclaimer": "观看说明",
+        "lines": [
+          "这段内容，来自阅读、观察和持续思考。",
+          "我们尝试把复杂的问题，拆成可以理解的线索。",
+          "也保留每个人独立判断的空间。",
+          "",
+          "短短一段视频，无法涵盖这个话题的全部。",
+          "希望它能成为一个起点，带来新的问题，",
+          "也帮助你找到自己的答案。",
+          "",
+          "让我们开始。"
+        ]
+      },
+      "referenceMode": "source-replay",
+      "referenceFidelity": "720p compressed proxy; all source video frames retained, original AAC stream copied",
+      "editableFidelity": "Draft: source-native motion retained in unmodified shots; rebuilt typography/UI and replacement backgrounds are not pixel-exact",
+      "cuts": [
+        0,
+        100,
+        224,
+        502,
+        671,
+        749,
+        857,
+        896,
+        934,
+        977,
+        1012,
+        1066,
+        1282,
+        1340,
+        1386,
+        1491,
+        1581,
+        1825,
+        2248,
+        2667,
+        2762
+      ],
+      "black": [
+        [
+          0,
+          100
+        ],
+        [
+          2667,
+          2762
+        ]
+      ],
+      "shots": [
+        {
+          "key": "shot01",
+          "from": 0,
+          "to": 100,
+          "name": "开头黑场"
+        },
+        {
+          "key": "shot02",
+          "from": 100,
+          "to": 224,
+          "name": "城市"
+        },
+        {
+          "key": "shot03",
+          "from": 224,
+          "to": 502,
+          "name": "粉笔与货币连续叠化"
+        },
+        {
+          "key": "shot04",
+          "from": 502,
+          "to": 671,
+          "name": "两人交谈"
+        },
+        {
+          "key": "shot05",
+          "from": 671,
+          "to": 749,
+          "name": "暗室人物"
+        },
+        {
+          "key": "shot06",
+          "from": 749,
+          "to": 857,
+          "name": "沙漠公路"
+        },
+        {
+          "key": "shot07",
+          "from": 857,
+          "to": 896,
+          "name": "故障/奔跑"
+        },
+        {
+          "key": "shot08",
+          "from": 896,
+          "to": 934,
+          "name": "父子"
+        },
+        {
+          "key": "shot09",
+          "from": 934,
+          "to": 977,
+          "name": "眼镜反射"
+        },
+        {
+          "key": "shot10",
+          "from": 977,
+          "to": 1012,
+          "name": "红蓝药丸"
+        },
+        {
+          "key": "shot11",
+          "from": 1012,
+          "to": 1066,
+          "name": "人物抉择"
+        },
+        {
+          "key": "shot12",
+          "from": 1066,
+          "to": 1282,
+          "name": "订阅完整动画"
+        },
+        {
+          "key": "shot13",
+          "from": 1282,
+          "to": 1340,
+          "name": "人群欢呼"
+        },
+        {
+          "key": "shot14",
+          "from": 1340,
+          "to": 1386,
+          "name": "公路推进"
+        },
+        {
+          "key": "shot15",
+          "from": 1386,
+          "to": 1491,
+          "name": "紫色天空人物"
+        },
+        {
+          "key": "shot16",
+          "from": 1491,
+          "to": 1581,
+          "name": "公路提问"
+        },
+        {
+          "key": "shot17",
+          "from": 1581,
+          "to": 1825,
+          "name": "城市主标题下移"
+        },
+        {
+          "key": "shot18",
+          "from": 1825,
+          "to": 2248,
+          "name": "现金说明/叠化"
+        },
+        {
+          "key": "shot19",
+          "from": 2248,
+          "to": 2667,
+          "name": "紫色公路渐黑"
+        },
+        {
+          "key": "shot20",
+          "from": 2667,
+          "to": 2762,
+          "name": "尾部黑场"
+        }
+      ]
+    },
+    "JJ-007": {
+      "frames": 104,
+      "fps": 30,
+      "startFrame": 0,
+      "title": "黑场停顿后切入场景",
+      "kind": "完整剪辑模块",
+      "description": "前43帧黑场后硬切进入暗室镜头，保留整段声音；不擅自加片尾淡出。",
+      "mode": "hybrid-editable",
+      "defaults": {},
+      "demo": {
+        "shots": {
+          "shot02": {
+            "src": "JJ-004-reference.mp4",
+            "startFrom": 0
+          }
+        }
+      },
+      "referenceMode": "source-replay",
+      "referenceFidelity": "720p compressed proxy; all source video frames retained, original AAC stream copied",
+      "editableFidelity": "Draft: source-native motion retained in unmodified shots; rebuilt typography/UI and replacement backgrounds are not pixel-exact",
+      "cuts": [
+        0,
+        43,
+        104
+      ],
+      "black": [
+        [
+          0,
+          43
+        ]
+      ],
+      "shots": [
+        {
+          "key": "shot01",
+          "from": 0,
+          "to": 43,
+          "name": "黑场停顿"
+        },
+        {
+          "key": "shot02",
+          "from": 43,
+          "to": 104,
+          "name": "暗室人物"
+        }
+      ]
+    }
+  },
+  "modules": {
+    "JJ-004": [
+      {
+        "from": 0,
+        "to": 814,
+        "type": "montage",
+        "implementation": "Each shot replaceable, native shot motion preserved by default"
+      },
+      {
+        "from": 814,
+        "to": 836,
+        "type": "black",
+        "implementation": "Source-native; immutable time slot"
+      }
+    ],
+    "JJ-005": [
+      {
+        "from": 0,
+        "to": 66,
+        "type": "two-line-title",
+        "implementation": "Editable text; replacement clean gold plate"
+      },
+      {
+        "from": 117,
+        "to": 218,
+        "type": "crt-montage",
+        "implementation": "Native reference retained by default; replaceable shots with procedural scan/break/zoom effect when replaced"
+      },
+      {
+        "from": 218,
+        "to": 227,
+        "type": "black"
+      },
+      {
+        "from": 227,
+        "to": 669,
+        "type": "montage"
+      },
+      {
+        "from": 669,
+        "to": 714,
+        "type": "black"
+      },
+      {
+        "from": 714,
+        "to": 1182,
+        "type": "montage-fade"
+      }
+    ],
+    "JJ-006": [
+      {
+        "from": 0,
+        "to": 100,
+        "type": "black/faint-tail"
+      },
+      {
+        "from": 224,
+        "to": 502,
+        "type": "chalk-currency-dissolves",
+        "implementation": "Native blended background; whole shot replacement supported; underlying source layers not recoverable"
+      },
+      {
+        "from": 852,
+        "to": 1066,
+        "type": "glitch-flashbacks",
+        "implementation": "Native motion retained; replacement shots receive short RGB slice/zoom pulses"
+      },
+      {
+        "from": 1066,
+        "to": 1282,
+        "type": "subscribe",
+        "events": [
+          "appear",
+          "cursor approach",
+          "click",
+          "subscribed state",
+          "cursor to bell",
+          "bell ring",
+          "hold",
+          "collapse to icon",
+          "move right",
+          "rotate/shrink",
+          "exit"
+        ]
+      },
+      {
+        "from": 1491,
+        "to": 1581,
+        "type": "question"
+      },
+      {
+        "from": 1581,
+        "to": 1825,
+        "type": "title",
+        "events": [
+          "fade in",
+          "hold",
+          "move down"
+        ]
+      },
+      {
+        "from": 1788,
+        "to": 1884,
+        "type": "city-cash-dissolve"
+      },
+      {
+        "from": 1825,
+        "to": 2248,
+        "type": "disclaimer",
+        "events": [
+          "header",
+          "rule",
+          "small paragraphs",
+          "hold",
+          "fade out"
+        ]
+      },
+      {
+        "from": 2205,
+        "to": 2295,
+        "type": "cash-purple-road-dissolve"
+      },
+      {
+        "from": 2595,
+        "to": 2667,
+        "type": "fade to black"
+      },
+      {
+        "from": 2667,
+        "to": 2762,
+        "type": "black-tail"
+      }
+    ],
+    "JJ-007": [
+      {
+        "from": 0,
+        "to": 43,
+        "type": "black"
+      },
+      {
+        "from": 43,
+        "to": 104,
+        "type": "hard-reveal"
+      }
+    ]
+  }
+}

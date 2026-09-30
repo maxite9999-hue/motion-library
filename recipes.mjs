@@ -1,4 +1,5 @@
 import {specs as firstSpecs,renderSVG as firstRender,validate as firstValidate} from './first-three.mjs';
+import {replacements,validateReplacement} from './replacements.mjs';
 const recipe=(start,end,title,kind,defaults,demo,description)=>({startFrame:Math.round(start*30),frames:Math.round((end-start)*30),fps:30,title,kind,defaults,demo,description});
 export const specs={
  'JJ-002':recipe(0,38.5,'圆点递增与空间重排','图形叙事',{unit:'= $1,000,000',labels:['$10 MILLION','$100 MILLION','$1 BILLION'],name:'JEFF BEZOS',multiple:'117.3',media:{portrait:'interview'}},{unit:'= 1 个想法',labels:['10 个想法','100 次尝试','1,000 次积累'],name:'持续创造',multiple:'100',media:{portrait:'person-a'}},'单点、点阵增殖、下落、缩小移位、人物倍率、末尾黑场。'),
@@ -26,6 +27,7 @@ export const specs={
  'JJ-025':recipe(808,821.5,'画面留白处连续提问','文字叙事',{questions:['CAN I AFFORD THIS?','HAVE I USED UP ALL MY HOLIDAYS?','HOW AM I GOING TO PAY THE RENT?','CAN I LIVE OFF MY PENSION?','WHAT DREAMS WILL I HAVE TO SACRIFICE?'],media:{a:'person-a',b:'person-b',c:'person-c',d:'office',e:'cashbox'}},{questions:['这真的是问题吗？','观众最关心什么？','哪句话值得留下？','画面能说明什么？','我们希望带来什么改变？'],media:{a:'interview',b:'action-a',c:'action-b',d:'cleaner',e:'road'}},'保留开头黑场；切换不同画面，在各自留白处提出问题。')
 };
 for(const id of Object.keys(firstSpecs)){specs[id]={...specs[id],kind:id==='JJ-012'?'数据动效':id==='JJ-019'?'文字动效':'结尾',description:id==='JJ-012'?'时薪、工时、时钟、目标金额的连续变化。':id==='JJ-019'?'倾斜词组依次拼接，整组回正与位移。':'黑场后三句总结依次淡入。'};}
+Object.assign(specs,replacements);
 export const clamp=x=>Math.max(0,Math.min(1,x));
 const ease=x=>1-(1-clamp(x))**3;
 const smooth=x=>{x=clamp(x);return x*x*(3-2*x)};
@@ -41,8 +43,9 @@ const wrap=(body)=>`<svg xmlns="http://www.w3.org/2000/svg" width="1280" height=
 function linesText(lines,x,y,size,dy,opts={}){return lines.map((s,i)=>T(s,x,y+i*dy,size,opts)).join('')}
 function revealed(s,t,rate=20){return String(s).slice(0,Math.max(0,Math.floor(t*rate)))}
 function paperRows(x,y,width,count=12){let s='';for(let i=0;i<count;i++)s+=R(x,y+i*15,width*(.6+((i*7)%4)*.1),3,'#d3d2ce');return s}
-export function validate(id,options={}){const s=specs[id];if(!s)throw Error('Unknown template '+id);if(firstSpecs[id])return firstValidate(id,options);const p={...s.defaults,...options,media:{...s.defaults.media,...options.media}};for(const[k,v]of Object.entries(s.defaults)){if(k==='media')continue;if(Array.isArray(v)){if(!Array.isArray(p[k])||p[k].length!==v.length||p[k].some(x=>typeof x!=='string'||x.length>220))throw Error(k+' requires '+v.length+' strings');}else if(typeof p[k]!=='string'||p[k].length>260)throw Error(k+' must be a short string');}return p}
+export function validate(id,options={}){if(replacements[id])return validateReplacement(id,options);const s=specs[id];if(!s)throw Error('Unknown template '+id);if(firstSpecs[id])return firstValidate(id,options);const p={...s.defaults,...options,media:{...s.defaults.media,...options.media}};for(const[k,v]of Object.entries(s.defaults)){if(k==='media')continue;if(Array.isArray(v)){if(!Array.isArray(p[k])||p[k].length!==v.length||p[k].some(x=>typeof x!=='string'||x.length>220))throw Error(k+' requires '+v.length+' strings');}else if(typeof p[k]!=='string'||p[k].length>260)throw Error(k+' must be a short string');}return p}
 export function scene(id,frame,options={},assets={}){
+ if(replacements[id])throw Error(id+" uses ReplacementComposition.jsx, not the legacy SVG scene renderer");
  const s=specs[id],p=validate(id,options),t=Math.max(0,Math.min(s.frames-1,frame))/30,d=s.frames/30,media=[];let b='',top='';
  if(firstSpecs[id])return {svg:firstRender(id,frame,p,assets),media};
  function M(slot,x=0,y=0,w=1280,h=720,extra={}){media.push({slot:p.media?.[slot]||slot,x,y,w,h,from:0,opacity:1,scale:1,z:['JJ-002','JJ-009','JJ-010','JJ-021','JJ-022'].includes(id)?2:0,...extra});}

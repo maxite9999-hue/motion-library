@@ -1,5 +1,7 @@
 # Full 25-template library
 
+2026-09-30 update: JJ-004—JJ-007 have been replaced by four new full-length hybrid modules. The statements below describe the prior release and do not apply to those four IDs. Their current fidelity contract, source-replay boundary, limitations and checks are in `replacement-alignment-report.md` and `replacement-qc.json`.
+
 Contract: preserve the user's approved dual-preview workflow, finish 22 additional reusable drafts, keep the first three, original mixed music/SFX, short stable IDs, and original references.
 
 Fidelity: parameterized visual/style reconstruction for review, NOT source pixel/frame exactness. Implementation and substitution are tested separately from visual fidelity. Full frame equality is not claimed. The existing first-three known differences remain disclosed.

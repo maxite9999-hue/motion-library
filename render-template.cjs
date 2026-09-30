@@ -5,6 +5,7 @@ const dependencyRoot=process.env.REMOTION_NODE_MODULES;
 function dep(name){return require(dependencyRoot?path.join(dependencyRoot,name):name)}
 async function main(){
  const [id,configPath,destination]=process.argv.slice(2);if(!id||!configPath||!destination)throw Error('Usage: node render-template.cjs JJ-002 config.json output.mp4');
+ if(/^JJ-00[4-7]$/.test(id))await require('./fetch-replacement-assets.cjs')();
  const {specs,validate}=await import('file://'+root+'/recipes.mjs');const config=JSON.parse(fs.readFileSync(configPath,'utf8'));const options=validate(id,config.options||config);
  const {bundle}=dep('@remotion/bundler'),{renderMedia,selectComposition}=dep('@remotion/renderer');
  const media=JSON.parse(fs.readFileSync(root+'/media.json','utf8'));const mediaLibrary={...Object.fromEntries(Object.entries(media).map(([k,m])=>[k,{src:m.file,frames:m.frames}])),...config.mediaLibrary};
