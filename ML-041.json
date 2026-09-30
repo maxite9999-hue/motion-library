@@ -1,0 +1,49 @@
+{
+  "id": "ML-041",
+  "title": "生活镜头白闪切入文章",
+  "kind": "用户精选片段",
+  "sourceFile": "9月30日14个精选片段-2.mov",
+  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-2.mov",
+  "sourceStartFrame": 0,
+  "sourceEndFrameExclusive": 54,
+  "frames": 54,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "sourceWidth": 1920,
+  "sourceHeight": 1080,
+  "events": [
+    "生活镜头",
+    "方块白闪",
+    "网页出现"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    22,
+    23
+  ],
+  "slots": [],
+  "demoOptions": {},
+  "templateType": "native-motion-asset",
+  "reference": "ML-041-reference.mp4",
+  "demo": "ML-041-reference.mp4",
+  "audio": "ML-041-mix.m4a",
+  "poster": "ML-041.jpg",
+  "recipe": "ML-041.json",
+  "qc": "ML-041-qc.json",
+  "package": "ML-041.zip",
+  "useCases": "用在从生活场景切到事实依据时；白色闪转把注意力引向文章证据。",
+  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+  "limits": [
+    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+    "720p预览有压缩；原生回放不是自由参数化重建。"
+  ],
+  "status": "verified-native-asset",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+}

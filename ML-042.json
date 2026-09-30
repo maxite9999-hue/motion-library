@@ -1,0 +1,41 @@
+{
+  "id": "ML-042",
+  "title": "网页滚动与关键摘录展开",
+  "kind": "用户精选片段",
+  "sourceFile": "9月30日14个精选片段-3.mov",
+  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-3.mov",
+  "sourceStartFrame": 0,
+  "sourceEndFrameExclusive": 302,
+  "frames": 302,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "sourceWidth": 1920,
+  "sourceHeight": 1080,
+  "events": [
+    "网页向上滚动",
+    "摘录卡右侧展开",
+    "文章与摘录并列保持"
+  ],
+  "blackRanges": [],
+  "cutFrames": [],
+  "slots": [],
+  "demoOptions": {},
+  "templateType": "native-motion-asset",
+  "reference": "ML-042-reference.mp4",
+  "demo": "ML-042-reference.mp4",
+  "audio": "ML-042-mix.m4a",
+  "poster": "ML-042.jpg",
+  "recipe": "ML-042.json",
+  "qc": "ML-042-qc.json",
+  "package": "ML-042.zip",
+  "useCases": "用在引用文章、报告与关键段落时；滚动页面与放大摘录适合先交代出处，再突出论据。",
+  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。本模块为原生预合成素材，内部主体与文字未重建为独立图层。",
+  "limits": [
+    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+    "720p预览有压缩；原生回放不是自由参数化重建。"
+  ],
+  "status": "verified-native-asset",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+}
