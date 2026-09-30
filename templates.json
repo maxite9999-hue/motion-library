@@ -4,7 +4,7 @@
   "sourceFrames": 26672,
   "fps": 30,
   "sourceDuration": 889.066666667,
-  "publishedCount": 4,
+  "publishedCount": 5,
   "plannedCount": 39,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
   "fidelity": "Native video assets preserve source event order. Local editable text patches are approximate, not reconstructed original layers.",
@@ -316,6 +316,80 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "qc": "ML-004-qc.json"
+    },
+    {
+      "id": "ML-005",
+      "title": "板书叠化为纸币肖像",
+      "kind": "叠化",
+      "sourceStartFrame": 3252,
+      "sourceEndFrameExclusive": 3759,
+      "frames": 507,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "events": [
+        "黑场",
+        "城市",
+        "板书运动",
+        "多张纸币肖像连续叠化",
+        "下一镜头"
+      ],
+      "architecture": "hybrid-native-timeline",
+      "reference": "ML-005-reference.mp4",
+      "demo": "ML-005-demo.mp4",
+      "audio": "ML-005-mix.m4a",
+      "package": "ML-005.zip",
+      "recipe": "ML-005.json",
+      "poster": "ML-005.jpg",
+      "status": "published",
+      "limits": [
+        "原生合成特效保留为视频层，不冒充恢复的独立图层",
+        "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+        "音效与音乐为原始混合轨，不是独立分轨"
+      ],
+      "blackRanges": [
+        [
+          0,
+          105
+        ]
+      ],
+      "cutFrames": [
+        105,
+        229,
+        366,
+        368,
+        369,
+        384,
+        385,
+        403,
+        414,
+        415,
+        416,
+        418,
+        426,
+        431,
+        433,
+        441,
+        446,
+        448,
+        449,
+        459,
+        463,
+        464,
+        473,
+        474,
+        476,
+        479,
+        488,
+        494
+      ],
+      "slots": [],
+      "templateType": "native-motion-asset",
+      "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+      "demoOptions": {},
+      "sourceFile": "没有人名的完整版去掉人声音.mov",
+      "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+      "qc": "ML-005-qc.json"
     }
   ]
 }
