@@ -1,0 +1,80 @@
+{
+  "id": "ML-051",
+  "sourceFrames": 1055,
+  "firstFrame": 0,
+  "lastFrameInclusive": 1054,
+  "fps": 30,
+  "blackRanges": [
+    [
+      0,
+      100
+    ]
+  ],
+  "cutCandidates": [
+    100,
+    224,
+    361,
+    363,
+    364,
+    379,
+    380,
+    398,
+    409,
+    410,
+    411,
+    413,
+    421,
+    426,
+    428,
+    436,
+    441,
+    443,
+    444,
+    454,
+    458,
+    459,
+    468,
+    469,
+    471,
+    474,
+    483,
+    489,
+    502,
+    671,
+    749,
+    852,
+    854,
+    857,
+    870,
+    877,
+    878,
+    891,
+    892,
+    893,
+    896,
+    933,
+    934,
+    936,
+    937,
+    938,
+    977,
+    1012
+  ],
+  "files": [
+    {
+      "file": "ML-051-reference.mp4",
+      "frames": 1055,
+      "sha256": "e2f5f481b9ed960fb7f3237eb9a7fea29a3d8049416da18909dc9feab6d6e557",
+      "decode": "pass"
+    }
+  ],
+  "originalAudioPacketHash": "SHA256=33ae41a5e985a0b47d35246698c2d39edbc66b8ea0f1e4b947aee1093343f780",
+  "sourceAudioPacketsPreserved": true,
+  "fullReferenceSSIM": {
+    "frames": 1055,
+    "minimum": 0.975647,
+    "mean": 0.9934878199052123,
+    "worstFrame": 854
+  },
+  "claim": "Native clip encode checked at every frame; optional local text replacement is approximate, not parameterized reconstruction."
+}
