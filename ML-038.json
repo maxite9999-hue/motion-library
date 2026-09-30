@@ -16,19 +16,18 @@
     "保持",
     "城市切入"
   ],
-  "architecture": "editable-Chinese-composition-plus-native-footage",
+  "architecture": "fixed-native-motion-plus-editable-text",
   "reference": "ML-038-reference.mp4",
-  "demo": "ML-038-cn-v4.mp4",
+  "demo": "ML-038-cn-v5.mp4",
   "audio": "ML-038-mix.m4a",
-  "package": "ML-038-v4.zip",
-  "recipe": "ML-038.json",
-  "poster": "ML-038-cn-v4.jpg",
-  "status": "reusable-Chinese-rebuild",
+  "package": "ML-038-v5.zip",
+  "recipe": "ML-038-v5.json",
+  "poster": "ML-038-cn-v5.jpg",
+  "status": "candidate-trial",
   "limits": [
-    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
-    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
-    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
+    "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+    "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+    "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
   ],
   "blackRanges": [
     [
@@ -41,70 +40,40 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "别再追逐金钱",
-      "maxCharacters": 220
+      "key": "line1",
+      "demo": "别再追逐金钱"
     },
     {
-      "key": "scene1.text2",
-      "demo": "去寻找问题",
-      "maxCharacters": 220
+      "key": "line2",
+      "demo": "去寻找问题"
     },
     {
-      "key": "scene1.text3",
-      "demo": "找到解决方案",
-      "maxCharacters": 220
+      "key": "line3",
+      "demo": "找到这些问题的解决方案"
     }
   ],
-  "templateType": "parametric-motion-hybrid",
+  "templateType": "localized-text-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "scene1.text1": "别再追逐金钱",
-    "scene1.text2": "去寻找问题",
-    "scene1.text3": "找到解决方案"
+    "line1": "别再追逐金钱",
+    "line2": "去寻找问题",
+    "line3": "找到这些问题的解决方案"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
   "useCases": "用在片尾总结与行动建议；助手根据文案调整中文内容。",
-  "qc": "ML-038-v4-qc.json",
-  "scenes": [
-    {
-      "start": 42,
-      "end": 309,
-      "kind": "closing",
-      "texts": [
-        "别再追逐金钱",
-        "去寻找问题",
-        "找到解决方案"
-      ],
-      "keys": [
-        "scene1.text1",
-        "scene1.text2",
-        "scene1.text3"
-      ]
-    }
-  ],
-  "type": "parametric-motion-hybrid",
-  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
-  "assetRoot": "assets",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "qc": "ML-038-v5-qc.json",
+  "type": "localized-text-hybrid",
+  "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
+  "renderer": "render-faithful.py",
+  "revision": "v5-trial-20260930",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene1.text2",
-      "scene1.text3"
+      "line1",
+      "line2",
+      "line3"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
-  }
+    "duration": "fixed source frames"
+  },
+  "reviewLabel": "待优化 · 新版试用"
 }

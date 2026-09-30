@@ -16,19 +16,18 @@
     "黄色闪切",
     "业务版图卡进入保持"
   ],
-  "architecture": "editable-Chinese-composition-plus-native-footage",
+  "architecture": "fixed-native-motion-plus-editable-text",
   "reference": "ML-021-reference.mp4",
-  "demo": "ML-021-cn-v4.mp4",
+  "demo": "ML-021-cn-v5.mp4",
   "audio": "ML-021-mix.m4a",
-  "package": "ML-021-v4.zip",
-  "recipe": "ML-021.json",
-  "poster": "ML-021-cn-v4.jpg",
-  "status": "reusable-Chinese-rebuild",
+  "package": "ML-021-v5.zip",
+  "recipe": "ML-021-v5.json",
+  "poster": "ML-021-cn-v5.jpg",
+  "status": "candidate-trial",
   "limits": [
-    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
-    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
-    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
+    "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+    "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+    "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -41,124 +40,40 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "亚马逊",
-      "maxCharacters": 220
+      "key": "lead",
+      "demo": "商业"
     },
     {
-      "key": "scene2.text1",
-      "demo": "贝索斯的商业版图",
-      "maxCharacters": 220
+      "key": "name",
+      "demo": "贝索斯"
     },
     {
-      "key": "scene2.text2",
-      "demo": "电商",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.text3",
-      "demo": "云计算",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.text4",
-      "demo": "物流",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.text5",
-      "demo": "媒体",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.text6",
-      "demo": "航天",
-      "maxCharacters": 220
-    },
-    {
-      "key": "scene2.text7",
-      "demo": "投资",
-      "maxCharacters": 220
+      "key": "empire",
+      "demo": "帝国"
     }
   ],
-  "templateType": "parametric-motion-hybrid",
+  "templateType": "localized-text-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "scene1.text1": "亚马逊",
-    "scene2.text1": "贝索斯的商业版图",
-    "scene2.text2": "电商",
-    "scene2.text3": "云计算",
-    "scene2.text4": "物流",
-    "scene2.text5": "媒体",
-    "scene2.text6": "航天",
-    "scene2.text7": "投资"
+    "lead": "商业",
+    "name": "贝索斯",
+    "empire": "帝国"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
   "useCases": "用在讲品牌、商业系统或多个环节之间的联系时；助手根据文案调整中文内容。",
-  "qc": "ML-021-v4-qc.json",
-  "scenes": [
-    {
-      "start": 0,
-      "end": 150,
-      "kind": "brand",
-      "texts": [
-        "亚马逊"
-      ],
-      "keys": [
-        "scene1.text1"
-      ]
-    },
-    {
-      "start": 270,
-      "end": 414,
-      "kind": "network",
-      "texts": [
-        "贝索斯的商业版图",
-        "电商",
-        "云计算",
-        "物流",
-        "媒体",
-        "航天",
-        "投资"
-      ],
-      "keys": [
-        "scene2.text1",
-        "scene2.text2",
-        "scene2.text3",
-        "scene2.text4",
-        "scene2.text5",
-        "scene2.text6",
-        "scene2.text7"
-      ]
-    }
-  ],
-  "type": "parametric-motion-hybrid",
-  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
-  "assetRoot": "assets",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "qc": "ML-021-v5-qc.json",
+  "type": "localized-text-hybrid",
+  "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
+  "renderer": "render-faithful.py",
+  "revision": "v5-trial-20260930",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene2.text1",
-      "scene2.text2",
-      "scene2.text3",
-      "scene2.text4",
-      "scene2.text5",
-      "scene2.text6",
-      "scene2.text7"
+      "lead",
+      "name",
+      "empire"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
-  }
+    "duration": "fixed source frames"
+  },
+  "reviewLabel": "待优化 · 新版试用"
 }

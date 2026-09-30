@@ -1,0 +1,14 @@
+{
+  "id": "ML-012",
+  "frames": 375,
+  "editedFrames": 330,
+  "outsideTextMasksPreEncodeExact": true,
+  "motionType": "fixed native motion, replaceable text",
+  "duration": 12.5,
+  "completeDecode": true,
+  "audioPacketSHA256": "SHA256=30e414a92e26b4774df9e309c1bc231085dcbe5df4c43a7dbd0f2ee564bbd81c",
+  "audioMatchesOriginal": true,
+  "fileSHA256": "08db9cf1882b3b527aa927c04eb28bced29800a356ce811f93d362156445a020",
+  "fidelity": "Native motion with localized editable Chinese text. Not whole-image pixel identity; localized background repair and CJK glyphs differ.",
+  "status": "technical-check-passed-visual-review-separate"
+}

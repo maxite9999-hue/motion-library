@@ -1,0 +1,59 @@
+{
+  "id": "ML-003",
+  "reference": "ML-003-reference.mp4",
+  "audio": "ML-003-mix.m4a",
+  "frames": 86,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      0,
+      24
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "lead",
+      "text": "他们究竟",
+      "start": 24,
+      "end": 86,
+      "roi": [
+        390,
+        205,
+        900,
+        282
+      ],
+      "ink": "dark",
+      "fullBox": [
+        404,
+        216,
+        875,
+        269
+      ],
+      "revealEnd": 33,
+      "weight": "Medium"
+    },
+    {
+      "key": "question",
+      "text": "如何做到？",
+      "start": 41,
+      "end": 86,
+      "roi": [
+        390,
+        284,
+        900,
+        445
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    }
+  ],
+  "demoOptions": {
+    "lead": "他们究竟",
+    "question": "如何做到？"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Native motion retained; Chinese glyphs and small text-mask repairs differ. Fixed motion is not editable vector geometry.",
+  "inputContract": "Assistant selects concise copy matching each source text block; preserve original line hierarchy, motion and native audio. Do not insert additional headings or collapse separate source blocks. Fixed native motion cannot change dot count/trajectory."
+}

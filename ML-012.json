@@ -16,19 +16,18 @@
     "双卡同步移动",
     "方块闪白"
   ],
-  "architecture": "editable-Chinese-composition-plus-native-footage",
+  "architecture": "fixed-native-motion-plus-editable-text",
   "reference": "ML-012-reference.mp4",
-  "demo": "ML-012-cn-v4.mp4",
+  "demo": "ML-012-cn-v5.mp4",
   "audio": "ML-012-mix.m4a",
-  "package": "ML-012-v4.zip",
-  "recipe": "ML-012.json",
-  "poster": "ML-012-cn-v4.jpg",
-  "status": "reusable-Chinese-rebuild",
+  "package": "ML-012-v5.zip",
+  "recipe": "ML-012-v5.json",
+  "poster": "ML-012-cn-v5.jpg",
+  "status": "candidate-trial",
   "limits": [
-    "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
-    "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
-    "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
-    "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
+    "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+    "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+    "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -44,106 +43,154 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "全球近68%的顶级富豪靠白手起家致富",
-      "maxCharacters": 220
+      "key": "nearly_68_of_the_world_s_richest_people",
+      "demo": "全球近68%的顶级富豪"
     },
     {
-      "key": "scene1.text2",
-      "demo": "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
-      "maxCharacters": 220
+      "key": "are_self_made_says_new_report",
+      "demo": "靠白手起家致富，最新报告显示"
     },
     {
-      "key": "scene1.text3",
-      "demo": "报告分析了净资产达到3000万美元以上的超高净值人群。",
-      "maxCharacters": 220
+      "key": "trending_now",
+      "demo": "热门阅读"
     },
     {
-      "key": "scene1.text4",
-      "demo": "根据2018年数据，这一人群增长0.8%，达到265490人。",
-      "maxCharacters": 220
+      "key": "the_vast_majority_of_people_who_have_a_lot_of_money_made_it",
+      "demo": "绝大多数富人的财富是自己创造的，"
     },
     {
-      "key": "scene1.text5",
-      "demo": "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
-      "maxCharacters": 220
+      "key": "themselves_according_to_a_new_report_released_wednesday_from",
+      "demo": "这是周三公布的一份最新报告得出的结论。"
     },
     {
-      "key": "scene1.text6",
-      "demo": "只有8.5%完全依靠继承获得财富。",
-      "maxCharacters": 220
+      "key": "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy",
+      "demo": "这家市场研究机构分析了全球超高净值人群，"
     },
     {
-      "key": "scene1.text7",
-      "demo": "科技发展与新兴经济体提供了新的财富创造机会。",
-      "maxCharacters": 220
+      "key": "population_or_those_with_a_net_worth_of_30_million_or_more_the",
+      "demo": "即净资产达到3000万美元以上的人。"
+    },
+    {
+      "key": "individuals_says_wealth_x",
+      "demo": "以上数据来自 Wealth-X。"
+    },
+    {
+      "key": "report_which_is_based_on_2018_data_showed_muted_growth_in_the",
+      "demo": "报告根据2018年的数据，发现这一人群增长缓慢，"
+    },
+    {
+      "key": "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490",
+      "demo": "当年人数增加0.8%，达到265490人。"
+    },
+    {
+      "key": "the_vast_majority_of_people_who_have_a_lot_of_money_made",
+      "demo": "绝大多数富人的财富来自自身创造，"
+    },
+    {
+      "key": "it_themselves_according_to_a_new_report_released",
+      "demo": "这一结论来自周三发布的"
+    },
+    {
+      "key": "the_market_research_firm_analyzed_the_state_of_the_world_s",
+      "demo": "这家研究机构分析了全球"
+    },
+    {
+      "key": "ultra_wealthy_population_or_those_with_a_net_worth_of",
+      "demo": "超高净值人群，也就是净资产"
+    },
+    {
+      "key": "30_million_or_more_the_report_which_is_based_on_2018",
+      "demo": "达到3000万美元的人。报告根据2018年"
+    },
+    {
+      "key": "data_showed_muted_growth_in_the_number_of_ultra",
+      "demo": "的数据，发现超级富豪的人数"
+    },
+    {
+      "key": "of_those_folks_67_7_were_self_made_while_23_7_had_a",
+      "demo": "其中67.7%白手起家，23.7%的财富"
+    },
+    {
+      "key": "combination_of_inherited_and_self_created_wealth_only",
+      "demo": "同时来自继承和个人创造。只有"
+    },
+    {
+      "key": "8_5_of_global_high_net_worth_individuals_were_categorized",
+      "demo": "8.5%的全球高净值人士"
+    },
+    {
+      "key": "as_having_completely_inherited_their_wealth",
+      "demo": "完全依靠继承获得财富。"
+    },
+    {
+      "key": "wednesday_from_wealth_x",
+      "demo": "Wealth-X 最新报告。"
+    },
+    {
+      "key": "wealthy_people_that_year_rising_by_0_8_to_265_490",
+      "demo": "增长缓慢，仅增加0.8%，达到265490人。"
     }
   ],
-  "templateType": "parametric-motion-hybrid",
+  "templateType": "localized-text-hybrid",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "demoOptions": {
-    "scene1.text1": "全球近68%的顶级富豪靠白手起家致富",
-    "scene1.text2": "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
-    "scene1.text3": "报告分析了净资产达到3000万美元以上的超高净值人群。",
-    "scene1.text4": "根据2018年数据，这一人群增长0.8%，达到265490人。",
-    "scene1.text5": "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
-    "scene1.text6": "只有8.5%完全依靠继承获得财富。",
-    "scene1.text7": "科技发展与新兴经济体提供了新的财富创造机会。"
+    "nearly_68_of_the_world_s_richest_people": "全球近68%的顶级富豪",
+    "are_self_made_says_new_report": "靠白手起家致富，最新报告显示",
+    "trending_now": "热门阅读",
+    "the_vast_majority_of_people_who_have_a_lot_of_money_made_it": "绝大多数富人的财富是自己创造的，",
+    "themselves_according_to_a_new_report_released_wednesday_from": "这是周三公布的一份最新报告得出的结论。",
+    "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy": "这家市场研究机构分析了全球超高净值人群，",
+    "population_or_those_with_a_net_worth_of_30_million_or_more_the": "即净资产达到3000万美元以上的人。",
+    "individuals_says_wealth_x": "以上数据来自 Wealth-X。",
+    "report_which_is_based_on_2018_data_showed_muted_growth_in_the": "报告根据2018年的数据，发现这一人群增长缓慢，",
+    "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490": "当年人数增加0.8%，达到265490人。",
+    "the_vast_majority_of_people_who_have_a_lot_of_money_made": "绝大多数富人的财富来自自身创造，",
+    "it_themselves_according_to_a_new_report_released": "这一结论来自周三发布的",
+    "the_market_research_firm_analyzed_the_state_of_the_world_s": "这家研究机构分析了全球",
+    "ultra_wealthy_population_or_those_with_a_net_worth_of": "超高净值人群，也就是净资产",
+    "30_million_or_more_the_report_which_is_based_on_2018": "达到3000万美元的人。报告根据2018年",
+    "data_showed_muted_growth_in_the_number_of_ultra": "的数据，发现超级富豪的人数",
+    "of_those_folks_67_7_were_self_made_while_23_7_had_a": "其中67.7%白手起家，23.7%的财富",
+    "combination_of_inherited_and_self_created_wealth_only": "同时来自继承和个人创造。只有",
+    "8_5_of_global_high_net_worth_individuals_were_categorized": "8.5%的全球高净值人士",
+    "as_having_completely_inherited_their_wealth": "完全依靠继承获得财富。",
+    "wednesday_from_wealth_x": "Wealth-X 最新报告。",
+    "wealthy_people_that_year_rising_by_0_8_to_265_490": "增长缓慢，仅增加0.8%，达到265490人。"
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
   "useCases": "用在展示文章、报告或出处证据时；助手根据文案调整中文内容。",
-  "qc": "ML-012-v4-qc.json",
-  "scenes": [
-    {
-      "start": 0,
-      "end": 375,
-      "kind": "article",
-      "texts": [
-        "全球近68%的顶级富豪靠白手起家致富",
-        "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
-        "报告分析了净资产达到3000万美元以上的超高净值人群。",
-        "根据2018年数据，这一人群增长0.8%，达到265490人。",
-        "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
-        "只有8.5%完全依靠继承获得财富。",
-        "科技发展与新兴经济体提供了新的财富创造机会。"
-      ],
-      "keys": [
-        "scene1.text1",
-        "scene1.text2",
-        "scene1.text3",
-        "scene1.text4",
-        "scene1.text5",
-        "scene1.text6",
-        "scene1.text7"
-      ]
-    }
-  ],
-  "type": "parametric-motion-hybrid",
-  "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
-  "assetRoot": "assets",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "qc": "ML-012-v5-qc.json",
+  "type": "localized-text-hybrid",
+  "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
+  "renderer": "render-faithful.py",
+  "revision": "v5-trial-20260930",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene1.text2",
-      "scene1.text3",
-      "scene1.text4",
-      "scene1.text5",
-      "scene1.text6",
-      "scene1.text7"
+      "nearly_68_of_the_world_s_richest_people",
+      "are_self_made_says_new_report",
+      "trending_now",
+      "the_vast_majority_of_people_who_have_a_lot_of_money_made_it",
+      "themselves_according_to_a_new_report_released_wednesday_from",
+      "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy",
+      "population_or_those_with_a_net_worth_of_30_million_or_more_the",
+      "individuals_says_wealth_x",
+      "report_which_is_based_on_2018_data_showed_muted_growth_in_the",
+      "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490",
+      "the_vast_majority_of_people_who_have_a_lot_of_money_made",
+      "it_themselves_according_to_a_new_report_released",
+      "the_market_research_firm_analyzed_the_state_of_the_world_s",
+      "ultra_wealthy_population_or_those_with_a_net_worth_of",
+      "30_million_or_more_the_report_which_is_based_on_2018",
+      "data_showed_muted_growth_in_the_number_of_ultra",
+      "of_those_folks_67_7_were_self_made_while_23_7_had_a",
+      "combination_of_inherited_and_self_created_wealth_only",
+      "8_5_of_global_high_net_worth_individuals_were_categorized",
+      "as_having_completely_inherited_their_wealth",
+      "wednesday_from_wealth_x",
+      "wealthy_people_that_year_rising_by_0_8_to_265_490"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
-  }
+    "duration": "fixed source frames"
+  },
+  "reviewLabel": "待优化 · 新版试用"
 }

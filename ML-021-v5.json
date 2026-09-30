@@ -1,0 +1,62 @@
+{
+  "id": "ML-021",
+  "reference": "ML-021-reference.mp4",
+  "audio": "ML-021-mix.m4a",
+  "frames": 414,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [],
+  "tracks": [
+    {
+      "key": "lead",
+      "text": "商业",
+      "start": 276,
+      "end": 397,
+      "roi": [
+        549,
+        103,
+        620,
+        138
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    },
+    {
+      "key": "name",
+      "text": "贝索斯",
+      "start": 276,
+      "end": 397,
+      "roi": [
+        547,
+        132,
+        865,
+        217
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    },
+    {
+      "key": "empire",
+      "text": "帝国",
+      "start": 276,
+      "end": 397,
+      "roi": [
+        740,
+        215,
+        860,
+        254
+      ],
+      "ink": "dark",
+      "weight": "Medium"
+    }
+  ],
+  "demoOptions": {
+    "lead": "商业",
+    "name": "贝索斯",
+    "empire": "帝国"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Native source motion with replaceable CJK text; not a vector reconstruction.",
+  "status": "candidate-needs-visual-review"
+}

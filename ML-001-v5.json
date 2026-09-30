@@ -1,0 +1,205 @@
+{
+  "id": "ML-001",
+  "reference": "ML-001-reference.mp4",
+  "audio": "ML-001-mix.m4a",
+  "frames": 1182,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      0,
+      4
+    ],
+    [
+      324,
+      338
+    ],
+    [
+      440,
+      452
+    ],
+    [
+      559,
+      571
+    ],
+    [
+      1129,
+      1179
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "amount1",
+      "text": "= 100万美元",
+      "start": 200,
+      "end": 324,
+      "roi": [
+        441,
+        432,
+        818,
+        525
+      ],
+      "ink": "white",
+      "fullBox": [
+        450,
+        442,
+        804,
+        512
+      ],
+      "lockedBox": [
+        450,
+        442,
+        804,
+        512
+      ],
+      "revealEnd": 227
+    },
+    {
+      "key": "amount10",
+      "text": "1000万美元",
+      "start": 375,
+      "end": 440,
+      "roi": [
+        390,
+        115,
+        962,
+        237
+      ],
+      "ink": "white",
+      "fullBox": [
+        400,
+        126,
+        952,
+        230
+      ],
+      "lockedBox": [
+        400,
+        126,
+        952,
+        230
+      ],
+      "revealEnd": 390
+    },
+    {
+      "key": "amount100",
+      "text": "1亿美元",
+      "start": 482,
+      "end": 559,
+      "roi": [
+        176,
+        35,
+        277,
+        704
+      ],
+      "ink": "white",
+      "angle": 90,
+      "fullBox": [
+        182,
+        50,
+        270,
+        692
+      ],
+      "lockedBox": [
+        182,
+        50,
+        270,
+        692
+      ],
+      "revealEnd": 510
+    },
+    {
+      "key": "amount1000",
+      "text": "10亿美元",
+      "start": 802,
+      "end": 844,
+      "roi": [
+        293,
+        0,
+        913,
+        136
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        310,
+        6,
+        898,
+        127
+      ],
+      "fadingPlate": true
+    },
+    {
+      "key": "amount1000",
+      "text": "10亿美元",
+      "start": 844,
+      "end": 920,
+      "roi": [
+        250,
+        0,
+        975,
+        720
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "aboveDotArray": true
+    },
+    {
+      "key": "amount1000",
+      "text": "10亿美元",
+      "start": 920,
+      "end": 1129,
+      "roi": [
+        315,
+        48,
+        521,
+        101
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        322,
+        56,
+        516,
+        97
+      ]
+    },
+    {
+      "key": "founder",
+      "text": "亚马逊创始人",
+      "start": 933,
+      "end": 1129,
+      "roi": [
+        688,
+        252,
+        943,
+        285
+      ],
+      "ink": "white",
+      "fullBox": [
+        695,
+        254,
+        934,
+        276
+      ],
+      "lockedBox": [
+        695,
+        254,
+        934,
+        276
+      ],
+      "revealEnd": 951,
+      "fadingPlate": true
+    }
+  ],
+  "demoOptions": {
+    "amount1": "= 100万美元",
+    "amount10": "1000万美元",
+    "amount100": "1亿美元",
+    "amount1000": "10亿美元",
+    "founder": "亚马逊创始人"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Native motion retained; Chinese glyphs and small text-mask repairs differ. Fixed motion is not editable vector geometry.",
+  "inputContract": "Assistant selects concise copy matching each source text block; preserve original line hierarchy, motion and native audio. Do not insert additional headings or collapse separate source blocks. Fixed native motion cannot change dot count/trajectory."
+}

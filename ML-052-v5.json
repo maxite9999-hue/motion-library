@@ -1,0 +1,589 @@
+{
+  "id": "ML-052",
+  "reference": "ML-052-reference.mp4",
+  "audio": "ML-052-mix.m4a",
+  "frames": 1459,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      1369,
+      1459
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "are_you_with_me",
+      "text": "准备好一起开始了吗？",
+      "start": 233,
+      "end": 281,
+      "roi": [
+        171,
+        323,
+        1085,
+        407
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "minArea": 2,
+      "minPixels": 12,
+      "geometry": [
+        {
+          "f": 240,
+          "roi": [
+            171,
+            323,
+            1085,
+            407
+          ],
+          "lockedBox": [
+            176,
+            328,
+            1080,
+            402
+          ]
+        },
+        {
+          "f": 255,
+          "roi": [
+            171,
+            325,
+            1085,
+            405
+          ],
+          "lockedBox": [
+            176,
+            330,
+            1080,
+            400
+          ]
+        },
+        {
+          "f": 270,
+          "roi": [
+            171,
+            325,
+            1085,
+            403
+          ],
+          "lockedBox": [
+            176,
+            330,
+            1080,
+            398
+          ]
+        }
+      ],
+      "lockedBox": [
+        176,
+        328,
+        1080,
+        402
+      ]
+    },
+    {
+      "key": "the_untold_truth_about_money",
+      "text": "关于金钱的真相",
+      "start": 281,
+      "end": 524,
+      "roi": [
+        117,
+        335,
+        1171,
+        387
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "minArea": 2,
+      "minPixels": 12,
+      "geometry": [
+        {
+          "f": 285,
+          "roi": [
+            117,
+            335,
+            1171,
+            387
+          ],
+          "lockedBox": [
+            122,
+            340,
+            1166,
+            382
+          ]
+        },
+        {
+          "f": 300,
+          "roi": [
+            115,
+            335,
+            1171,
+            387
+          ],
+          "lockedBox": [
+            120,
+            340,
+            1166,
+            382
+          ]
+        },
+        {
+          "f": 315,
+          "roi": [
+            113,
+            333,
+            1173,
+            387
+          ],
+          "lockedBox": [
+            118,
+            338,
+            1168,
+            382
+          ]
+        },
+        {
+          "f": 330,
+          "roi": [
+            113,
+            337,
+            1173,
+            387
+          ],
+          "lockedBox": [
+            118,
+            342,
+            1168,
+            382
+          ]
+        },
+        {
+          "f": 345,
+          "roi": [
+            111,
+            335,
+            1175,
+            387
+          ],
+          "lockedBox": [
+            116,
+            340,
+            1170,
+            382
+          ]
+        },
+        {
+          "f": 360,
+          "roi": [
+            109,
+            331,
+            1177,
+            387
+          ],
+          "lockedBox": [
+            114,
+            336,
+            1172,
+            382
+          ]
+        },
+        {
+          "f": 375,
+          "roi": [
+            107,
+            329,
+            1181,
+            387
+          ],
+          "lockedBox": [
+            112,
+            334,
+            1176,
+            382
+          ]
+        },
+        {
+          "f": 390,
+          "roi": [
+            105,
+            337,
+            1181,
+            387
+          ],
+          "lockedBox": [
+            110,
+            342,
+            1176,
+            382
+          ]
+        },
+        {
+          "f": 405,
+          "roi": [
+            103,
+            337,
+            1183,
+            387
+          ],
+          "lockedBox": [
+            108,
+            342,
+            1178,
+            382
+          ]
+        },
+        {
+          "f": 420,
+          "roi": [
+            101,
+            337,
+            1185,
+            387
+          ],
+          "lockedBox": [
+            106,
+            342,
+            1180,
+            382
+          ]
+        },
+        {
+          "f": 435,
+          "roi": [
+            99,
+            333,
+            1187,
+            387
+          ],
+          "lockedBox": [
+            104,
+            338,
+            1182,
+            382
+          ]
+        },
+        {
+          "f": 450,
+          "roi": [
+            99,
+            333,
+            1189,
+            387
+          ],
+          "lockedBox": [
+            104,
+            338,
+            1184,
+            382
+          ]
+        },
+        {
+          "f": 465,
+          "roi": [
+            97,
+            333,
+            1191,
+            387
+          ],
+          "lockedBox": [
+            102,
+            338,
+            1186,
+            382
+          ]
+        },
+        {
+          "f": 480,
+          "roi": [
+            95,
+            333,
+            1191,
+            387
+          ],
+          "lockedBox": [
+            100,
+            338,
+            1186,
+            382
+          ]
+        },
+        {
+          "f": 495,
+          "roi": [
+            91,
+            337,
+            1193,
+            387
+          ],
+          "lockedBox": [
+            96,
+            342,
+            1188,
+            382
+          ]
+        },
+        {
+          "f": 510,
+          "roi": [
+            86,
+            331,
+            1200,
+            394
+          ],
+          "lockedBox": [
+            91,
+            336,
+            1195,
+            389
+          ]
+        }
+      ],
+      "lockedBox": [
+        122,
+        340,
+        1166,
+        382
+      ]
+    },
+    {
+      "key": "disclaimer",
+      "text": "观看说明",
+      "start": 524,
+      "end": 924,
+      "roi": [
+        295,
+        70,
+        995,
+        182
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        315,
+        89,
+        969,
+        166
+      ],
+      "fixedMask": "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",
+      "fullContrast": 150,
+      "color": [
+        242,
+        242,
+        239
+      ],
+      "naturalWidth": false
+    },
+    {
+      "key": "credit",
+      "text": "本片深受 M.J.德马科作品的启发，",
+      "start": 524,
+      "end": 924,
+      "roi": [
+        180,
+        301,
+        1100,
+        345
+      ],
+      "ink": "white",
+      "weight": "Light",
+      "lockedBox": [
+        203,
+        312,
+        1080,
+        332
+      ],
+      "fixedMask": "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",
+      "fullContrast": 150,
+      "color": [
+        242,
+        242,
+        239
+      ],
+      "naturalWidth": false
+    },
+    {
+      "key": "opinion",
+      "text": "也融入了我对社会如何围绕金钱运转的",
+      "start": 524,
+      "end": 924,
+      "roi": [
+        65,
+        337,
+        1220,
+        379
+      ],
+      "ink": "white",
+      "weight": "Light",
+      "lockedBox": [
+        91,
+        343,
+        1178,
+        362
+      ],
+      "fixedMask": "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",
+      "fullContrast": 150,
+      "color": [
+        242,
+        242,
+        239
+      ],
+      "naturalWidth": false
+    },
+    {
+      "key": "observation",
+      "text": "个人看法与观察。",
+      "start": 524,
+      "end": 924,
+      "roi": [
+        490,
+        373,
+        800,
+        414
+      ],
+      "ink": "white",
+      "weight": "Light",
+      "lockedBox": [
+        532,
+        373,
+        749,
+        391
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAATYAAAApCAAAAACaIFqPAAABq0lEQVR4nO2Yy5LEIAhFYWr+/5eZReehoKKETlJT92zSraCggDFMzyDETw4hdG3+39h0xuTKDiG2hukGubxuD7Jguxw6olVVwy7ZlRAa/S2FRT0re3rjH8KipuCmboCfgI5Uj1YDzUpUre3egElqO7z5AywmKW9TM8mZZrK3l3mnJT4iW4PJYTYubb0sqqGJtEYolLr9Udaijc+n8YL1P9MwHrcrLjThsR5BK2z9WSsXSVLLZKHwxE6nopWnytLE6NLkLFsb43vHDy6CeH6wkAVZLNa2OKOtP86EhpssJOzHjT2OzOtPJuvRlr+DiS6NylsmoWgLrJyjwuS46U2p+k18Jm/2N2tbyccNaS2Nc9GJnn9X709DbqttRL77V9303v3zVjIn2jLKiIyGcb31krI/dDMDPDKijUVf+boSJXtsNDtr5Q5ldPWvCG0Li8gLfFS4q7ZtsPlxDXUJnT44rk6/oj/YFaF6J9koiJ6tLDRCRFx+rqg/Mc2YWVtgrTX9/55Q9fkut56kId63ZnR7bVvnncn1+mWjN64aAAAAAAAAAAAAAAAAAADAkD9Rhn8wRJHJtAAAAABJRU5ErkJggg==",
+      "fullContrast": 150,
+      "color": [
+        242,
+        242,
+        239
+      ],
+      "naturalWidth": false
+    },
+    {
+      "key": "scope",
+      "text": "当然，这个话题十分庞大，很难在一条视频中讲完。",
+      "start": 524,
+      "end": 924,
+      "roi": [
+        110,
+        446,
+        1170,
+        481
+      ],
+      "ink": "white",
+      "weight": "Light",
+      "lockedBox": [
+        121,
+        456,
+        1160,
+        477
+      ],
+      "fixedMask": "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",
+      "fullContrast": 150,
+      "color": [
+        242,
+        242,
+        239
+      ],
+      "naturalWidth": false
+    },
+    {
+      "key": "condensed",
+      "text": "因此，接下来的内容已经尽可能精简，",
+      "start": 524,
+      "end": 924,
+      "roi": [
+        150,
+        481,
+        1135,
+        517
+      ],
+      "ink": "white",
+      "weight": "Light",
+      "lockedBox": [
+        158,
+        486,
+        1114,
+        505
+      ],
+      "fixedMask": "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",
+      "fullContrast": 150,
+      "color": [
+        242,
+        242,
+        239
+      ],
+      "naturalWidth": false
+    },
+    {
+      "key": "information",
+      "text": "呈现其中最重要的信息。",
+      "start": 524,
+      "end": 924,
+      "roi": [
+        404,
+        513,
+        865,
+        551
+      ],
+      "ink": "white",
+      "weight": "Light",
+      "lockedBox": [
+        420,
+        516,
+        852,
+        535
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAc0AAAAmCAAAAACD2p80AAACj0lEQVR4nO2a23LEIAiGpdP3f2V60U0iRyFq0s7w3XQ36g9qVGQLjYGtAX92A0VmSjnXGM+6sl1ECb0q2NYMkS1/W/1rpSMU3Cf9puUd4rhI9HuNzL9iemFtXJlz8htnc3Of7xJx603XZ2xHZxO5Ifrg2OyNA8c8arDBUcbPC70NEpuqKnIxqoSsRJeA6xNvLiWI+GUaoYU6Rx0mQyhdd4/V4GwiM4Snv7waf3TWNo6GvoxPlXw5kH9045XeQj9EtBeax9JBvZJUQKWUSwzsOv65zuhRkBx3/gSNAq/LIQZVuxdzJKpE1JYxTSrms6cw1oqOS3z8tLUp5uTaL7r3BDJmnMpHEamCikGxX4G+GQB/eW3jn01w6HvnCEgnqIRmmkogayUcbqweHXU+Kh2xtanMMLTEhIKmIIvzAUA0pOFDnJQYOoD8gWHaauWrhwmtzTl7vs+6gBVLOVmBOBiYzqVRLbT2u6g3aBNSN5RHA3fxEpiH95SNty4jg9irA3hHxYOTv5o9eCKRBOIu8xBejO8zcHU2s7dp1GfDQBdgH55OQd6PoUfVZtemGh1NgHSoabRI+7JgSYVi2g0ofUu0tj1OrU28lR0OXM5DhdDH0Oe1cyJhjUTpXZxeJDq49jcUI1D3APdrzNg9MHdfniq/iXBwxbn5uabz5Cciq2G6gppnY7TOUFUrhokYg9t+MUN5hUwrNL/InSl8booT7EjgWJaufCJkVoEtl6oisyvqlSBgZLAcIj1DcT5ryVMZghzjRlNBDrGdFthfO/hZtOVYMtfi9AwG8wHzPmcUvCkx2oNeumCMRbQxzs1vZ8FP9m9EtBlW/VdCURRFURRFURRFURRFURRFURRFURRFURTFmB8NovASKA2VawAAAABJRU5ErkJggg==",
+      "fullContrast": 150,
+      "color": [
+        242,
+        242,
+        239
+      ],
+      "naturalWidth": false
+    },
+    {
+      "key": "enjoy",
+      "text": "祝你愉快 :)",
+      "start": 524,
+      "end": 924,
+      "roi": [
+        565,
+        563,
+        707,
+        610
+      ],
+      "ink": "white",
+      "weight": "Light",
+      "lockedBox": [
+        585,
+        574,
+        686,
+        594
+      ],
+      "fixedMask": "iVBORw0KGgoAAAANSUhEUgAAAI4AAAAvCAAAAAAQ1q2fAAABLElEQVR4nO2WQRKDMAhFoeP9r0wXNWoMnwDGTYe3aFUi/ACiREVRpBEBhk1ffhwx9IhND/jYaght4ynAryon784JTKxeLOOGZpc3apXOzuPO0dOLsjPczCSdiK6VO1PLWyZ/7uz8ns1jTwJNsh+J1V9IabRYSgjp/89IQ8x5/zuLtXtH/gxTp2ZaPySneTf2eq5kIuLrsPLJU0g/WQoLRuZEDpun9j3DYubrJVV8bAx69+95xtUlsWL5eyJZuJW90+DLb5CwHF+UWXKQPSwnMWoDIDlCQgI/2m4ihHqZTKo2hz84lWUPcnerpiDRuHoqF7QynDMYKF/NzujYDMntRTHBsSTwCg0Fmn5N6pdzcsxecfa/Sr53zP1PkgPNL3wr85IJVBRFURRF8Z98AbcHQ0MULBO7AAAAAElFTkSuQmCC",
+      "fullContrast": 150,
+      "color": [
+        242,
+        242,
+        239
+      ],
+      "naturalWidth": true
+    }
+  ],
+  "demoOptions": {
+    "are_you_with_me": "准备好一起开始了吗？",
+    "the_untold_truth_about_money": "关于金钱的真相",
+    "disclaimer": "观看说明",
+    "credit": "本片深受 M.J.德马科作品的启发，",
+    "opinion": "也融入了我对社会如何围绕金钱运转的",
+    "observation": "个人看法与观察。",
+    "scope": "当然，这个话题十分庞大，很难在一条视频中讲完。",
+    "condensed": "因此，接下来的内容已经尽可能精简，",
+    "information": "呈现其中最重要的信息。",
+    "enjoy": "祝你愉快 :)"
+  },
+  "type": "native-motion-localized-text",
+  "status": "candidate-needs-visual-review",
+  "fidelity": "Native source motion; OCR-assisted source typography tracking is not yet visually accepted."
+}

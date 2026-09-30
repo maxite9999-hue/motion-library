@@ -1,0 +1,54 @@
+{
+  "id": "ML-027",
+  "reference": "ML-027-reference.mp4",
+  "audio": "ML-027-mix.m4a",
+  "frames": 345,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      309,
+      345
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "negative",
+      "text": "难以规模化",
+      "start": 109,
+      "end": 156,
+      "roi": [
+        140,
+        65,
+        1120,
+        670
+      ],
+      "ink": "red",
+      "autoRotate": true,
+      "weight": "Medium"
+    },
+    {
+      "key": "positive",
+      "text": "可以规模化",
+      "start": 276,
+      "end": 309,
+      "roi": [
+        140,
+        70,
+        1135,
+        670
+      ],
+      "ink": "green",
+      "autoRotate": true,
+      "weight": "Medium"
+    }
+  ],
+  "demoOptions": {
+    "negative": "难以规模化",
+    "positive": "可以规模化"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Native source motion with replaceable CJK text; not a vector reconstruction.",
+  "status": "candidate-needs-visual-review"
+}

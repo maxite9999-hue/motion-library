@@ -1,0 +1,77 @@
+{
+  "id": "ML-033",
+  "reference": "ML-033-reference.mp4",
+  "audio": "ML-033-mix.m4a",
+  "frames": 597,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [
+    [
+      0,
+      236
+    ]
+  ],
+  "tracks": [
+    {
+      "key": "chapter",
+      "text": "第五章",
+      "start": 275,
+      "end": 573,
+      "roi": [
+        435,
+        262,
+        830,
+        354
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "lockedBox": [
+        487,
+        281,
+        796,
+        343
+      ],
+      "fullContrast": 238.66666666666666,
+      "color": [
+        253,
+        253,
+        253
+      ],
+      "fadingPlate": true
+    },
+    {
+      "key": "heading",
+      "text": "金钱，还是人生",
+      "start": 371,
+      "end": 573,
+      "roi": [
+        235,
+        361,
+        1040,
+        432
+      ],
+      "ink": "white",
+      "lockedBox": [
+        262,
+        370,
+        1017,
+        423
+      ],
+      "fullContrast": 246.0,
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "fadingPlate": true
+    }
+  ],
+  "demoOptions": {
+    "chapter": "第五章",
+    "heading": "金钱，还是人生"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Native source motion with replaceable CJK text; not a vector reconstruction.",
+  "status": "candidate-needs-visual-review"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ML-029",
+  "reference": "ML-029-reference.mp4",
+  "audio": "ML-029-mix.m4a",
+  "frames": 270,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [],
+  "tracks": [
+    {
+      "key": "claim",
+      "text": "市场并不关心",
+      "start": 204,
+      "end": 259,
+      "roi": [
+        60,
+        278,
+        1190,
+        365
+      ],
+      "ink": "dark",
+      "fullBox": [
+        118,
+        295,
+        1158,
+        351
+      ],
+      "revealEnd": 230,
+      "redCeiling": 235,
+      "greenCeiling": 200,
+      "contrastThreshold": 3,
+      "minArea": 4,
+      "naturalWidth": true
+    },
+    {
+      "key": "object",
+      "text": "你的热情",
+      "start": 231,
+      "end": 259,
+      "roi": [
+        395,
+        355,
+        900,
+        430
+      ],
+      "ink": "dark",
+      "fullBox": [
+        411,
+        364,
+        882,
+        419
+      ],
+      "revealEnd": 243,
+      "redCeiling": 235,
+      "greenCeiling": 200,
+      "contrastThreshold": 3,
+      "minArea": 4,
+      "naturalWidth": true,
+      "weight": "Medium"
+    }
+  ],
+  "demoOptions": {
+    "claim": "市场并不关心",
+    "object": "你的热情"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Native source motion with replaceable CJK text; not a vector reconstruction.",
+  "status": "candidate-needs-visual-review"
+}

@@ -17,18 +17,18 @@
     "圆标右移旋转",
     "缩小消失"
   ],
-  "architecture": "native-timeline-with-parametric-button-labels",
+  "architecture": "fixed-native-motion-plus-editable-text",
   "reference": "ML-007-reference.mp4",
-  "demo": "ML-007-demo.mp4",
+  "demo": "ML-007-cn-v5.mp4",
   "audio": "ML-007-mix.m4a",
-  "package": "ML-007.zip",
-  "recipe": "ML-007.json",
-  "poster": "ML-007-cn-v4.jpg",
-  "status": "localized-button-reviewed",
+  "package": "ML-007-v5.zip",
+  "recipe": "ML-007-v5.json",
+  "poster": "ML-007-cn-v5.jpg",
+  "status": "candidate-trial",
   "limits": [
-    "只参数化按钮内的两个短标签；每项1至4个汉字。",
-    "光标、铃铛与旋转收起仍为原生视频层。光标交叠局部和单帧扫出做近似修补，不宣称逐像素一致。",
-    "音乐和音效保留为原始混合轨，没有分离为独立音轨。"
+    "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
+    "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
+    "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
   ],
   "blackRanges": [],
   "cutFrames": [
@@ -37,20 +37,14 @@
   "slots": [
     {
       "key": "subscribe",
-      "demo": "订阅",
-      "from": 0,
-      "to": 29,
-      "maxCharacters": 4
+      "demo": "订阅"
     },
     {
       "key": "subscribed",
-      "demo": "已订阅",
-      "from": 29,
-      "to": 180,
-      "maxCharacters": 4
+      "demo": "已订阅"
     }
   ],
-  "templateType": "editable-text-hybrid",
+  "templateType": "localized-text-hybrid",
   "reuse": "助手可替换订阅按钮的两个短标签；点击、铃铛、旋转缩小和原混音沿用原片。内部其他内容不是可任意更换的独立图层。",
   "demoOptions": {
     "subscribe": "订阅",
@@ -58,8 +52,18 @@
   },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-007-qc.json",
-  "renderer": "render-ML-007.py",
-  "revision": "cn-button-20260930-r3",
-  "useCases": "用在关注订阅、点击确认或轻量行动提示时；保留点击、铃铛反馈与旋转缩小退出。"
+  "qc": "ML-007-v5-qc.json",
+  "renderer": "render-faithful.py",
+  "revision": "v5-trial-20260930",
+  "useCases": "用在关注订阅、点击确认或轻量行动提示时；保留点击、铃铛反馈与旋转缩小退出。",
+  "reviewLabel": "待优化 · 新版试用",
+  "type": "localized-text-hybrid",
+  "inputSchema": {
+    "textFields": [
+      "subscribe",
+      "subscribed"
+    ],
+    "duration": "fixed source frames"
+  },
+  "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity."
 }

@@ -1,5 +1,5 @@
 {
-  "version": "v5-trial-20260930",
+  "version": "cn-reusable-v4-20260930",
   "source": "没有人名的完整版去掉人声音.mov",
   "sourceFrames": 26672,
   "fps": 30,
@@ -7,7 +7,7 @@
   "publishedCount": 53,
   "plannedCount": 53,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
-  "fidelity": "用户授权先试用发布；4个文字模块已复核，31个仍需优化，18个为原生素材。",
+  "fidelity": "中文参数化结构重建与原片对照分开；非逐帧复刻。",
   "templates": [
     {
       "id": "ML-001",
@@ -35,18 +35,19 @@
         "倍率",
         "黑场"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-001-reference.mp4",
-      "demo": "ML-001-cn-v5.mp4",
+      "demo": "ML-001-cn-v4.mp4",
       "audio": "ML-001-mix.m4a",
-      "package": "ML-001-v5.zip",
-      "recipe": "ML-001-v5.json",
-      "poster": "ML-001-cn-v5.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-001-v4.zip",
+      "recipe": "ML-001.json",
+      "poster": "ML-001-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -82,54 +83,194 @@
       ],
       "slots": [
         {
-          "key": "amount1",
-          "demo": "= 100万美元"
+          "key": "scene1.text1",
+          "demo": "财富如何增长？",
+          "maxCharacters": 220
         },
         {
-          "key": "amount10",
-          "demo": "1000万美元"
+          "key": "scene1.text2",
+          "demo": "100万美元",
+          "maxCharacters": 220
         },
         {
-          "key": "amount100",
-          "demo": "1亿美元"
+          "key": "scene2.text1",
+          "demo": "放大十倍",
+          "maxCharacters": 220
         },
         {
-          "key": "amount1000",
-          "demo": "10亿美元"
+          "key": "scene2.text2",
+          "demo": "1000万美元",
+          "maxCharacters": 220
         },
         {
-          "key": "founder",
-          "demo": "亚马逊创始人"
+          "key": "scene3.text1",
+          "demo": "继续扩大",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene3.text2",
+          "demo": "1亿美元",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene4.text1",
+          "demo": "数量级的差异",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene4.text2",
+          "demo": "10亿美元",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene5.text1",
+          "demo": "杰夫·贝索斯",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene5.text2",
+          "demo": "亚马逊创始人",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene5.text3",
+          "demo": "1173亿美元",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene5.text4",
+          "demo": "117.3倍",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "amount1": "= 100万美元",
-        "amount10": "1000万美元",
-        "amount100": "1亿美元",
-        "amount1000": "10亿美元",
-        "founder": "亚马逊创始人"
+        "scene1.text1": "财富如何增长？",
+        "scene1.text2": "100万美元",
+        "scene2.text1": "放大十倍",
+        "scene2.text2": "1000万美元",
+        "scene3.text1": "继续扩大",
+        "scene3.text2": "1亿美元",
+        "scene4.text1": "数量级的差异",
+        "scene4.text2": "10亿美元",
+        "scene5.text1": "杰夫·贝索斯",
+        "scene5.text2": "亚马逊创始人",
+        "scene5.text3": "1173亿美元",
+        "scene5.text4": "117.3倍"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在开场展示数量级增长、积累或规模差异；助手根据文案调整中文内容。",
-      "qc": "ML-001-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-001-v4-qc.json",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 330,
+          "kind": "wealth",
+          "texts": [
+            "财富如何增长？",
+            "100万美元"
+          ],
+          "level": 1,
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        },
+        {
+          "start": 330,
+          "end": 450,
+          "kind": "wealth",
+          "texts": [
+            "放大十倍",
+            "1000万美元"
+          ],
+          "level": 10,
+          "keys": [
+            "scene2.text1",
+            "scene2.text2"
+          ]
+        },
+        {
+          "start": 450,
+          "end": 570,
+          "kind": "wealth",
+          "texts": [
+            "继续扩大",
+            "1亿美元"
+          ],
+          "level": 100,
+          "keys": [
+            "scene3.text1",
+            "scene3.text2"
+          ]
+        },
+        {
+          "start": 570,
+          "end": 810,
+          "kind": "wealth",
+          "texts": [
+            "数量级的差异",
+            "10亿美元"
+          ],
+          "level": 1000,
+          "keys": [
+            "scene4.text1",
+            "scene4.text2"
+          ]
+        },
+        {
+          "start": 810,
+          "end": 1182,
+          "kind": "person",
+          "texts": [
+            "杰夫·贝索斯",
+            "亚马逊创始人",
+            "1173亿美元",
+            "117.3倍"
+          ],
+          "person": 3,
+          "keys": [
+            "scene5.text1",
+            "scene5.text2",
+            "scene5.text3",
+            "scene5.text4"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "amount1",
-          "amount10",
-          "amount100",
-          "amount1000",
-          "founder"
+          "scene1.text1",
+          "scene1.text2",
+          "scene2.text1",
+          "scene2.text2",
+          "scene3.text1",
+          "scene3.text2",
+          "scene4.text1",
+          "scene4.text2",
+          "scene5.text1",
+          "scene5.text2",
+          "scene5.text3",
+          "scene5.text4"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "已复核 · 原生动效＋可改文字"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-002",
@@ -195,8 +336,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在人物经历或故事背景段，把工作、金钱与生活处境快速串起来；不适合直接承载密集数据。",
-      "qc": "ML-002-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-002-qc.json"
     },
     {
       "id": "ML-003",
@@ -215,18 +355,19 @@
         "保持",
         "切出"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-003-reference.mp4",
-      "demo": "ML-003-cn-v5.mp4",
+      "demo": "ML-003-cn-v4.mp4",
       "audio": "ML-003-mix.m4a",
-      "package": "ML-003-v5.zip",
-      "recipe": "ML-003-v5.json",
-      "poster": "ML-003-cn-v5.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-003-v4.zip",
+      "recipe": "ML-003.json",
+      "poster": "ML-003-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -239,36 +380,64 @@
       ],
       "slots": [
         {
-          "key": "lead",
-          "demo": "他们究竟"
+          "key": "scene1.text1",
+          "demo": "他们究竟",
+          "maxCharacters": 220
         },
         {
-          "key": "question",
-          "demo": "如何做到？"
+          "key": "scene1.text2",
+          "demo": "如何做到？",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "lead": "他们究竟",
-        "question": "如何做到？"
+        "scene1.text1": "他们究竟",
+        "scene1.text2": "如何做到？"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在抛出核心问题或转入方法论之前；助手根据文案调整中文内容。",
-      "qc": "ML-003-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-003-v4-qc.json",
+      "scenes": [
+        {
+          "start": 24,
+          "end": 86,
+          "kind": "title",
+          "texts": [
+            "他们究竟",
+            "如何做到？"
+          ],
+          "strong": 1,
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "lead",
-          "question"
+          "scene1.text1",
+          "scene1.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "已复核 · 原生动效＋可改文字"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-004",
@@ -321,8 +490,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在引用采访、切换观点或强调媒体信息时；电视换台感适合短促的证据插入。",
-      "qc": "ML-004-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-004-qc.json"
     },
     {
       "id": "ML-005",
@@ -397,8 +565,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在从知识、计算讲到金钱与价值的连接段；叠化适合表达两件事之间的联系。",
-      "qc": "ML-005-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-005-qc.json"
     },
     {
       "id": "ML-006",
@@ -459,8 +626,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在认知冲击、选择关口或节奏突然加速处；闪切不宜覆盖需要仔细阅读的长句。",
-      "qc": "ML-006-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-006-qc.json"
     },
     {
       "id": "ML-007",
@@ -481,18 +647,18 @@
         "圆标右移旋转",
         "缩小消失"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "native-timeline-with-parametric-button-labels",
       "reference": "ML-007-reference.mp4",
-      "demo": "ML-007-cn-v5.mp4",
+      "demo": "ML-007-demo.mp4",
       "audio": "ML-007-mix.m4a",
-      "package": "ML-007-v5.zip",
-      "recipe": "ML-007-v5.json",
-      "poster": "ML-007-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-007.zip",
+      "recipe": "ML-007.json",
+      "poster": "ML-007-cn-v4.jpg",
+      "status": "localized-button-reviewed",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "只参数化按钮内的两个短标签；每项1至4个汉字。",
+        "光标、铃铛与旋转收起仍为原生视频层。光标交叠局部和单帧扫出做近似修补，不宣称逐像素一致。",
+        "音乐和音效保留为原始混合轨，没有分离为独立音轨。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -501,14 +667,20 @@
       "slots": [
         {
           "key": "subscribe",
-          "demo": "订阅"
+          "demo": "订阅",
+          "from": 0,
+          "to": 29,
+          "maxCharacters": 4
         },
         {
           "key": "subscribed",
-          "demo": "已订阅"
+          "demo": "已订阅",
+          "from": 29,
+          "to": 180,
+          "maxCharacters": 4
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "editable-text-hybrid",
       "reuse": "助手可替换订阅按钮的两个短标签；点击、铃铛、旋转缩小和原混音沿用原片。内部其他内容不是可任意更换的独立图层。",
       "demoOptions": {
         "subscribe": "订阅",
@@ -516,20 +688,10 @@
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-      "qc": "ML-007-v5-qc.json",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
-      "useCases": "用在关注订阅、点击确认或轻量行动提示时；保留点击、铃铛反馈与旋转缩小退出。",
-      "reviewLabel": "待优化 · 新版试用",
-      "type": "localized-text-hybrid",
-      "inputSchema": {
-        "textFields": [
-          "subscribe",
-          "subscribed"
-        ],
-        "duration": "fixed source frames"
-      },
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity."
+      "qc": "ML-007-qc.json",
+      "renderer": "render-ML-007.py",
+      "revision": "cn-button-20260930-r3",
+      "useCases": "用在关注订阅、点击确认或轻量行动提示时；保留点击、铃铛反馈与旋转缩小退出。"
     },
     {
       "id": "ML-008",
@@ -548,18 +710,19 @@
         "缓慢下移",
         "与说明段叠接"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-008-reference.mp4",
-      "demo": "ML-008-cn-v5.mp4",
+      "demo": "ML-008-cn-v4.mp4",
       "audio": "ML-008-mix.m4a",
-      "package": "ML-008-v5.zip",
-      "recipe": "ML-008-v5.json",
-      "poster": "ML-008-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-008-v4.zip",
+      "recipe": "ML-008.json",
+      "poster": "ML-008-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -571,36 +734,74 @@
       ],
       "slots": [
         {
-          "key": "are_you_with_me",
-          "demo": "准备好一起开始了吗？"
+          "key": "scene1.text1",
+          "demo": "准备好一起开始了吗？",
+          "maxCharacters": 220
         },
         {
-          "key": "the_untold_truth_about_money",
-          "demo": "关于金钱的真相"
+          "key": "scene2.text1",
+          "demo": "关于金钱的真相",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "are_you_with_me": "准备好一起开始了吗？",
-        "the_untold_truth_about_money": "关于金钱的真相"
+        "scene1.text1": "准备好一起开始了吗？",
+        "scene2.text1": "关于金钱的真相"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在邀请观众进入主题的开场或章节引入；助手根据文案调整中文内容。",
-      "qc": "ML-008-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-008-v4-qc.json",
+      "scenes": [
+        {
+          "start": 30,
+          "end": 84,
+          "kind": "cinema",
+          "texts": [
+            "准备好一起开始了吗？"
+          ],
+          "background": "city",
+          "keys": [
+            "scene1.text1"
+          ]
+        },
+        {
+          "start": 84,
+          "end": 330,
+          "kind": "cinema",
+          "texts": [
+            "关于金钱的真相"
+          ],
+          "background": "city",
+          "keys": [
+            "scene2.text1"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "are_you_with_me",
-          "the_untold_truth_about_money"
+          "scene1.text1",
+          "scene2.text1"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-009",
@@ -620,18 +821,19 @@
         "公路渐黑",
         "黑场"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-009-reference.mp4",
-      "demo": "ML-009-cn-v5.mp4",
+      "demo": "ML-009-cn-v4.mp4",
       "audio": "ML-009-mix.m4a",
-      "package": "ML-009-v5.zip",
-      "recipe": "ML-009-v5.json",
-      "poster": "ML-009-cn-v5.jpg",
-      "status": "reviewed-trial",
+      "package": "ML-009-v4.zip",
+      "recipe": "ML-009.json",
+      "poster": "ML-009-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -642,72 +844,100 @@
       "cutFrames": [],
       "slots": [
         {
-          "key": "disclaimer",
-          "demo": "观看说明"
+          "key": "scene1.text1",
+          "demo": "观看说明",
+          "maxCharacters": 220
         },
         {
-          "key": "credit",
-          "demo": "本片深受 M.J.德马科作品的启发，"
+          "key": "scene1.text2",
+          "demo": "本片深受M.J.德马科作品的启发，",
+          "maxCharacters": 220
         },
         {
-          "key": "opinion",
-          "demo": "也融入了我对社会如何围绕金钱运转的"
+          "key": "scene1.text3",
+          "demo": "也融入了创作者对社会与金钱的看法和观察。",
+          "maxCharacters": 220
         },
         {
-          "key": "observation",
-          "demo": "个人看法与观察。"
+          "key": "scene1.text4",
+          "demo": "这个话题十分庞大，一条视频无法涵盖全部。",
+          "maxCharacters": 220
         },
         {
-          "key": "scope",
-          "demo": "当然，这个话题十分庞大，很难在一条视频中讲完。"
+          "key": "scene1.text5",
+          "demo": "以下内容已经尽可能精简。",
+          "maxCharacters": 220
         },
         {
-          "key": "condensed",
-          "demo": "因此，接下来的内容已经尽可能精简，"
-        },
-        {
-          "key": "information",
-          "demo": "呈现其中最重要的信息。"
-        },
-        {
-          "key": "enjoy",
-          "demo": "祝你愉快 :)"
+          "key": "scene1.text6",
+          "demo": "祝你观看愉快。",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "disclaimer": "观看说明",
-        "credit": "本片深受 M.J.德马科作品的启发，",
-        "opinion": "也融入了我对社会如何围绕金钱运转的",
-        "observation": "个人看法与观察。",
-        "scope": "当然，这个话题十分庞大，很难在一条视频中讲完。",
-        "condensed": "因此，接下来的内容已经尽可能精简，",
-        "information": "呈现其中最重要的信息。",
-        "enjoy": "祝你愉快 :)"
+        "scene1.text1": "观看说明",
+        "scene1.text2": "本片深受M.J.德马科作品的启发，",
+        "scene1.text3": "也融入了创作者对社会与金钱的看法和观察。",
+        "scene1.text4": "这个话题十分庞大，一条视频无法涵盖全部。",
+        "scene1.text5": "以下内容已经尽可能精简。",
+        "scene1.text6": "祝你观看愉快。"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在正式正文前的说明、范围声明或气氛铺垫；助手根据文案调整中文内容。",
-      "qc": "ML-009-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-009-v4-qc.json",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 420,
+          "kind": "notice",
+          "texts": [
+            "观看说明",
+            "本片深受M.J.德马科作品的启发，",
+            "也融入了创作者对社会与金钱的看法和观察。",
+            "这个话题十分庞大，一条视频无法涵盖全部。",
+            "以下内容已经尽可能精简。",
+            "祝你观看愉快。"
+          ],
+          "background": "city",
+          "keys": [
+            "scene1.text1",
+            "scene1.text2",
+            "scene1.text3",
+            "scene1.text4",
+            "scene1.text5",
+            "scene1.text6"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "disclaimer",
-          "credit",
-          "opinion",
-          "observation",
-          "scope",
-          "condensed",
-          "information",
-          "enjoy"
+          "scene1.text1",
+          "scene1.text2",
+          "scene1.text3",
+          "scene1.text4",
+          "scene1.text5",
+          "scene1.text6"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "已复核 · 原生动效＋可改文字"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-010",
@@ -727,18 +957,19 @@
         "保持",
         "切出"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-010-reference.mp4",
-      "demo": "ML-010-cn-v5.mp4",
+      "demo": "ML-010-cn-v4.mp4",
       "audio": "ML-010-mix.m4a",
-      "package": "ML-010-v5.zip",
-      "recipe": "ML-010-v5.json",
-      "poster": "ML-010-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-010-v4.zip",
+      "recipe": "ML-010.json",
+      "poster": "ML-010-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -752,36 +983,63 @@
       ],
       "slots": [
         {
-          "key": "chapter",
-          "demo": "第一章"
+          "key": "scene1.text1",
+          "demo": "第一章",
+          "maxCharacters": 220
         },
         {
-          "key": "heading",
-          "demo": "你一直被灌输的谎言"
+          "key": "scene1.text2",
+          "demo": "你一直被灌输的谎言",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "chapter": "第一章",
-        "heading": "你一直被灌输的谎言"
+        "scene1.text1": "第一章",
+        "scene1.text2": "你一直被灌输的谎言"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在第一章开头或从引子进入正文；助手根据文案调整中文内容。",
-      "qc": "ML-010-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-010-v4-qc.json",
+      "scenes": [
+        {
+          "start": 113,
+          "end": 287,
+          "kind": "chapter",
+          "texts": [
+            "第一章",
+            "你一直被灌输的谎言"
+          ],
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "chapter",
-          "heading"
+          "scene1.text1",
+          "scene1.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-011",
@@ -828,8 +1086,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在轻松、讽刺或反差的观点旁，作为短小的卡通反应镜头。",
-      "qc": "ML-011-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-011-qc.json"
     },
     {
       "id": "ML-012",
@@ -849,18 +1106,19 @@
         "双卡同步移动",
         "方块闪白"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-012-reference.mp4",
-      "demo": "ML-012-cn-v5.mp4",
+      "demo": "ML-012-cn-v4.mp4",
       "audio": "ML-012-mix.m4a",
-      "package": "ML-012-v5.zip",
-      "recipe": "ML-012-v5.json",
-      "poster": "ML-012-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-012-v4.zip",
+      "recipe": "ML-012.json",
+      "poster": "ML-012-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -876,156 +1134,108 @@
       ],
       "slots": [
         {
-          "key": "nearly_68_of_the_world_s_richest_people",
-          "demo": "全球近68%的顶级富豪"
+          "key": "scene1.text1",
+          "demo": "全球近68%的顶级富豪靠白手起家致富",
+          "maxCharacters": 220
         },
         {
-          "key": "are_self_made_says_new_report",
-          "demo": "靠白手起家致富，最新报告显示"
+          "key": "scene1.text2",
+          "demo": "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
+          "maxCharacters": 220
         },
         {
-          "key": "trending_now",
-          "demo": "热门阅读"
+          "key": "scene1.text3",
+          "demo": "报告分析了净资产达到3000万美元以上的超高净值人群。",
+          "maxCharacters": 220
         },
         {
-          "key": "the_vast_majority_of_people_who_have_a_lot_of_money_made_it",
-          "demo": "绝大多数富人的财富是自己创造的，"
+          "key": "scene1.text4",
+          "demo": "根据2018年数据，这一人群增长0.8%，达到265490人。",
+          "maxCharacters": 220
         },
         {
-          "key": "themselves_according_to_a_new_report_released_wednesday_from",
-          "demo": "这是周三公布的一份最新报告得出的结论。"
+          "key": "scene1.text5",
+          "demo": "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
+          "maxCharacters": 220
         },
         {
-          "key": "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy",
-          "demo": "这家市场研究机构分析了全球超高净值人群，"
+          "key": "scene1.text6",
+          "demo": "只有8.5%完全依靠继承获得财富。",
+          "maxCharacters": 220
         },
         {
-          "key": "population_or_those_with_a_net_worth_of_30_million_or_more_the",
-          "demo": "即净资产达到3000万美元以上的人。"
-        },
-        {
-          "key": "individuals_says_wealth_x",
-          "demo": "以上数据来自 Wealth-X。"
-        },
-        {
-          "key": "report_which_is_based_on_2018_data_showed_muted_growth_in_the",
-          "demo": "报告根据2018年的数据，发现这一人群增长缓慢，"
-        },
-        {
-          "key": "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490",
-          "demo": "当年人数增加0.8%，达到265490人。"
-        },
-        {
-          "key": "the_vast_majority_of_people_who_have_a_lot_of_money_made",
-          "demo": "绝大多数富人的财富来自自身创造，"
-        },
-        {
-          "key": "it_themselves_according_to_a_new_report_released",
-          "demo": "这一结论来自周三发布的"
-        },
-        {
-          "key": "the_market_research_firm_analyzed_the_state_of_the_world_s",
-          "demo": "这家研究机构分析了全球"
-        },
-        {
-          "key": "ultra_wealthy_population_or_those_with_a_net_worth_of",
-          "demo": "超高净值人群，也就是净资产"
-        },
-        {
-          "key": "30_million_or_more_the_report_which_is_based_on_2018",
-          "demo": "达到3000万美元的人。报告根据2018年"
-        },
-        {
-          "key": "data_showed_muted_growth_in_the_number_of_ultra",
-          "demo": "的数据，发现超级富豪的人数"
-        },
-        {
-          "key": "of_those_folks_67_7_were_self_made_while_23_7_had_a",
-          "demo": "其中67.7%白手起家，23.7%的财富"
-        },
-        {
-          "key": "combination_of_inherited_and_self_created_wealth_only",
-          "demo": "同时来自继承和个人创造。只有"
-        },
-        {
-          "key": "8_5_of_global_high_net_worth_individuals_were_categorized",
-          "demo": "8.5%的全球高净值人士"
-        },
-        {
-          "key": "as_having_completely_inherited_their_wealth",
-          "demo": "完全依靠继承获得财富。"
-        },
-        {
-          "key": "wednesday_from_wealth_x",
-          "demo": "Wealth-X 最新报告。"
-        },
-        {
-          "key": "wealthy_people_that_year_rising_by_0_8_to_265_490",
-          "demo": "增长缓慢，仅增加0.8%，达到265490人。"
+          "key": "scene1.text7",
+          "demo": "科技发展与新兴经济体提供了新的财富创造机会。",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "nearly_68_of_the_world_s_richest_people": "全球近68%的顶级富豪",
-        "are_self_made_says_new_report": "靠白手起家致富，最新报告显示",
-        "trending_now": "热门阅读",
-        "the_vast_majority_of_people_who_have_a_lot_of_money_made_it": "绝大多数富人的财富是自己创造的，",
-        "themselves_according_to_a_new_report_released_wednesday_from": "这是周三公布的一份最新报告得出的结论。",
-        "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy": "这家市场研究机构分析了全球超高净值人群，",
-        "population_or_those_with_a_net_worth_of_30_million_or_more_the": "即净资产达到3000万美元以上的人。",
-        "individuals_says_wealth_x": "以上数据来自 Wealth-X。",
-        "report_which_is_based_on_2018_data_showed_muted_growth_in_the": "报告根据2018年的数据，发现这一人群增长缓慢，",
-        "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490": "当年人数增加0.8%，达到265490人。",
-        "the_vast_majority_of_people_who_have_a_lot_of_money_made": "绝大多数富人的财富来自自身创造，",
-        "it_themselves_according_to_a_new_report_released": "这一结论来自周三发布的",
-        "the_market_research_firm_analyzed_the_state_of_the_world_s": "这家研究机构分析了全球",
-        "ultra_wealthy_population_or_those_with_a_net_worth_of": "超高净值人群，也就是净资产",
-        "30_million_or_more_the_report_which_is_based_on_2018": "达到3000万美元的人。报告根据2018年",
-        "data_showed_muted_growth_in_the_number_of_ultra": "的数据，发现超级富豪的人数",
-        "of_those_folks_67_7_were_self_made_while_23_7_had_a": "其中67.7%白手起家，23.7%的财富",
-        "combination_of_inherited_and_self_created_wealth_only": "同时来自继承和个人创造。只有",
-        "8_5_of_global_high_net_worth_individuals_were_categorized": "8.5%的全球高净值人士",
-        "as_having_completely_inherited_their_wealth": "完全依靠继承获得财富。",
-        "wednesday_from_wealth_x": "Wealth-X 最新报告。",
-        "wealthy_people_that_year_rising_by_0_8_to_265_490": "增长缓慢，仅增加0.8%，达到265490人。"
+        "scene1.text1": "全球近68%的顶级富豪靠白手起家致富",
+        "scene1.text2": "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
+        "scene1.text3": "报告分析了净资产达到3000万美元以上的超高净值人群。",
+        "scene1.text4": "根据2018年数据，这一人群增长0.8%，达到265490人。",
+        "scene1.text5": "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
+        "scene1.text6": "只有8.5%完全依靠继承获得财富。",
+        "scene1.text7": "科技发展与新兴经济体提供了新的财富创造机会。"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在展示文章、报告或出处证据时；助手根据文案调整中文内容。",
-      "qc": "ML-012-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-012-v4-qc.json",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 375,
+          "kind": "article",
+          "texts": [
+            "全球近68%的顶级富豪靠白手起家致富",
+            "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
+            "报告分析了净资产达到3000万美元以上的超高净值人群。",
+            "根据2018年数据，这一人群增长0.8%，达到265490人。",
+            "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
+            "只有8.5%完全依靠继承获得财富。",
+            "科技发展与新兴经济体提供了新的财富创造机会。"
+          ],
+          "keys": [
+            "scene1.text1",
+            "scene1.text2",
+            "scene1.text3",
+            "scene1.text4",
+            "scene1.text5",
+            "scene1.text6",
+            "scene1.text7"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "nearly_68_of_the_world_s_richest_people",
-          "are_self_made_says_new_report",
-          "trending_now",
-          "the_vast_majority_of_people_who_have_a_lot_of_money_made_it",
-          "themselves_according_to_a_new_report_released_wednesday_from",
-          "the_market_research_firm_analyzed_the_state_of_the_world_s_ultra_wealthy",
-          "population_or_those_with_a_net_worth_of_30_million_or_more_the",
-          "individuals_says_wealth_x",
-          "report_which_is_based_on_2018_data_showed_muted_growth_in_the",
-          "number_of_ultra_wealthy_people_that_year_rising_by_0_8_to_265_490",
-          "the_vast_majority_of_people_who_have_a_lot_of_money_made",
-          "it_themselves_according_to_a_new_report_released",
-          "the_market_research_firm_analyzed_the_state_of_the_world_s",
-          "ultra_wealthy_population_or_those_with_a_net_worth_of",
-          "30_million_or_more_the_report_which_is_based_on_2018",
-          "data_showed_muted_growth_in_the_number_of_ultra",
-          "of_those_folks_67_7_were_self_made_while_23_7_had_a",
-          "combination_of_inherited_and_self_created_wealth_only",
-          "8_5_of_global_high_net_worth_individuals_were_categorized",
-          "as_having_completely_inherited_their_wealth",
-          "wednesday_from_wealth_x",
-          "wealthy_people_that_year_rising_by_0_8_to_265_490"
+          "scene1.text1",
+          "scene1.text2",
+          "scene1.text3",
+          "scene1.text4",
+          "scene1.text5",
+          "scene1.text6",
+          "scene1.text7"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-013",
@@ -1540,8 +1750,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-014",
@@ -1714,8 +1923,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-015",
@@ -1946,8 +2154,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-016",
@@ -2006,8 +2213,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在插入短采访或名人观点时；适合作为论述间的证据性镜头。",
-      "qc": "ML-016-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-016-qc.json"
     },
     {
       "id": "ML-017",
@@ -2027,18 +2233,19 @@
         "金色烟雾",
         "章节文字分层"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-017-reference.mp4",
-      "demo": "ML-017-cn-v5.mp4",
+      "demo": "ML-017-cn-v4.mp4",
       "audio": "ML-017-mix.m4a",
-      "package": "ML-017-v5.zip",
-      "recipe": "ML-017-v5.json",
-      "poster": "ML-017-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-017-v4.zip",
+      "recipe": "ML-017.json",
+      "poster": "ML-017-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -2068,42 +2275,63 @@
       ],
       "slots": [
         {
-          "key": "chapter",
-          "demo": "第二章"
+          "key": "scene1.text1",
+          "demo": "第二章",
+          "maxCharacters": 220
         },
         {
-          "key": "heading1",
-          "demo": "关于金钱与财富的"
-        },
-        {
-          "key": "heading2",
-          "demo": "真相"
+          "key": "scene1.text2",
+          "demo": "金钱与财富的真相",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "chapter": "第二章",
-        "heading1": "关于金钱与财富的",
-        "heading2": "真相"
+        "scene1.text1": "第二章",
+        "scene1.text2": "金钱与财富的真相"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在第二层观点展开或重要转折后的章节切换；助手根据文案调整中文内容。",
-      "qc": "ML-017-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-017-v4-qc.json",
+      "scenes": [
+        {
+          "start": 262,
+          "end": 459,
+          "kind": "chapter",
+          "texts": [
+            "第二章",
+            "金钱与财富的真相"
+          ],
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "chapter",
-          "heading1",
-          "heading2"
+          "scene1.text1",
+          "scene1.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-018",
@@ -2242,8 +2470,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-019",
@@ -2408,8 +2635,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-020",
@@ -2516,8 +2742,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-021",
@@ -2537,18 +2762,19 @@
         "黄色闪切",
         "业务版图卡进入保持"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-021-reference.mp4",
-      "demo": "ML-021-cn-v5.mp4",
+      "demo": "ML-021-cn-v4.mp4",
       "audio": "ML-021-mix.m4a",
-      "package": "ML-021-v5.zip",
-      "recipe": "ML-021-v5.json",
-      "poster": "ML-021-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-021-v4.zip",
+      "recipe": "ML-021.json",
+      "poster": "ML-021-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -2561,42 +2787,126 @@
       ],
       "slots": [
         {
-          "key": "lead",
-          "demo": "商业"
+          "key": "scene1.text1",
+          "demo": "亚马逊",
+          "maxCharacters": 220
         },
         {
-          "key": "name",
-          "demo": "贝索斯"
+          "key": "scene2.text1",
+          "demo": "贝索斯的商业版图",
+          "maxCharacters": 220
         },
         {
-          "key": "empire",
-          "demo": "帝国"
+          "key": "scene2.text2",
+          "demo": "电商",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene2.text3",
+          "demo": "云计算",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene2.text4",
+          "demo": "物流",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene2.text5",
+          "demo": "媒体",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene2.text6",
+          "demo": "航天",
+          "maxCharacters": 220
+        },
+        {
+          "key": "scene2.text7",
+          "demo": "投资",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "lead": "商业",
-        "name": "贝索斯",
-        "empire": "帝国"
+        "scene1.text1": "亚马逊",
+        "scene2.text1": "贝索斯的商业版图",
+        "scene2.text2": "电商",
+        "scene2.text3": "云计算",
+        "scene2.text4": "物流",
+        "scene2.text5": "媒体",
+        "scene2.text6": "航天",
+        "scene2.text7": "投资"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在讲品牌、商业系统或多个环节之间的联系时；助手根据文案调整中文内容。",
-      "qc": "ML-021-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-021-v4-qc.json",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 150,
+          "kind": "brand",
+          "texts": [
+            "亚马逊"
+          ],
+          "keys": [
+            "scene1.text1"
+          ]
+        },
+        {
+          "start": 270,
+          "end": 414,
+          "kind": "network",
+          "texts": [
+            "贝索斯的商业版图",
+            "电商",
+            "云计算",
+            "物流",
+            "媒体",
+            "航天",
+            "投资"
+          ],
+          "keys": [
+            "scene2.text1",
+            "scene2.text2",
+            "scene2.text3",
+            "scene2.text4",
+            "scene2.text5",
+            "scene2.text6",
+            "scene2.text7"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "lead",
-          "name",
-          "empire"
+          "scene1.text1",
+          "scene2.text1",
+          "scene2.text2",
+          "scene2.text3",
+          "scene2.text4",
+          "scene2.text5",
+          "scene2.text6",
+          "scene2.text7"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-022",
@@ -2615,18 +2925,19 @@
         "保持",
         "切出"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-022-reference.mp4",
-      "demo": "ML-022-cn-v5.mp4",
+      "demo": "ML-022-cn-v4.mp4",
       "audio": "ML-022-mix.m4a",
-      "package": "ML-022-v5.zip",
-      "recipe": "ML-022-v5.json",
-      "poster": "ML-022-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-022-v4.zip",
+      "recipe": "ML-022.json",
+      "poster": "ML-022-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -2640,30 +2951,56 @@
       ],
       "slots": [
         {
-          "key": "wrong",
-          "demo": "错了"
+          "key": "scene1.text1",
+          "demo": "方向错了",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "wrong": "错了"
+        "scene1.text1": "方向错了"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在明确否定一个误区、错误方向或错误选择时；助手根据文案调整中文内容。",
-      "qc": "ML-022-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-022-v4-qc.json",
+      "scenes": [
+        {
+          "start": 60,
+          "end": 168,
+          "kind": "stamp",
+          "texts": [
+            "方向错了"
+          ],
+          "background": "sports",
+          "tone": "red",
+          "keys": [
+            "scene1.text1"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "wrong"
+          "scene1.text1"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-023",
@@ -2780,8 +3117,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-024",
@@ -2848,8 +3184,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在从金钱结果切回长期道路或过程时；现金闪回可作视觉重音。",
-      "qc": "ML-024-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-024-qc.json"
     },
     {
       "id": "ML-025",
@@ -2963,8 +3298,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在紧张、觉醒或冲击性观点处；黑场与闪回制造节奏，不适合平静的连续阅读。",
-      "qc": "ML-025-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-025-qc.json"
     },
     {
       "id": "ML-026",
@@ -2983,18 +3317,19 @@
         "副标题慢淡入",
         "城市切出"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-026-reference.mp4",
-      "demo": "ML-026-cn-v5.mp4",
+      "demo": "ML-026-cn-v4.mp4",
       "audio": "ML-026-mix.m4a",
-      "package": "ML-026-v5.zip",
-      "recipe": "ML-026-v5.json",
-      "poster": "ML-026-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-026-v4.zip",
+      "recipe": "ML-026.json",
+      "poster": "ML-026-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -3002,36 +3337,64 @@
       ],
       "slots": [
         {
-          "key": "chapter",
-          "demo": "第三章"
+          "key": "scene1.text1",
+          "demo": "第三章",
+          "maxCharacters": 220
         },
         {
-          "key": "heading",
-          "demo": "值得解决的问题"
+          "key": "scene1.text2",
+          "demo": "值得解决的问题",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "chapter": "第三章",
-        "heading": "值得解决的问题"
+        "scene1.text1": "第三章",
+        "scene1.text2": "值得解决的问题"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在第三章或新的问题主题开始时；助手根据文案调整中文内容。",
-      "qc": "ML-026-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-026-v4-qc.json",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 209,
+          "kind": "chapter",
+          "texts": [
+            "第三章",
+            "值得解决的问题"
+          ],
+          "motionOffset": 1,
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "chapter",
-          "heading"
+          "scene1.text1",
+          "scene1.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-027",
@@ -3053,18 +3416,19 @@
         "绿色斜章",
         "黑场"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-027-reference.mp4",
-      "demo": "ML-027-cn-v5.mp4",
+      "demo": "ML-027-cn-v4.mp4",
       "audio": "ML-027-mix.m4a",
-      "package": "ML-027-v5.zip",
-      "recipe": "ML-027-v5.json",
-      "poster": "ML-027-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-027-v4.zip",
+      "recipe": "ML-027.json",
+      "poster": "ML-027-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -3086,36 +3450,76 @@
       ],
       "slots": [
         {
-          "key": "negative",
-          "demo": "难以规模化"
+          "key": "scene1.text1",
+          "demo": "难以规模化",
+          "maxCharacters": 220
         },
         {
-          "key": "positive",
-          "demo": "可以规模化"
+          "key": "scene2.text1",
+          "demo": "可以规模化",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "negative": "难以规模化",
-        "positive": "可以规模化"
+        "scene1.text1": "难以规模化",
+        "scene2.text1": "可以规模化"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在不能复制与能够复制、错误与正确等二选一对比；助手根据文案调整中文内容。",
-      "qc": "ML-027-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-027-v4-qc.json",
+      "scenes": [
+        {
+          "start": 102,
+          "end": 171,
+          "kind": "stamp",
+          "texts": [
+            "难以规模化"
+          ],
+          "background": "kitchen",
+          "tone": "red",
+          "keys": [
+            "scene1.text1"
+          ]
+        },
+        {
+          "start": 219,
+          "end": 309,
+          "kind": "stamp",
+          "texts": [
+            "可以规模化"
+          ],
+          "background": "scale",
+          "tone": "green",
+          "keys": [
+            "scene2.text1"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "negative",
-          "positive"
+          "scene1.text1",
+          "scene2.text1"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-028",
@@ -3305,8 +3709,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-029",
@@ -3327,18 +3730,19 @@
         "两行命题逐字",
         "切出"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-029-reference.mp4",
-      "demo": "ML-029-cn-v5.mp4",
+      "demo": "ML-029-cn-v4.mp4",
       "audio": "ML-029-mix.m4a",
-      "package": "ML-029-v5.zip",
-      "recipe": "ML-029-v5.json",
-      "poster": "ML-029-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-029-v4.zip",
+      "recipe": "ML-029.json",
+      "poster": "ML-029-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [],
       "cutFrames": [
@@ -3367,36 +3771,64 @@
       ],
       "slots": [
         {
-          "key": "claim",
-          "demo": "市场并不关心"
+          "key": "scene1.text1",
+          "demo": "市场并不关心",
+          "maxCharacters": 220
         },
         {
-          "key": "object",
-          "demo": "你的热情"
+          "key": "scene1.text2",
+          "demo": "你的热情",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "claim": "市场并不关心",
-        "object": "你的热情"
+        "scene1.text1": "市场并不关心",
+        "scene1.text2": "你的热情"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在强调市场、需求与个人兴趣之间的冲突；助手根据文案调整中文内容。",
-      "qc": "ML-029-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-029-v4-qc.json",
+      "scenes": [
+        {
+          "start": 192,
+          "end": 270,
+          "kind": "title",
+          "texts": [
+            "市场并不关心",
+            "你的热情"
+          ],
+          "strong": 1,
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "claim",
-          "object"
+          "scene1.text1",
+          "scene1.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-030",
@@ -3416,18 +3848,19 @@
         "保持",
         "实拍"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-030-reference.mp4",
-      "demo": "ML-030-cn-v5.mp4",
+      "demo": "ML-030-cn-v4.mp4",
       "audio": "ML-030-mix.m4a",
-      "package": "ML-030-v5.zip",
-      "recipe": "ML-030-v5.json",
-      "poster": "ML-030-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-030-v4.zip",
+      "recipe": "ML-030.json",
+      "poster": "ML-030-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -3441,36 +3874,63 @@
       ],
       "slots": [
         {
-          "key": "chapter",
-          "demo": "第四章"
+          "key": "scene1.text1",
+          "demo": "第四章",
+          "maxCharacters": 220
         },
         {
-          "key": "heading",
-          "demo": "回报"
+          "key": "scene1.text2",
+          "demo": "回报",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "chapter": "第四章",
-        "heading": "回报"
+        "scene1.text1": "第四章",
+        "scene1.text2": "回报"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在成果、回报或阶段总结的新章节；助手根据文案调整中文内容。",
-      "qc": "ML-030-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-030-v4-qc.json",
+      "scenes": [
+        {
+          "start": 270,
+          "end": 430,
+          "kind": "chapter",
+          "texts": [
+            "第四章",
+            "回报"
+          ],
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "chapter",
-          "heading"
+          "scene1.text1",
+          "scene1.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-031",
@@ -3683,8 +4143,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-032",
@@ -3733,8 +4192,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在同时展示三类人物、三种方案或三个维度；文案最好使用平行结构。",
-      "qc": "ML-032-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-032-qc.json"
     },
     {
       "id": "ML-033",
@@ -3754,18 +4212,19 @@
         "保持",
         "公路"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-033-reference.mp4",
-      "demo": "ML-033-cn-v5.mp4",
+      "demo": "ML-033-cn-v4.mp4",
       "audio": "ML-033-mix.m4a",
-      "package": "ML-033-v5.zip",
-      "recipe": "ML-033-v5.json",
-      "poster": "ML-033-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-033-v4.zip",
+      "recipe": "ML-033.json",
+      "poster": "ML-033-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -3778,36 +4237,64 @@
       ],
       "slots": [
         {
-          "key": "chapter",
-          "demo": "第五章"
+          "key": "scene1.text1",
+          "demo": "第五章",
+          "maxCharacters": 220
         },
         {
-          "key": "heading",
-          "demo": "金钱，还是人生"
+          "key": "scene1.text2",
+          "demo": "金钱，还是人生",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "chapter": "第五章",
-        "heading": "金钱，还是人生"
+        "scene1.text1": "第五章",
+        "scene1.text2": "金钱，还是人生"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在从物质回报转向时间、人生与选择的章节；助手根据文案调整中文内容。",
-      "qc": "ML-033-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-033-v4-qc.json",
+      "scenes": [
+        {
+          "start": 236,
+          "end": 597,
+          "kind": "chapter",
+          "texts": [
+            "第五章",
+            "金钱，还是人生"
+          ],
+          "dark": true,
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "chapter",
-          "heading"
+          "scene1.text1",
+          "scene1.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-034",
@@ -3857,8 +4344,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在技术、系统、信息流或机制揭示的短插入；代码雨主要营造氛围，不表达具体代码结论。",
-      "qc": "ML-034-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-034-qc.json"
     },
     {
       "id": "ML-035",
@@ -3879,18 +4365,19 @@
         "手表提问",
         "黑场"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-035-reference.mp4",
-      "demo": "ML-035-cn-v5.mp4",
+      "demo": "ML-035-cn-v4.mp4",
       "audio": "ML-035-mix.m4a",
-      "package": "ML-035-v5.zip",
-      "recipe": "ML-035-v5.json",
-      "poster": "ML-035-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-035-v4.zip",
+      "recipe": "ML-035.json",
+      "poster": "ML-035-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -3912,60 +4399,145 @@
       ],
       "slots": [
         {
-          "key": "question1",
-          "demo": "“我买得起吗？”"
+          "key": "scene1.text1",
+          "demo": "我买得起吗？",
+          "maxCharacters": 220
         },
         {
-          "key": "question2",
-          "demo": "“我的假期用完了吗？”"
+          "key": "scene2.text1",
+          "demo": "我的假期用完了吗？",
+          "maxCharacters": 220
         },
         {
-          "key": "question3",
-          "demo": "“我该如何支付房租？”"
+          "key": "scene3.text1",
+          "demo": "我该如何支付房租？",
+          "maxCharacters": 220
         },
         {
-          "key": "question4",
-          "demo": "“养老金够我生活吗？”"
+          "key": "scene4.text1",
+          "demo": "养老金够我生活吗？",
+          "maxCharacters": 220
         },
         {
-          "key": "question5",
-          "demo": "“我又不得不放弃"
+          "key": "scene5.text1",
+          "demo": "我不得不放弃",
+          "maxCharacters": 220
         },
         {
-          "key": "question6",
-          "demo": "哪些梦想？”"
+          "key": "scene5.text2",
+          "demo": "哪些梦想？",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "question1": "“我买得起吗？”",
-        "question2": "“我的假期用完了吗？”",
-        "question3": "“我该如何支付房租？”",
-        "question4": "“养老金够我生活吗？”",
-        "question5": "“我又不得不放弃",
-        "question6": "哪些梦想？”"
+        "scene1.text1": "我买得起吗？",
+        "scene2.text1": "我的假期用完了吗？",
+        "scene3.text1": "我该如何支付房租？",
+        "scene4.text1": "养老金够我生活吗？",
+        "scene5.text1": "我不得不放弃",
+        "scene5.text2": "哪些梦想？"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在连续自问或列出限制条件的反思段；助手根据文案调整中文内容。",
-      "qc": "ML-035-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-035-v4-qc.json",
+      "scenes": [
+        {
+          "start": 90,
+          "end": 132,
+          "kind": "question",
+          "texts": [
+            "我买得起吗？"
+          ],
+          "background": "life",
+          "position": 0,
+          "keys": [
+            "scene1.text1"
+          ]
+        },
+        {
+          "start": 132,
+          "end": 192,
+          "kind": "question",
+          "texts": [
+            "我的假期用完了吗？"
+          ],
+          "background": "life",
+          "position": 1,
+          "keys": [
+            "scene2.text1"
+          ]
+        },
+        {
+          "start": 192,
+          "end": 237,
+          "kind": "question",
+          "texts": [
+            "我该如何支付房租？"
+          ],
+          "background": "life",
+          "position": 2,
+          "keys": [
+            "scene3.text1"
+          ]
+        },
+        {
+          "start": 237,
+          "end": 282,
+          "kind": "question",
+          "texts": [
+            "养老金够我生活吗？"
+          ],
+          "background": "life",
+          "position": 1,
+          "keys": [
+            "scene4.text1"
+          ]
+        },
+        {
+          "start": 282,
+          "end": 403,
+          "kind": "question",
+          "texts": [
+            "我不得不放弃",
+            "哪些梦想？"
+          ],
+          "background": "life",
+          "position": 0,
+          "keys": [
+            "scene5.text1",
+            "scene5.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "question1",
-          "question2",
-          "question3",
-          "question4",
-          "question5",
-          "question6"
+          "scene1.text1",
+          "scene2.text1",
+          "scene3.text1",
+          "scene4.text1",
+          "scene5.text1",
+          "scene5.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-036",
@@ -4057,8 +4629,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在回顾多个案例、情绪加速或结尾前的总结蒙太奇；不适合逐条细读。",
-      "qc": "ML-036-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-036-qc.json"
     },
     {
       "id": "ML-037",
@@ -4128,8 +4699,7 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在最后一次观点引用、媒体回顾或节奏重击；电视闪屏作为短过渡。",
-      "qc": "ML-037-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-037-qc.json"
     },
     {
       "id": "ML-038",
@@ -4149,18 +4719,19 @@
         "保持",
         "城市切入"
       ],
-      "architecture": "fixed-native-motion-plus-editable-text",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
       "reference": "ML-038-reference.mp4",
-      "demo": "ML-038-cn-v5.mp4",
+      "demo": "ML-038-cn-v4.mp4",
       "audio": "ML-038-mix.m4a",
-      "package": "ML-038-v5.zip",
-      "recipe": "ML-038-v5.json",
-      "poster": "ML-038-cn-v5.jpg",
-      "status": "candidate-trial",
+      "package": "ML-038-v4.zip",
+      "recipe": "ML-038.json",
+      "poster": "ML-038-cn-v4.jpg",
+      "status": "reusable-Chinese-rebuild",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
       "blackRanges": [
         [
@@ -4173,42 +4744,72 @@
       ],
       "slots": [
         {
-          "key": "line1",
-          "demo": "别再追逐金钱"
+          "key": "scene1.text1",
+          "demo": "别再追逐金钱",
+          "maxCharacters": 220
         },
         {
-          "key": "line2",
-          "demo": "去寻找问题"
+          "key": "scene1.text2",
+          "demo": "去寻找问题",
+          "maxCharacters": 220
         },
         {
-          "key": "line3",
-          "demo": "找到这些问题的解决方案"
+          "key": "scene1.text3",
+          "demo": "找到解决方案",
+          "maxCharacters": 220
         }
       ],
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "demoOptions": {
-        "line1": "别再追逐金钱",
-        "line2": "去寻找问题",
-        "line3": "找到这些问题的解决方案"
+        "scene1.text1": "别再追逐金钱",
+        "scene1.text2": "去寻找问题",
+        "scene1.text3": "找到解决方案"
       },
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在片尾总结与行动建议；助手根据文案调整中文内容。",
-      "qc": "ML-038-v5-qc.json",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "qc": "ML-038-v4-qc.json",
+      "scenes": [
+        {
+          "start": 42,
+          "end": 309,
+          "kind": "closing",
+          "texts": [
+            "别再追逐金钱",
+            "去寻找问题",
+            "找到解决方案"
+          ],
+          "keys": [
+            "scene1.text1",
+            "scene1.text2",
+            "scene1.text3"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "line1",
-          "line2",
-          "line3"
+          "scene1.text1",
+          "scene1.text2",
+          "scene1.text3"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-039",
@@ -4257,14 +4858,14 @@
       "sourceFile": "没有人名的完整版去掉人声音.mov",
       "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
       "useCases": "用在故事收束、情绪落点或片尾余韵；城市与人物镜头用于结束，不强塞新概念。",
-      "qc": "ML-039-qc.json",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "qc": "ML-039-qc.json"
     },
     {
       "id": "ML-040",
       "title": "卡通反应与表情推近",
       "kind": "用户精选片段",
       "sourceFile": "9月30日14个精选片段-1.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-1.mov",
       "sourceStartFrame": 0,
       "sourceEndFrameExclusive": 93,
       "frames": 93,
@@ -4298,8 +4899,7 @@
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
-      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
     },
     {
       "id": "ML-041",
@@ -4446,8 +5046,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-042",
@@ -4585,8 +5184,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-043",
@@ -4782,8 +5380,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-044",
@@ -4816,156 +5413,257 @@
       ],
       "slots": [
         {
-          "key": "warren_buffett",
-          "demo": "沃伦·巴菲特"
+          "key": "scene1.text1",
+          "demo": "白手起家",
+          "maxCharacters": 220
         },
         {
-          "key": "ceo_of_berkshire_hathaway",
-          "demo": "伯克希尔·哈撒韦首席执行官"
+          "key": "scene1.person1.name",
+          "demo": "沃伦·巴菲特",
+          "maxCharacters": 220
         },
         {
-          "key": "net_worth",
-          "demo": "净资产"
+          "key": "scene1.person1.role",
+          "demo": "伯克希尔·哈撒韦首席执行官",
+          "maxCharacters": 220
         },
         {
-          "key": "72_9_billion",
-          "demo": "729亿美元"
+          "key": "scene1.person1.value",
+          "demo": "729亿美元",
+          "maxCharacters": 220
         },
         {
-          "key": "howard_schultz",
-          "demo": "霍华德·舒尔茨"
+          "key": "scene1.person2.name",
+          "demo": "霍华德·舒尔茨",
+          "maxCharacters": 220
         },
         {
-          "key": "previous_ceo_of_starbucks",
-          "demo": "星巴克前首席执行官"
+          "key": "scene1.person2.role",
+          "demo": "星巴克前首席执行官",
+          "maxCharacters": 220
         },
         {
-          "key": "3_5_billion",
-          "demo": "35亿美元"
+          "key": "scene1.person2.value",
+          "demo": "35亿美元",
+          "maxCharacters": 220
         },
         {
-          "key": "oprah_winfrey",
-          "demo": "奥普拉·温弗瑞"
+          "key": "scene1.person3.name",
+          "demo": "奥普拉·温弗瑞",
+          "maxCharacters": 220
         },
         {
-          "key": "media_executive_presenter_producer",
-          "demo": "媒体高管、主持人、制作人"
+          "key": "scene1.person3.role",
+          "demo": "主持人、媒体制作人",
+          "maxCharacters": 220
         },
         {
-          "key": "2_6_billion",
-          "demo": "26亿美元"
+          "key": "scene1.person3.value",
+          "demo": "26亿美元",
+          "maxCharacters": 220
         },
         {
-          "key": "jeff_bezos",
-          "demo": "杰夫·贝索斯"
+          "key": "scene1.person4.name",
+          "demo": "杰夫·贝索斯",
+          "maxCharacters": 220
         },
         {
-          "key": "ceo_of_amazon",
-          "demo": "亚马逊首席执行官"
+          "key": "scene1.person4.role",
+          "demo": "亚马逊创始人",
+          "maxCharacters": 220
         },
         {
-          "key": "117_3_billion",
-          "demo": "1173亿美元"
+          "key": "scene1.person4.value",
+          "demo": "1173亿美元",
+          "maxCharacters": 220
         },
         {
-          "key": "elon_musk",
-          "demo": "埃隆·马斯克"
+          "key": "scene1.person5.name",
+          "demo": "埃隆·马斯克",
+          "maxCharacters": 220
         },
         {
-          "key": "ceo_of_spacex_tesla",
-          "demo": "SpaceX、特斯拉首席执行官"
+          "key": "scene1.person5.role",
+          "demo": "SpaceX、特斯拉首席执行官",
+          "maxCharacters": 220
         },
         {
-          "key": "30_billion",
-          "demo": "300亿美元"
+          "key": "scene1.person5.value",
+          "demo": "300亿美元",
+          "maxCharacters": 220
         },
         {
-          "key": "sara_blakely",
-          "demo": "萨拉·布莱克利"
+          "key": "scene1.person6.name",
+          "demo": "萨拉·布莱克利",
+          "maxCharacters": 220
         },
         {
-          "key": "founder_of_spanx",
-          "demo": "Spanx 创始人"
+          "key": "scene1.person6.role",
+          "demo": "Spanx 创始人",
+          "maxCharacters": 220
         },
         {
-          "key": "1_billion",
-          "demo": "10亿美元"
-        },
-        {
-          "key": "stamp",
-          "demo": "白手起家"
+          "key": "scene1.person6.value",
+          "demo": "10亿美元",
+          "maxCharacters": 220
         }
       ],
       "demoOptions": {
-        "warren_buffett": "沃伦·巴菲特",
-        "ceo_of_berkshire_hathaway": "伯克希尔·哈撒韦首席执行官",
-        "net_worth": "净资产",
-        "72_9_billion": "729亿美元",
-        "howard_schultz": "霍华德·舒尔茨",
-        "previous_ceo_of_starbucks": "星巴克前首席执行官",
-        "3_5_billion": "35亿美元",
-        "oprah_winfrey": "奥普拉·温弗瑞",
-        "media_executive_presenter_producer": "媒体高管、主持人、制作人",
-        "2_6_billion": "26亿美元",
-        "jeff_bezos": "杰夫·贝索斯",
-        "ceo_of_amazon": "亚马逊首席执行官",
-        "117_3_billion": "1173亿美元",
-        "elon_musk": "埃隆·马斯克",
-        "ceo_of_spacex_tesla": "SpaceX、特斯拉首席执行官",
-        "30_billion": "300亿美元",
-        "sara_blakely": "萨拉·布莱克利",
-        "founder_of_spanx": "Spanx 创始人",
-        "1_billion": "10亿美元",
-        "stamp": "白手起家"
+        "scene1.text1": "白手起家",
+        "scene1.person1.name": "沃伦·巴菲特",
+        "scene1.person1.role": "伯克希尔·哈撒韦首席执行官",
+        "scene1.person1.value": "729亿美元",
+        "scene1.person2.name": "霍华德·舒尔茨",
+        "scene1.person2.role": "星巴克前首席执行官",
+        "scene1.person2.value": "35亿美元",
+        "scene1.person3.name": "奥普拉·温弗瑞",
+        "scene1.person3.role": "主持人、媒体制作人",
+        "scene1.person3.value": "26亿美元",
+        "scene1.person4.name": "杰夫·贝索斯",
+        "scene1.person4.role": "亚马逊创始人",
+        "scene1.person4.value": "1173亿美元",
+        "scene1.person5.name": "埃隆·马斯克",
+        "scene1.person5.role": "SpaceX、特斯拉首席执行官",
+        "scene1.person5.value": "300亿美元",
+        "scene1.person6.name": "萨拉·布莱克利",
+        "scene1.person6.role": "Spanx 创始人",
+        "scene1.person6.value": "10亿美元"
       },
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reference": "ML-044-reference.mp4",
-      "demo": "ML-044-cn-v5.mp4",
+      "demo": "ML-044-cn-v4.mp4",
       "audio": "ML-044-mix.m4a",
-      "poster": "ML-044-cn-v5.jpg",
-      "recipe": "ML-044-v5.json",
-      "qc": "ML-044-v5-qc.json",
-      "package": "ML-044-v5.zip",
+      "poster": "ML-044-cn-v4.jpg",
+      "recipe": "ML-044.json",
+      "qc": "ML-044-v4-qc.json",
+      "package": "ML-044-v4.zip",
       "useCases": "用在连续列举人物成就、案例或共同标签时；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
-      "status": "candidate-trial",
+      "status": "reusable-Chinese-rebuild",
       "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "architecture": "fixed-native-motion-plus-editable-text",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 320,
+          "kind": "people",
+          "texts": [
+            "白手起家"
+          ],
+          "people": [
+            [
+              "沃伦·巴菲特",
+              "伯克希尔·哈撒韦首席执行官",
+              "729亿美元"
+            ],
+            [
+              "霍华德·舒尔茨",
+              "星巴克前首席执行官",
+              "35亿美元"
+            ],
+            [
+              "奥普拉·温弗瑞",
+              "主持人、媒体制作人",
+              "26亿美元"
+            ],
+            [
+              "杰夫·贝索斯",
+              "亚马逊创始人",
+              "1173亿美元"
+            ],
+            [
+              "埃隆·马斯克",
+              "SpaceX、特斯拉首席执行官",
+              "300亿美元"
+            ],
+            [
+              "萨拉·布莱克利",
+              "Spanx 创始人",
+              "10亿美元"
+            ]
+          ],
+          "keys": [
+            "scene1.text1"
+          ],
+          "peopleKeys": [
+            [
+              "scene1.person1.name",
+              "scene1.person1.role",
+              "scene1.person1.value"
+            ],
+            [
+              "scene1.person2.name",
+              "scene1.person2.role",
+              "scene1.person2.value"
+            ],
+            [
+              "scene1.person3.name",
+              "scene1.person3.role",
+              "scene1.person3.value"
+            ],
+            [
+              "scene1.person4.name",
+              "scene1.person4.role",
+              "scene1.person4.value"
+            ],
+            [
+              "scene1.person5.name",
+              "scene1.person5.role",
+              "scene1.person5.value"
+            ],
+            [
+              "scene1.person6.name",
+              "scene1.person6.role",
+              "scene1.person6.value"
+            ]
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "warren_buffett",
-          "ceo_of_berkshire_hathaway",
-          "net_worth",
-          "72_9_billion",
-          "howard_schultz",
-          "previous_ceo_of_starbucks",
-          "3_5_billion",
-          "oprah_winfrey",
-          "media_executive_presenter_producer",
-          "2_6_billion",
-          "jeff_bezos",
-          "ceo_of_amazon",
-          "117_3_billion",
-          "elon_musk",
-          "ceo_of_spacex_tesla",
-          "30_billion",
-          "sara_blakely",
-          "founder_of_spanx",
-          "1_billion",
-          "stamp"
+          "scene1.text1",
+          "scene1.person1.name",
+          "scene1.person1.role",
+          "scene1.person1.value",
+          "scene1.person2.name",
+          "scene1.person2.role",
+          "scene1.person2.value",
+          "scene1.person3.name",
+          "scene1.person3.role",
+          "scene1.person3.value",
+          "scene1.person4.name",
+          "scene1.person4.role",
+          "scene1.person4.value",
+          "scene1.person5.name",
+          "scene1.person5.role",
+          "scene1.person5.value",
+          "scene1.person6.name",
+          "scene1.person6.role",
+          "scene1.person6.value"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-045",
@@ -5306,8 +6004,7 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-046",
@@ -5432,14 +6129,14 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-047",
       "title": "访谈电视换台与扫描断层",
       "kind": "用户精选片段",
       "sourceFile": "9月30日14个精选片段-8.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-8.mov",
       "sourceStartFrame": 0,
       "sourceEndFrameExclusive": 162,
       "frames": 162,
@@ -5492,8 +6189,7 @@
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
-      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
     },
     {
       "id": "ML-048",
@@ -5597,14 +6293,14 @@
           "person6Asset"
         ],
         "duration": "fixed source frame count; assistant edits final timeline"
-      },
-      "reviewLabel": "待优化 · 保留现有版本"
+      }
     },
     {
       "id": "ML-049",
       "title": "日常到财富结果的故事蒙太奇",
       "kind": "用户精选片段",
       "sourceFile": "9月30日14个精选片段-10.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-10.mov",
       "sourceStartFrame": 0,
       "sourceEndFrameExclusive": 836,
       "frames": 836,
@@ -5662,8 +6358,7 @@
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
-      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
     },
     {
       "id": "ML-050",
@@ -5728,54 +6423,84 @@
       ],
       "slots": [
         {
-          "key": "lead",
-          "demo": "他们究竟"
+          "key": "scene1.text1",
+          "demo": "他们究竟",
+          "maxCharacters": 220
         },
         {
-          "key": "question",
-          "demo": "如何做到？"
+          "key": "scene1.text2",
+          "demo": "如何做到？",
+          "maxCharacters": 220
         }
       ],
       "demoOptions": {
-        "lead": "他们究竟",
-        "question": "如何做到？"
+        "scene1.text1": "他们究竟",
+        "scene1.text2": "如何做到？"
       },
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reference": "ML-050-reference.mp4",
-      "demo": "ML-050-cn-v5.mp4",
+      "demo": "ML-050-cn-v4.mp4",
       "audio": "ML-050-mix.m4a",
-      "poster": "ML-050-cn-v5.jpg",
-      "recipe": "ML-050-v5.json",
-      "qc": "ML-050-v5-qc.json",
-      "package": "ML-050-v5.zip",
+      "poster": "ML-050-cn-v4.jpg",
+      "recipe": "ML-050.json",
+      "qc": "ML-050-v4-qc.json",
+      "package": "ML-050-v4.zip",
       "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
-      "status": "candidate-trial",
+      "status": "reusable-Chinese-rebuild",
       "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "architecture": "fixed-native-motion-plus-editable-text",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 78,
+          "kind": "title",
+          "texts": [
+            "他们究竟",
+            "如何做到？"
+          ],
+          "strong": 1,
+          "keys": [
+            "scene1.text1",
+            "scene1.text2"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "lead",
-          "question"
+          "scene1.text1",
+          "scene1.text2"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "待优化 · 新版试用"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-051",
       "title": "黑场到知识、金钱与选择",
       "kind": "用户精选片段",
       "sourceFile": "9月30日14个精选片段-12.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-12.mov",
       "sourceStartFrame": 0,
       "sourceEndFrameExclusive": 1055,
       "frames": 1055,
@@ -5869,8 +6594,7 @@
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
-      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
     },
     {
       "id": "ML-052",
@@ -5921,102 +6645,158 @@
       ],
       "slots": [
         {
-          "key": "are_you_with_me",
-          "demo": "准备好一起开始了吗？"
+          "key": "scene1.text1",
+          "demo": "准备好一起开始了吗？",
+          "maxCharacters": 220
         },
         {
-          "key": "the_untold_truth_about_money",
-          "demo": "关于金钱的真相"
+          "key": "scene2.text1",
+          "demo": "关于金钱的真相",
+          "maxCharacters": 220
         },
         {
-          "key": "disclaimer",
-          "demo": "观看说明"
+          "key": "scene3.text1",
+          "demo": "观看说明",
+          "maxCharacters": 220
         },
         {
-          "key": "credit",
-          "demo": "本片深受 M.J.德马科作品的启发，"
+          "key": "scene3.text2",
+          "demo": "本片深受M.J.德马科作品的启发，",
+          "maxCharacters": 220
         },
         {
-          "key": "opinion",
-          "demo": "也融入了我对社会如何围绕金钱运转的"
+          "key": "scene3.text3",
+          "demo": "也融入了创作者对社会与金钱的看法和观察。",
+          "maxCharacters": 220
         },
         {
-          "key": "observation",
-          "demo": "个人看法与观察。"
+          "key": "scene3.text4",
+          "demo": "这个话题十分庞大，一条视频无法涵盖全部。",
+          "maxCharacters": 220
         },
         {
-          "key": "scope",
-          "demo": "当然，这个话题十分庞大，很难在一条视频中讲完。"
+          "key": "scene3.text5",
+          "demo": "以下内容已经尽可能精简。",
+          "maxCharacters": 220
         },
         {
-          "key": "condensed",
-          "demo": "因此，接下来的内容已经尽可能精简，"
-        },
-        {
-          "key": "information",
-          "demo": "呈现其中最重要的信息。"
-        },
-        {
-          "key": "enjoy",
-          "demo": "祝你愉快 :)"
+          "key": "scene3.text6",
+          "demo": "祝你观看愉快。",
+          "maxCharacters": 220
         }
       ],
       "demoOptions": {
-        "are_you_with_me": "准备好一起开始了吗？",
-        "the_untold_truth_about_money": "关于金钱的真相",
-        "disclaimer": "观看说明",
-        "credit": "本片深受 M.J.德马科作品的启发，",
-        "opinion": "也融入了我对社会如何围绕金钱运转的",
-        "observation": "个人看法与观察。",
-        "scope": "当然，这个话题十分庞大，很难在一条视频中讲完。",
-        "condensed": "因此，接下来的内容已经尽可能精简，",
-        "information": "呈现其中最重要的信息。",
-        "enjoy": "祝你愉快 :)"
+        "scene1.text1": "准备好一起开始了吗？",
+        "scene2.text1": "关于金钱的真相",
+        "scene3.text1": "观看说明",
+        "scene3.text2": "本片深受M.J.德马科作品的启发，",
+        "scene3.text3": "也融入了创作者对社会与金钱的看法和观察。",
+        "scene3.text4": "这个话题十分庞大，一条视频无法涵盖全部。",
+        "scene3.text5": "以下内容已经尽可能精简。",
+        "scene3.text6": "祝你观看愉快。"
       },
-      "templateType": "localized-text-hybrid",
+      "templateType": "parametric-motion-hybrid",
       "reference": "ML-052-reference.mp4",
-      "demo": "ML-052-cn-v5.mp4",
+      "demo": "ML-052-cn-v4.mp4",
       "audio": "ML-052-mix.m4a",
-      "poster": "ML-052-cn-v5.jpg",
-      "recipe": "ML-052-v5.json",
-      "qc": "ML-052-v5-qc.json",
-      "package": "ML-052-v5.zip",
+      "poster": "ML-052-cn-v4.jpg",
+      "recipe": "ML-052.json",
+      "qc": "ML-052-v4-qc.json",
+      "package": "ML-052-v4.zip",
       "useCases": "用在开场主题预告、邀请观众进入正文与说明段；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
-        "原片画面运动及音乐、音效混合轨保留，文字字段由助手替换。",
-        "文字覆盖处为局部修补，中文与英文字形不同，不宣称全图像素相同。",
-        "未复核模块可能仍有英文残影、字号或切换问题，使用时按编号反馈再修复。"
+        "中文版本是可修改的结构重建；字体、构图及部分动作与原片不同，不是逐帧复刻。",
+        "原生视频层中的人物、商标、新闻字幕等不属于独立可编辑文字；需要时助手换素材。",
+        "音乐与音效以原始混合轨保留，未分离；默认时长固定，成片时由助手适配。",
+        "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
-      "status": "reviewed-trial",
+      "status": "reusable-Chinese-rebuild",
       "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "type": "localized-text-hybrid",
-      "fidelity": "Fixed source motion with editable localized text; approximate text background repair, not whole-frame pixel identity.",
-      "architecture": "fixed-native-motion-plus-editable-text",
-      "renderer": "render-faithful.py",
-      "revision": "v5-trial-20260930",
+      "scenes": [
+        {
+          "start": 228,
+          "end": 279,
+          "kind": "cinema",
+          "texts": [
+            "准备好一起开始了吗？"
+          ],
+          "background": "city",
+          "keys": [
+            "scene1.text1"
+          ]
+        },
+        {
+          "start": 279,
+          "end": 519,
+          "kind": "cinema",
+          "texts": [
+            "关于金钱的真相"
+          ],
+          "background": "city",
+          "keys": [
+            "scene2.text1"
+          ]
+        },
+        {
+          "start": 519,
+          "end": 945,
+          "kind": "notice",
+          "texts": [
+            "观看说明",
+            "本片深受M.J.德马科作品的启发，",
+            "也融入了创作者对社会与金钱的看法和观察。",
+            "这个话题十分庞大，一条视频无法涵盖全部。",
+            "以下内容已经尽可能精简。",
+            "祝你观看愉快。"
+          ],
+          "background": "city",
+          "keys": [
+            "scene3.text1",
+            "scene3.text2",
+            "scene3.text3",
+            "scene3.text4",
+            "scene3.text5",
+            "scene3.text6"
+          ]
+        }
+      ],
+      "type": "parametric-motion-hybrid",
+      "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
+      "assetRoot": "assets",
+      "architecture": "editable-Chinese-composition-plus-native-footage",
+      "renderer": "render-v4.py",
+      "revision": "cn-reusable-v4-20260930",
       "inputSchema": {
         "textFields": [
-          "are_you_with_me",
-          "the_untold_truth_about_money",
-          "disclaimer",
-          "credit",
-          "opinion",
-          "observation",
-          "scope",
-          "condensed",
-          "information",
-          "enjoy"
+          "scene1.text1",
+          "scene2.text1",
+          "scene3.text1",
+          "scene3.text2",
+          "scene3.text3",
+          "scene3.text4",
+          "scene3.text5",
+          "scene3.text6"
         ],
-        "duration": "fixed source frames"
-      },
-      "reviewLabel": "已复核 · 原生动效＋可改文字"
+        "optionalMedia": [
+          "asset",
+          "footage",
+          "person1Asset",
+          "person2Asset",
+          "person3Asset",
+          "person4Asset",
+          "person5Asset",
+          "person6Asset"
+        ],
+        "duration": "fixed source frame count; assistant edits final timeline"
+      }
     },
     {
       "id": "ML-053",
       "title": "黑场停顿后暗室人物揭示",
       "kind": "用户精选片段",
       "sourceFile": "9月30日14个精选片段-14.mov",
+      "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-14.mov",
       "sourceStartFrame": 0,
       "sourceEndFrameExclusive": 103,
       "frames": 103,
@@ -6057,8 +6837,7 @@
         "720p预览有压缩；原生回放不是自由参数化重建。"
       ],
       "status": "published",
-      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
-      "reviewLabel": "原生素材 · 固定画面与音轨"
+      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
     }
   ],
   "sources": [
@@ -6066,7 +6845,5 @@
     "9月30日14个精选片段（用户划分14段）"
   ],
   "editableCount": 35,
-  "nativeAssetCount": 18,
-  "trialUpdatedCount": 20,
-  "reviewedTextCount": 4
+  "nativeAssetCount": 18
 }

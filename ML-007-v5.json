@@ -1,0 +1,63 @@
+{
+  "id": "ML-007",
+  "reference": "ML-007-reference.mp4",
+  "audio": "ML-007-mix.m4a",
+  "frames": 213,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "blackRanges": [],
+  "tracks": [
+    {
+      "key": "subscribe",
+      "text": "订阅",
+      "start": 2,
+      "end": 32,
+      "roi": [
+        542,
+        610,
+        735,
+        654
+      ],
+      "ink": "white",
+      "weight": "Medium",
+      "naturalWidth": true,
+      "lockedBox": [
+        550,
+        617,
+        728,
+        645
+      ],
+      "maskPad": 5
+    },
+    {
+      "key": "subscribed",
+      "text": "已订阅",
+      "start": 32,
+      "end": 178,
+      "roi": [
+        535,
+        610,
+        741,
+        652
+      ],
+      "ink": "dark",
+      "weight": "Medium",
+      "naturalWidth": true,
+      "lockedBox": [
+        550,
+        617,
+        728,
+        645
+      ],
+      "maskPad": 5
+    }
+  ],
+  "demoOptions": {
+    "subscribe": "订阅",
+    "subscribed": "已订阅"
+  },
+  "type": "native-motion-localized-text",
+  "fidelity": "Native source motion with replaceable CJK text; not a vector reconstruction.",
+  "status": "candidate-needs-visual-review"
+}
