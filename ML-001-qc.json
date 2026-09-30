@@ -1,0 +1,52 @@
+{
+  "id": "ML-001",
+  "expectedFrames": 1182,
+  "fps": 30,
+  "sourceRange": [
+    0,
+    1182
+  ],
+  "blackRanges": [
+    [
+      0,
+      4
+    ],
+    [
+      324,
+      338
+    ],
+    [
+      440,
+      452
+    ],
+    [
+      559,
+      571
+    ],
+    [
+      1129,
+      1179
+    ]
+  ],
+  "files": [
+    {
+      "file": "ML-001-reference.mp4",
+      "frames": 1182,
+      "size": 4940843,
+      "sha256": "8e605056e073f42df876d56aaa2c9f9fdcdb931a1557ef3c845ca07f9b12ff82",
+      "audioPacketHash": "SHA256=ae0cf398b3ae183c39250cfef92e6bd0cbc74edc793c92dd964af351dc26804a",
+      "decode": "pass"
+    },
+    {
+      "file": "ML-001-demo.mp4",
+      "frames": 1182,
+      "size": 5563537,
+      "sha256": "149a2b30690a0a124abc29a8006f4aadb63b92c3346b92e36f417bcd617e2267",
+      "audioPacketHash": "SHA256=ae0cf398b3ae183c39250cfef92e6bd0cbc74edc793c92dd964af351dc26804a",
+      "decode": "pass"
+    }
+  ],
+  "claim": "source-native asset plus optional approximate localized text patch; not full parameterized reconstruction",
+  "sameAudioPacketsInBothPreviews": true,
+  "losslessMixSha256": "58874be13150bc755af29ba3cdd3beb79bf1c691eadb2c80beb167e68b6a3866"
+}
