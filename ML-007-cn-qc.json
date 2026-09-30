@@ -1,0 +1,10 @@
+{
+  "id": "ML-007",
+  "frames": 213,
+  "expected": 213,
+  "fps": "30/1",
+  "decodedAudioIdentical": true,
+  "completeDecode": true,
+  "visualAcceptance": "Human inspection of 3fps contact sheet and 176-182 frame boundary sheet; no pixel-exact claim",
+  "sha256": "55a28088e413fe719a9ad88577855223116ccd3c5bba44069953f5dc35cb9b6e"
+}

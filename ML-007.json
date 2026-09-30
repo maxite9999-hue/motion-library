@@ -17,28 +17,48 @@
     "圆标右移旋转",
     "缩小消失"
   ],
-  "architecture": "hybrid-native-timeline",
+  "architecture": "native-timeline-with-parametric-button-labels",
   "reference": "ML-007-reference.mp4",
   "demo": "ML-007-demo.mp4",
   "audio": "ML-007-mix.m4a",
   "package": "ML-007.zip",
   "recipe": "ML-007.json",
   "poster": "ML-007.jpg",
-  "status": "rendered-awaiting-visual-review",
+  "status": "localized-button-reviewed",
   "limits": [
-    "原生合成特效保留为视频层，不冒充恢复的独立图层",
-    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
-    "音效与音乐为原始混合轨，不是独立分轨"
+    "只参数化按钮内的两个短标签；每项1至4个汉字。",
+    "光标、铃铛与旋转收起仍为原生视频层。光标交叠局部和单帧扫出做近似修补，不宣称逐像素一致。",
+    "音乐和音效保留为原始混合轨，没有分离为独立音轨。"
   ],
   "blackRanges": [],
   "cutFrames": [
     210
   ],
-  "slots": [],
-  "templateType": "native-motion-asset",
-  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
-  "demoOptions": {},
+  "slots": [
+    {
+      "key": "subscribe",
+      "demo": "订阅",
+      "from": 0,
+      "to": 29,
+      "maxCharacters": 4
+    },
+    {
+      "key": "subscribed",
+      "demo": "已订阅",
+      "from": 29,
+      "to": 180,
+      "maxCharacters": 4
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "助手可替换订阅按钮的两个短标签；点击、铃铛、旋转缩小和原混音沿用原片。内部其他内容不是可任意更换的独立图层。",
+  "demoOptions": {
+    "subscribe": "订阅",
+    "subscribed": "已订阅"
+  },
   "sourceFile": "没有人名的完整版去掉人声音.mov",
   "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
-  "qc": "ML-007-qc.json"
+  "qc": "ML-007-qc.json",
+  "renderer": "render-ML-007.py",
+  "revision": "cn-button-20260930-r3"
 }
