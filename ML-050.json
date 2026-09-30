@@ -1,0 +1,103 @@
+{
+  "id": "ML-050",
+  "title": "核心提问到人物心理的长引子",
+  "kind": "用户精选片段",
+  "sourceFile": "9月30日14个精选片段-11.mov",
+  "sourcePath": "/Users/maxite/Desktop/9月30日14个精选片段/9月30日14个精选片段-11.mov",
+  "sourceStartFrame": 0,
+  "sourceEndFrameExclusive": 1181,
+  "frames": 1181,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "sourceWidth": 1920,
+  "sourceHeight": 1080,
+  "events": [
+    "核心提问",
+    "人物对话",
+    "故障电视",
+    "黑场",
+    "生活与财富镜头",
+    "公路",
+    "夕阳",
+    "思考",
+    "暗室渐黑"
+  ],
+  "blackRanges": [
+    [
+      218,
+      227
+    ],
+    [
+      669,
+      714
+    ],
+    [
+      1172,
+      1181
+    ]
+  ],
+  "cutFrames": [
+    66,
+    117,
+    178,
+    193,
+    199,
+    206,
+    218,
+    227,
+    253,
+    285,
+    333,
+    404,
+    454,
+    530,
+    568,
+    600,
+    636,
+    669,
+    714,
+    810,
+    987
+  ],
+  "slots": [
+    {
+      "key": "text1",
+      "from": 0,
+      "to": 68,
+      "box": [
+        285,
+        150,
+        710,
+        365
+      ],
+      "original": "HOW DID THEY DO IT?",
+      "demo": "他们究竟\n如何做到？",
+      "size": 66,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0,
+      "angle": 0
+    }
+  ],
+  "demoOptions": {
+    "text1": "他们究竟\n如何做到？"
+  },
+  "templateType": "editable-text-hybrid",
+  "reference": "ML-050-reference.mp4",
+  "demo": "ML-050-demo.mp4",
+  "audio": "ML-050-mix.m4a",
+  "poster": "ML-050.jpg",
+  "recipe": "ML-050.json",
+  "qc": "ML-050-qc.json",
+  "package": "ML-050.zip",
+  "useCases": "用在抛出问题后展开人物、财富与心理状态的长引子；开头问句可局部改字，后续原生镜头保留。",
+  "reuse": "助手根据文案与录音选择、排布并混音；用户无需手动设置。开头问句支持局部改字，其余镜头保持原生。",
+  "limits": [
+    "严格采用用户提供的整段边界，不补回源文件以外的帧。",
+    "音乐与音效保留为原混合轨，并未分离为独立分轨。",
+    "720p预览有压缩；原生回放不是自由参数化重建。"
+  ],
+  "status": "verified-native-asset",
+  "sourceAudio": "original stereo AAC packets plus decoded FLAC archive"
+}

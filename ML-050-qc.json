@@ -1,0 +1,67 @@
+{
+  "id": "ML-050",
+  "sourceFrames": 1181,
+  "firstFrame": 0,
+  "lastFrameInclusive": 1180,
+  "fps": 30,
+  "blackRanges": [
+    [
+      218,
+      227
+    ],
+    [
+      669,
+      714
+    ],
+    [
+      1172,
+      1181
+    ]
+  ],
+  "cutCandidates": [
+    66,
+    117,
+    178,
+    193,
+    199,
+    206,
+    218,
+    227,
+    253,
+    285,
+    333,
+    404,
+    454,
+    530,
+    568,
+    600,
+    636,
+    669,
+    714,
+    810,
+    987
+  ],
+  "files": [
+    {
+      "file": "ML-050-reference.mp4",
+      "frames": 1181,
+      "sha256": "1f797964bf48c410f15c62fba47907a7521d91a2449949af1b0eb9b0fe38774d",
+      "decode": "pass"
+    },
+    {
+      "file": "ML-050-demo.mp4",
+      "frames": 1181,
+      "sha256": "3f2e5818c08acf56b0de73f94f1e30ee5ba8b5c8f24dc26a01136ef4ec8a33d1",
+      "decode": "pass"
+    }
+  ],
+  "originalAudioPacketHash": "SHA256=cdf9692df69e8776ad102fec8db0840156b200af548c71868e462dda840f482a",
+  "sourceAudioPacketsPreserved": true,
+  "fullReferenceSSIM": {
+    "frames": 1181,
+    "minimum": 0.980819,
+    "mean": 0.994380799322607,
+    "worstFrame": 120
+  },
+  "claim": "Native clip encode checked at every frame; optional local text replacement is approximate, not parameterized reconstruction."
+}
