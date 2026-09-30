@@ -1,0 +1,157 @@
+{
+  "id": "ML-041",
+  "technical": {
+    "id": "ML-041",
+    "frames": 54,
+    "fullDecode": true,
+    "newSFXPacketsUnchanged": true,
+    "recipeRendererFingerprint": "46c6af4d070b9046ac3b9c741889dbb35ffce13257499b903e47378d6e5e27a3",
+    "fileSHA256": "8de08b71cafa0fb7fcfcfac3e15080292e958407cc85b3e8f46ca4a60ddc5943",
+    "renderSeconds": 5.8,
+    "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "delivery": {
+    "id": "ML-041",
+    "framesCompared": 54,
+    "productionComparisonOnlyNotEnglishPixelIdentity": true,
+    "maxEncodedVsProductionMAE": 1.6844976128472222,
+    "maxLocalizedMAE": 3.4347920156337244,
+    "pass": true,
+    "recipeRendererFingerprint": "46c6af4d070b9046ac3b9c741889dbb35ffce13257499b903e47378d6e5e27a3",
+    "deliverySHA256": "8de08b71cafa0fb7fcfcfac3e15080292e958407cc85b3e8f46ca4a60ddc5943"
+  },
+  "replacement": {
+    "id": "ML-041",
+    "sampleFrames": [
+      0,
+      37,
+      38,
+      39,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      53
+    ],
+    "tests": [
+      {
+        "field": "are_self_made_says_new_report",
+        "frame": 46,
+        "replacementChangedPixels": 39313,
+        "activeTrackFound": true
+      },
+      {
+        "field": "nearly_68_of_the_world_s_richest_people",
+        "frame": 46,
+        "replacementChangedPixels": 30397,
+        "activeTrackFound": true
+      },
+      {
+        "field": "trending_now",
+        "frame": 48,
+        "replacementChangedPixels": 5753,
+        "activeTrackFound": true
+      },
+      {
+        "field": "bill_gates_this_is_how_long_it",
+        "frame": 48,
+        "replacementChangedPixels": 3207,
+        "activeTrackFound": true
+      },
+      {
+        "field": "may_take_before_americans_can",
+        "frame": 48,
+        "replacementChangedPixels": 2608,
+        "activeTrackFound": true
+      },
+      {
+        "field": "be_completely_safe_from",
+        "frame": 48,
+        "replacementChangedPixels": 2160,
+        "activeTrackFound": true
+      },
+      {
+        "field": "covid_19",
+        "frame": 48,
+        "replacementChangedPixels": 1366,
+        "activeTrackFound": true
+      },
+      {
+        "field": "self_made_billionaire_attributes",
+        "frame": 48,
+        "replacementChangedPixels": 3085,
+        "activeTrackFound": true
+      },
+      {
+        "field": "his_success_to_one_particular",
+        "frame": 48,
+        "replacementChangedPixels": 2402,
+        "activeTrackFound": true
+      },
+      {
+        "field": "competitive_trait",
+        "frame": 48,
+        "replacementChangedPixels": 2447,
+        "activeTrackFound": true
+      },
+      {
+        "field": "bill_gates_if_i_were_president",
+        "frame": 48,
+        "replacementChangedPixels": 3449,
+        "activeTrackFound": true
+      },
+      {
+        "field": "this_is_what_i_would_do_now_to",
+        "frame": 48,
+        "replacementChangedPixels": 2211,
+        "activeTrackFound": true
+      },
+      {
+        "field": "fight_coronavirus",
+        "frame": 48,
+        "replacementChangedPixels": 2142,
+        "activeTrackFound": true
+      },
+      {
+        "field": "retired_navy_seal_everyone",
+        "frame": 48,
+        "replacementChangedPixels": 3190,
+        "activeTrackFound": true
+      },
+      {
+        "field": "can_benefit_from_this_thought",
+        "frame": 48,
+        "replacementChangedPixels": 2307,
+        "activeTrackFound": true
+      },
+      {
+        "field": "exercise_after_the_pandemic_is",
+        "frame": 50,
+        "replacementChangedPixels": 2639,
+        "activeTrackFound": true
+      },
+      {
+        "field": "over",
+        "frame": 51,
+        "replacementChangedPixels": 642,
+        "activeTrackFound": true
+      },
+      {
+        "field": "facebook_founder_and_ceo_mark_zuckerberg_leaves_a_meeting_with_senator_john_cornyn_r_tx_in_his",
+        "frame": 51,
+        "replacementChangedPixels": 9780,
+        "activeTrackFound": true
+      }
+    ],
+    "notFullVisualAcceptance": true
+  },
+  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
+  "wholeLibraryComplete": false
+}

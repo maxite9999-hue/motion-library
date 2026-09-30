@@ -23,40 +23,51 @@
   ],
   "slots": [
     {
-      "key": "scene1.text1",
-      "demo": "你的公式",
-      "maxCharacters": 220
+      "key": "money_word",
+      "demo": "金钱"
     },
     {
-      "key": "scene1.text2",
-      "demo": "完全错了",
-      "maxCharacters": 220
+      "key": "salary_word",
+      "demo": "薪水"
     },
     {
-      "key": "scene2.text1",
-      "demo": "金钱",
-      "maxCharacters": 220
+      "key": "from_word",
+      "demo": "来自"
     },
     {
-      "key": "scene2.text2",
-      "demo": "工作赚取的薪水",
-      "maxCharacters": 220
+      "key": "job_word",
+      "demo": "工作"
+    },
+    {
+      "key": "lead_exit",
+      "demo": "你的公式"
+    },
+    {
+      "key": "sub_exit",
+      "demo": "完全错了"
+    },
+    {
+      "key": "money_flash",
+      "demo": "金钱"
     }
   ],
   "demoOptions": {
-    "scene1.text1": "你的公式",
-    "scene1.text2": "完全错了",
-    "scene2.text1": "金钱",
-    "scene2.text2": "工作赚取的薪水"
+    "money_word": "金钱",
+    "salary_word": "薪水",
+    "from_word": "来自",
+    "job_word": "工作",
+    "lead_exit": "你的公式",
+    "sub_exit": "完全错了",
+    "money_flash": "金钱"
   },
   "templateType": "parametric-motion-hybrid",
   "reference": "ML-046-reference.mp4",
-  "demo": "ML-046-cn-v4.mp4",
+  "demo": "ML-046-cn-v6.mp4",
   "audio": "ML-046-mix.m4a",
-  "poster": "ML-046-cn-v4.jpg",
-  "recipe": "ML-046.json",
-  "qc": "ML-046-v4-qc.json",
-  "package": "ML-046-v4.zip",
+  "poster": "ML-046-cn-v6.jpg",
+  "recipe": "ML-046-v6.json",
+  "qc": "ML-046-v6-qc.json",
+  "package": "ML-046-v6.zip",
   "useCases": "用在从错误认知转入公式解释的一瞬间；助手根据文案调整中文内容。",
   "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
   "limits": [
@@ -65,8 +76,8 @@
     "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
     "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
   ],
-  "status": "reusable-Chinese-rebuild",
-  "sourceAudio": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
+  "status": "reviewed-trial",
+  "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
   "scenes": [
     {
       "start": 0,
@@ -101,27 +112,21 @@
   "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
   "assetRoot": "assets",
   "architecture": "editable-Chinese-composition-plus-native-footage",
-  "renderer": "render-v4.py",
-  "revision": "cn-reusable-v4-20260930",
+  "renderer": "render-faithful-v6f.py",
+  "revision": "v6f-sfx-20261001",
   "inputSchema": {
     "textFields": [
-      "scene1.text1",
-      "scene1.text2",
-      "scene2.text1",
-      "scene2.text2"
+      "money_word",
+      "salary_word",
+      "from_word",
+      "job_word",
+      "lead_exit",
+      "sub_exit",
+      "money_flash"
     ],
-    "optionalMedia": [
-      "asset",
-      "footage",
-      "person1Asset",
-      "person2Asset",
-      "person3Asset",
-      "person4Asset",
-      "person5Asset",
-      "person6Asset"
-    ],
-    "duration": "fixed source frame count; assistant edits final timeline"
+    "duration": "fixed source frames"
   },
+  "reviewLabel": "已修复复核 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",

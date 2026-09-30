@@ -1,5 +1,5 @@
 {
-  "version": "v6e-sfx-20261001",
+  "version": "v6f-sfx-20261001",
   "source": "没有人名的完整版去掉人声音.mov",
   "sourceFrames": 26672,
   "fps": 30,
@@ -7,7 +7,7 @@
   "publishedCount": 53,
   "plannedCount": 53,
   "shortCodeContract": "复制仅为ML-xxx。助手根据本文件查找对应JSON与源包，不要求用户手动填写参数。",
-  "fidelity": "本轮修复复核22个文字模块；累计26个已复核，9个待优化，另有18个原生素材。并非整库验收完成。",
+  "fidelity": "本轮修复复核24个文字模块；累计28个已复核，7个待优化，另有18个原生素材。并非整库验收完成。",
   "templates": [
     {
       "id": "ML-001",
@@ -4600,58 +4600,106 @@
       ],
       "slots": [
         {
-          "key": "scene1.text1",
-          "demo": "全球近68%的顶级富豪靠白手起家致富",
-          "maxCharacters": 220
+          "key": "are_self_made_says_new_report",
+          "demo": "靠白手起家致富，最新报告显示"
         },
         {
-          "key": "scene1.text2",
-          "demo": "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
-          "maxCharacters": 220
+          "key": "nearly_68_of_the_world_s_richest_people",
+          "demo": "全球近68%的顶级富豪"
         },
         {
-          "key": "scene1.text3",
-          "demo": "报告分析了净资产达到3000万美元以上的超高净值人群。",
-          "maxCharacters": 220
+          "key": "trending_now",
+          "demo": "热门阅读"
         },
         {
-          "key": "scene1.text4",
-          "demo": "根据2018年数据，这一人群增长0.8%，达到265490人。",
-          "maxCharacters": 220
+          "key": "bill_gates_this_is_how_long_it",
+          "demo": "比尔·盖茨谈美国民众"
         },
         {
-          "key": "scene1.text5",
-          "demo": "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
-          "maxCharacters": 220
+          "key": "may_take_before_americans_can",
+          "demo": "还需要多长时间，"
         },
         {
-          "key": "scene1.text6",
-          "demo": "只有8.5%完全依靠继承获得财富。",
-          "maxCharacters": 220
+          "key": "be_completely_safe_from",
+          "demo": "才能完全摆脱"
         },
         {
-          "key": "scene1.text7",
-          "demo": "科技发展与新兴经济体提供了新的财富创造机会。",
-          "maxCharacters": 220
+          "key": "covid_19",
+          "demo": "新冠疫情的威胁"
+        },
+        {
+          "key": "self_made_billionaire_attributes",
+          "demo": "白手起家的亿万富翁"
+        },
+        {
+          "key": "his_success_to_one_particular",
+          "demo": "把成功归于一种"
+        },
+        {
+          "key": "competitive_trait",
+          "demo": "独特的竞争特质"
+        },
+        {
+          "key": "bill_gates_if_i_were_president",
+          "demo": "盖茨说，如果我是总统，"
+        },
+        {
+          "key": "this_is_what_i_would_do_now_to",
+          "demo": "我现在会这样做，"
+        },
+        {
+          "key": "fight_coronavirus",
+          "demo": "抗击新冠疫情"
+        },
+        {
+          "key": "retired_navy_seal_everyone",
+          "demo": "退役海豹突击队员说，"
+        },
+        {
+          "key": "can_benefit_from_this_thought",
+          "demo": "每个人都能从这种"
+        },
+        {
+          "key": "exercise_after_the_pandemic_is",
+          "demo": "思维练习中获益，"
+        },
+        {
+          "key": "over",
+          "demo": "在疫情结束之后"
+        },
+        {
+          "key": "facebook_founder_and_ceo_mark_zuckerberg_leaves_a_meeting_with_senator_john_cornyn_r_tx_in_his",
+          "demo": "Facebook创始人兼首席执行官扎克伯格结束了与参议员约翰·科宁的会面。"
         }
       ],
       "demoOptions": {
-        "scene1.text1": "全球近68%的顶级富豪靠白手起家致富",
-        "scene1.text2": "Wealth-X的报告显示，绝大多数富人的财富来自自己创造。",
-        "scene1.text3": "报告分析了净资产达到3000万美元以上的超高净值人群。",
-        "scene1.text4": "根据2018年数据，这一人群增长0.8%，达到265490人。",
-        "scene1.text5": "其中67.7%白手起家，23.7%的财富同时来自继承和个人创造。",
-        "scene1.text6": "只有8.5%完全依靠继承获得财富。",
-        "scene1.text7": "科技发展与新兴经济体提供了新的财富创造机会。"
+        "are_self_made_says_new_report": "靠白手起家致富，最新报告显示",
+        "nearly_68_of_the_world_s_richest_people": "全球近68%的顶级富豪",
+        "trending_now": "热门阅读",
+        "bill_gates_this_is_how_long_it": "比尔·盖茨谈美国民众",
+        "may_take_before_americans_can": "还需要多长时间，",
+        "be_completely_safe_from": "才能完全摆脱",
+        "covid_19": "新冠疫情的威胁",
+        "self_made_billionaire_attributes": "白手起家的亿万富翁",
+        "his_success_to_one_particular": "把成功归于一种",
+        "competitive_trait": "独特的竞争特质",
+        "bill_gates_if_i_were_president": "盖茨说，如果我是总统，",
+        "this_is_what_i_would_do_now_to": "我现在会这样做，",
+        "fight_coronavirus": "抗击新冠疫情",
+        "retired_navy_seal_everyone": "退役海豹突击队员说，",
+        "can_benefit_from_this_thought": "每个人都能从这种",
+        "exercise_after_the_pandemic_is": "思维练习中获益，",
+        "over": "在疫情结束之后",
+        "facebook_founder_and_ceo_mark_zuckerberg_leaves_a_meeting_with_senator_john_cornyn_r_tx_in_his": "Facebook创始人兼首席执行官扎克伯格结束了与参议员约翰·科宁的会面。"
       },
       "templateType": "parametric-motion-hybrid",
       "reference": "ML-041-reference.mp4",
-      "demo": "ML-041-cn-v4.mp4",
+      "demo": "ML-041-cn-v6.mp4",
       "audio": "ML-041-mix.m4a",
-      "poster": "ML-041-cn-v4.jpg",
-      "recipe": "ML-041.json",
-      "qc": "ML-041-v4-qc.json",
-      "package": "ML-041-v4.zip",
+      "poster": "ML-041-cn-v6.jpg",
+      "recipe": "ML-041-v6.json",
+      "qc": "ML-041-v6-qc.json",
+      "package": "ML-041-v6.zip",
       "useCases": "用在从生活场景切到事实依据时；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
@@ -4660,8 +4708,8 @@
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
-      "status": "reusable-Chinese-rebuild",
-      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
+      "status": "reviewed-trial",
+      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
       "scenes": [
         {
           "start": 0,
@@ -4692,31 +4740,32 @@
       "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
       "assetRoot": "assets",
       "architecture": "editable-Chinese-composition-plus-native-footage",
-      "renderer": "render-v4.py",
-      "revision": "cn-reusable-v4-20260930",
+      "renderer": "render-faithful-v6f.py",
+      "revision": "v6f-sfx-20261001",
       "inputSchema": {
         "textFields": [
-          "scene1.text1",
-          "scene1.text2",
-          "scene1.text3",
-          "scene1.text4",
-          "scene1.text5",
-          "scene1.text6",
-          "scene1.text7"
+          "are_self_made_says_new_report",
+          "nearly_68_of_the_world_s_richest_people",
+          "trending_now",
+          "bill_gates_this_is_how_long_it",
+          "may_take_before_americans_can",
+          "be_completely_safe_from",
+          "covid_19",
+          "self_made_billionaire_attributes",
+          "his_success_to_one_particular",
+          "competitive_trait",
+          "bill_gates_if_i_were_president",
+          "this_is_what_i_would_do_now_to",
+          "fight_coronavirus",
+          "retired_navy_seal_everyone",
+          "can_benefit_from_this_thought",
+          "exercise_after_the_pandemic_is",
+          "over",
+          "facebook_founder_and_ceo_mark_zuckerberg_leaves_a_meeting_with_senator_john_cornyn_r_tx_in_his"
         ],
-        "optionalMedia": [
-          "asset",
-          "footage",
-          "person1Asset",
-          "person2Asset",
-          "person3Asset",
-          "person4Asset",
-          "person5Asset",
-          "person6Asset"
-        ],
-        "duration": "fixed source frame count; assistant edits final timeline"
+        "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 保留现有版本",
+      "reviewLabel": "已修复复核 · 中文可改＋新音效",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -5658,40 +5707,51 @@
       ],
       "slots": [
         {
-          "key": "scene1.text1",
-          "demo": "你的公式",
-          "maxCharacters": 220
+          "key": "money_word",
+          "demo": "金钱"
         },
         {
-          "key": "scene1.text2",
-          "demo": "完全错了",
-          "maxCharacters": 220
+          "key": "salary_word",
+          "demo": "薪水"
         },
         {
-          "key": "scene2.text1",
-          "demo": "金钱",
-          "maxCharacters": 220
+          "key": "from_word",
+          "demo": "来自"
         },
         {
-          "key": "scene2.text2",
-          "demo": "工作赚取的薪水",
-          "maxCharacters": 220
+          "key": "job_word",
+          "demo": "工作"
+        },
+        {
+          "key": "lead_exit",
+          "demo": "你的公式"
+        },
+        {
+          "key": "sub_exit",
+          "demo": "完全错了"
+        },
+        {
+          "key": "money_flash",
+          "demo": "金钱"
         }
       ],
       "demoOptions": {
-        "scene1.text1": "你的公式",
-        "scene1.text2": "完全错了",
-        "scene2.text1": "金钱",
-        "scene2.text2": "工作赚取的薪水"
+        "money_word": "金钱",
+        "salary_word": "薪水",
+        "from_word": "来自",
+        "job_word": "工作",
+        "lead_exit": "你的公式",
+        "sub_exit": "完全错了",
+        "money_flash": "金钱"
       },
       "templateType": "parametric-motion-hybrid",
       "reference": "ML-046-reference.mp4",
-      "demo": "ML-046-cn-v4.mp4",
+      "demo": "ML-046-cn-v6.mp4",
       "audio": "ML-046-mix.m4a",
-      "poster": "ML-046-cn-v4.jpg",
-      "recipe": "ML-046.json",
-      "qc": "ML-046-v4-qc.json",
-      "package": "ML-046-v4.zip",
+      "poster": "ML-046-cn-v6.jpg",
+      "recipe": "ML-046-v6.json",
+      "qc": "ML-046-v6-qc.json",
+      "package": "ML-046-v6.zip",
       "useCases": "用在从错误认知转入公式解释的一瞬间；助手根据文案调整中文内容。",
       "reuse": "助手按文案意群和录音选择模块，自动替换文字及必要的图片，再进行剪辑和混音。无需用户手动改参数。",
       "limits": [
@@ -5700,8 +5760,8 @@
         "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
         "人物财富数据仅为原视频中的历史演示内容，不代表当前数据。"
       ],
-      "status": "reusable-Chinese-rebuild",
-      "sourceAudio": "original stereo AAC packets plus decoded FLAC archive",
+      "status": "reviewed-trial",
+      "sourceAudio": "Only replacement audio from 纯音效视频.mov; no old music or old SFX",
       "scenes": [
         {
           "start": 0,
@@ -5736,28 +5796,21 @@
       "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
       "assetRoot": "assets",
       "architecture": "editable-Chinese-composition-plus-native-footage",
-      "renderer": "render-v4.py",
-      "revision": "cn-reusable-v4-20260930",
+      "renderer": "render-faithful-v6f.py",
+      "revision": "v6f-sfx-20261001",
       "inputSchema": {
         "textFields": [
-          "scene1.text1",
-          "scene1.text2",
-          "scene2.text1",
-          "scene2.text2"
+          "money_word",
+          "salary_word",
+          "from_word",
+          "job_word",
+          "lead_exit",
+          "sub_exit",
+          "money_flash"
         ],
-        "optionalMedia": [
-          "asset",
-          "footage",
-          "person1Asset",
-          "person2Asset",
-          "person3Asset",
-          "person4Asset",
-          "person5Asset",
-          "person6Asset"
-        ],
-        "duration": "fixed source frame count; assistant edits final timeline"
+        "duration": "fixed source frames"
       },
-      "reviewLabel": "待优化 · 保留现有版本",
+      "reviewLabel": "已修复复核 · 中文可改＋新音效",
       "audioReplacement": {
         "revision": "sfx-only-20260930",
         "sourceFile": "纯音效视频.mov",
@@ -6466,8 +6519,8 @@
   "editableCount": 35,
   "nativeAssetCount": 18,
   "trialUpdatedCount": 20,
-  "reviewedTextCount": 26,
+  "reviewedTextCount": 28,
   "audioRevision": "sfx-only-20260930",
   "audioPolicy": "音轨仅来自用户提供的《纯音效视频.mov》，按原片帧号对齐；旧背景音乐和旧音效未混入。新文件中的短音乐性点缀按用户要求保留。",
-  "repairUpdatedCount": 22
+  "repairUpdatedCount": 24
 }
