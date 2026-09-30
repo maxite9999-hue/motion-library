@@ -1,0 +1,44 @@
+{
+  "id": "ML-007",
+  "title": "订阅点击、铃铛与旋转收起",
+  "kind": "界面",
+  "sourceStartFrame": 4329,
+  "sourceEndFrameExclusive": 4542,
+  "frames": 213,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "按钮出现",
+    "指针点击",
+    "已订阅",
+    "指针移向铃铛",
+    "振铃",
+    "圆标右移旋转",
+    "缩小消失"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-007-reference.mp4",
+  "demo": "ML-007-demo.mp4",
+  "audio": "ML-007-mix.m4a",
+  "package": "ML-007.zip",
+  "recipe": "ML-007.json",
+  "poster": "ML-007.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    210
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-007-qc.json"
+}
