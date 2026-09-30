@@ -1,0 +1,74 @@
+{
+  "id": "ML-010",
+  "title": "金色烟雾章节渐入",
+  "kind": "章节",
+  "sourceStartFrame": 5931,
+  "sourceEndFrameExclusive": 6228,
+  "frames": 297,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "黑场",
+    "烟雾",
+    "章节号先入",
+    "副标题后入",
+    "保持",
+    "切出"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-010-reference.mp4",
+  "demo": "ML-010-demo.mp4",
+  "audio": "ML-010-mix.m4a",
+  "package": "ML-010.zip",
+  "recipe": "ML-010.json",
+  "poster": "ML-010.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [
+    [
+      0,
+      113
+    ]
+  ],
+  "cutFrames": [
+    113,
+    287
+  ],
+  "slots": [
+    {
+      "box": [
+        260,
+        240,
+        760,
+        270
+      ],
+      "original": "PART 1 / The Lies You Have Been Fed",
+      "demo": "第一章\n重新认识创作",
+      "size": 44,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 0,
+      "lineDelays": [
+        0.0,
+        0.6
+      ],
+      "key": "text1",
+      "from": 113,
+      "to": 297
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "第一章\n重新认识创作"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-010-qc.json"
+}
