@@ -1,0 +1,92 @@
+{
+  "id": "ML-031",
+  "title": "角落定义、品牌交易与收益",
+  "kind": "关系动画",
+  "sourceStartFrame": 21120,
+  "sourceEndFrameExclusive": 21645,
+  "frames": 525,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "实拍角落术语与定义逐字",
+    "黄闪",
+    "品牌依次",
+    "握手",
+    "金额逐字",
+    "第二组交易",
+    "收益箭头肖像",
+    "径向放大退出"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-031-reference.mp4",
+  "demo": "ML-031-demo.mp4",
+  "audio": "ML-031-mix.m4a",
+  "package": "ML-031.zip",
+  "recipe": "ML-031.json",
+  "poster": "ML-031.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515
+  ],
+  "slots": [
+    {
+      "box": [
+        405,
+        414,
+        470,
+        125
+      ],
+      "original": "$1 BILLION",
+      "demo": "一个好想法",
+      "size": 42,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 0,
+      "key": "text1",
+      "from": 240,
+      "to": 282
+    },
+    {
+      "box": [
+        335,
+        438,
+        610,
+        140
+      ],
+      "original": "$1.5 BILLION",
+      "demo": "变成完整作品",
+      "size": 42,
+      "fill": "gold",
+      "color": "#161714",
+      "fade": 0.15,
+      "angle": 0,
+      "key": "text2",
+      "from": 330,
+      "to": 384
+    }
+  ],
+  "templateType": "editable-text-hybrid",
+  "reuse": "文字槽由助手替换；其余原生动作保留。局部背景修补与字体为近似重建。",
+  "demoOptions": {
+    "text1": "一个好想法",
+    "text2": "变成完整作品"
+  },
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-031-qc.json"
+}

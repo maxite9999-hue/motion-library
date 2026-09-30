@@ -1,0 +1,48 @@
+{
+  "id": "ML-032",
+  "title": "三段动作汇成三列拼屏",
+  "kind": "分屏",
+  "sourceStartFrame": 22008,
+  "sourceEndFrameExclusive": 22488,
+  "frames": 480,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "events": [
+    "演讲",
+    "手部装配",
+    "整理衣装",
+    "三列同时出现",
+    "原动作继续",
+    "切出"
+  ],
+  "architecture": "hybrid-native-timeline",
+  "reference": "ML-032-reference.mp4",
+  "demo": "ML-032-demo.mp4",
+  "audio": "ML-032-mix.m4a",
+  "package": "ML-032.zip",
+  "recipe": "ML-032.json",
+  "poster": "ML-032.jpg",
+  "status": "rendered-awaiting-visual-review",
+  "limits": [
+    "原生合成特效保留为视频层，不冒充恢复的独立图层",
+    "替换文字/画面的局部采用参数化近似；未修改区域保留原片",
+    "音效与音乐为原始混合轨，不是独立分轨"
+  ],
+  "blackRanges": [],
+  "cutFrames": [
+    3,
+    92,
+    202,
+    265,
+    403,
+    479
+  ],
+  "slots": [],
+  "templateType": "native-motion-asset",
+  "reuse": "原生特效素材模板，可直接放入新剪辑并保留混音；合成内部不能任意换字换主体。",
+  "demoOptions": {},
+  "sourceFile": "没有人名的完整版去掉人声音.mov",
+  "sourceAudio": "original stereo mix; 44100 Hz; music and SFX not separated",
+  "qc": "ML-032-qc.json"
+}
