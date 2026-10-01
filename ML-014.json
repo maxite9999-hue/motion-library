@@ -159,8 +159,8 @@
   "type": "parametric-motion-hybrid",
   "fidelity": "Reusable Chinese semantic rebuild; typography, background reconstruction and some transitions differ from reference. Reference retained separately.",
   "assetRoot": "assets",
-  "renderer": "render-faithful-v6h.py",
-  "revision": "v6h-sfx-20261001",
+  "renderer": "render-faithful-v6l.py",
+  "revision": "v6l-stable-opening-20261001",
   "inputSchema": {
     "textFields": [
       "lead",
@@ -177,7 +177,7 @@
     ],
     "duration": "fixed source frames"
   },
-  "reviewLabel": "已修复复核 · 中文可改＋新音效",
+  "reviewLabel": "已修复开场抖动 · 中文可改＋新音效",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",

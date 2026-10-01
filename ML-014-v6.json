@@ -48,6 +48,12 @@
         25,
         25,
         24
+      ],
+      "lockedBox": [
+        269,
+        242,
+        1000,
+        335
       ]
     },
     {
@@ -89,6 +95,12 @@
         25,
         25,
         24
+      ],
+      "lockedBox": [
+        280,
+        361,
+        994,
+        414
       ]
     },
     {
@@ -7469,8 +7481,8 @@
     "sub_exit": "完全错了"
   },
   "type": "native-motion-localized-text",
-  "fidelity": "Visual hybrid, approximate localized background repair; not pixel-exact or fully parametric.",
-  "status": "visually-reviewed-hybrid",
+  "fidelity": "Native source motion with replaceable CJK text; not a vector reconstruction.",
+  "status": "candidate-needs-visual-review",
   "audioReplacement": {
     "revision": "sfx-only-20260930",
     "sourceFile": "纯音效视频.mov",
@@ -7481,5 +7493,6 @@
     "oldMusicRetained": false,
     "oldSoundEffectsRetained": false,
     "gainDB": 0
-  }
+  },
+  "stabilityRepair": "Opening titles use the same full geometry during reveal and hold; native masks remain independently tracked."
 }

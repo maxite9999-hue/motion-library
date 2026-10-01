@@ -5,10 +5,32 @@
     "frames": 729,
     "fullDecode": true,
     "newSFXPacketsUnchanged": true,
-    "recipeRendererFingerprint": "32f3dc94656dab2e5f7e1b1214f2fb933ef714e65ede3d1b28d1819a2fa788f7",
-    "fileSHA256": "a2c5cda374a0fe91a6e7e86fe4a61863baeb0543074ae573c448f705f81b8e53",
-    "renderSeconds": 381.5,
+    "recipeRendererFingerprint": "fa75e22effc35987b6146b8976a9c7df3246fa683adab4ae56f99175676bd5cf",
+    "fileSHA256": "c559bc080dd679eb03940bca7656fef89dbf0618e147c32e1becdcf2e766a155",
+    "renderSeconds": 392.8,
     "visualAcceptance": "pending-boundary-and-replacement-review"
+  },
+  "stability": {
+    "lead": {
+      "fixedBox": [
+        269,
+        242,
+        665,
+        335
+      ],
+      "checkedFrames": 72,
+      "geometryDriftPixels": 0
+    },
+    "sub": {
+      "fixedBox": [
+        280,
+        361,
+        509,
+        414
+      ],
+      "checkedFrames": 40,
+      "geometryDriftPixels": 0
+    }
   },
   "delivery": {
     "id": "ML-014",
@@ -17,8 +39,8 @@
     "maxEncodedVsProductionMAE": 1.6802549913194444,
     "maxLocalizedMAE": 4.120060886261432,
     "pass": true,
-    "recipeRendererFingerprint": "1e2b22da65684b0208fd33ef7d0d32c81ff27facb1bddb2a4d36599a817402a1",
-    "deliverySHA256": "a2c5cda374a0fe91a6e7e86fe4a61863baeb0543074ae573c448f705f81b8e53"
+    "recipeRendererFingerprint": "fa75e22effc35987b6146b8976a9c7df3246fa683adab4ae56f99175676bd5cf",
+    "deliverySHA256": "c559bc080dd679eb03940bca7656fef89dbf0618e147c32e1becdcf2e766a155"
   },
   "replacement": {
     "id": "ML-014",
@@ -74,13 +96,13 @@
       {
         "field": "lead",
         "frame": 77,
-        "replacementChangedPixels": 120172,
+        "replacementChangedPixels": 95029,
         "activeTrackFound": true
       },
       {
         "field": "sub",
         "frame": 94,
-        "replacementChangedPixels": 36844,
+        "replacementChangedPixels": 32380,
         "activeTrackFound": true
       },
       {
@@ -146,6 +168,5 @@
     ],
     "notFullVisualAcceptance": true
   },
-  "visualReview": "Source/CN boundary review passed; native asset branding retained.",
-  "wholeLibraryComplete": false
+  "visualReview": "Opening fixed glyph geometry; preserve native reveal, colors, background and new SFX."
 }
